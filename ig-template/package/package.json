@@ -1,0 +1,11 @@
+{
+    "name": "hl7.eu.fhir.readi.template",
+    "version": "0.0.1",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "READI FHIR Template (HL7 Europe style)",
+    "base": "fhir.base.template",
+    "dependencies": {
+      "fhir.base.template": "current"
+    }
+}

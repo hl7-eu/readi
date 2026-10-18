@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="54" viewBox="0 0 180 54">
+  <rect x="1" y="1" width="178" height="52" rx="6" fill="#F0F5FA" stroke="#151162" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="27" cy="27" r="13" fill="#82e1b6"/>
+  <circle cx="35" cy="27" r="13" fill="#fd4949" fill-opacity="0.85"/>
+  <text x="58" y="24" font-family="'Roboto Condensed', Arial, sans-serif" font-weight="700" font-size="13" fill="#151162">PLACEHOLDER</text>
+  <text x="58" y="39" font-family="Arial, sans-serif" font-size="10" fill="#334155">partner logo / image</text>
+</svg>

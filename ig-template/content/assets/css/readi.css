@@ -1,0 +1,102 @@
+/* READI look & feel, aligned with https://ihi-readi.org/
+   Palette: navy #151162, mint #82e1b6, coral #fd4949, slate #334155, light #F0F5FA
+   Fonts (SIL OFL, bundled locally): Roboto Condensed (headings), Geist (body) */
+
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url(../fonts/geist-latin.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/roboto-condensed-latin.woff2) format('woff2');
+}
+
+:root {
+  --readi-navy: #151162;
+  --readi-navy-dark: #0d0a45;
+  --readi-mint: #82e1b6;
+  --readi-coral: #fd4949;
+  --readi-slate: #334155;
+  --readi-light: #F0F5FA;
+
+  --ig-status-text-color: var(--readi-navy);       /* IG title and status text */
+  --navbar-bg-color: var(--readi-navy);            /* menu bar */
+  --footer-bg-color: var(--readi-light);           /* footer sides */
+  --footer-container-bg-color: var(--readi-navy);  /* footer centre */
+  --stripe-bg-color: var(--readi-navy-dark);       /* status strip */
+  --btn-hover-color: var(--readi-coral);           /* menu item hover */
+  --btn-active-color: var(--readi-coral);          /* menu item active */
+  --btn-text-color: #ffffff;                       /* menu text */
+  --btn-gradient-start-color: var(--readi-navy);
+  --btn-gradient-end-color: var(--readi-navy);
+  --btn-gradient-start-color-alpha: #ff151162;
+  --btn-gradient-end-color-alpha: #ff151162;
+  --link-color: #2a24a8;
+  --link-hover-color: var(--readi-coral);
+  --publish-box-bg-color: #e6f9f0;
+  --publish-box-border: 1px solid var(--readi-mint);
+  --toc-box-bg-color: var(--readi-light);
+  --toc-box-border: 1px solid #D1D5DB;
+  --stu-note-background-color: #fff2f2;
+  --stu-note-border-left-color: var(--readi-coral);
+  --ig-header-color: var(--readi-light);           /* header sides */
+  --ig-header-container-color: #ffffff;            /* header centre */
+  --footer-text-color: #ffffff;
+  --footer-hyperlink-text-color: var(--readi-mint);
+  --footer-highlight-text-color: var(--readi-mint);
+  --breadcrumb-bg-color: var(--readi-light);
+  --breadcrumb-text-color: var(--readi-slate);
+  --dragon-background-color: #fff2f2;
+  --dragon-text-color: var(--readi-coral);
+}
+
+body {
+  font-family: 'Geist', "Segoe UI", Roboto, Arial, sans-serif;
+  color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  color: var(--readi-navy);
+}
+
+/* header: READI logo on the left, placeholder image on the right */
+#segment-header > .container {
+  border-bottom: 4px solid var(--readi-mint);
+}
+#project-nav, #family-nav {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 54px;
+}
+#ig-status {
+  font-family: 'Roboto Condensed', "Arial Narrow", Arial, sans-serif;
+}
+
+/* menu bar */
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Roboto Condensed', "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.readi-footer-links,
+#segment-footer .container {
+  color: #ffffff;
+}
+.readi-footer-links a,
+#segment-footer a {
+  color: var(--readi-mint);
+}
+.readi-footer-links a:hover,
+#segment-footer a:hover {
+  color: #ffffff;
+}

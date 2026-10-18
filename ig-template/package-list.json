@@ -1,0 +1,15 @@
+{
+  "package-id" : "hl7.eu.fhir.readi.template",
+  "title" : "READI FHIR IG template",
+  "canonical" : "http://hl7.eu/fhir/ig/readi",
+  "introduction" : "Local template for the READI FHIR Implementation Guide.",
+  "list" : [
+    {
+      "version" : "current",
+      "desc" : "Continuous Integration Build (latest in version control)",
+      "path" : "https://build.fhir.org/ig/hl7-eu/readi",
+      "status" : "ci-build",
+      "current" : true
+    }
+  ]
+}

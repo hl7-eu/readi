@@ -1,0 +1,62 @@
+id: hl7.eu.fhir.readi
+canonical: http://hl7.eu/fhir/ig/readi
+name: ReadiIg
+title: IHI READI Implementation Guide
+description: This implementation guide specifies the FHIR artefacts supporting the IHI READI project - Building an Inclusive Clinical Studies Ecosystem to Drive Health Equity in Europe.
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2026+
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe"
+publisher:
+  name: HL7 Europe
+  url: http://hl7.eu
+copyright: >-
+  Copyright HL7 Europe. Licensed under creative commons public domain (CC0 1.0).
+
+# The key is the package id and the value is the version (or dev/current).
+# dependencies:
+#   hl7.fhir.eu.base: 2.0.1
+#   hl7.fhir.uv.extensions.r4: 5.3.0
+
+dependencies:
+  hl7.fhir.uv.xver-r5.r4: 0.1.0
+
+
+
+pages:
+  index.md:
+    title: Home
+  changes.md:
+    title: Change Log
+  dependencies.md:
+    title: Dependencies
+  crossversionanalysis.md:
+    title: Cross Version Analysis
+  knownIssues.md:
+    title: Known Issues
+  downloads.md:
+    title: Downloads
+  copyright.md:
+    title: Copyright
+
+parameters: # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  apply-contact: true
+  apply-jurisdiction: true
+  apply-publisher: true
+  apply-version: true
+  show-inherited-invariants: true
+  usage-stats-opt-out: true
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+  About:
+    Change Log: changes.html
+    Dependencies: dependencies.html
+    Cross Version Analysis: crossversionanalysis.html
+    Known Issues: knownIssues.html
+    Downloads: downloads.html
+    Copyright: copyright.html
