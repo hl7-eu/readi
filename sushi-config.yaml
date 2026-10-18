@@ -49,6 +49,12 @@ parameters: # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
   apply-version: true
   show-inherited-invariants: true
   usage-stats-opt-out: true
+  # multi-language support (fhir2.base.template)
+  i18n-default-lang: en
+  # additional languages (one entry each), e.g.:
+  # i18n-lang:
+  #   - it
+  translation-sources: input/translations
 
 menu:
   Home: index.html
