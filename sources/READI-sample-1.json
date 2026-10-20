@@ -1,0 +1,3920 @@
+{
+  "id": "fake_b_90bca93e-7062-11f1-b330-025cceb6f5ab",
+  "url": "https://fevir.net/resources/Bundle/fake_b_90bca93e-7062-11f1-b330-025cceb6f5ab",
+  "type": "Collection",
+  "entry": [
+    {
+      "fullUrl": "https://fevir.net/resources/ResearchStudy/fake_r_90bca93e-7062-11f1-b330-025cceb6f5ab",
+      "resource": {
+        "id": "fake_r_90bca93e-7062-11f1-b330-025cceb6f5ab",
+        "url": "https://fevir.net/resources/ResearchStudy/fake_r_90bca93e-7062-11f1-b330-025cceb6f5ab",
+        "resourceType": "ResearchStudy",
+        "name": "NCT01444456 FHIR Transform",
+        "site": [
+          {
+            "reference": "#NCT01444456-Location-103c1f86-bc95-11f1-b409-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10409e76-bc95-11f1-a61e-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10450d76-bc95-11f1-bbf5-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10495322-bc95-11f1-a997-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-104df81e-bc95-11f1-a593-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1052b82c-bc95-11f1-8c3f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10570076-bc95-11f1-8319-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-105b9a50-bc95-11f1-8c2b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1060112a-bc95-11f1-90d5-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10646388-bc95-11f1-9220-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1068be7e-bc95-11f1-8447-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-106d6df2-bc95-11f1-ae3f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1071e44a-bc95-11f1-b8d2-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-107656f6-bc95-11f1-a060-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-107ad0fa-bc95-11f1-bac4-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-107f009e-bc95-11f1-b056-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10837ae8-bc95-11f1-b6a2-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10880108-bc95-11f1-a90b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-108c2f44-bc95-11f1-968e-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-109045ac-bc95-11f1-9e88-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1094dda6-bc95-11f1-a227-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1099f7c8-bc95-11f1-acde-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-109f289c-bc95-11f1-b23e-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10a36286-bc95-11f1-ad5b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10a83144-bc95-11f1-8f8a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10ac9b9e-bc95-11f1-a9c3-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10b11f52-bc95-11f1-809f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10b57b56-bc95-11f1-9f12-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10ba4ee2-bc95-11f1-bd84-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10be9902-bc95-11f1-a7ea-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10c2d530-bc95-11f1-8fcd-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10c8f0aa-bc95-11f1-aee9-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10cdc076-bc95-11f1-ad7a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10d263e2-bc95-11f1-9d72-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10d6a5c4-bc95-11f1-ac8a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10db6898-bc95-11f1-a758-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10dfa200-bc95-11f1-93cb-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10e4c352-bc95-11f1-b151-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10e9a2fa-bc95-11f1-b7b7-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10ee54f8-bc95-11f1-b430-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10f35516-bc95-11f1-aa00-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10f7a8f0-bc95-11f1-be5b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-99da2c2a-bc94-11f1-ab5f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-10fc04c2-bc95-11f1-aa9b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-110051da-bc95-11f1-ab54-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-110525d4-bc95-11f1-8984-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11096360-bc95-11f1-98c6-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-110e36c4-bc95-11f1-8330-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1112c3c4-bc95-11f1-b381-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11172e1e-bc95-11f1-990a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-111bad90-bc95-11f1-924a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-111ffef4-bc95-11f1-a8bc-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11249202-bc95-11f1-ad8e-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1128d3ee-bc95-11f1-991b-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-112d2cfa-bc95-11f1-bdd5-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-113388f2-bc95-11f1-ba13-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-113a2702-bc95-11f1-bd87-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-113f83b4-bc95-11f1-9797-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1143f96c-bc95-11f1-93f4-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-114868a8-bc95-11f1-aefb-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-114d8450-bc95-11f1-a275-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-115237ca-bc95-11f1-91dd-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1156f18e-bc95-11f1-9a58-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-115b92a2-bc95-11f1-8875-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11617816-bc95-11f1-8de2-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11663a04-bc95-11f1-847a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-116b4080-bc95-11f1-95b2-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11700700-bc95-11f1-a0b5-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11749068-bc95-11f1-88de-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1178b832-bc95-11f1-9e26-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-117d6332-bc95-11f1-996a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-118211de-bc95-11f1-969e-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11865780-bc95-11f1-b3c3-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-118b2418-bc95-11f1-bcf9-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11906f54-bc95-11f1-b961-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1194ff38-bc95-11f1-818a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1199683e-bc95-11f1-8620-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-119df8a4-bc95-11f1-9b82-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11a26754-bc95-11f1-8ad9-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11a6d7ee-bc95-11f1-91fa-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-9a9ce940-bc94-11f1-87e5-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-9aa17c1c-bc94-11f1-b8cf-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11ab22b8-bc95-11f1-902a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11af6490-bc95-11f1-8c10-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11b40392-bc95-11f1-8f86-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11b8c9f4-bc95-11f1-953a-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11bd4e84-bc95-11f1-8449-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11c207f8-bc95-11f1-b9eb-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11c69976-bc95-11f1-bc34-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11cb4ad4-bc95-11f1-88a9-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11d06a46-bc95-11f1-8ca8-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11d4e13e-bc95-11f1-96d6-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-9b9d4a6a-bc94-11f1-8c15-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11d97776-bc95-11f1-a009-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-9baf6178-bc94-11f1-930f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11ddc182-bc95-11f1-9e68-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11e1f5e0-bc95-11f1-a5c0-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11e68da8-bc95-11f1-8a90-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11eae344-bc95-11f1-87da-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11ef67d4-bc95-11f1-b664-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11f43f02-bc95-11f1-8777-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11f88ab2-bc95-11f1-9f11-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-11fdb122-bc95-11f1-a321-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-12025a42-bc95-11f1-a7ba-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-120767da-bc95-11f1-8cb3-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-120bb1d2-bc95-11f1-bbca-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-120fdcbc-bc95-11f1-9546-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-121478e4-bc95-11f1-9b55-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1218d556-bc95-11f1-a021-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-121d2eb2-bc95-11f1-a744-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1221d106-bc95-11f1-8bfc-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1226a8c0-bc95-11f1-afd1-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-122b47ea-bc95-11f1-aa9f-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-122fc4dc-bc95-11f1-8540-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1233f84a-bc95-11f1-9ed9-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-1238dffe-bc95-11f1-93cb-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          },
+          {
+            "reference": "#NCT01444456-Location-123d5b92-bc95-11f1-8ba4-025cceb6f5ab-ResearchStudy",
+            "type": "ResearchStudy"
+          }
+        ],
+        "title": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
+        "descriptionSummary": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class.",
+        "description": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class.",
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D004938",
+                "display": "Esophageal Neoplasms"
+              }
+            ],
+            "text": "Esophageal Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D010051",
+                "display": "Ovarian Neoplasms"
+              }
+            ],
+            "text": "Ovarian Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D013274",
+                "display": "Stomach Neoplasms"
+              }
+            ],
+            "text": "Stomach Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D008175",
+                "display": "Lung Neoplasms"
+              }
+            ],
+            "text": "Lung Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D009369",
+                "display": "Neoplasms"
+              }
+            ],
+            "text": "Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D000740",
+                "display": "Anemia"
+              }
+            ],
+            "text": "Anemia"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D015179",
+                "display": "Colorectal Neoplasms"
+              }
+            ],
+            "text": "Colorectal Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D001749",
+                "display": "Urinary Bladder Neoplasms"
+              }
+            ],
+            "text": "Urinary Bladder Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D011471",
+                "display": "Prostatic Neoplasms"
+              }
+            ],
+            "text": "Prostatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D010190",
+                "display": "Pancreatic Neoplasms"
+              }
+            ],
+            "text": "Pancreatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D007680",
+                "display": "Kidney Neoplasms"
+              }
+            ],
+            "text": "Kidney Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Medical Subject Headings (NLM)",
+                "code": "D016889",
+                "display": "Endometrial Neoplasms"
+              }
+            ],
+            "text": "Endometrial Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "399326009",
+                "display": "Malignant neoplasm of urinary bladder"
+              }
+            ],
+            "text": "Malignant neoplasm of urinary bladder"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "414027002",
+                "display": "Disorder of hematopoietic structure"
+              }
+            ],
+            "text": "Disorder of hematopoietic structure"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363418001",
+                "display": "Malignant tumor of pancreas"
+              }
+            ],
+            "text": "Malignant tumor of pancreas"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "254838004",
+                "display": "Carcinoma of breast"
+              }
+            ],
+            "text": "Carcinoma of breast"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "254878006",
+                "display": "Endometrial carcinoma"
+              }
+            ],
+            "text": "Endometrial carcinoma"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "271737000",
+                "display": "Anemia"
+              }
+            ],
+            "text": "Anemia"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363349007",
+                "display": "Malignant tumor of stomach"
+              }
+            ],
+            "text": "Malignant tumor of stomach"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363402007",
+                "display": "Malignant tumor of esophagus"
+              }
+            ],
+            "text": "Malignant tumor of esophagus"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363518003",
+                "display": "Malignant tumor of kidney"
+              }
+            ],
+            "text": "Malignant tumor of kidney"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "1286877004",
+                "display": "Malignant colorectal neoplasm"
+              }
+            ],
+            "text": "Malignant colorectal neoplasm"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363358000",
+                "display": "Malignant neoplasm of lung"
+              }
+            ],
+            "text": "Malignant neoplasm of lung"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "363443007",
+                "display": "Malignant neoplasm of ovary"
+              }
+            ],
+            "text": "Malignant neoplasm of ovary"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "399068003",
+                "display": "Malignant neoplasm of prostate"
+              }
+            ],
+            "text": "Malignant neoplasm of prostate"
+          }
+        ],
+        "meta": {
+          "lastUpdated": "2026-10-19T07:21:39Z",
+          "profile": [
+            "http://hl7.org/fhir/uv/ebm/StructureDefinition/study-registry-record",
+            "http://hl7.org/fhir/R4/researchstudy.html"
+          ]
+        },
+        "extension": [
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2011-10-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-02-07"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-02"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/uv/ebm/CodeSystem/study-registry-period",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Study Population Source: Adults with either breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric cancer who will receive darbepoetin alfa (Aranesp®) or other erythropoiesis-stimulating agent (ESA) for the treatment of symptomatic chemotherapy-induced anaemia (CIA) in routine clinical practice."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d28ce0-7062-11f1-b807-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9 (Treatment Day 57). Due to the observational nature of the study and variation in ESA dosing schedules, assessments closest to day 57 and within Days 43 to 70 (inclusive) were used to calculate the Week 9 visit results.]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d29208-7062-11f1-8b0e-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d296a4-7062-11f1-93fb-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points [Time Frame: Baseline and Week 9]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d29bae-7062-11f1-9f0c-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Time to First Increase in Hemoglobin [Time Frame: From Baseline until Week 9]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d2a0ae-7062-11f1-9012-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time [Time Frame: From Baseline to Week 13]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_90d2a54a-7062-11f1-8559-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endpoint",
+                "valueReference": {
+                  "display": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time [Time Frame: From Baseline to Week 13]"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "code": "completed",
+                      "display": "Completed"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-02"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2011-10-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-02-07"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Amgen"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "Lead sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "INDUSTRY"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "study-chair",
+                      "display": "Study chair"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Amgen"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 1262
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT01444456",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "20101123",
+            "assigner": {
+              "display": "Amgen"
+            }
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective",
+            "description": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective",
+            "description": ""
+          }
+        ],
+        "studyDesign": [
+          {
+            "coding": [
+              {
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "code": "C16084",
+                "display": "Observational Study"
+              },
+              {
+                "system": "https://fevir.net/sevco",
+                "code": "SEVCO:01002",
+                "display": "observational research"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://clinicaltrials.gov/data-about-studies/study-data-structure#enum-ObservationalModel",
+                "code": "COHORT",
+                "display": "Cohort"
+              }
+            ]
+          }
+        ],
+        "enrollment": [
+          {
+            "reference": "#eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)"
+          }
+        ],
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "eligibility-criteria",
+            "meta": {
+              "lastUpdated": "2026-10-19T07:21:39Z",
+              "profile": [
+                "http://hl7.org/fhir/uv/ebm/StructureDefinition/study-eligibility-criteria"
+              ]
+            },
+            "title": "USDM Eligibility Criteria for Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
+            "status": "active",
+            "type": "person",
+            "membership": "definitional",
+            "modifierExtension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": false,
+                "description": "breast cancer",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "254838004",
+                      "display": "Carcinoma of breast"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": false,
+                "description": "Expected to receive at least 8 additional weeks of a given regimen of myelosuppressive chemotherapy after enrolment",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "239071000000100",
+                      "display": "Delivery of subsequent element of cycle of chemotherapy for neoplasm"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": false,
+                "description": "Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_0b205696-c3e0-11f1-bc82-025cceb6f5ab",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "Received any ESA treatment or Red Blood Cell (RBC) transfusion within 28 days prior to enrolment",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_bc0de756-b671-11f1-9a5a-025cceb6f5ab",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "Known primary benign or malignant haematologic disorder which can cause anaemia",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_d05a7232-b31b-11f1-bd1b-025cceb6f5ab",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "Known hypersensitivity to ESAs",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "1156733008",
+                      "display": "Allergy to erythropoietin receptor agonist"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              }
+            ],
+            "description": "Inclusion Criteria:\n\n* Diagnosed with breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric cancer\n* Expected to receive at least 8 additional weeks of a given regimen of myelosuppressive chemotherapy after enrolment\n* Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia.\n\nExclusion Criteria:\n\n* Received any ESA treatment or Red Blood Cell (RBC) transfusion within 28 days prior to enrolment\n* Known primary benign or malignant haematologic disorder which can cause anaemia\n* Known hypersensitivity to ESAs"
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_0b205506-c3e0-11f1-8d41-025cceb6f5ab",
+            "modifierExtension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": false,
+                "description": "Starting treatment with either darbepoetin alfa",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "306807008",
+                      "display": "Recommendation to start drug treatment"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": false,
+                "description": "any ESA",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "1156741008",
+                      "display": "Therapy using erythropoietin receptor agonist"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_0b205696-c3e0-11f1-bc82-025cceb6f5ab",
+            "modifierExtension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": false,
+                "description": "symptomatic anaemia",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271737000",
+                      "display": "Anemia"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": false,
+                "description": "Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_0b205506-c3e0-11f1-8d41-025cceb6f5ab",
+                  "type": "Group"
+                }
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_bc0de756-b671-11f1-9a5a-025cceb6f5ab",
+            "modifierExtension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": true,
+                "description": "Received any ESA treatment",
+                "valueCodeableConcept": {
+                  "text": "Received any ESA treatment"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "Red Blood Cell (RBC) transfusion",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "116863004",
+                      "display": "Transfusion of red blood cells"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_d05a7232-b31b-11f1-bd1b-025cceb6f5ab",
+            "modifierExtension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "Known primary benign or malignant haematologic disorder which can cause anaemia",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "414027002",
+                      "display": "Disorder of hematopoietic structure"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "Known primary benign or malignant haematologic disorder which can cause anaemia",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271737000",
+                      "display": "Anemia"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "NCT01444456-comparison-group-0",
+            "title": "Cohort 1: Darbepoetin alfa",
+            "status": "active",
+            "membership": "conceptual",
+            "code": {
+              "text": "Other"
+            },
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) to treat symptomatic anemia according to routine institutional practice."
+          },
+          {
+            "resourceType": "Group",
+            "id": "NCT01444456-comparison-group-1",
+            "title": "Cohort 2: Any ESA",
+            "status": "active",
+            "membership": "conceptual",
+            "code": {
+              "text": "Other"
+            },
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) or another erythropoiesis-stimulating agent (ESA) to treat symptomatic anemia according to routine institutional practice."
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-103c1f86-bc95-11f1-b409-025cceb6f5ab",
+            "title": "Research Site — Graz, 8042",
+            "address": {
+              "city": "Graz",
+              "country": "Austria",
+              "postalCode": "8042"
+            },
+            "position": {
+              "latitude": 47.06733,
+              "longitude": 15.44197
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10409e76-bc95-11f1-a61e-025cceb6f5ab",
+            "title": "Research Site — Innsbruck, 6020",
+            "address": {
+              "city": "Innsbruck",
+              "country": "Austria",
+              "postalCode": "6020"
+            },
+            "position": {
+              "latitude": 47.26266,
+              "longitude": 11.39454
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10450d76-bc95-11f1-bbf5-025cceb6f5ab",
+            "title": "Research Site — Sankt Pölten, 3100",
+            "address": {
+              "city": "Sankt Pölten",
+              "country": "Austria",
+              "postalCode": "3100"
+            },
+            "position": {
+              "latitude": 48.20762,
+              "longitude": 15.63725
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10495322-bc95-11f1-a997-025cceb6f5ab",
+            "title": "Research Site — Vienna, 1090",
+            "address": {
+              "city": "Vienna",
+              "country": "Austria",
+              "postalCode": "1090"
+            },
+            "position": {
+              "latitude": 48.20849,
+              "longitude": 16.37208
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-104df81e-bc95-11f1-a593-025cceb6f5ab",
+            "title": "Research Site — Vöcklabruck, 4840",
+            "address": {
+              "city": "Vöcklabruck",
+              "country": "Austria",
+              "postalCode": "4840"
+            },
+            "position": {
+              "latitude": 48.00279,
+              "longitude": 13.65652
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1052b82c-bc95-11f1-8c3f-025cceb6f5ab",
+            "title": "Research Site — Wels, 4600",
+            "address": {
+              "city": "Wels",
+              "country": "Austria",
+              "postalCode": "4600"
+            },
+            "position": {
+              "latitude": 48.16667,
+              "longitude": 14.03333
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10570076-bc95-11f1-8319-025cceb6f5ab",
+            "title": "Research Site — Aalst, 9300",
+            "address": {
+              "city": "Aalst",
+              "country": "Belgium",
+              "postalCode": "9300"
+            },
+            "position": {
+              "latitude": 50.93604,
+              "longitude": 4.0355
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-105b9a50-bc95-11f1-8c2b-025cceb6f5ab",
+            "title": "Research Site — Bonheiden, 2820",
+            "address": {
+              "city": "Bonheiden",
+              "country": "Belgium",
+              "postalCode": "2820"
+            },
+            "position": {
+              "latitude": 51.02261,
+              "longitude": 4.54714
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1060112a-bc95-11f1-90d5-025cceb6f5ab",
+            "title": "Research Site — Brasschaat, 2930",
+            "address": {
+              "city": "Brasschaat",
+              "country": "Belgium",
+              "postalCode": "2930"
+            },
+            "position": {
+              "latitude": 51.2912,
+              "longitude": 4.49182
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10646388-bc95-11f1-9220-025cceb6f5ab",
+            "title": "Research Site — Bruges, 8000",
+            "address": {
+              "city": "Bruges",
+              "country": "Belgium",
+              "postalCode": "8000"
+            },
+            "position": {
+              "latitude": 51.20892,
+              "longitude": 3.22424
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1068be7e-bc95-11f1-8447-025cceb6f5ab",
+            "title": "Research Site — Eupen, 4700",
+            "address": {
+              "city": "Eupen",
+              "country": "Belgium",
+              "postalCode": "4700"
+            },
+            "position": {
+              "latitude": 50.6279,
+              "longitude": 6.03647
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-106d6df2-bc95-11f1-ae3f-025cceb6f5ab",
+            "title": "Research Site — Gilly, 6060",
+            "address": {
+              "city": "Gilly",
+              "country": "Belgium",
+              "postalCode": "6060"
+            },
+            "position": {
+              "latitude": 50.42449,
+              "longitude": 4.4789
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1071e44a-bc95-11f1-b8d2-025cceb6f5ab",
+            "title": "Research Site — Mechelen, 2800",
+            "address": {
+              "city": "Mechelen",
+              "country": "Belgium",
+              "postalCode": "2800"
+            },
+            "position": {
+              "latitude": 51.02574,
+              "longitude": 4.47762
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-107656f6-bc95-11f1-a060-025cceb6f5ab",
+            "title": "Research Site — Namur, 5000",
+            "address": {
+              "city": "Namur",
+              "country": "Belgium",
+              "postalCode": "5000"
+            },
+            "position": {
+              "latitude": 50.4669,
+              "longitude": 4.86746
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-107ad0fa-bc95-11f1-bac4-025cceb6f5ab",
+            "title": "Research Site — Ostend, 8400",
+            "address": {
+              "city": "Ostend",
+              "country": "Belgium",
+              "postalCode": "8400"
+            },
+            "position": {
+              "latitude": 51.21551,
+              "longitude": 2.927
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-107f009e-bc95-11f1-b056-025cceb6f5ab",
+            "title": "Research Site — Sint-Niklaas, 9100",
+            "address": {
+              "city": "Sint-Niklaas",
+              "country": "Belgium",
+              "postalCode": "9100"
+            },
+            "position": {
+              "latitude": 51.16509,
+              "longitude": 4.1437
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10837ae8-bc95-11f1-b6a2-025cceb6f5ab",
+            "title": "Research Site — Verviers, 4800",
+            "address": {
+              "city": "Verviers",
+              "country": "Belgium",
+              "postalCode": "4800"
+            },
+            "position": {
+              "latitude": 50.58907,
+              "longitude": 5.86241
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10880108-bc95-11f1-a90b-025cceb6f5ab",
+            "title": "Research Site — Aix-en-Provence, 13100",
+            "address": {
+              "city": "Aix-en-Provence",
+              "country": "France",
+              "postalCode": "13100"
+            },
+            "position": {
+              "latitude": 43.5283,
+              "longitude": 5.44973
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-108c2f44-bc95-11f1-968e-025cceb6f5ab",
+            "title": "Research Site — Aix-en-Provence, 13616",
+            "address": {
+              "city": "Aix-en-Provence",
+              "country": "France",
+              "postalCode": "13616"
+            },
+            "position": {
+              "latitude": 43.5283,
+              "longitude": 5.44973
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-109045ac-bc95-11f1-9e88-025cceb6f5ab",
+            "title": "Research Site — Amiens, 80000",
+            "address": {
+              "city": "Amiens",
+              "country": "France",
+              "postalCode": "80000"
+            },
+            "position": {
+              "latitude": 49.9,
+              "longitude": 2.3
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1094dda6-bc95-11f1-a227-025cceb6f5ab",
+            "title": "Research Site — Aubagne, 13675",
+            "address": {
+              "city": "Aubagne",
+              "country": "France",
+              "postalCode": "13675"
+            },
+            "position": {
+              "latitude": 43.29276,
+              "longitude": 5.57067
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1099f7c8-bc95-11f1-acde-025cceb6f5ab",
+            "title": "Research Site — Bayonne, 64100",
+            "address": {
+              "city": "Bayonne",
+              "country": "France",
+              "postalCode": "64100"
+            },
+            "position": {
+              "latitude": 43.49316,
+              "longitude": -1.473
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-109f289c-bc95-11f1-b23e-025cceb6f5ab",
+            "title": "Research Site — Besançon, 25030",
+            "address": {
+              "city": "Besançon",
+              "country": "France",
+              "postalCode": "25030"
+            },
+            "position": {
+              "latitude": 47.24878,
+              "longitude": 6.01815
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10a36286-bc95-11f1-ad5b-025cceb6f5ab",
+            "title": "Research Site — Bordeaux, 33077",
+            "address": {
+              "city": "Bordeaux",
+              "country": "France",
+              "postalCode": "33077"
+            },
+            "position": {
+              "latitude": 44.84124,
+              "longitude": -0.58046
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10a83144-bc95-11f1-8f8a-025cceb6f5ab",
+            "title": "Research Site — Boulogne Sur Mer Cédex, 62321",
+            "address": {
+              "city": "Boulogne Sur Mer Cédex",
+              "country": "France",
+              "postalCode": "62321"
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10ac9b9e-bc95-11f1-a9c3-025cceb6f5ab",
+            "title": "Research Site — Bourg-en-Bresse, 01012",
+            "address": {
+              "city": "Bourg-en-Bresse",
+              "country": "France",
+              "postalCode": "01012"
+            },
+            "position": {
+              "latitude": 46.20574,
+              "longitude": 5.2258
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10b11f52-bc95-11f1-809f-025cceb6f5ab",
+            "title": "Research Site — Brive-la-Gaillarde, 19312",
+            "address": {
+              "city": "Brive-la-Gaillarde",
+              "country": "France",
+              "postalCode": "19312"
+            },
+            "position": {
+              "latitude": 45.1589,
+              "longitude": 1.53326
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10b57b56-bc95-11f1-9f12-025cceb6f5ab",
+            "title": "Research Site — Carcassonne, 11890",
+            "address": {
+              "city": "Carcassonne",
+              "country": "France",
+              "postalCode": "11890"
+            },
+            "position": {
+              "latitude": 43.21649,
+              "longitude": 2.34863
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10ba4ee2-bc95-11f1-bd84-025cceb6f5ab",
+            "title": "Research Site — Clermont-Ferrand, 63000",
+            "address": {
+              "city": "Clermont-Ferrand",
+              "country": "France",
+              "postalCode": "63000"
+            },
+            "position": {
+              "latitude": 45.77969,
+              "longitude": 3.08682
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10be9902-bc95-11f1-a7ea-025cceb6f5ab",
+            "title": "Research Site — Clermont-Ferrand, 63011",
+            "address": {
+              "city": "Clermont-Ferrand",
+              "country": "France",
+              "postalCode": "63011"
+            },
+            "position": {
+              "latitude": 45.77969,
+              "longitude": 3.08682
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10c2d530-bc95-11f1-8fcd-025cceb6f5ab",
+            "title": "Research Site — Colmar, 68024",
+            "address": {
+              "city": "Colmar",
+              "country": "France",
+              "postalCode": "68024"
+            },
+            "position": {
+              "latitude": 48.08078,
+              "longitude": 7.35584
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10c8f0aa-bc95-11f1-aee9-025cceb6f5ab",
+            "title": "Research Site — Dijon, 21034",
+            "address": {
+              "city": "Dijon",
+              "country": "France",
+              "postalCode": "21034"
+            },
+            "position": {
+              "latitude": 47.31344,
+              "longitude": 5.01391
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10cdc076-bc95-11f1-ad7a-025cceb6f5ab",
+            "title": "Research Site — Draguignan, 83007",
+            "address": {
+              "city": "Draguignan",
+              "country": "France",
+              "postalCode": "83007"
+            },
+            "position": {
+              "latitude": 43.53692,
+              "longitude": 6.46458
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10d263e2-bc95-11f1-9d72-025cceb6f5ab",
+            "title": "Research Site — La Seyne-sur-Mer, 83500",
+            "address": {
+              "city": "La Seyne-sur-Mer",
+              "country": "France",
+              "postalCode": "83500"
+            },
+            "position": {
+              "latitude": 43.10322,
+              "longitude": 5.87816
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10d6a5c4-bc95-11f1-ac8a-025cceb6f5ab",
+            "title": "Research Site — Le Mans, 72037",
+            "address": {
+              "city": "Le Mans",
+              "country": "France",
+              "postalCode": "72037"
+            },
+            "position": {
+              "latitude": 48.0021,
+              "longitude": 0.20251
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10db6898-bc95-11f1-a758-025cceb6f5ab",
+            "title": "Research Site — Longjumeau, 91161",
+            "address": {
+              "city": "Longjumeau",
+              "country": "France",
+              "postalCode": "91161"
+            },
+            "position": {
+              "latitude": 48.69307,
+              "longitude": 2.29431
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10dfa200-bc95-11f1-93cb-025cceb6f5ab",
+            "title": "Research Site — Marseille, 13009",
+            "address": {
+              "city": "Marseille",
+              "country": "France",
+              "postalCode": "13009"
+            },
+            "position": {
+              "latitude": 43.29695,
+              "longitude": 5.38107
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10e4c352-bc95-11f1-b151-025cceb6f5ab",
+            "title": "Research Site — Marseille, 13331",
+            "address": {
+              "city": "Marseille",
+              "country": "France",
+              "postalCode": "13331"
+            },
+            "position": {
+              "latitude": 43.29695,
+              "longitude": 5.38107
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10e9a2fa-bc95-11f1-b7b7-025cceb6f5ab",
+            "title": "Research Site — Mont-de-Marsan, 40000",
+            "address": {
+              "city": "Mont-de-Marsan",
+              "country": "France",
+              "postalCode": "40000"
+            },
+            "position": {
+              "latitude": 43.89022,
+              "longitude": -0.49713
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10ee54f8-bc95-11f1-b430-025cceb6f5ab",
+            "title": "Research Site — Montauban, 82013",
+            "address": {
+              "city": "Montauban",
+              "country": "France",
+              "postalCode": "82013"
+            },
+            "position": {
+              "latitude": 44.01759,
+              "longitude": 1.3542
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10f35516-bc95-11f1-aa00-025cceb6f5ab",
+            "title": "Research Site — Nancy, 54100",
+            "address": {
+              "city": "Nancy",
+              "country": "France",
+              "postalCode": "54100"
+            },
+            "position": {
+              "latitude": 48.68439,
+              "longitude": 6.18496
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10f7a8f0-bc95-11f1-be5b-025cceb6f5ab",
+            "title": "Research Site — Orléans, 45000",
+            "address": {
+              "city": "Orléans",
+              "country": "France",
+              "postalCode": "45000"
+            },
+            "position": {
+              "latitude": 47.90248,
+              "longitude": 1.90407
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-99da2c2a-bc94-11f1-ab5f-025cceb6f5ab",
+            "title": "Research Site — Paris, 75020",
+            "address": {
+              "city": "Paris",
+              "country": "France",
+              "postalCode": "75020"
+            },
+            "position": {
+              "latitude": 48.85341,
+              "longitude": 2.3488
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-10fc04c2-bc95-11f1-aa9b-025cceb6f5ab",
+            "title": "Research Site — Périgueux, 24004",
+            "address": {
+              "city": "Périgueux",
+              "country": "France",
+              "postalCode": "24004"
+            },
+            "position": {
+              "latitude": 45.18691,
+              "longitude": 0.71439
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-110051da-bc95-11f1-ab54-025cceb6f5ab",
+            "title": "Research Site — Pontoise, 95301",
+            "address": {
+              "city": "Pontoise",
+              "country": "France",
+              "postalCode": "95301"
+            },
+            "position": {
+              "latitude": 49.05,
+              "longitude": 2.1
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-110525d4-bc95-11f1-8984-025cceb6f5ab",
+            "title": "Research Site — Pringy, 74374",
+            "address": {
+              "city": "Pringy",
+              "country": "France",
+              "postalCode": "74374"
+            },
+            "position": {
+              "latitude": 45.94622,
+              "longitude": 6.12608
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11096360-bc95-11f1-98c6-025cceb6f5ab",
+            "title": "Research Site — Reims, 51056",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51056"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-110e36c4-bc95-11f1-8330-025cceb6f5ab",
+            "title": "Research Site — Reims, 51092",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51092"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1112c3c4-bc95-11f1-b381-025cceb6f5ab",
+            "title": "Research Site — Reims, 51100",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51100"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11172e1e-bc95-11f1-990a-025cceb6f5ab",
+            "title": "Research Site — Rennes, 35033",
+            "address": {
+              "city": "Rennes",
+              "country": "France",
+              "postalCode": "35033"
+            },
+            "position": {
+              "latitude": 48.11109,
+              "longitude": -1.67431
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-111bad90-bc95-11f1-924a-025cceb6f5ab",
+            "title": "Research Site — Rouen, 76000",
+            "address": {
+              "city": "Rouen",
+              "country": "France",
+              "postalCode": "76000"
+            },
+            "position": {
+              "latitude": 49.44313,
+              "longitude": 1.09932
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-111ffef4-bc95-11f1-a8bc-025cceb6f5ab",
+            "title": "Research Site — Saint-Grégoire, 35768",
+            "address": {
+              "city": "Saint-Grégoire",
+              "country": "France",
+              "postalCode": "35768"
+            },
+            "position": {
+              "latitude": 48.15101,
+              "longitude": -1.68579
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11249202-bc95-11f1-ad8e-025cceb6f5ab",
+            "title": "Research Site — Saint-Quentin, 02321",
+            "address": {
+              "city": "Saint-Quentin",
+              "country": "France",
+              "postalCode": "02321"
+            },
+            "position": {
+              "latitude": 49.84889,
+              "longitude": 3.28757
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1128d3ee-bc95-11f1-991b-025cceb6f5ab",
+            "title": "Research Site — Soissons, 02209",
+            "address": {
+              "city": "Soissons",
+              "country": "France",
+              "postalCode": "02209"
+            },
+            "position": {
+              "latitude": 49.38167,
+              "longitude": 3.32361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-112d2cfa-bc95-11f1-bdd5-025cceb6f5ab",
+            "title": "Research Site — Soyaux, 16800",
+            "address": {
+              "city": "Soyaux",
+              "country": "France",
+              "postalCode": "16800"
+            },
+            "position": {
+              "latitude": 45.64052,
+              "longitude": 0.19752
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-113388f2-bc95-11f1-ba13-025cceb6f5ab",
+            "title": "Research Site — Strasbourg, 67000",
+            "address": {
+              "city": "Strasbourg",
+              "country": "France",
+              "postalCode": "67000"
+            },
+            "position": {
+              "latitude": 48.58392,
+              "longitude": 7.74553
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-113a2702-bc95-11f1-bd87-025cceb6f5ab",
+            "title": "Research Site — Vichy, 03207",
+            "address": {
+              "city": "Vichy",
+              "country": "France",
+              "postalCode": "03207"
+            },
+            "position": {
+              "latitude": 46.12709,
+              "longitude": 3.42577
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-113f83b4-bc95-11f1-9797-025cceb6f5ab",
+            "title": "Research Site — Villefranche-sur-Saône, 69400",
+            "address": {
+              "city": "Villefranche-sur-Saône",
+              "country": "France",
+              "postalCode": "69400"
+            },
+            "position": {
+              "latitude": 45.98967,
+              "longitude": 4.71961
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1143f96c-bc95-11f1-93f4-025cceb6f5ab",
+            "title": "Research Site — Villejuif, 94804",
+            "address": {
+              "city": "Villejuif",
+              "country": "France",
+              "postalCode": "94804"
+            },
+            "position": {
+              "latitude": 48.7939,
+              "longitude": 2.35992
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-114868a8-bc95-11f1-aefb-025cceb6f5ab",
+            "title": "Research Site — Augsburg, 86150",
+            "address": {
+              "city": "Augsburg",
+              "country": "Germany",
+              "postalCode": "86150"
+            },
+            "position": {
+              "latitude": 48.37154,
+              "longitude": 10.89851
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-114d8450-bc95-11f1-a275-025cceb6f5ab",
+            "title": "Research Site — Berlin, 10317",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "10317"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-115237ca-bc95-11f1-91dd-025cceb6f5ab",
+            "title": "Research Site — Berlin, 13055",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "13055"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1156f18e-bc95-11f1-9a58-025cceb6f5ab",
+            "title": "Research Site — Berlin, 13347",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "13347"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-115b92a2-bc95-11f1-8875-025cceb6f5ab",
+            "title": "Research Site — Bremerhaven, 27568",
+            "address": {
+              "city": "Bremerhaven",
+              "country": "Germany",
+              "postalCode": "27568"
+            },
+            "position": {
+              "latitude": 53.55357,
+              "longitude": 8.57553
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11617816-bc95-11f1-8de2-025cceb6f5ab",
+            "title": "Research Site — Cologne, 50677",
+            "address": {
+              "city": "Cologne",
+              "country": "Germany",
+              "postalCode": "50677"
+            },
+            "position": {
+              "latitude": 50.93333,
+              "longitude": 6.95
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11663a04-bc95-11f1-847a-025cceb6f5ab",
+            "title": "Research Site — Gelsenkirchen, 45899",
+            "address": {
+              "city": "Gelsenkirchen",
+              "country": "Germany",
+              "postalCode": "45899"
+            },
+            "position": {
+              "latitude": 51.50508,
+              "longitude": 7.09654
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-116b4080-bc95-11f1-95b2-025cceb6f5ab",
+            "title": "Research Site — Goslar, 38642",
+            "address": {
+              "city": "Goslar",
+              "country": "Germany",
+              "postalCode": "38642"
+            },
+            "position": {
+              "latitude": 51.90425,
+              "longitude": 10.42766
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11700700-bc95-11f1-a0b5-025cceb6f5ab",
+            "title": "Research Site — Halle, 06110",
+            "address": {
+              "city": "Halle",
+              "country": "Germany",
+              "postalCode": "06110"
+            },
+            "position": {
+              "latitude": 51.48158,
+              "longitude": 11.97947
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11749068-bc95-11f1-88de-025cceb6f5ab",
+            "title": "Research Site — Mannheim, 68165",
+            "address": {
+              "city": "Mannheim",
+              "country": "Germany",
+              "postalCode": "68165"
+            },
+            "position": {
+              "latitude": 49.4891,
+              "longitude": 8.46694
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1178b832-bc95-11f1-9e26-025cceb6f5ab",
+            "title": "Research Site — Neunkirchen, 66538",
+            "address": {
+              "city": "Neunkirchen",
+              "country": "Germany",
+              "postalCode": "66538"
+            },
+            "position": {
+              "latitude": 49.34449,
+              "longitude": 7.18045
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-117d6332-bc95-11f1-996a-025cceb6f5ab",
+            "title": "Research Site — Rotenburg (Wümme), 27356",
+            "address": {
+              "city": "Rotenburg (Wümme)",
+              "country": "Germany",
+              "postalCode": "27356"
+            },
+            "position": {
+              "latitude": 53.11032,
+              "longitude": 9.4036
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-118211de-bc95-11f1-969e-025cceb6f5ab",
+            "title": "Research Site — Soest, 59494",
+            "address": {
+              "city": "Soest",
+              "country": "Germany",
+              "postalCode": "59494"
+            },
+            "position": {
+              "latitude": 51.57558,
+              "longitude": 8.10619
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11865780-bc95-11f1-b3c3-025cceb6f5ab",
+            "title": "Research Site — Stralsund, 18435",
+            "address": {
+              "city": "Stralsund",
+              "country": "Germany",
+              "postalCode": "18435"
+            },
+            "position": {
+              "latitude": 54.30911,
+              "longitude": 13.0818
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-118b2418-bc95-11f1-bcf9-025cceb6f5ab",
+            "title": "Research Site — Würselen, 52146",
+            "address": {
+              "city": "Würselen",
+              "country": "Germany",
+              "postalCode": "52146"
+            },
+            "position": {
+              "latitude": 50.81809,
+              "longitude": 6.1347
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11906f54-bc95-11f1-b961-025cceb6f5ab",
+            "title": "Research Site — Athens, 11522",
+            "address": {
+              "city": "Athens",
+              "country": "Greece",
+              "postalCode": "11522"
+            },
+            "position": {
+              "latitude": 37.98376,
+              "longitude": 23.72784
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1194ff38-bc95-11f1-818a-025cceb6f5ab",
+            "title": "Research Site — Athens, 18547",
+            "address": {
+              "city": "Athens",
+              "country": "Greece",
+              "postalCode": "18547"
+            },
+            "position": {
+              "latitude": 37.98376,
+              "longitude": 23.72784
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1199683e-bc95-11f1-8620-025cceb6f5ab",
+            "title": "Research Site — Chania, 73300",
+            "address": {
+              "city": "Chania",
+              "country": "Greece",
+              "postalCode": "73300"
+            },
+            "position": {
+              "latitude": 35.51124,
+              "longitude": 24.02921
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-119df8a4-bc95-11f1-9b82-025cceb6f5ab",
+            "title": "Research Site — Marousi, 15121",
+            "address": {
+              "city": "Marousi",
+              "country": "Greece",
+              "postalCode": "15121"
+            },
+            "position": {
+              "latitude": 38.05,
+              "longitude": 23.8
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11a26754-bc95-11f1-8ad9-025cceb6f5ab",
+            "title": "Research Site — Papagou, 11526",
+            "address": {
+              "city": "Papagou",
+              "country": "Greece",
+              "postalCode": "11526"
+            },
+            "position": {
+              "latitude": 37.98642,
+              "longitude": 23.79347
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11a6d7ee-bc95-11f1-91fa-025cceb6f5ab",
+            "title": "Research Site — Cefalù PA, 90015",
+            "address": {
+              "city": "Cefalù PA",
+              "country": "Italy",
+              "postalCode": "90015"
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-9a9ce940-bc94-11f1-87e5-025cceb6f5ab",
+            "title": "Research Site — Naples, 80131",
+            "address": {
+              "city": "Naples",
+              "country": "Italy",
+              "postalCode": "80131"
+            },
+            "position": {
+              "latitude": 40.85216,
+              "longitude": 14.26811
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-9aa17c1c-bc94-11f1-b8cf-025cceb6f5ab",
+            "title": "Research Site — Padova, 35128",
+            "address": {
+              "city": "Padova",
+              "country": "Italy",
+              "postalCode": "35128"
+            },
+            "position": {
+              "latitude": 44.38225,
+              "longitude": 11.14261
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11ab22b8-bc95-11f1-902a-025cceb6f5ab",
+            "title": "Research Site — Roma, 00128",
+            "address": {
+              "city": "Roma",
+              "country": "Italy",
+              "postalCode": "00128"
+            },
+            "position": {
+              "latitude": 44.99364,
+              "longitude": 11.10642
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11af6490-bc95-11f1-8c10-025cceb6f5ab",
+            "title": "Research Site — Torino, 10100",
+            "address": {
+              "city": "Torino",
+              "country": "Italy",
+              "postalCode": "10100"
+            },
+            "position": {
+              "latitude": 44.88856,
+              "longitude": 11.99138
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11b40392-bc95-11f1-8f86-025cceb6f5ab",
+            "title": "Research Site — Amstelveen, 1186 AM",
+            "address": {
+              "city": "Amstelveen",
+              "country": "Netherlands",
+              "postalCode": "1186 AM"
+            },
+            "position": {
+              "latitude": 52.30083,
+              "longitude": 4.86389
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11b8c9f4-bc95-11f1-953a-025cceb6f5ab",
+            "title": "Research Site — Dordrecht, 3318 AT",
+            "address": {
+              "city": "Dordrecht",
+              "country": "Netherlands",
+              "postalCode": "3318 AT"
+            },
+            "position": {
+              "latitude": 51.81,
+              "longitude": 4.67361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11bd4e84-bc95-11f1-8449-025cceb6f5ab",
+            "title": "Research Site — Enschede, 7513 ER",
+            "address": {
+              "city": "Enschede",
+              "country": "Netherlands",
+              "postalCode": "7513 ER"
+            },
+            "position": {
+              "latitude": 52.21833,
+              "longitude": 6.89583
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11c207f8-bc95-11f1-b9eb-025cceb6f5ab",
+            "title": "Research Site — Flushing, 4382 EE",
+            "address": {
+              "city": "Flushing",
+              "country": "Netherlands",
+              "postalCode": "4382 EE"
+            },
+            "position": {
+              "latitude": 51.4425,
+              "longitude": 3.57361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11c69976-bc95-11f1-bc34-025cceb6f5ab",
+            "title": "Research Site — Leiderdorp, 2353 GA",
+            "address": {
+              "city": "Leiderdorp",
+              "country": "Netherlands",
+              "postalCode": "2353 GA"
+            },
+            "position": {
+              "latitude": 52.15833,
+              "longitude": 4.52917
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11cb4ad4-bc95-11f1-88a9-025cceb6f5ab",
+            "title": "Research Site — Purmerend, 1441 RN",
+            "address": {
+              "city": "Purmerend",
+              "country": "Netherlands",
+              "postalCode": "1441 RN"
+            },
+            "position": {
+              "latitude": 52.505,
+              "longitude": 4.95972
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11d06a46-bc95-11f1-8ca8-025cceb6f5ab",
+            "title": "Research Site — Roosendaal, 4708 AE",
+            "address": {
+              "city": "Roosendaal",
+              "country": "Netherlands",
+              "postalCode": "4708 AE"
+            },
+            "position": {
+              "latitude": 51.53083,
+              "longitude": 4.46528
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11d4e13e-bc95-11f1-96d6-025cceb6f5ab",
+            "title": "Research Site — Zutphen, 7207 AE",
+            "address": {
+              "city": "Zutphen",
+              "country": "Netherlands",
+              "postalCode": "7207 AE"
+            },
+            "position": {
+              "latitude": 52.13833,
+              "longitude": 6.20139
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-9b9d4a6a-bc94-11f1-8c15-025cceb6f5ab",
+            "title": "Research Site — Bialystok, 15-027",
+            "address": {
+              "city": "Bialystok",
+              "country": "Poland",
+              "postalCode": "15-027"
+            },
+            "position": {
+              "latitude": 53.13333,
+              "longitude": 23.16433
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11d97776-bc95-11f1-a009-025cceb6f5ab",
+            "title": "Research Site — Gdansk, 80-402",
+            "address": {
+              "city": "Gdansk",
+              "country": "Poland",
+              "postalCode": "80-402"
+            },
+            "position": {
+              "latitude": 54.35227,
+              "longitude": 18.64912
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-9baf6178-bc94-11f1-930f-025cceb6f5ab",
+            "title": "Research Site — Konin, 62-500",
+            "address": {
+              "city": "Konin",
+              "country": "Poland",
+              "postalCode": "62-500"
+            },
+            "position": {
+              "latitude": 52.22338,
+              "longitude": 18.25121
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11ddc182-bc95-11f1-9e68-025cceb6f5ab",
+            "title": "Research Site — Koszalin, 75-581",
+            "address": {
+              "city": "Koszalin",
+              "country": "Poland",
+              "postalCode": "75-581"
+            },
+            "position": {
+              "latitude": 54.19438,
+              "longitude": 16.17222
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11e1f5e0-bc95-11f1-a5c0-025cceb6f5ab",
+            "title": "Research Site — Krakow, 31-531",
+            "address": {
+              "city": "Krakow",
+              "country": "Poland",
+              "postalCode": "31-531"
+            },
+            "position": {
+              "latitude": 50.06143,
+              "longitude": 19.93658
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11e68da8-bc95-11f1-8a90-025cceb6f5ab",
+            "title": "Research Site — Lubin, 59-300",
+            "address": {
+              "city": "Lubin",
+              "country": "Poland",
+              "postalCode": "59-300"
+            },
+            "position": {
+              "latitude": 51.40089,
+              "longitude": 16.20149
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11eae344-bc95-11f1-87da-025cceb6f5ab",
+            "title": "Research Site — Olsztyn, 10-228",
+            "address": {
+              "city": "Olsztyn",
+              "country": "Poland",
+              "postalCode": "10-228"
+            },
+            "position": {
+              "latitude": 53.78376,
+              "longitude": 20.49272
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11ef67d4-bc95-11f1-b664-025cceb6f5ab",
+            "title": "Research Site — Poznan, 61-878",
+            "address": {
+              "city": "Poznan",
+              "country": "Poland",
+              "postalCode": "61-878"
+            },
+            "position": {
+              "latitude": 52.40692,
+              "longitude": 16.92993
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11f43f02-bc95-11f1-8777-025cceb6f5ab",
+            "title": "Research Site — Warsaw, 04-125",
+            "address": {
+              "city": "Warsaw",
+              "country": "Poland",
+              "postalCode": "04-125"
+            },
+            "position": {
+              "latitude": 52.22977,
+              "longitude": 21.01178
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11f88ab2-bc95-11f1-9f11-025cceb6f5ab",
+            "title": "Research Site — Wałbrzych, 58-309",
+            "address": {
+              "city": "Wałbrzych",
+              "country": "Poland",
+              "postalCode": "58-309"
+            },
+            "position": {
+              "latitude": 50.77141,
+              "longitude": 16.28432
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-11fdb122-bc95-11f1-a321-025cceb6f5ab",
+            "title": "Research Site — Wroclaw, 50-981",
+            "address": {
+              "city": "Wroclaw",
+              "country": "Poland",
+              "postalCode": "50-981"
+            },
+            "position": {
+              "latitude": 51.10286,
+              "longitude": 17.03006
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-12025a42-bc95-11f1-a7ba-025cceb6f5ab",
+            "title": "Research Site — Wroclaw, 51-124",
+            "address": {
+              "city": "Wroclaw",
+              "country": "Poland",
+              "postalCode": "51-124"
+            },
+            "position": {
+              "latitude": 51.10286,
+              "longitude": 17.03006
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-120767da-bc95-11f1-8cb3-025cceb6f5ab",
+            "title": "Research Site — Alba Iulia, 510077",
+            "address": {
+              "city": "Alba Iulia",
+              "country": "Romania",
+              "postalCode": "510077"
+            },
+            "position": {
+              "latitude": 46.06667,
+              "longitude": 23.58333
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-120bb1d2-bc95-11f1-bbca-025cceb6f5ab",
+            "title": "Research Site — Baia Mare, 430031",
+            "address": {
+              "city": "Baia Mare",
+              "country": "Romania",
+              "postalCode": "430031"
+            },
+            "position": {
+              "latitude": 47.65729,
+              "longitude": 23.56808
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-120fdcbc-bc95-11f1-9546-025cceb6f5ab",
+            "title": "Research Site — Brasov, 500366",
+            "address": {
+              "city": "Brasov",
+              "country": "Romania",
+              "postalCode": "500366"
+            },
+            "position": {
+              "latitude": 45.64861,
+              "longitude": 25.60613
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-121478e4-bc95-11f1-9b55-025cceb6f5ab",
+            "title": "Research Site — Bucharest, 011171",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "011171"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1218d556-bc95-11f1-a021-025cceb6f5ab",
+            "title": "Research Site — Bucharest, 020947",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "020947"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-121d2eb2-bc95-11f1-a744-025cceb6f5ab",
+            "title": "Research Site — Bucharest, 022328",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "022328"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1221d106-bc95-11f1-8bfc-025cceb6f5ab",
+            "title": "Research Site — Bucharest, 030442",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "030442"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1226a8c0-bc95-11f1-afd1-025cceb6f5ab",
+            "title": "Research Site — Bucharest, 050659",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "050659"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-122b47ea-bc95-11f1-aa9f-025cceb6f5ab",
+            "title": "Research Site — Cluj-Napoca, 400058",
+            "address": {
+              "city": "Cluj-Napoca",
+              "country": "Romania",
+              "postalCode": "400058"
+            },
+            "position": {
+              "latitude": 46.76667,
+              "longitude": 23.6
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-122fc4dc-bc95-11f1-8540-025cceb6f5ab",
+            "title": "Research Site — Oradea, 410469",
+            "address": {
+              "city": "Oradea",
+              "country": "Romania",
+              "postalCode": "410469"
+            },
+            "position": {
+              "latitude": 47.0458,
+              "longitude": 21.91833
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1233f84a-bc95-11f1-9ed9-025cceb6f5ab",
+            "title": "Research Site — Râmnicu Vâlcea, 240156",
+            "address": {
+              "city": "Râmnicu Vâlcea",
+              "country": "Romania",
+              "postalCode": "240156"
+            },
+            "position": {
+              "latitude": 45.1,
+              "longitude": 24.36667
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-1238dffe-bc95-11f1-93cb-025cceb6f5ab",
+            "title": "Research Site — Târgu Mureş, 540142",
+            "address": {
+              "city": "Târgu Mureş",
+              "country": "Romania",
+              "postalCode": "540142"
+            },
+            "position": {
+              "latitude": 46.54245,
+              "longitude": 24.55747
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01444456-Location-123d5b92-bc95-11f1-8ba4-025cceb6f5ab",
+            "title": "Research Site — Timișoara, 300167",
+            "address": {
+              "city": "Timișoara",
+              "country": "Romania",
+              "postalCode": "300167"
+            },
+            "position": {
+              "latitude": 45.75372,
+              "longitude": 21.22571
+            }
+          }
+        ],
+        "arm": [
+          {
+            "name": "Cohort 1: Darbepoetin alfa",
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) to treat symptomatic anemia according to routine institutional practice.",
+            "extension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/comparison-group-eligibility",
+                "valueReference": {
+                  "reference": "#NCT01444456-comparison-group-0",
+                  "type": "Group",
+                  "display": "Cohort 1: Darbepoetin alfa"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Cohort 2: Any ESA",
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) or another erythropoiesis-stimulating agent (ESA) to treat symptomatic anemia according to routine institutional practice.",
+            "extension": [
+              {
+                "url": "https://example.org/fhir/StructureDefinition/comparison-group-eligibility",
+                "valueReference": {
+                  "reference": "#NCT01444456-comparison-group-1",
+                  "type": "Group",
+                  "display": "Cohort 2: Any ESA"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fevir.net/resources/Group/fake_g_90bca93e-7062-11f1-b330-025cceb6f5ab",
+      "resource": {
+        "id": "fake_g_90bca93e-7062-11f1-b330-025cceb6f5ab",
+        "url": "https://fevir.net/resources/Group/fake_g_90bca93e-7062-11f1-b330-025cceb6f5ab",
+        "resourceType": "Group",
+        "name": "NCT01444456_Eligibility_Criteria",
+        "title": "NCT01444456 Eligibility Criteria",
+        "description": "Inclusion Criteria:\n\n* Diagnosed with breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric cancer\n* Expected to receive at least 8 additional weeks of a given regimen of myelosuppressive chemotherapy after enrolment\n* Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia.\n\nExclusion Criteria:\n\n* Received any ESA treatment or Red Blood Cell (RBC) transfusion within 28 days prior to enrolment\n* Known primary benign or malignant haematologic disorder which can cause anaemia\n* Known hypersensitivity to ESAs"
+      }
+    }
+  ]
+}

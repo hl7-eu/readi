@@ -19,11 +19,23 @@ Description: "This profile describes a clinical study (e.g. a clinical trial) fo
     $researchStudy-label-r5 named label 0..* and
     $researchStudy-classifier-r5 named classifier 0..* and
     $researchStudy-progressStatus-r5 named progressStatus 0..* and
-    $researchStudy-outcomeMeasure-r5 named outcomeMeasure 0..*
+    $researchStudy-outcomeMeasure-r5 named outcomeMeasure 0..* and
+    $researchStudy-associatedParty-r5 named associatedParty 0..* and
+    $researchStudy-recruitment-targetNumber-r5 named recruitmentTargetNumber 0..1 and
+    $researchStudy-studyDesign-r5 named studyDesign 0..* and
+    $researchStudy-descriptionSummary-r5 named descriptionSummary 0..1
 * extension[label] ^short = "Additional names for the study (R5 ResearchStudy.label)"
 * extension[classifier] ^short = "Classification for the study (R5 ResearchStudy.classifier)"
 * extension[progressStatus] ^short = "Status of study with time for that status (R5 ResearchStudy.progressStatus)"
 * extension[outcomeMeasure] ^short = "A variable measured during the study (R5 ResearchStudy.outcomeMeasure)"
+* extension[outcomeMeasure].extension[reference].valueReference only Reference(EvidenceVariableReadi)
+* extension[associatedParty] ^short = "Sponsors, collaborators, and other parties (R5 ResearchStudy.associatedParty)"
+* extension[recruitmentTargetNumber] ^short = "Estimated total number of participants to be enrolled (R5 ResearchStudy.recruitment.targetNumber)"
+* extension[studyDesign] ^short = "Classifications of the study design characteristics (R5 ResearchStudy.studyDesign)"
+* extension[descriptionSummary] ^short = "Brief text explaining the study (R5 ResearchStudy.descriptionSummary)"
+* arm.extension contains $researchStudy-comparisonGroup-observedGroup-r5 named observedGroup 0..1
+* arm.extension[observedGroup] ^short = "Group of participants who were enrolled in the arm/cohort (R5 ResearchStudy.comparisonGroup.observedGroup)"
+* arm.extension[observedGroup].valueReference only Reference(GroupReadi)
 // ---- USDM requirements (generated from usdm2fhir-mapping.md) ----
 * condition.text ^requirements = "USDM: Indication.label"
 * condition.coding ^requirements = "USDM: Indication.codes"

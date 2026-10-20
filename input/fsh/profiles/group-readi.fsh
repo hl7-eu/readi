@@ -12,6 +12,17 @@ Description: "This profile describes the population of a clinical study for the 
 * quantity ^short = "Number of participants"
 * characteristic ^short = "Inclusion (exclude = false) or exclusion (exclude = true) criterion"
 * member.entity only Reference(Patient)
+* modifierExtension contains GroupCombinationMethod named combinationMethod 0..1
+* modifierExtension[combinationMethod] ^short = "How the characteristics are combined (all-of, any-of, ...)"
+* modifierExtension[combinationMethod] ^comment = "When absent, all the characteristics apply (all-of), as defined by FHIR R4. Nested criteria (e.g. any-of within an all-of group) are represented by a characteristic whose valueReference points to another (contained) Group."
+* extension contains GroupDescription named description 0..1
+* extension[description] ^short = "Natural language description of the group (R5 Group.description)"
+* characteristic.extension contains
+    GroupCharacteristicDescription named description 0..1 and
+    GroupCharacteristicRelativeTime named relativeTime 0..*
+* characteristic.extension[description] ^short = "Text of the criterion (R6 Group.characteristic.description)"
+* characteristic.extension[relativeTime] ^short = "When the criterion applies, relative to a reference event"
+* characteristic.value[x] ^comment = "valueReference is used to point to a (contained) Group representing a nested combination of criteria."
 // ---- USDM requirements (generated from usdm2fhir-mapping.md) ----
 * id ^requirements = "USDM: to-be-specified.to-be-specified; ExpectedResponse.id"
 * characteristic.code.text ^requirements = "USDM: EligibilityCriterionItem.to-be-specified"
@@ -28,14 +39,9 @@ Description: "This profile describes the population of a clinical study for the 
 * characteristic.valueQuantity.value ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueQuantity.unit ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.code.coding ^requirements = "USDM: BiomedicalConcept.code"
-// Mapped elements without an R4 element or R5 cross-version extension (no requirement assigned):
-// Group.combinationMethod <- USDM: to-be-specified.to-be-specified (not an R5 element)
-// Group.characteristic.description <- USDM: EligibilityCriterionItem.to-be-specified; ExpectedResponse.description (not an R5 element)
-// Group.description <- USDM: ExpectedResponse.label (R5 element, no extension in hl7.fhir.uv.xver-r5.r4 0.1.0)
-// Group.characteristic.relativeTime.offsetRange.low.value <- USDM: ExpectedResponse.atTiming (not an R5 element)
-// Group.characteristic.relativeTime.offsetRange.low.unit <- USDM: ExpectedResponse.atTiming (not an R5 element)
-// Group.characteristic.relativeTime.offsetRange.high.value <- USDM: ExpectedResponse.atTiming (not an R5 element)
-// Group.characteristic.relativeTime.offsetRange.high.unit <- USDM: ExpectedResponse.atTiming (not an R5 element)
-// Group.characteristic.relativeTime.contextCode.coding.code <- USDM: to-be-specified.to-be-specified (not an R5 element)
-// Group.characteristic.relativeTime.contextCode.coding.display <- USDM: to-be-specified.to-be-specified (not an R5 element)
-// Group.characteristic.relativeTime.contextCode.coding.system <- USDM: to-be-specified.to-be-specified (not an R5 element)
+* modifierExtension[combinationMethod] ^requirements = "USDM: to-be-specified.to-be-specified"
+* extension[description] ^requirements = "USDM: ExpectedResponse.label"
+* characteristic.extension[description] ^requirements = "USDM: EligibilityCriterionItem.to-be-specified; ExpectedResponse.description"
+* characteristic.extension[relativeTime] ^requirements = "USDM: ExpectedResponse.atTiming"
+// Group.combinationMethod, Group.description, Group.characteristic.description and Group.characteristic.relativeTime
+// are represented by READI extensions (see input/fsh/extensions/group-extensions.fsh).
