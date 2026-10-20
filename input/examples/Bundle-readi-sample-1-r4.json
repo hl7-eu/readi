@@ -17,6 +17,11 @@
           {
             "resourceType": "Location",
             "id": "loc-001",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Graz, 8042",
             "address": {
               "city": "Graz",
@@ -31,6 +36,11 @@
           {
             "resourceType": "Location",
             "id": "loc-002",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Innsbruck, 6020",
             "address": {
               "city": "Innsbruck",
@@ -45,6 +55,11 @@
           {
             "resourceType": "Location",
             "id": "loc-003",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Sankt Pölten, 3100",
             "address": {
               "city": "Sankt Pölten",
@@ -59,6 +74,11 @@
           {
             "resourceType": "Location",
             "id": "loc-004",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Vienna, 1090",
             "address": {
               "city": "Vienna",
@@ -73,6 +93,11 @@
           {
             "resourceType": "Location",
             "id": "loc-005",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Vöcklabruck, 4840",
             "address": {
               "city": "Vöcklabruck",
@@ -87,6 +112,11 @@
           {
             "resourceType": "Location",
             "id": "loc-006",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Wels, 4600",
             "address": {
               "city": "Wels",
@@ -101,6 +131,11 @@
           {
             "resourceType": "Location",
             "id": "loc-007",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Aalst, 9300",
             "address": {
               "city": "Aalst",
@@ -115,6 +150,11 @@
           {
             "resourceType": "Location",
             "id": "loc-008",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bonheiden, 2820",
             "address": {
               "city": "Bonheiden",
@@ -129,6 +169,11 @@
           {
             "resourceType": "Location",
             "id": "loc-009",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Brasschaat, 2930",
             "address": {
               "city": "Brasschaat",
@@ -143,6 +188,11 @@
           {
             "resourceType": "Location",
             "id": "loc-010",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bruges, 8000",
             "address": {
               "city": "Bruges",
@@ -157,6 +207,11 @@
           {
             "resourceType": "Location",
             "id": "loc-011",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Eupen, 4700",
             "address": {
               "city": "Eupen",
@@ -171,6 +226,11 @@
           {
             "resourceType": "Location",
             "id": "loc-012",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Gilly, 6060",
             "address": {
               "city": "Gilly",
@@ -185,6 +245,11 @@
           {
             "resourceType": "Location",
             "id": "loc-013",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Mechelen, 2800",
             "address": {
               "city": "Mechelen",
@@ -199,6 +264,11 @@
           {
             "resourceType": "Location",
             "id": "loc-014",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Namur, 5000",
             "address": {
               "city": "Namur",
@@ -213,6 +283,11 @@
           {
             "resourceType": "Location",
             "id": "loc-015",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Ostend, 8400",
             "address": {
               "city": "Ostend",
@@ -227,6 +302,11 @@
           {
             "resourceType": "Location",
             "id": "loc-016",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Sint-Niklaas, 9100",
             "address": {
               "city": "Sint-Niklaas",
@@ -241,6 +321,11 @@
           {
             "resourceType": "Location",
             "id": "loc-017",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Verviers, 4800",
             "address": {
               "city": "Verviers",
@@ -255,6 +340,11 @@
           {
             "resourceType": "Location",
             "id": "loc-018",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Aix-en-Provence, 13100",
             "address": {
               "city": "Aix-en-Provence",
@@ -269,6 +359,11 @@
           {
             "resourceType": "Location",
             "id": "loc-019",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Aix-en-Provence, 13616",
             "address": {
               "city": "Aix-en-Provence",
@@ -283,6 +378,11 @@
           {
             "resourceType": "Location",
             "id": "loc-020",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Amiens, 80000",
             "address": {
               "city": "Amiens",
@@ -297,6 +397,11 @@
           {
             "resourceType": "Location",
             "id": "loc-021",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Aubagne, 13675",
             "address": {
               "city": "Aubagne",
@@ -311,6 +416,11 @@
           {
             "resourceType": "Location",
             "id": "loc-022",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bayonne, 64100",
             "address": {
               "city": "Bayonne",
@@ -325,6 +435,11 @@
           {
             "resourceType": "Location",
             "id": "loc-023",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Besançon, 25030",
             "address": {
               "city": "Besançon",
@@ -339,6 +454,11 @@
           {
             "resourceType": "Location",
             "id": "loc-024",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bordeaux, 33077",
             "address": {
               "city": "Bordeaux",
@@ -353,6 +473,11 @@
           {
             "resourceType": "Location",
             "id": "loc-025",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Boulogne Sur Mer Cédex, 62321",
             "address": {
               "city": "Boulogne Sur Mer Cédex",
@@ -363,6 +488,11 @@
           {
             "resourceType": "Location",
             "id": "loc-026",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bourg-en-Bresse, 01012",
             "address": {
               "city": "Bourg-en-Bresse",
@@ -377,6 +507,11 @@
           {
             "resourceType": "Location",
             "id": "loc-027",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Brive-la-Gaillarde, 19312",
             "address": {
               "city": "Brive-la-Gaillarde",
@@ -391,6 +526,11 @@
           {
             "resourceType": "Location",
             "id": "loc-028",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Carcassonne, 11890",
             "address": {
               "city": "Carcassonne",
@@ -405,6 +545,11 @@
           {
             "resourceType": "Location",
             "id": "loc-029",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Clermont-Ferrand, 63000",
             "address": {
               "city": "Clermont-Ferrand",
@@ -419,6 +564,11 @@
           {
             "resourceType": "Location",
             "id": "loc-030",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Clermont-Ferrand, 63011",
             "address": {
               "city": "Clermont-Ferrand",
@@ -433,6 +583,11 @@
           {
             "resourceType": "Location",
             "id": "loc-031",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Colmar, 68024",
             "address": {
               "city": "Colmar",
@@ -447,6 +602,11 @@
           {
             "resourceType": "Location",
             "id": "loc-032",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Dijon, 21034",
             "address": {
               "city": "Dijon",
@@ -461,6 +621,11 @@
           {
             "resourceType": "Location",
             "id": "loc-033",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Draguignan, 83007",
             "address": {
               "city": "Draguignan",
@@ -475,6 +640,11 @@
           {
             "resourceType": "Location",
             "id": "loc-034",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — La Seyne-sur-Mer, 83500",
             "address": {
               "city": "La Seyne-sur-Mer",
@@ -489,6 +659,11 @@
           {
             "resourceType": "Location",
             "id": "loc-035",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Le Mans, 72037",
             "address": {
               "city": "Le Mans",
@@ -503,6 +678,11 @@
           {
             "resourceType": "Location",
             "id": "loc-036",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Longjumeau, 91161",
             "address": {
               "city": "Longjumeau",
@@ -517,6 +697,11 @@
           {
             "resourceType": "Location",
             "id": "loc-037",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Marseille, 13009",
             "address": {
               "city": "Marseille",
@@ -531,6 +716,11 @@
           {
             "resourceType": "Location",
             "id": "loc-038",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Marseille, 13331",
             "address": {
               "city": "Marseille",
@@ -545,6 +735,11 @@
           {
             "resourceType": "Location",
             "id": "loc-039",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Mont-de-Marsan, 40000",
             "address": {
               "city": "Mont-de-Marsan",
@@ -559,6 +754,11 @@
           {
             "resourceType": "Location",
             "id": "loc-040",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Montauban, 82013",
             "address": {
               "city": "Montauban",
@@ -573,6 +773,11 @@
           {
             "resourceType": "Location",
             "id": "loc-041",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Nancy, 54100",
             "address": {
               "city": "Nancy",
@@ -587,6 +792,11 @@
           {
             "resourceType": "Location",
             "id": "loc-042",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Orléans, 45000",
             "address": {
               "city": "Orléans",
@@ -601,6 +811,11 @@
           {
             "resourceType": "Location",
             "id": "loc-043",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Paris, 75020",
             "address": {
               "city": "Paris",
@@ -615,6 +830,11 @@
           {
             "resourceType": "Location",
             "id": "loc-044",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Périgueux, 24004",
             "address": {
               "city": "Périgueux",
@@ -629,6 +849,11 @@
           {
             "resourceType": "Location",
             "id": "loc-045",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Pontoise, 95301",
             "address": {
               "city": "Pontoise",
@@ -643,6 +868,11 @@
           {
             "resourceType": "Location",
             "id": "loc-046",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Pringy, 74374",
             "address": {
               "city": "Pringy",
@@ -657,6 +887,11 @@
           {
             "resourceType": "Location",
             "id": "loc-047",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Reims, 51056",
             "address": {
               "city": "Reims",
@@ -671,6 +906,11 @@
           {
             "resourceType": "Location",
             "id": "loc-048",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Reims, 51092",
             "address": {
               "city": "Reims",
@@ -685,6 +925,11 @@
           {
             "resourceType": "Location",
             "id": "loc-049",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Reims, 51100",
             "address": {
               "city": "Reims",
@@ -699,6 +944,11 @@
           {
             "resourceType": "Location",
             "id": "loc-050",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Rennes, 35033",
             "address": {
               "city": "Rennes",
@@ -713,6 +963,11 @@
           {
             "resourceType": "Location",
             "id": "loc-051",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Rouen, 76000",
             "address": {
               "city": "Rouen",
@@ -727,6 +982,11 @@
           {
             "resourceType": "Location",
             "id": "loc-052",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Saint-Grégoire, 35768",
             "address": {
               "city": "Saint-Grégoire",
@@ -741,6 +1001,11 @@
           {
             "resourceType": "Location",
             "id": "loc-053",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Saint-Quentin, 02321",
             "address": {
               "city": "Saint-Quentin",
@@ -755,6 +1020,11 @@
           {
             "resourceType": "Location",
             "id": "loc-054",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Soissons, 02209",
             "address": {
               "city": "Soissons",
@@ -769,6 +1039,11 @@
           {
             "resourceType": "Location",
             "id": "loc-055",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Soyaux, 16800",
             "address": {
               "city": "Soyaux",
@@ -783,6 +1058,11 @@
           {
             "resourceType": "Location",
             "id": "loc-056",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Strasbourg, 67000",
             "address": {
               "city": "Strasbourg",
@@ -797,6 +1077,11 @@
           {
             "resourceType": "Location",
             "id": "loc-057",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Vichy, 03207",
             "address": {
               "city": "Vichy",
@@ -811,6 +1096,11 @@
           {
             "resourceType": "Location",
             "id": "loc-058",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Villefranche-sur-Saône, 69400",
             "address": {
               "city": "Villefranche-sur-Saône",
@@ -825,6 +1115,11 @@
           {
             "resourceType": "Location",
             "id": "loc-059",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Villejuif, 94804",
             "address": {
               "city": "Villejuif",
@@ -839,6 +1134,11 @@
           {
             "resourceType": "Location",
             "id": "loc-060",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Augsburg, 86150",
             "address": {
               "city": "Augsburg",
@@ -853,6 +1153,11 @@
           {
             "resourceType": "Location",
             "id": "loc-061",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Berlin, 10317",
             "address": {
               "city": "Berlin",
@@ -867,6 +1172,11 @@
           {
             "resourceType": "Location",
             "id": "loc-062",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Berlin, 13055",
             "address": {
               "city": "Berlin",
@@ -881,6 +1191,11 @@
           {
             "resourceType": "Location",
             "id": "loc-063",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Berlin, 13347",
             "address": {
               "city": "Berlin",
@@ -895,6 +1210,11 @@
           {
             "resourceType": "Location",
             "id": "loc-064",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bremerhaven, 27568",
             "address": {
               "city": "Bremerhaven",
@@ -909,6 +1229,11 @@
           {
             "resourceType": "Location",
             "id": "loc-065",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Cologne, 50677",
             "address": {
               "city": "Cologne",
@@ -923,6 +1248,11 @@
           {
             "resourceType": "Location",
             "id": "loc-066",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Gelsenkirchen, 45899",
             "address": {
               "city": "Gelsenkirchen",
@@ -937,6 +1267,11 @@
           {
             "resourceType": "Location",
             "id": "loc-067",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Goslar, 38642",
             "address": {
               "city": "Goslar",
@@ -951,6 +1286,11 @@
           {
             "resourceType": "Location",
             "id": "loc-068",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Halle, 06110",
             "address": {
               "city": "Halle",
@@ -965,6 +1305,11 @@
           {
             "resourceType": "Location",
             "id": "loc-069",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Mannheim, 68165",
             "address": {
               "city": "Mannheim",
@@ -979,6 +1324,11 @@
           {
             "resourceType": "Location",
             "id": "loc-070",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Neunkirchen, 66538",
             "address": {
               "city": "Neunkirchen",
@@ -993,6 +1343,11 @@
           {
             "resourceType": "Location",
             "id": "loc-071",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Rotenburg (Wümme), 27356",
             "address": {
               "city": "Rotenburg (Wümme)",
@@ -1007,6 +1362,11 @@
           {
             "resourceType": "Location",
             "id": "loc-072",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Soest, 59494",
             "address": {
               "city": "Soest",
@@ -1021,6 +1381,11 @@
           {
             "resourceType": "Location",
             "id": "loc-073",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Stralsund, 18435",
             "address": {
               "city": "Stralsund",
@@ -1035,6 +1400,11 @@
           {
             "resourceType": "Location",
             "id": "loc-074",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Würselen, 52146",
             "address": {
               "city": "Würselen",
@@ -1049,6 +1419,11 @@
           {
             "resourceType": "Location",
             "id": "loc-075",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Athens, 11522",
             "address": {
               "city": "Athens",
@@ -1063,6 +1438,11 @@
           {
             "resourceType": "Location",
             "id": "loc-076",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Athens, 18547",
             "address": {
               "city": "Athens",
@@ -1077,6 +1457,11 @@
           {
             "resourceType": "Location",
             "id": "loc-077",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Chania, 73300",
             "address": {
               "city": "Chania",
@@ -1091,6 +1476,11 @@
           {
             "resourceType": "Location",
             "id": "loc-078",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Marousi, 15121",
             "address": {
               "city": "Marousi",
@@ -1105,6 +1495,11 @@
           {
             "resourceType": "Location",
             "id": "loc-079",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Papagou, 11526",
             "address": {
               "city": "Papagou",
@@ -1119,6 +1514,11 @@
           {
             "resourceType": "Location",
             "id": "loc-080",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Cefalù PA, 90015",
             "address": {
               "city": "Cefalù PA",
@@ -1129,6 +1529,11 @@
           {
             "resourceType": "Location",
             "id": "loc-081",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Naples, 80131",
             "address": {
               "city": "Naples",
@@ -1143,6 +1548,11 @@
           {
             "resourceType": "Location",
             "id": "loc-082",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Padova, 35128",
             "address": {
               "city": "Padova",
@@ -1157,6 +1567,11 @@
           {
             "resourceType": "Location",
             "id": "loc-083",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Roma, 00128",
             "address": {
               "city": "Roma",
@@ -1171,6 +1586,11 @@
           {
             "resourceType": "Location",
             "id": "loc-084",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Torino, 10100",
             "address": {
               "city": "Torino",
@@ -1185,6 +1605,11 @@
           {
             "resourceType": "Location",
             "id": "loc-085",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Amstelveen, 1186 AM",
             "address": {
               "city": "Amstelveen",
@@ -1199,6 +1624,11 @@
           {
             "resourceType": "Location",
             "id": "loc-086",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Dordrecht, 3318 AT",
             "address": {
               "city": "Dordrecht",
@@ -1213,6 +1643,11 @@
           {
             "resourceType": "Location",
             "id": "loc-087",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Enschede, 7513 ER",
             "address": {
               "city": "Enschede",
@@ -1227,6 +1662,11 @@
           {
             "resourceType": "Location",
             "id": "loc-088",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Flushing, 4382 EE",
             "address": {
               "city": "Flushing",
@@ -1241,6 +1681,11 @@
           {
             "resourceType": "Location",
             "id": "loc-089",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Leiderdorp, 2353 GA",
             "address": {
               "city": "Leiderdorp",
@@ -1255,6 +1700,11 @@
           {
             "resourceType": "Location",
             "id": "loc-090",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Purmerend, 1441 RN",
             "address": {
               "city": "Purmerend",
@@ -1269,6 +1719,11 @@
           {
             "resourceType": "Location",
             "id": "loc-091",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Roosendaal, 4708 AE",
             "address": {
               "city": "Roosendaal",
@@ -1283,6 +1738,11 @@
           {
             "resourceType": "Location",
             "id": "loc-092",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Zutphen, 7207 AE",
             "address": {
               "city": "Zutphen",
@@ -1297,6 +1757,11 @@
           {
             "resourceType": "Location",
             "id": "loc-093",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bialystok, 15-027",
             "address": {
               "city": "Bialystok",
@@ -1311,6 +1776,11 @@
           {
             "resourceType": "Location",
             "id": "loc-094",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Gdansk, 80-402",
             "address": {
               "city": "Gdansk",
@@ -1325,6 +1795,11 @@
           {
             "resourceType": "Location",
             "id": "loc-095",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Konin, 62-500",
             "address": {
               "city": "Konin",
@@ -1339,6 +1814,11 @@
           {
             "resourceType": "Location",
             "id": "loc-096",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Koszalin, 75-581",
             "address": {
               "city": "Koszalin",
@@ -1353,6 +1833,11 @@
           {
             "resourceType": "Location",
             "id": "loc-097",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Krakow, 31-531",
             "address": {
               "city": "Krakow",
@@ -1367,6 +1852,11 @@
           {
             "resourceType": "Location",
             "id": "loc-098",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Lubin, 59-300",
             "address": {
               "city": "Lubin",
@@ -1381,6 +1871,11 @@
           {
             "resourceType": "Location",
             "id": "loc-099",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Olsztyn, 10-228",
             "address": {
               "city": "Olsztyn",
@@ -1395,6 +1890,11 @@
           {
             "resourceType": "Location",
             "id": "loc-100",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Poznan, 61-878",
             "address": {
               "city": "Poznan",
@@ -1409,6 +1909,11 @@
           {
             "resourceType": "Location",
             "id": "loc-101",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Warsaw, 04-125",
             "address": {
               "city": "Warsaw",
@@ -1423,6 +1928,11 @@
           {
             "resourceType": "Location",
             "id": "loc-102",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Wałbrzych, 58-309",
             "address": {
               "city": "Wałbrzych",
@@ -1437,6 +1947,11 @@
           {
             "resourceType": "Location",
             "id": "loc-103",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Wroclaw, 50-981",
             "address": {
               "city": "Wroclaw",
@@ -1451,6 +1966,11 @@
           {
             "resourceType": "Location",
             "id": "loc-104",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Wroclaw, 51-124",
             "address": {
               "city": "Wroclaw",
@@ -1465,6 +1985,11 @@
           {
             "resourceType": "Location",
             "id": "loc-105",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Alba Iulia, 510077",
             "address": {
               "city": "Alba Iulia",
@@ -1479,6 +2004,11 @@
           {
             "resourceType": "Location",
             "id": "loc-106",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Baia Mare, 430031",
             "address": {
               "city": "Baia Mare",
@@ -1493,6 +2023,11 @@
           {
             "resourceType": "Location",
             "id": "loc-107",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Brasov, 500366",
             "address": {
               "city": "Brasov",
@@ -1507,6 +2042,11 @@
           {
             "resourceType": "Location",
             "id": "loc-108",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bucharest, 011171",
             "address": {
               "city": "Bucharest",
@@ -1521,6 +2061,11 @@
           {
             "resourceType": "Location",
             "id": "loc-109",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bucharest, 020947",
             "address": {
               "city": "Bucharest",
@@ -1535,6 +2080,11 @@
           {
             "resourceType": "Location",
             "id": "loc-110",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bucharest, 022328",
             "address": {
               "city": "Bucharest",
@@ -1549,6 +2099,11 @@
           {
             "resourceType": "Location",
             "id": "loc-111",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bucharest, 030442",
             "address": {
               "city": "Bucharest",
@@ -1563,6 +2118,11 @@
           {
             "resourceType": "Location",
             "id": "loc-112",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Bucharest, 050659",
             "address": {
               "city": "Bucharest",
@@ -1577,6 +2137,11 @@
           {
             "resourceType": "Location",
             "id": "loc-113",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Cluj-Napoca, 400058",
             "address": {
               "city": "Cluj-Napoca",
@@ -1591,6 +2156,11 @@
           {
             "resourceType": "Location",
             "id": "loc-114",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Oradea, 410469",
             "address": {
               "city": "Oradea",
@@ -1605,6 +2175,11 @@
           {
             "resourceType": "Location",
             "id": "loc-115",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Râmnicu Vâlcea, 240156",
             "address": {
               "city": "Râmnicu Vâlcea",
@@ -1619,6 +2194,11 @@
           {
             "resourceType": "Location",
             "id": "loc-116",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Târgu Mureş, 540142",
             "address": {
               "city": "Târgu Mureş",
@@ -1633,6 +2213,11 @@
           {
             "resourceType": "Location",
             "id": "loc-117",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
             "name": "Research Site — Timișoara, 300167",
             "address": {
               "city": "Timișoara",

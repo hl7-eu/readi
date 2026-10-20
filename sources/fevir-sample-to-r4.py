@@ -148,7 +148,8 @@ def convert(src, bundle_id):
 
     contained = []
     for loc in locations:
-        r4 = {"resourceType": "Location", "id": id_map[loc["id"]], "name": loc["title"], "address": loc["address"]}
+        r4 = {"resourceType": "Location", "id": id_map[loc["id"]], "meta": {"profile": [READI + "location-readi"]},
+              "name": loc["title"], "address": loc["address"]}
         if "position" in loc:
             r4["position"] = loc["position"]
         contained.append(r4)
