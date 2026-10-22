@@ -29,6 +29,8 @@ dependencies:
 pages:
   index.md:
     title: Home
+  usdm2fhir-mapping.md:
+    title: USDM to FHIR Mapping
   changes.md:
     title: Change Log
   dependencies.md:
@@ -64,6 +66,7 @@ resources:
 
 menu:
   Home: index.html
+  USDM to FHIR Mapping: usdm2fhir-mapping.html
   Artifacts: artifacts.html
   About:
     Change Log: changes.html

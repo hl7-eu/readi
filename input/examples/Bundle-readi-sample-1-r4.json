@@ -1,6 +1,11 @@
 {
   "resourceType": "Bundle",
   "id": "readi-sample-1-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
   "type": "collection",
   "entry": [
     {

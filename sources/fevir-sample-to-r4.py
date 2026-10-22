@@ -275,7 +275,8 @@ def convert(src, bundle_id):
         entries.append({"fullUrl": BASE + "EvidenceVariable/" + ev["id"], "resource": ev})
     for g in groups:
         entries.append({"fullUrl": BASE + "Group/" + g["id"], "resource": g})
-    return {"resourceType": "Bundle", "id": bundle_id, "type": "collection", "entry": entries}
+    return {"resourceType": "Bundle", "id": bundle_id, "meta": {"profile": [READI + "bundle-readi"]},
+            "type": "collection", "entry": entries}
 
 
 if __name__ == "__main__":

@@ -56,6 +56,9 @@ Description: "This profile describes a clinical study (e.g. a clinical trial) fo
 * arm.extension contains $researchStudy-comparisonGroup-observedGroup-r5 named observedGroup 0..1
 * arm.extension[observedGroup] ^short = "Group of participants who were enrolled in the arm/cohort (R5 ResearchStudy.comparisonGroup.observedGroup)"
 * arm.extension[observedGroup].valueReference only Reference(GroupReadi)
+// ---- arm.extension[targetNumber]
+* arm.extension contains ResearchStudyArmTargetNumber named targetNumber 0..1
+* arm.extension[targetNumber] ^short = "Estimated number of participants to be enrolled in the arm/cohort (R6 ResearchStudy.comparisonGroup.targetNumber)"
 // ---- USDM requirements (generated from usdm2fhir-mapping.md; extension requirements are with the extension rules above) ----
 * condition.text ^requirements = "USDM: Indication.label"
 * condition.coding ^requirements = "USDM: Indication.codes"
@@ -77,4 +80,3 @@ Description: "This profile describes a clinical study (e.g. a clinical trial) fo
 // ResearchStudy.identifier.codeableConcept.text <- USDM: StudyIdentifier.to-be-specified (not a FHIR element (identifier.type.text?))
 // ResearchStudy.label.language <- USDM: StudyTitle.extension (R5 ResearchStudy.label has no language)
 // ResearchStudy.purposeType.coding <- USDM: InterventionalStudyDesign.intentTypes; InterventionalStudyDesign.subTypes (not an R5 element (primaryPurposeType?))
-// ResearchStudy.comparisonGroup.targetNumber <- USDM: studyCohort.plannedEnrollmentNumber (not an R5 element)

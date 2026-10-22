@@ -6,17 +6,7 @@ Download the entire implementation guide [here](../full-ig.zip).
 
 The following file contains all the value sets, profiles, extensions, list of pages and urls in the IG, etc. defined as part of this Implementation Guide:
 
-- [NPM Package](../package.tgz)
-
-Version-specific packages are also available:
-
-#### R4-specific NPM Package and Definitions
-
-- [R4 NPM Package](../package.r4.tgz)
-
-#### R4B-specific NPM Package and Definitions
-
-- [R4B NPM Package](../package.r4b.tgz)
+- [NPM Package](../package.tgz) (FHIR R4)
 
 <!-- Re-enable once examples are added to the guide
 ### Examples
