@@ -26,13 +26,14 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VALIDATOR_VERSION: "7.0.3" # bump deliberately, then refresh the baseline
+  VALIDATOR_VERSION: "latest" # or pin a release, e.g. "7.0.3"
   SUSHI_VERSION: "3.21.0"
   FHIR_VERSION: "4.0.1"
   TX_SERVER: "https://tx.fhir.org" # use "n/a" to skip terminology checks
   # Packages the examples need besides the READI profiles
   EXTRA_IGS: "hl7.fhir.uv.xver-r5.r4#0.1.0"
   BASELINE: scripts/validation/baseline.json
+  SUPPRESSIONS: scripts/validation/suppressions.txt
 
 jobs:
   check-changes:
@@ -76,6 +77,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Resolve validator version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$VALIDATOR_VERSION" = "latest" ]; then
+            version=$(gh api repos/hapifhir/org.hl7.fhir.core/releases/latest --jq .tag_name)
+            echo "Latest validator release: $version"
+            echo "VALIDATOR_VERSION=$version" >> "$GITHUB_ENV"
+          fi
 
       - name: Cache validator and FHIR packages
         uses: actions/cache@v4
@@ -124,6 +135,8 @@ jobs:
           python scripts/validation/report.py validation-output/results.json \
             --baseline "$BASELINE" \
             --report validation-output/report.md \
+            --suppress "$SUPPRESSIONS" \
+            --validator-version "$VALIDATOR_VERSION" \
             --context "Commit=${GITHUB_SHA::7} ($(git log -1 --format='%s' | head -c 80))" \
             --context "Validator=${VALIDATOR_VERSION}" \
             --context "Terminology=${TX_SERVER}" \

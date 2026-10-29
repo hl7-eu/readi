@@ -1,0 +1,11 @@
+# Warnings and information messages to ignore in the daily example validation.
+# Errors cannot be suppressed here: accept them in baseline.json instead.
+#
+# One rule per line:
+#   <message-id or regex on the message text>
+#   <file glob> :: <message-id or regex on the message text>
+#
+# The message id is shown in the report between brackets, e.g. [Type_Specific_Checks_DT_String_WS].
+# Examples:
+#   Type_Specific_Checks_DT_String_WS
+#   examples/legacy/* :: ^The extension .* could not be found
