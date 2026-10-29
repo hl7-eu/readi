@@ -9,3 +9,5 @@
 # Examples:
 #   Type_Specific_Checks_DT_String_WS
 #   examples/legacy/* :: ^The extension .* could not be found
+
+Constraint failed: dom-6: 'A resource should have narrative for robust management'

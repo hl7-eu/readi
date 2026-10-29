@@ -1,0 +1,107 @@
+[
+  {
+    "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "in r4 ResearchStudy.progressStatus is not supported"
+  },
+  {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+    "added_for": [
+      "r4",
+      "r5",
+      "r6"
+    ],
+    "is_supported_since": "r4",
+    "details": "In usdm we have study.versions.studyDesigns.population.plannedAge and in fhir we do not have key to contain age as an integer and unit type as a string this is why we added a extension."
+  },
+  {
+    "url": "http://hl7.org/fhir/StructureDefinition/translation",
+    "added_for": [
+      "r4",
+      "r5",
+      "r6"
+    ],
+    "is_supported_since": "r4",
+    "details": "Found an example on 'fevir' platform"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "ResearchStudy.label is not supported in r4"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "ResearchStudy.classifier is not supported in r4"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "ResearchStudy.outcomeMeasure is not supported in r4"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "ResearchStudy.progressStatus is not supported in r4"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "ResearchStudy.associatedParty is not supported in r4"
+  },
+  {
+    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+    "added_for": [
+      "r4"
+    ],
+    "is_supported_since": "r5",
+    "details": "we found that in r4 enrollment does not have targetNumber"
+  },
+
+  
+  {
+    "url": "https://example.org/fhir/StructureDefinition/comparison-group-eligibility",
+    "added_for": [
+      "r4",
+      "r5"
+    ],
+    "is_supported_since": "r6",
+    "details": "When importing a 'ARM' from clinical trial gov it contains a information related to its type, this information is needed for usdm, this is why we need to store arm.type somewhere to not lose information and we added this extension to allign with r6 example that we had before. "
+  },
+  {
+    "url": "https://example.org/fhir/StructureDefinition/group-combination-method",
+    "added_for": [
+      "r4",
+      "r5"
+    ],
+    "is_supported_since": "r6",
+    "details": "As we have boolean relations between eligibility criteria concepts we need an extension to mark these boolean operators 'and'/'or' and we want to use this extension to align to usdm"
+  },
+  {
+    "url": "https://example.org/fhir/StructureDefinition/characteristic-relative-time",
+    "added_for": [
+      "r4",
+      "r5"
+    ],
+    "is_supported_since": "r6",
+    "details": "We want to store information related to eligibility criteria timings somewhere and in order to align with r6 that we were learn we want to use this extension."
+  }
+]
