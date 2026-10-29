@@ -1,0 +1,4734 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-1-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/NCT01444456",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT01444456",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Location",
+            "id": "loc-001",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Graz, 8042",
+            "address": {
+              "city": "Graz",
+              "country": "Austria",
+              "postalCode": "8042"
+            },
+            "position": {
+              "latitude": 47.06733,
+              "longitude": 15.44197
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-002",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Innsbruck, 6020",
+            "address": {
+              "city": "Innsbruck",
+              "country": "Austria",
+              "postalCode": "6020"
+            },
+            "position": {
+              "latitude": 47.26266,
+              "longitude": 11.39454
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-003",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Sankt Pölten, 3100",
+            "address": {
+              "city": "Sankt Pölten",
+              "country": "Austria",
+              "postalCode": "3100"
+            },
+            "position": {
+              "latitude": 48.20762,
+              "longitude": 15.63725
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-004",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Vienna, 1090",
+            "address": {
+              "city": "Vienna",
+              "country": "Austria",
+              "postalCode": "1090"
+            },
+            "position": {
+              "latitude": 48.20849,
+              "longitude": 16.37208
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-005",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Vöcklabruck, 4840",
+            "address": {
+              "city": "Vöcklabruck",
+              "country": "Austria",
+              "postalCode": "4840"
+            },
+            "position": {
+              "latitude": 48.00279,
+              "longitude": 13.65652
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-006",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Wels, 4600",
+            "address": {
+              "city": "Wels",
+              "country": "Austria",
+              "postalCode": "4600"
+            },
+            "position": {
+              "latitude": 48.16667,
+              "longitude": 14.03333
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-007",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Aalst, 9300",
+            "address": {
+              "city": "Aalst",
+              "country": "Belgium",
+              "postalCode": "9300"
+            },
+            "position": {
+              "latitude": 50.93604,
+              "longitude": 4.0355
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-008",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bonheiden, 2820",
+            "address": {
+              "city": "Bonheiden",
+              "country": "Belgium",
+              "postalCode": "2820"
+            },
+            "position": {
+              "latitude": 51.02261,
+              "longitude": 4.54714
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-009",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Brasschaat, 2930",
+            "address": {
+              "city": "Brasschaat",
+              "country": "Belgium",
+              "postalCode": "2930"
+            },
+            "position": {
+              "latitude": 51.2912,
+              "longitude": 4.49182
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-010",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bruges, 8000",
+            "address": {
+              "city": "Bruges",
+              "country": "Belgium",
+              "postalCode": "8000"
+            },
+            "position": {
+              "latitude": 51.20892,
+              "longitude": 3.22424
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-011",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Eupen, 4700",
+            "address": {
+              "city": "Eupen",
+              "country": "Belgium",
+              "postalCode": "4700"
+            },
+            "position": {
+              "latitude": 50.6279,
+              "longitude": 6.03647
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-012",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Gilly, 6060",
+            "address": {
+              "city": "Gilly",
+              "country": "Belgium",
+              "postalCode": "6060"
+            },
+            "position": {
+              "latitude": 50.42449,
+              "longitude": 4.4789
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-013",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Mechelen, 2800",
+            "address": {
+              "city": "Mechelen",
+              "country": "Belgium",
+              "postalCode": "2800"
+            },
+            "position": {
+              "latitude": 51.02574,
+              "longitude": 4.47762
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-014",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Namur, 5000",
+            "address": {
+              "city": "Namur",
+              "country": "Belgium",
+              "postalCode": "5000"
+            },
+            "position": {
+              "latitude": 50.4669,
+              "longitude": 4.86746
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-015",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Ostend, 8400",
+            "address": {
+              "city": "Ostend",
+              "country": "Belgium",
+              "postalCode": "8400"
+            },
+            "position": {
+              "latitude": 51.21551,
+              "longitude": 2.927
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-016",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Sint-Niklaas, 9100",
+            "address": {
+              "city": "Sint-Niklaas",
+              "country": "Belgium",
+              "postalCode": "9100"
+            },
+            "position": {
+              "latitude": 51.16509,
+              "longitude": 4.1437
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-017",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Verviers, 4800",
+            "address": {
+              "city": "Verviers",
+              "country": "Belgium",
+              "postalCode": "4800"
+            },
+            "position": {
+              "latitude": 50.58907,
+              "longitude": 5.86241
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-018",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Aix-en-Provence, 13100",
+            "address": {
+              "city": "Aix-en-Provence",
+              "country": "France",
+              "postalCode": "13100"
+            },
+            "position": {
+              "latitude": 43.5283,
+              "longitude": 5.44973
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-019",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Aix-en-Provence, 13616",
+            "address": {
+              "city": "Aix-en-Provence",
+              "country": "France",
+              "postalCode": "13616"
+            },
+            "position": {
+              "latitude": 43.5283,
+              "longitude": 5.44973
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-020",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Amiens, 80000",
+            "address": {
+              "city": "Amiens",
+              "country": "France",
+              "postalCode": "80000"
+            },
+            "position": {
+              "latitude": 49.9,
+              "longitude": 2.3
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-021",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Aubagne, 13675",
+            "address": {
+              "city": "Aubagne",
+              "country": "France",
+              "postalCode": "13675"
+            },
+            "position": {
+              "latitude": 43.29276,
+              "longitude": 5.57067
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-022",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bayonne, 64100",
+            "address": {
+              "city": "Bayonne",
+              "country": "France",
+              "postalCode": "64100"
+            },
+            "position": {
+              "latitude": 43.49316,
+              "longitude": -1.473
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-023",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Besançon, 25030",
+            "address": {
+              "city": "Besançon",
+              "country": "France",
+              "postalCode": "25030"
+            },
+            "position": {
+              "latitude": 47.24878,
+              "longitude": 6.01815
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-024",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bordeaux, 33077",
+            "address": {
+              "city": "Bordeaux",
+              "country": "France",
+              "postalCode": "33077"
+            },
+            "position": {
+              "latitude": 44.84124,
+              "longitude": -0.58046
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-025",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Boulogne Sur Mer Cédex, 62321",
+            "address": {
+              "city": "Boulogne Sur Mer Cédex",
+              "country": "France",
+              "postalCode": "62321"
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-026",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bourg-en-Bresse, 01012",
+            "address": {
+              "city": "Bourg-en-Bresse",
+              "country": "France",
+              "postalCode": "01012"
+            },
+            "position": {
+              "latitude": 46.20574,
+              "longitude": 5.2258
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-027",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Brive-la-Gaillarde, 19312",
+            "address": {
+              "city": "Brive-la-Gaillarde",
+              "country": "France",
+              "postalCode": "19312"
+            },
+            "position": {
+              "latitude": 45.1589,
+              "longitude": 1.53326
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-028",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Carcassonne, 11890",
+            "address": {
+              "city": "Carcassonne",
+              "country": "France",
+              "postalCode": "11890"
+            },
+            "position": {
+              "latitude": 43.21649,
+              "longitude": 2.34863
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-029",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Clermont-Ferrand, 63000",
+            "address": {
+              "city": "Clermont-Ferrand",
+              "country": "France",
+              "postalCode": "63000"
+            },
+            "position": {
+              "latitude": 45.77969,
+              "longitude": 3.08682
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-030",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Clermont-Ferrand, 63011",
+            "address": {
+              "city": "Clermont-Ferrand",
+              "country": "France",
+              "postalCode": "63011"
+            },
+            "position": {
+              "latitude": 45.77969,
+              "longitude": 3.08682
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-031",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Colmar, 68024",
+            "address": {
+              "city": "Colmar",
+              "country": "France",
+              "postalCode": "68024"
+            },
+            "position": {
+              "latitude": 48.08078,
+              "longitude": 7.35584
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-032",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Dijon, 21034",
+            "address": {
+              "city": "Dijon",
+              "country": "France",
+              "postalCode": "21034"
+            },
+            "position": {
+              "latitude": 47.31344,
+              "longitude": 5.01391
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-033",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Draguignan, 83007",
+            "address": {
+              "city": "Draguignan",
+              "country": "France",
+              "postalCode": "83007"
+            },
+            "position": {
+              "latitude": 43.53692,
+              "longitude": 6.46458
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-034",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — La Seyne-sur-Mer, 83500",
+            "address": {
+              "city": "La Seyne-sur-Mer",
+              "country": "France",
+              "postalCode": "83500"
+            },
+            "position": {
+              "latitude": 43.10322,
+              "longitude": 5.87816
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-035",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Le Mans, 72037",
+            "address": {
+              "city": "Le Mans",
+              "country": "France",
+              "postalCode": "72037"
+            },
+            "position": {
+              "latitude": 48.0021,
+              "longitude": 0.20251
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-036",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Longjumeau, 91161",
+            "address": {
+              "city": "Longjumeau",
+              "country": "France",
+              "postalCode": "91161"
+            },
+            "position": {
+              "latitude": 48.69307,
+              "longitude": 2.29431
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-037",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Marseille, 13009",
+            "address": {
+              "city": "Marseille",
+              "country": "France",
+              "postalCode": "13009"
+            },
+            "position": {
+              "latitude": 43.29695,
+              "longitude": 5.38107
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-038",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Marseille, 13331",
+            "address": {
+              "city": "Marseille",
+              "country": "France",
+              "postalCode": "13331"
+            },
+            "position": {
+              "latitude": 43.29695,
+              "longitude": 5.38107
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-039",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Mont-de-Marsan, 40000",
+            "address": {
+              "city": "Mont-de-Marsan",
+              "country": "France",
+              "postalCode": "40000"
+            },
+            "position": {
+              "latitude": 43.89022,
+              "longitude": -0.49713
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-040",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Montauban, 82013",
+            "address": {
+              "city": "Montauban",
+              "country": "France",
+              "postalCode": "82013"
+            },
+            "position": {
+              "latitude": 44.01759,
+              "longitude": 1.3542
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-041",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Nancy, 54100",
+            "address": {
+              "city": "Nancy",
+              "country": "France",
+              "postalCode": "54100"
+            },
+            "position": {
+              "latitude": 48.68439,
+              "longitude": 6.18496
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-042",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Orléans, 45000",
+            "address": {
+              "city": "Orléans",
+              "country": "France",
+              "postalCode": "45000"
+            },
+            "position": {
+              "latitude": 47.90248,
+              "longitude": 1.90407
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-043",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Paris, 75020",
+            "address": {
+              "city": "Paris",
+              "country": "France",
+              "postalCode": "75020"
+            },
+            "position": {
+              "latitude": 48.85341,
+              "longitude": 2.3488
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-044",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Périgueux, 24004",
+            "address": {
+              "city": "Périgueux",
+              "country": "France",
+              "postalCode": "24004"
+            },
+            "position": {
+              "latitude": 45.18691,
+              "longitude": 0.71439
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-045",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Pontoise, 95301",
+            "address": {
+              "city": "Pontoise",
+              "country": "France",
+              "postalCode": "95301"
+            },
+            "position": {
+              "latitude": 49.05,
+              "longitude": 2.1
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-046",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Pringy, 74374",
+            "address": {
+              "city": "Pringy",
+              "country": "France",
+              "postalCode": "74374"
+            },
+            "position": {
+              "latitude": 45.94622,
+              "longitude": 6.12608
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-047",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Reims, 51056",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51056"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-048",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Reims, 51092",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51092"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-049",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Reims, 51100",
+            "address": {
+              "city": "Reims",
+              "country": "France",
+              "postalCode": "51100"
+            },
+            "position": {
+              "latitude": 49.26526,
+              "longitude": 4.02853
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-050",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Rennes, 35033",
+            "address": {
+              "city": "Rennes",
+              "country": "France",
+              "postalCode": "35033"
+            },
+            "position": {
+              "latitude": 48.11109,
+              "longitude": -1.67431
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-051",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Rouen, 76000",
+            "address": {
+              "city": "Rouen",
+              "country": "France",
+              "postalCode": "76000"
+            },
+            "position": {
+              "latitude": 49.44313,
+              "longitude": 1.09932
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-052",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Saint-Grégoire, 35768",
+            "address": {
+              "city": "Saint-Grégoire",
+              "country": "France",
+              "postalCode": "35768"
+            },
+            "position": {
+              "latitude": 48.15101,
+              "longitude": -1.68579
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-053",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Saint-Quentin, 02321",
+            "address": {
+              "city": "Saint-Quentin",
+              "country": "France",
+              "postalCode": "02321"
+            },
+            "position": {
+              "latitude": 49.84889,
+              "longitude": 3.28757
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-054",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Soissons, 02209",
+            "address": {
+              "city": "Soissons",
+              "country": "France",
+              "postalCode": "02209"
+            },
+            "position": {
+              "latitude": 49.38167,
+              "longitude": 3.32361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-055",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Soyaux, 16800",
+            "address": {
+              "city": "Soyaux",
+              "country": "France",
+              "postalCode": "16800"
+            },
+            "position": {
+              "latitude": 45.64052,
+              "longitude": 0.19752
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-056",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Strasbourg, 67000",
+            "address": {
+              "city": "Strasbourg",
+              "country": "France",
+              "postalCode": "67000"
+            },
+            "position": {
+              "latitude": 48.58392,
+              "longitude": 7.74553
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-057",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Vichy, 03207",
+            "address": {
+              "city": "Vichy",
+              "country": "France",
+              "postalCode": "03207"
+            },
+            "position": {
+              "latitude": 46.12709,
+              "longitude": 3.42577
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-058",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Villefranche-sur-Saône, 69400",
+            "address": {
+              "city": "Villefranche-sur-Saône",
+              "country": "France",
+              "postalCode": "69400"
+            },
+            "position": {
+              "latitude": 45.98967,
+              "longitude": 4.71961
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-059",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Villejuif, 94804",
+            "address": {
+              "city": "Villejuif",
+              "country": "France",
+              "postalCode": "94804"
+            },
+            "position": {
+              "latitude": 48.7939,
+              "longitude": 2.35992
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-060",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Augsburg, 86150",
+            "address": {
+              "city": "Augsburg",
+              "country": "Germany",
+              "postalCode": "86150"
+            },
+            "position": {
+              "latitude": 48.37154,
+              "longitude": 10.89851
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-061",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Berlin, 10317",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "10317"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-062",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Berlin, 13055",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "13055"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-063",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Berlin, 13347",
+            "address": {
+              "city": "Berlin",
+              "country": "Germany",
+              "postalCode": "13347"
+            },
+            "position": {
+              "latitude": 52.52437,
+              "longitude": 13.41053
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-064",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bremerhaven, 27568",
+            "address": {
+              "city": "Bremerhaven",
+              "country": "Germany",
+              "postalCode": "27568"
+            },
+            "position": {
+              "latitude": 53.55357,
+              "longitude": 8.57553
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-065",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Cologne, 50677",
+            "address": {
+              "city": "Cologne",
+              "country": "Germany",
+              "postalCode": "50677"
+            },
+            "position": {
+              "latitude": 50.93333,
+              "longitude": 6.95
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-066",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Gelsenkirchen, 45899",
+            "address": {
+              "city": "Gelsenkirchen",
+              "country": "Germany",
+              "postalCode": "45899"
+            },
+            "position": {
+              "latitude": 51.50508,
+              "longitude": 7.09654
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-067",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Goslar, 38642",
+            "address": {
+              "city": "Goslar",
+              "country": "Germany",
+              "postalCode": "38642"
+            },
+            "position": {
+              "latitude": 51.90425,
+              "longitude": 10.42766
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-068",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Halle, 06110",
+            "address": {
+              "city": "Halle",
+              "country": "Germany",
+              "postalCode": "06110"
+            },
+            "position": {
+              "latitude": 51.48158,
+              "longitude": 11.97947
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-069",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Mannheim, 68165",
+            "address": {
+              "city": "Mannheim",
+              "country": "Germany",
+              "postalCode": "68165"
+            },
+            "position": {
+              "latitude": 49.4891,
+              "longitude": 8.46694
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-070",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Neunkirchen, 66538",
+            "address": {
+              "city": "Neunkirchen",
+              "country": "Germany",
+              "postalCode": "66538"
+            },
+            "position": {
+              "latitude": 49.34449,
+              "longitude": 7.18045
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-071",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Rotenburg (Wümme), 27356",
+            "address": {
+              "city": "Rotenburg (Wümme)",
+              "country": "Germany",
+              "postalCode": "27356"
+            },
+            "position": {
+              "latitude": 53.11032,
+              "longitude": 9.4036
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-072",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Soest, 59494",
+            "address": {
+              "city": "Soest",
+              "country": "Germany",
+              "postalCode": "59494"
+            },
+            "position": {
+              "latitude": 51.57558,
+              "longitude": 8.10619
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-073",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Stralsund, 18435",
+            "address": {
+              "city": "Stralsund",
+              "country": "Germany",
+              "postalCode": "18435"
+            },
+            "position": {
+              "latitude": 54.30911,
+              "longitude": 13.0818
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-074",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Würselen, 52146",
+            "address": {
+              "city": "Würselen",
+              "country": "Germany",
+              "postalCode": "52146"
+            },
+            "position": {
+              "latitude": 50.81809,
+              "longitude": 6.1347
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-075",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Athens, 11522",
+            "address": {
+              "city": "Athens",
+              "country": "Greece",
+              "postalCode": "11522"
+            },
+            "position": {
+              "latitude": 37.98376,
+              "longitude": 23.72784
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-076",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Athens, 18547",
+            "address": {
+              "city": "Athens",
+              "country": "Greece",
+              "postalCode": "18547"
+            },
+            "position": {
+              "latitude": 37.98376,
+              "longitude": 23.72784
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-077",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Chania, 73300",
+            "address": {
+              "city": "Chania",
+              "country": "Greece",
+              "postalCode": "73300"
+            },
+            "position": {
+              "latitude": 35.51124,
+              "longitude": 24.02921
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-078",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Marousi, 15121",
+            "address": {
+              "city": "Marousi",
+              "country": "Greece",
+              "postalCode": "15121"
+            },
+            "position": {
+              "latitude": 38.05,
+              "longitude": 23.8
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-079",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Papagou, 11526",
+            "address": {
+              "city": "Papagou",
+              "country": "Greece",
+              "postalCode": "11526"
+            },
+            "position": {
+              "latitude": 37.98642,
+              "longitude": 23.79347
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-080",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Cefalù PA, 90015",
+            "address": {
+              "city": "Cefalù PA",
+              "country": "Italy",
+              "postalCode": "90015"
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-081",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Naples, 80131",
+            "address": {
+              "city": "Naples",
+              "country": "Italy",
+              "postalCode": "80131"
+            },
+            "position": {
+              "latitude": 40.85216,
+              "longitude": 14.26811
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-082",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Padova, 35128",
+            "address": {
+              "city": "Padova",
+              "country": "Italy",
+              "postalCode": "35128"
+            },
+            "position": {
+              "latitude": 44.38225,
+              "longitude": 11.14261
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-083",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Roma, 00128",
+            "address": {
+              "city": "Roma",
+              "country": "Italy",
+              "postalCode": "00128"
+            },
+            "position": {
+              "latitude": 44.99364,
+              "longitude": 11.10642
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-084",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Torino, 10100",
+            "address": {
+              "city": "Torino",
+              "country": "Italy",
+              "postalCode": "10100"
+            },
+            "position": {
+              "latitude": 44.88856,
+              "longitude": 11.99138
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-085",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Amstelveen, 1186 AM",
+            "address": {
+              "city": "Amstelveen",
+              "country": "Netherlands",
+              "postalCode": "1186 AM"
+            },
+            "position": {
+              "latitude": 52.30083,
+              "longitude": 4.86389
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-086",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Dordrecht, 3318 AT",
+            "address": {
+              "city": "Dordrecht",
+              "country": "Netherlands",
+              "postalCode": "3318 AT"
+            },
+            "position": {
+              "latitude": 51.81,
+              "longitude": 4.67361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-087",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Enschede, 7513 ER",
+            "address": {
+              "city": "Enschede",
+              "country": "Netherlands",
+              "postalCode": "7513 ER"
+            },
+            "position": {
+              "latitude": 52.21833,
+              "longitude": 6.89583
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-088",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Flushing, 4382 EE",
+            "address": {
+              "city": "Flushing",
+              "country": "Netherlands",
+              "postalCode": "4382 EE"
+            },
+            "position": {
+              "latitude": 51.4425,
+              "longitude": 3.57361
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-089",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Leiderdorp, 2353 GA",
+            "address": {
+              "city": "Leiderdorp",
+              "country": "Netherlands",
+              "postalCode": "2353 GA"
+            },
+            "position": {
+              "latitude": 52.15833,
+              "longitude": 4.52917
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-090",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Purmerend, 1441 RN",
+            "address": {
+              "city": "Purmerend",
+              "country": "Netherlands",
+              "postalCode": "1441 RN"
+            },
+            "position": {
+              "latitude": 52.505,
+              "longitude": 4.95972
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-091",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Roosendaal, 4708 AE",
+            "address": {
+              "city": "Roosendaal",
+              "country": "Netherlands",
+              "postalCode": "4708 AE"
+            },
+            "position": {
+              "latitude": 51.53083,
+              "longitude": 4.46528
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-092",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Zutphen, 7207 AE",
+            "address": {
+              "city": "Zutphen",
+              "country": "Netherlands",
+              "postalCode": "7207 AE"
+            },
+            "position": {
+              "latitude": 52.13833,
+              "longitude": 6.20139
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-093",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bialystok, 15-027",
+            "address": {
+              "city": "Bialystok",
+              "country": "Poland",
+              "postalCode": "15-027"
+            },
+            "position": {
+              "latitude": 53.13333,
+              "longitude": 23.16433
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-094",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Gdansk, 80-402",
+            "address": {
+              "city": "Gdansk",
+              "country": "Poland",
+              "postalCode": "80-402"
+            },
+            "position": {
+              "latitude": 54.35227,
+              "longitude": 18.64912
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-095",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Konin, 62-500",
+            "address": {
+              "city": "Konin",
+              "country": "Poland",
+              "postalCode": "62-500"
+            },
+            "position": {
+              "latitude": 52.22338,
+              "longitude": 18.25121
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-096",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Koszalin, 75-581",
+            "address": {
+              "city": "Koszalin",
+              "country": "Poland",
+              "postalCode": "75-581"
+            },
+            "position": {
+              "latitude": 54.19438,
+              "longitude": 16.17222
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-097",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Krakow, 31-531",
+            "address": {
+              "city": "Krakow",
+              "country": "Poland",
+              "postalCode": "31-531"
+            },
+            "position": {
+              "latitude": 50.06143,
+              "longitude": 19.93658
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-098",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Lubin, 59-300",
+            "address": {
+              "city": "Lubin",
+              "country": "Poland",
+              "postalCode": "59-300"
+            },
+            "position": {
+              "latitude": 51.40089,
+              "longitude": 16.20149
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-099",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Olsztyn, 10-228",
+            "address": {
+              "city": "Olsztyn",
+              "country": "Poland",
+              "postalCode": "10-228"
+            },
+            "position": {
+              "latitude": 53.78376,
+              "longitude": 20.49272
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-100",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Poznan, 61-878",
+            "address": {
+              "city": "Poznan",
+              "country": "Poland",
+              "postalCode": "61-878"
+            },
+            "position": {
+              "latitude": 52.40692,
+              "longitude": 16.92993
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-101",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Warsaw, 04-125",
+            "address": {
+              "city": "Warsaw",
+              "country": "Poland",
+              "postalCode": "04-125"
+            },
+            "position": {
+              "latitude": 52.22977,
+              "longitude": 21.01178
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-102",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Wałbrzych, 58-309",
+            "address": {
+              "city": "Wałbrzych",
+              "country": "Poland",
+              "postalCode": "58-309"
+            },
+            "position": {
+              "latitude": 50.77141,
+              "longitude": 16.28432
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-103",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Wroclaw, 50-981",
+            "address": {
+              "city": "Wroclaw",
+              "country": "Poland",
+              "postalCode": "50-981"
+            },
+            "position": {
+              "latitude": 51.10286,
+              "longitude": 17.03006
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-104",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Wroclaw, 51-124",
+            "address": {
+              "city": "Wroclaw",
+              "country": "Poland",
+              "postalCode": "51-124"
+            },
+            "position": {
+              "latitude": 51.10286,
+              "longitude": 17.03006
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-105",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Alba Iulia, 510077",
+            "address": {
+              "city": "Alba Iulia",
+              "country": "Romania",
+              "postalCode": "510077"
+            },
+            "position": {
+              "latitude": 46.06667,
+              "longitude": 23.58333
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-106",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Baia Mare, 430031",
+            "address": {
+              "city": "Baia Mare",
+              "country": "Romania",
+              "postalCode": "430031"
+            },
+            "position": {
+              "latitude": 47.65729,
+              "longitude": 23.56808
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-107",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Brasov, 500366",
+            "address": {
+              "city": "Brasov",
+              "country": "Romania",
+              "postalCode": "500366"
+            },
+            "position": {
+              "latitude": 45.64861,
+              "longitude": 25.60613
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-108",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bucharest, 011171",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "011171"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-109",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bucharest, 020947",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "020947"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-110",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bucharest, 022328",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "022328"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-111",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bucharest, 030442",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "030442"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-112",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Bucharest, 050659",
+            "address": {
+              "city": "Bucharest",
+              "country": "Romania",
+              "postalCode": "050659"
+            },
+            "position": {
+              "latitude": 44.43225,
+              "longitude": 26.10626
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-113",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Cluj-Napoca, 400058",
+            "address": {
+              "city": "Cluj-Napoca",
+              "country": "Romania",
+              "postalCode": "400058"
+            },
+            "position": {
+              "latitude": 46.76667,
+              "longitude": 23.6
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-114",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Oradea, 410469",
+            "address": {
+              "city": "Oradea",
+              "country": "Romania",
+              "postalCode": "410469"
+            },
+            "position": {
+              "latitude": 47.0458,
+              "longitude": 21.91833
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-115",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Râmnicu Vâlcea, 240156",
+            "address": {
+              "city": "Râmnicu Vâlcea",
+              "country": "Romania",
+              "postalCode": "240156"
+            },
+            "position": {
+              "latitude": 45.1,
+              "longitude": 24.36667
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-116",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Târgu Mureş, 540142",
+            "address": {
+              "city": "Târgu Mureş",
+              "country": "Romania",
+              "postalCode": "540142"
+            },
+            "position": {
+              "latitude": 46.54245,
+              "longitude": 24.55747
+            }
+          },
+          {
+            "resourceType": "Location",
+            "id": "loc-117",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+              ]
+            },
+            "name": "Research Site — Timișoara, 300167",
+            "address": {
+              "city": "Timișoara",
+              "country": "Romania",
+              "postalCode": "300167"
+            },
+            "position": {
+              "latitude": 45.75372,
+              "longitude": 21.22571
+            }
+          }
+        ],
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Study Population Source: Adults with either breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric cancer who will receive darbepoetin alfa (Aranesp®) or other erythropoiesis-stimulating agent (ESA) for the treatment of symptomatic chemotherapy-induced anaemia (CIA) in routine clinical practice."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "completed",
+                      "display": "Completed"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-02"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2011-10-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-03-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2011-09-29"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2017-02-07"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9 (Treatment Day 57). Due to the observational nature of the study and variation in ESA dosing schedules, assessments closest to day 57 and within Days 43 to 70 (inclusive) were used to calculate the Week 9 visit results.]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-primary-endpoint-1",
+                  "display": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-secondary-endpoint-1",
+                  "display": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points [Time Frame: Baseline and Week 9]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-secondary-endpoint-2",
+                  "display": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Time to First Increase in Hemoglobin"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Time to First Increase in Hemoglobin [Time Frame: From Baseline until Week 9]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-secondary-endpoint-3",
+                  "display": "Time to First Increase in Hemoglobin"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time [Time Frame: From Baseline to Week 13]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-secondary-endpoint-4",
+                  "display": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time [Time Frame: From Baseline to Week 13]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct01444456-secondary-endpoint-5",
+                  "display": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Amgen"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ],
+                  "text": "INDUSTRY"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "study-chair",
+                      "display": "study-chair"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Amgen"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 1262
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C16084",
+                  "display": "Observational Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01002",
+                  "display": "Observational research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://clinicaltrials.gov/data-about-studies/study-data-structure#enum-ObservationalModel",
+                  "code": "COHORT",
+                  "display": "Cohort"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class."
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT01444456",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "20101123",
+            "assigner": {
+              "display": "Amgen"
+            }
+          }
+        ],
+        "title": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
+        "status": "completed",
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D004938",
+                "display": "Esophageal Neoplasms"
+              }
+            ],
+            "text": "Esophageal Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D010051",
+                "display": "Ovarian Neoplasms"
+              }
+            ],
+            "text": "Ovarian Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D013274",
+                "display": "Stomach Neoplasms"
+              }
+            ],
+            "text": "Stomach Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D008175",
+                "display": "Lung Neoplasms"
+              }
+            ],
+            "text": "Lung Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D009369",
+                "display": "Neoplasms"
+              }
+            ],
+            "text": "Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D000740",
+                "display": "Anemia"
+              }
+            ],
+            "text": "Anemia"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D015179",
+                "display": "Colorectal Neoplasms"
+              }
+            ],
+            "text": "Colorectal Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D001749",
+                "display": "Urinary Bladder Neoplasms"
+              }
+            ],
+            "text": "Urinary Bladder Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D011471",
+                "display": "Prostatic Neoplasms"
+              }
+            ],
+            "text": "Prostatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D010190",
+                "display": "Pancreatic Neoplasms"
+              }
+            ],
+            "text": "Pancreatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D007680",
+                "display": "Kidney Neoplasms"
+              }
+            ],
+            "text": "Kidney Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D016889",
+                "display": "Endometrial Neoplasms"
+              }
+            ],
+            "text": "Endometrial Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "399326009",
+                "display": "Malignant neoplasm of urinary bladder"
+              }
+            ],
+            "text": "Malignant neoplasm of urinary bladder"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "414027002",
+                "display": "Disorder of hematopoietic structure"
+              }
+            ],
+            "text": "Disorder of hematopoietic structure"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363418001",
+                "display": "Malignant tumor of pancreas"
+              }
+            ],
+            "text": "Malignant tumor of pancreas"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "254838004",
+                "display": "Carcinoma of breast"
+              }
+            ],
+            "text": "Carcinoma of breast"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "254878006",
+                "display": "Endometrial carcinoma"
+              }
+            ],
+            "text": "Endometrial carcinoma"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "271737000",
+                "display": "Anemia"
+              }
+            ],
+            "text": "Anemia"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363349007",
+                "display": "Malignant tumor of stomach"
+              }
+            ],
+            "text": "Malignant tumor of stomach"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363402007",
+                "display": "Malignant tumor of esophagus"
+              }
+            ],
+            "text": "Malignant tumor of esophagus"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363518003",
+                "display": "Malignant tumor of kidney"
+              }
+            ],
+            "text": "Malignant tumor of kidney"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1286877004",
+                "display": "Malignant colorectal neoplasm"
+              }
+            ],
+            "text": "Malignant colorectal neoplasm"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363358000",
+                "display": "Malignant neoplasm of lung"
+              }
+            ],
+            "text": "Malignant neoplasm of lung"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363443007",
+                "display": "Malignant neoplasm of ovary"
+              }
+            ],
+            "text": "Malignant neoplasm of ovary"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "399068003",
+                "display": "Malignant neoplasm of prostate"
+              }
+            ],
+            "text": "Malignant neoplasm of prostate"
+          }
+        ],
+        "description": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class.",
+        "enrollment": [
+          {
+            "reference": "Group/nct01444456-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)"
+          }
+        ],
+        "period": {
+          "start": "2011-10-30"
+        },
+        "sponsor": {
+          "display": "Amgen"
+        },
+        "site": [
+          {
+            "reference": "#loc-001",
+            "type": "Location",
+            "display": "Research Site — Graz, 8042"
+          },
+          {
+            "reference": "#loc-002",
+            "type": "Location",
+            "display": "Research Site — Innsbruck, 6020"
+          },
+          {
+            "reference": "#loc-003",
+            "type": "Location",
+            "display": "Research Site — Sankt Pölten, 3100"
+          },
+          {
+            "reference": "#loc-004",
+            "type": "Location",
+            "display": "Research Site — Vienna, 1090"
+          },
+          {
+            "reference": "#loc-005",
+            "type": "Location",
+            "display": "Research Site — Vöcklabruck, 4840"
+          },
+          {
+            "reference": "#loc-006",
+            "type": "Location",
+            "display": "Research Site — Wels, 4600"
+          },
+          {
+            "reference": "#loc-007",
+            "type": "Location",
+            "display": "Research Site — Aalst, 9300"
+          },
+          {
+            "reference": "#loc-008",
+            "type": "Location",
+            "display": "Research Site — Bonheiden, 2820"
+          },
+          {
+            "reference": "#loc-009",
+            "type": "Location",
+            "display": "Research Site — Brasschaat, 2930"
+          },
+          {
+            "reference": "#loc-010",
+            "type": "Location",
+            "display": "Research Site — Bruges, 8000"
+          },
+          {
+            "reference": "#loc-011",
+            "type": "Location",
+            "display": "Research Site — Eupen, 4700"
+          },
+          {
+            "reference": "#loc-012",
+            "type": "Location",
+            "display": "Research Site — Gilly, 6060"
+          },
+          {
+            "reference": "#loc-013",
+            "type": "Location",
+            "display": "Research Site — Mechelen, 2800"
+          },
+          {
+            "reference": "#loc-014",
+            "type": "Location",
+            "display": "Research Site — Namur, 5000"
+          },
+          {
+            "reference": "#loc-015",
+            "type": "Location",
+            "display": "Research Site — Ostend, 8400"
+          },
+          {
+            "reference": "#loc-016",
+            "type": "Location",
+            "display": "Research Site — Sint-Niklaas, 9100"
+          },
+          {
+            "reference": "#loc-017",
+            "type": "Location",
+            "display": "Research Site — Verviers, 4800"
+          },
+          {
+            "reference": "#loc-018",
+            "type": "Location",
+            "display": "Research Site — Aix-en-Provence, 13100"
+          },
+          {
+            "reference": "#loc-019",
+            "type": "Location",
+            "display": "Research Site — Aix-en-Provence, 13616"
+          },
+          {
+            "reference": "#loc-020",
+            "type": "Location",
+            "display": "Research Site — Amiens, 80000"
+          },
+          {
+            "reference": "#loc-021",
+            "type": "Location",
+            "display": "Research Site — Aubagne, 13675"
+          },
+          {
+            "reference": "#loc-022",
+            "type": "Location",
+            "display": "Research Site — Bayonne, 64100"
+          },
+          {
+            "reference": "#loc-023",
+            "type": "Location",
+            "display": "Research Site — Besançon, 25030"
+          },
+          {
+            "reference": "#loc-024",
+            "type": "Location",
+            "display": "Research Site — Bordeaux, 33077"
+          },
+          {
+            "reference": "#loc-025",
+            "type": "Location",
+            "display": "Research Site — Boulogne Sur Mer Cédex, 62321"
+          },
+          {
+            "reference": "#loc-026",
+            "type": "Location",
+            "display": "Research Site — Bourg-en-Bresse, 01012"
+          },
+          {
+            "reference": "#loc-027",
+            "type": "Location",
+            "display": "Research Site — Brive-la-Gaillarde, 19312"
+          },
+          {
+            "reference": "#loc-028",
+            "type": "Location",
+            "display": "Research Site — Carcassonne, 11890"
+          },
+          {
+            "reference": "#loc-029",
+            "type": "Location",
+            "display": "Research Site — Clermont-Ferrand, 63000"
+          },
+          {
+            "reference": "#loc-030",
+            "type": "Location",
+            "display": "Research Site — Clermont-Ferrand, 63011"
+          },
+          {
+            "reference": "#loc-031",
+            "type": "Location",
+            "display": "Research Site — Colmar, 68024"
+          },
+          {
+            "reference": "#loc-032",
+            "type": "Location",
+            "display": "Research Site — Dijon, 21034"
+          },
+          {
+            "reference": "#loc-033",
+            "type": "Location",
+            "display": "Research Site — Draguignan, 83007"
+          },
+          {
+            "reference": "#loc-034",
+            "type": "Location",
+            "display": "Research Site — La Seyne-sur-Mer, 83500"
+          },
+          {
+            "reference": "#loc-035",
+            "type": "Location",
+            "display": "Research Site — Le Mans, 72037"
+          },
+          {
+            "reference": "#loc-036",
+            "type": "Location",
+            "display": "Research Site — Longjumeau, 91161"
+          },
+          {
+            "reference": "#loc-037",
+            "type": "Location",
+            "display": "Research Site — Marseille, 13009"
+          },
+          {
+            "reference": "#loc-038",
+            "type": "Location",
+            "display": "Research Site — Marseille, 13331"
+          },
+          {
+            "reference": "#loc-039",
+            "type": "Location",
+            "display": "Research Site — Mont-de-Marsan, 40000"
+          },
+          {
+            "reference": "#loc-040",
+            "type": "Location",
+            "display": "Research Site — Montauban, 82013"
+          },
+          {
+            "reference": "#loc-041",
+            "type": "Location",
+            "display": "Research Site — Nancy, 54100"
+          },
+          {
+            "reference": "#loc-042",
+            "type": "Location",
+            "display": "Research Site — Orléans, 45000"
+          },
+          {
+            "reference": "#loc-043",
+            "type": "Location",
+            "display": "Research Site — Paris, 75020"
+          },
+          {
+            "reference": "#loc-044",
+            "type": "Location",
+            "display": "Research Site — Périgueux, 24004"
+          },
+          {
+            "reference": "#loc-045",
+            "type": "Location",
+            "display": "Research Site — Pontoise, 95301"
+          },
+          {
+            "reference": "#loc-046",
+            "type": "Location",
+            "display": "Research Site — Pringy, 74374"
+          },
+          {
+            "reference": "#loc-047",
+            "type": "Location",
+            "display": "Research Site — Reims, 51056"
+          },
+          {
+            "reference": "#loc-048",
+            "type": "Location",
+            "display": "Research Site — Reims, 51092"
+          },
+          {
+            "reference": "#loc-049",
+            "type": "Location",
+            "display": "Research Site — Reims, 51100"
+          },
+          {
+            "reference": "#loc-050",
+            "type": "Location",
+            "display": "Research Site — Rennes, 35033"
+          },
+          {
+            "reference": "#loc-051",
+            "type": "Location",
+            "display": "Research Site — Rouen, 76000"
+          },
+          {
+            "reference": "#loc-052",
+            "type": "Location",
+            "display": "Research Site — Saint-Grégoire, 35768"
+          },
+          {
+            "reference": "#loc-053",
+            "type": "Location",
+            "display": "Research Site — Saint-Quentin, 02321"
+          },
+          {
+            "reference": "#loc-054",
+            "type": "Location",
+            "display": "Research Site — Soissons, 02209"
+          },
+          {
+            "reference": "#loc-055",
+            "type": "Location",
+            "display": "Research Site — Soyaux, 16800"
+          },
+          {
+            "reference": "#loc-056",
+            "type": "Location",
+            "display": "Research Site — Strasbourg, 67000"
+          },
+          {
+            "reference": "#loc-057",
+            "type": "Location",
+            "display": "Research Site — Vichy, 03207"
+          },
+          {
+            "reference": "#loc-058",
+            "type": "Location",
+            "display": "Research Site — Villefranche-sur-Saône, 69400"
+          },
+          {
+            "reference": "#loc-059",
+            "type": "Location",
+            "display": "Research Site — Villejuif, 94804"
+          },
+          {
+            "reference": "#loc-060",
+            "type": "Location",
+            "display": "Research Site — Augsburg, 86150"
+          },
+          {
+            "reference": "#loc-061",
+            "type": "Location",
+            "display": "Research Site — Berlin, 10317"
+          },
+          {
+            "reference": "#loc-062",
+            "type": "Location",
+            "display": "Research Site — Berlin, 13055"
+          },
+          {
+            "reference": "#loc-063",
+            "type": "Location",
+            "display": "Research Site — Berlin, 13347"
+          },
+          {
+            "reference": "#loc-064",
+            "type": "Location",
+            "display": "Research Site — Bremerhaven, 27568"
+          },
+          {
+            "reference": "#loc-065",
+            "type": "Location",
+            "display": "Research Site — Cologne, 50677"
+          },
+          {
+            "reference": "#loc-066",
+            "type": "Location",
+            "display": "Research Site — Gelsenkirchen, 45899"
+          },
+          {
+            "reference": "#loc-067",
+            "type": "Location",
+            "display": "Research Site — Goslar, 38642"
+          },
+          {
+            "reference": "#loc-068",
+            "type": "Location",
+            "display": "Research Site — Halle, 06110"
+          },
+          {
+            "reference": "#loc-069",
+            "type": "Location",
+            "display": "Research Site — Mannheim, 68165"
+          },
+          {
+            "reference": "#loc-070",
+            "type": "Location",
+            "display": "Research Site — Neunkirchen, 66538"
+          },
+          {
+            "reference": "#loc-071",
+            "type": "Location",
+            "display": "Research Site — Rotenburg (Wümme), 27356"
+          },
+          {
+            "reference": "#loc-072",
+            "type": "Location",
+            "display": "Research Site — Soest, 59494"
+          },
+          {
+            "reference": "#loc-073",
+            "type": "Location",
+            "display": "Research Site — Stralsund, 18435"
+          },
+          {
+            "reference": "#loc-074",
+            "type": "Location",
+            "display": "Research Site — Würselen, 52146"
+          },
+          {
+            "reference": "#loc-075",
+            "type": "Location",
+            "display": "Research Site — Athens, 11522"
+          },
+          {
+            "reference": "#loc-076",
+            "type": "Location",
+            "display": "Research Site — Athens, 18547"
+          },
+          {
+            "reference": "#loc-077",
+            "type": "Location",
+            "display": "Research Site — Chania, 73300"
+          },
+          {
+            "reference": "#loc-078",
+            "type": "Location",
+            "display": "Research Site — Marousi, 15121"
+          },
+          {
+            "reference": "#loc-079",
+            "type": "Location",
+            "display": "Research Site — Papagou, 11526"
+          },
+          {
+            "reference": "#loc-080",
+            "type": "Location",
+            "display": "Research Site — Cefalù PA, 90015"
+          },
+          {
+            "reference": "#loc-081",
+            "type": "Location",
+            "display": "Research Site — Naples, 80131"
+          },
+          {
+            "reference": "#loc-082",
+            "type": "Location",
+            "display": "Research Site — Padova, 35128"
+          },
+          {
+            "reference": "#loc-083",
+            "type": "Location",
+            "display": "Research Site — Roma, 00128"
+          },
+          {
+            "reference": "#loc-084",
+            "type": "Location",
+            "display": "Research Site — Torino, 10100"
+          },
+          {
+            "reference": "#loc-085",
+            "type": "Location",
+            "display": "Research Site — Amstelveen, 1186 AM"
+          },
+          {
+            "reference": "#loc-086",
+            "type": "Location",
+            "display": "Research Site — Dordrecht, 3318 AT"
+          },
+          {
+            "reference": "#loc-087",
+            "type": "Location",
+            "display": "Research Site — Enschede, 7513 ER"
+          },
+          {
+            "reference": "#loc-088",
+            "type": "Location",
+            "display": "Research Site — Flushing, 4382 EE"
+          },
+          {
+            "reference": "#loc-089",
+            "type": "Location",
+            "display": "Research Site — Leiderdorp, 2353 GA"
+          },
+          {
+            "reference": "#loc-090",
+            "type": "Location",
+            "display": "Research Site — Purmerend, 1441 RN"
+          },
+          {
+            "reference": "#loc-091",
+            "type": "Location",
+            "display": "Research Site — Roosendaal, 4708 AE"
+          },
+          {
+            "reference": "#loc-092",
+            "type": "Location",
+            "display": "Research Site — Zutphen, 7207 AE"
+          },
+          {
+            "reference": "#loc-093",
+            "type": "Location",
+            "display": "Research Site — Bialystok, 15-027"
+          },
+          {
+            "reference": "#loc-094",
+            "type": "Location",
+            "display": "Research Site — Gdansk, 80-402"
+          },
+          {
+            "reference": "#loc-095",
+            "type": "Location",
+            "display": "Research Site — Konin, 62-500"
+          },
+          {
+            "reference": "#loc-096",
+            "type": "Location",
+            "display": "Research Site — Koszalin, 75-581"
+          },
+          {
+            "reference": "#loc-097",
+            "type": "Location",
+            "display": "Research Site — Krakow, 31-531"
+          },
+          {
+            "reference": "#loc-098",
+            "type": "Location",
+            "display": "Research Site — Lubin, 59-300"
+          },
+          {
+            "reference": "#loc-099",
+            "type": "Location",
+            "display": "Research Site — Olsztyn, 10-228"
+          },
+          {
+            "reference": "#loc-100",
+            "type": "Location",
+            "display": "Research Site — Poznan, 61-878"
+          },
+          {
+            "reference": "#loc-101",
+            "type": "Location",
+            "display": "Research Site — Warsaw, 04-125"
+          },
+          {
+            "reference": "#loc-102",
+            "type": "Location",
+            "display": "Research Site — Wałbrzych, 58-309"
+          },
+          {
+            "reference": "#loc-103",
+            "type": "Location",
+            "display": "Research Site — Wroclaw, 50-981"
+          },
+          {
+            "reference": "#loc-104",
+            "type": "Location",
+            "display": "Research Site — Wroclaw, 51-124"
+          },
+          {
+            "reference": "#loc-105",
+            "type": "Location",
+            "display": "Research Site — Alba Iulia, 510077"
+          },
+          {
+            "reference": "#loc-106",
+            "type": "Location",
+            "display": "Research Site — Baia Mare, 430031"
+          },
+          {
+            "reference": "#loc-107",
+            "type": "Location",
+            "display": "Research Site — Brasov, 500366"
+          },
+          {
+            "reference": "#loc-108",
+            "type": "Location",
+            "display": "Research Site — Bucharest, 011171"
+          },
+          {
+            "reference": "#loc-109",
+            "type": "Location",
+            "display": "Research Site — Bucharest, 020947"
+          },
+          {
+            "reference": "#loc-110",
+            "type": "Location",
+            "display": "Research Site — Bucharest, 022328"
+          },
+          {
+            "reference": "#loc-111",
+            "type": "Location",
+            "display": "Research Site — Bucharest, 030442"
+          },
+          {
+            "reference": "#loc-112",
+            "type": "Location",
+            "display": "Research Site — Bucharest, 050659"
+          },
+          {
+            "reference": "#loc-113",
+            "type": "Location",
+            "display": "Research Site — Cluj-Napoca, 400058"
+          },
+          {
+            "reference": "#loc-114",
+            "type": "Location",
+            "display": "Research Site — Oradea, 410469"
+          },
+          {
+            "reference": "#loc-115",
+            "type": "Location",
+            "display": "Research Site — Râmnicu Vâlcea, 240156"
+          },
+          {
+            "reference": "#loc-116",
+            "type": "Location",
+            "display": "Research Site — Târgu Mureş, 540142"
+          },
+          {
+            "reference": "#loc-117",
+            "type": "Location",
+            "display": "Research Site — Timișoara, 300167"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup.observedGroup",
+                "valueReference": {
+                  "reference": "Group/nct01444456-cohort-1",
+                  "display": "Cohort 1: Darbepoetin alfa"
+                }
+              }
+            ],
+            "name": "Cohort 1: Darbepoetin alfa",
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) to treat symptomatic anemia according to routine institutional practice."
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup.observedGroup",
+                "valueReference": {
+                  "reference": "Group/nct01444456-cohort-2",
+                  "display": "Cohort 2: Any ESA"
+                }
+              }
+            ],
+            "name": "Cohort 2: Any ESA",
+            "description": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) or another erythropoiesis-stimulating agent (ESA) to treat symptomatic anemia according to routine institutional practice."
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d28ce0-7062-11f1-b807-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456PrimaryEndpoint1",
+        "title": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL",
+        "status": "active",
+        "description": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9 (Treatment Day 57). Due to the observational nature of the study and variation in ESA dosing schedules, assessments closest to day 57 and within Days 43 to 70 (inclusive) were used to calculate the Week 9 visit results.]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Percentage of Participants Receiving Darbepoetin Alfa With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+            },
+            "description": "Time frame: Baseline to Week 9 (Treatment Day 57). Due to the observational nature of the study and variation in ESA dosing schedules, assessments closest to day 57 and within Days 43 to 70 (inclusive) were used to calculate the Week 9 visit results."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d29208-7062-11f1-8b0e-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456SecondaryEndpoint1",
+        "title": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL",
+        "status": "active",
+        "description": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL [Time Frame: Baseline to Week 9]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Percentage of Participants by Tumor Type With Improvement in Patient Perceived Fatigue (PPF) and Increase in Hemoglobin ≥ 1 g/dL"
+            },
+            "description": "Time frame: Baseline to Week 9"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-secondary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-secondary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d296a4-7062-11f1-93fb-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456SecondaryEndpoint2",
+        "title": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points",
+        "status": "active",
+        "description": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points [Time Frame: Baseline and Week 9]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean Change From Baseline in FACT-F Score for Participants With a VAS Improvement of 5 ± 3 Points"
+            },
+            "description": "Time frame: Baseline and Week 9"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-secondary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-secondary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d29bae-7062-11f1-9f0c-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456SecondaryEndpoint3",
+        "title": "Time to First Increase in Hemoglobin",
+        "status": "active",
+        "description": "Time to First Increase in Hemoglobin [Time Frame: From Baseline until Week 9]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Time to First Increase in Hemoglobin"
+            },
+            "description": "Time frame: From Baseline until Week 9"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-secondary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-secondary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d2a0ae-7062-11f1-9012-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456SecondaryEndpoint4",
+        "title": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time",
+        "status": "active",
+        "description": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time [Time Frame: From Baseline to Week 13]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Percentage of Participants With Improvement in Patient-perceived Fatigue (PPF) at Any Time"
+            },
+            "description": "Time frame: From Baseline to Week 13"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct01444456-secondary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct01444456-secondary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:90d2a54a-7062-11f1-8559-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT01444456SecondaryEndpoint5",
+        "title": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time",
+        "status": "active",
+        "description": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time [Time Frame: From Baseline to Week 13]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Percentage of Participants With Increase in Hemoglobin ≥ 1 g/dL at Any Time"
+            },
+            "description": "Time frame: From Baseline to Week 13"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct01444456-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct01444456-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-1",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Starting treatment with either darbepoetin alfa"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "306807008",
+                      "display": "Recommendation to start drug treatment"
+                    }
+                  ]
+                },
+                "exclude": false
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "any ESA"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "1156741008",
+                      "display": "Therapy using erythropoietin receptor agonist"
+                    }
+                  ]
+                },
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-2",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "symptomatic anaemia"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271737000",
+                      "display": "Anemia"
+                    }
+                  ]
+                },
+                "exclude": false
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia"
+                  }
+                ],
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#criteria-node-1",
+                  "type": "Group"
+                },
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-3",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Received any ESA treatment"
+                  }
+                ],
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "Received any ESA treatment"
+                },
+                "exclude": true
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Red Blood Cell (RBC) transfusion"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "116863004",
+                      "display": "Transfusion of red blood cells"
+                    }
+                  ]
+                },
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-4",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Known primary benign or malignant haematologic disorder which can cause anaemia"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "414027002",
+                      "display": "Disorder of hematopoietic structure"
+                    }
+                  ]
+                },
+                "exclude": true
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Known primary benign or malignant haematologic disorder which can cause anaemia"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271737000",
+                      "display": "Anemia"
+                    }
+                  ]
+                },
+                "exclude": true
+              }
+            ]
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Diagnosed with breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric cancer\n* Expected to receive at least 8 additional weeks of a given regimen of myelosuppressive chemotherapy after enrolment\n* Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia.\n\nExclusion Criteria:\n\n* Received any ESA treatment or Red Blood Cell (RBC) transfusion within 28 days prior to enrolment\n* Known primary benign or malignant haematologic disorder which can cause anaemia\n* Known hypersensitivity to ESAs"
+          }
+        ],
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
+        "characteristic": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "breast cancer"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "contextCode",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "709491003",
+                          "display": "Enrollment in clinical trial"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "offsetRange",
+                    "valueRange": {
+                      "low": {
+                        "value": 0,
+                        "unit": "d"
+                      },
+                      "high": {
+                        "value": 0,
+                        "unit": "d"
+                      }
+                    }
+                  }
+                ],
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "75323-6",
+                  "display": "Condition"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "254838004",
+                  "display": "Carcinoma of breast"
+                }
+              ]
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Expected to receive at least 8 additional weeks of a given regimen of myelosuppressive chemotherapy after enrolment"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "contextCode",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "709491003",
+                          "display": "Enrollment in clinical trial"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "offsetRange",
+                    "valueRange": {
+                      "low": {
+                        "value": 0,
+                        "unit": "d"
+                      },
+                      "high": {
+                        "value": 0,
+                        "unit": "d"
+                      }
+                    }
+                  }
+                ],
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "71388002",
+                  "display": "Procedure (procedure)"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "Delivery of subsequent element of cycle of chemotherapy for neoplasm"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Starting treatment with either darbepoetin alfa (in Cohort 1 countries) or any ESA (in Cohort 2 countries) as per European Summary of Product Characteristics (SPC) for symptomatic anaemia"
+              }
+            ],
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#criteria-node-2",
+              "type": "Group"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Received any ESA treatment or Red Blood Cell (RBC) transfusion within 28 days prior to enrolment"
+              }
+            ],
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#criteria-node-3",
+              "type": "Group"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Known primary benign or malignant haematologic disorder which can cause anaemia"
+              }
+            ],
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#criteria-node-4",
+              "type": "Group"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Known hypersensitivity to ESAs"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "contextCode",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "709491003",
+                          "display": "Enrollment in clinical trial"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "offsetRange",
+                    "valueRange": {
+                      "low": {
+                        "value": 0,
+                        "unit": "d"
+                      },
+                      "high": {
+                        "value": 0,
+                        "unit": "d"
+                      }
+                    }
+                  }
+                ],
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/fhir-types",
+                  "code": "Observation",
+                  "display": "Observation"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "1156733008",
+                  "display": "Allergy to erythropoietin receptor agonist"
+                }
+              ]
+            },
+            "exclude": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct01444456-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct01444456-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) to treat symptomatic anemia according to routine institutional practice."
+          }
+        ],
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Other"
+        },
+        "name": "Cohort 1: Darbepoetin alfa"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct01444456-cohort-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct01444456-cohort-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Participants receiving systemic chemotherapy for solid tumors who also received darbepoetin alfa (Aranesp®) or another erythropoiesis-stimulating agent (ESA) to treat symptomatic anemia according to routine institutional practice."
+          }
+        ],
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Other"
+        },
+        "name": "Cohort 2: Any ESA"
+      }
+    }
+  ]
+}
