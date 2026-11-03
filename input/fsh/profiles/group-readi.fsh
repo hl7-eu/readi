@@ -33,6 +33,13 @@ Description: "This profile describes the population of a clinical study for the 
 // ---- characteristic.extension[relativeTime]
 * characteristic.extension[relativeTime] ^short = "When the criterion applies, relative to a reference event"
 * characteristic.extension[relativeTime] ^requirements = "USDM: ExpectedResponse.atTiming"
+// ---- characteristic.valueQuantity.extension[cdiscUnit]
+* characteristic.valueQuantity.extension contains QuantityCdiscUnit named cdiscUnit 0..1
+* characteristic.valueQuantity.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
+* characteristic.valueRange.low.extension contains QuantityCdiscUnit named cdiscUnit 0..1
+* characteristic.valueRange.low.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
+* characteristic.valueRange.high.extension contains QuantityCdiscUnit named cdiscUnit 0..1
+* characteristic.valueRange.high.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
 // ---- USDM requirements (generated from usdm2fhir-mapping.md; extension requirements are with the extension rules above) ----
 * id ^requirements = "USDM: to-be-specified.to-be-specified; ExpectedResponse.id"
 * characteristic.code.text ^requirements = "USDM: EligibilityCriterionItem.to-be-specified"

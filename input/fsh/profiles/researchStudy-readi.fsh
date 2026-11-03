@@ -59,6 +59,9 @@ Description: "This profile describes a clinical study (e.g. a clinical trial) fo
 // ---- arm.extension[targetNumber]
 * arm.extension contains ResearchStudyArmTargetNumber named targetNumber 0..1
 * arm.extension[targetNumber] ^short = "Estimated number of participants to be enrolled in the arm/cohort (R6 ResearchStudy.comparisonGroup.targetNumber)"
+// ---- arm.extension[eligibility]
+* arm.extension contains ResearchStudyArmEligibility named eligibility 0..1
+* arm.extension[eligibility] ^short = "Group with the eligibility criteria of the arm/cohort (R6 ResearchStudy.comparisonGroup.eligibility)"
 // ---- USDM requirements (generated from usdm2fhir-mapping.md; extension requirements are with the extension rules above) ----
 * condition.text ^requirements = "USDM: Indication.label"
 * condition.coding ^requirements = "USDM: Indication.codes"
