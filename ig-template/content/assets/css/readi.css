@@ -100,3 +100,28 @@ h1, h2, h3, h4, h5, h6 {
 #segment-footer a:hover {
   color: #ffffff;
 }
+
+/* Page layout: when a page has a stu-note after the generated TOC (e.g. usdm2fhir-mapping),
+   show h2 -> note -> TOC (sidebar box, not floating) -> content. */
+:has(> div.markdown-toc ~ div.stu-note) {
+  display: flex;
+  flex-direction: column;
+}
+:has(> div.markdown-toc ~ div.stu-note) > h2 { order: -3; }
+:has(> div.markdown-toc ~ div.stu-note) > div.stu-note { order: -2; }
+:has(> div.markdown-toc ~ div.stu-note) > div.markdown-toc {
+  order: -1;
+  float: none;
+  width: auto;
+  margin: 5px;
+}
+
+/* Wide tables (USDM mapping): at least as wide as the container, scroll horizontally if larger */
+.mapping-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+.mapping-scroll > table.grid {
+  min-width: 100%;
+  width: auto;
+}
