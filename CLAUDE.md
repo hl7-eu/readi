@@ -85,11 +85,10 @@ and in `reviews/usdm2fhir-mapping-issues.md`.
   EvidenceVariable, Location.
 
 ### The USDM mapping page
-`input/pagecontent/usdm2fhir-mapping.md` is **generated from the Excel sheet**
-`sources/USDM2FHIR-GC-notes.xlsx` (sheet "USDM2FHIR map") by following
-`sources/regenerate-mapping-prompt.md`. Do not hand-edit the tables; change the sheet or the prompt and
-regenerate. The sheet paths are aligned to R6; the page derives R5 and R4 columns by validating paths
-against the core packages in `~/.fhir/packages`. Headings on the page start at `###` (the template renders
+`input/pagecontent/usdm2fhir-mapping.md` is **generated from the CSVs**
+`sources/USDM2FHIR_r4.csv`, `_r5.csv`, `_r6.csv` with `python3 sources/generate-mapping-page.py` (rules in
+`sources/regenerate-mapping-prompt.md`). Do not hand-edit the tables; change the CSVs or the generator and
+regenerate. Cells with `to-be-specified` are yellow, or light green when the JSONata returns a hardcoded value. Headings on the page start at `###` (the template renders
 the page title as `h2`).
 
 ## Common commands
