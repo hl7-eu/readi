@@ -13,3 +13,4 @@ Requirements-fromNarrative.json
 # IG Publisher cache files in the local template
 .index.db
 .index.json
+/todo/
