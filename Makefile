@@ -17,7 +17,7 @@ SAMPLE_OUT := input/examples/Bundle-readi-sample-1-r4.json
 
 .DEFAULT_GOAL := help
 .PHONY: help sushi build build-nosushi build-notx update-publisher jekyll clean clean-all \
-        sample validator validate report open serve
+        sample validator validate validate-demo report open serve docker-build docker-run
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-16s\033[0m %s\n", $$1, $$2}'
@@ -62,6 +62,16 @@ validate: sushi $(VALIDATOR_JAR) ## Validate examples/ against the READI profile
 	    --baseline scripts/validation/baseline.json --report $(VALIDATION_OUT)/report.md
 	@cat $(VALIDATION_OUT)/report.md
 
+DEMO_FILE ?= input/examples/Demo_NCT01931527.json
+
+validate-demo: sushi $(VALIDATOR_JAR) ## Validate a single file (default: DEMO_FILE=input/examples/Demo_NCT01931527.json) against R4 + READI profiles
+	mkdir -p $(VALIDATION_OUT)
+	-java -Xmx4g -jar $(VALIDATOR_JAR) $(DEMO_FILE) \
+	    -version $(FHIR_VERSION) $(foreach ig,$(EXTRA_IGS),-ig $(ig)) -ig fsh-generated/resources \
+	    -tx $(TX_SERVER) \
+	    -output $(VALIDATION_OUT)/demo-results.json -html-output $(VALIDATION_OUT)/demo-results.html \
+	    | tee $(VALIDATION_OUT)/demo-validator.log
+
 report: ## Re-build the validation report from the last results.json
 	python3 scripts/validation/report.py $(VALIDATION_OUT)/results.json \
 	    --baseline scripts/validation/baseline.json --report $(VALIDATION_OUT)/report.md
@@ -78,3 +88,9 @@ clean: ## Remove generated folders (fsh-generated, output, temp, validation-outp
 
 clean-all: clean ## Also remove input-cache (publisher.jar, package cache)
 	rm -rf input-cache
+
+docker-build: ## Build the validation API image (readi-fhir-validator)
+	docker build -f docker/validator/Dockerfile -t readi-fhir-validator .
+
+docker-run: ## Run the validation API on http://localhost:8002
+	docker run --rm -p 8002:8000 readi-fhir-validator
