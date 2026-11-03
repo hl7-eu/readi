@@ -28,10 +28,10 @@ concurrency:
 env:
   VALIDATOR_VERSION: "7.0.3" # bump deliberately, then refresh the baseline
   SUSHI_VERSION: "3.21.0"
-  FHIR_VERSION: "4.0.1"
+  FHIR_VERSION: "5.0.0"
   TX_SERVER: "https://tx.fhir.org" # use "n/a" to skip terminology checks
   # Packages the examples need besides the READI profiles
-  EXTRA_IGS: "hl7.fhir.uv.xver-r5.r4#0.1.0"
+  EXTRA_IGS: ""
   BASELINE: scripts/validation/baseline.json
 
 jobs:

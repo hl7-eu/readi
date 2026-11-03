@@ -7,23 +7,21 @@ Description: "This profile describes the population of a clinical study for the 
 * . ^short = "READI study population"
 * . ^definition = "The population of a clinical study, defined by its inclusion and exclusion criteria."
 * type = #person
-* actual ^short = "Descriptive (false) or actual (true) group"
-* actual ^comment = "Set to false when the group only describes the eligibility criteria of the study population; set to true when the enrolled participants are listed as members."
+* membership ^short = "definitional | conceptual | enumerated"
+* membership ^comment = "Use conceptual (or definitional) when the group only describes the eligibility criteria of the study population; use enumerated when the enrolled participants are listed as members."
 * quantity ^short = "Number of participants"
 * characteristic ^short = "Inclusion (exclude = false) or exclusion (exclude = true) criterion"
 * characteristic.value[x] ^comment = "valueReference is used to point to a (contained) Group representing a nested combination of criteria."
 * member.entity only Reference(Patient)
-// Group.combinationMethod, Group.description, Group.characteristic.description and Group.characteristic.relativeTime
+// Group.combinationMethod, Group.characteristic.description and Group.characteristic.relativeTime
+// (Group.description is native in FHIR R5)
 // are represented by READI extensions (see input/fsh/extensions/group-extensions.fsh).
 // ---- modifierExtension[combinationMethod]
 * modifierExtension contains GroupCombinationMethod named combinationMethod 0..1
 * modifierExtension[combinationMethod] ^short = "How the characteristics are combined (all-of, any-of, ...)"
-* modifierExtension[combinationMethod] ^comment = "When absent, all the characteristics apply (all-of), as defined by FHIR R4. Nested criteria (e.g. any-of within an all-of group) are represented by a characteristic whose valueReference points to another (contained) Group."
+* modifierExtension[combinationMethod] ^comment = "When absent, all the characteristics apply (all-of), as defined by FHIR R5. Nested criteria (e.g. any-of within an all-of group) are represented by a characteristic whose valueReference points to another (contained) Group."
 * modifierExtension[combinationMethod] ^requirements = "USDM: to-be-specified.to-be-specified"
-// ---- extension[description]
-* extension contains GroupDescription named description 0..1
-* extension[description] ^short = "Natural language description of the group (R5 Group.description)"
-* extension[description] ^requirements = "USDM: ExpectedResponse.label"
+* description ^requirements = "USDM: ExpectedResponse.label"
 * characteristic.extension contains
     GroupCharacteristicDescription named description 0..1 and
     GroupCharacteristicRelativeTime named relativeTime 0..*

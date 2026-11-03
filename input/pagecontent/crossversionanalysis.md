@@ -1,6 +1,6 @@
 ### FHIR versions
 
-This implementation guide is published for HL7 FHIR R4 (4.0.1). R4 and R4B-specific packages are available on the [Downloads](downloads.html) page.
+This implementation guide is published for HL7 FHIR R5 (5.0.0). R4 and R4B-specific packages are available on the [Downloads](downloads.html) page.
 
 ### Cross Version Analysis
 

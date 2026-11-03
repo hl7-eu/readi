@@ -10,7 +10,7 @@ Clinical Studies Ecosystem to Drive Health Equity in Europe*.
 - Canonical: `http://hl7.eu/fhir/ig/readi` — package id `hl7.eu.fhir.readi`
 - CI build: https://build.fhir.org/ig/hl7-eu/readi
 - GitHub org: `hl7-eu`
-- **FHIR version: R4 (4.0.1)**. Status: draft, version 0.1.0, FMM 0 on all artefacts.
+- **FHIR version: R5 (5.0.0)** on this branch (package id `hl7.eu.fhir.readi-r5`, same canonical); the R4 IG lives on `master`. Status: draft, version 0.1.0, FMM 0 on all artefacts.
 - Authored in **FSH** (FHIR Shorthand), compiled with **SUSHI**, published with the **HL7 IG Publisher**.
 
 ### Project context
@@ -23,7 +23,7 @@ Clinical Studies Ecosystem to Drive Health Equity in Europe*.
    Local extensions live in this repo (`input/fsh/extensions/`); external ones are imported as package
    dependencies (see below). **More IGs are expected to be added here as dependencies** — when that
    happens, update `sushi-config.yaml` (`dependencies`), `.github/workflows/validate-examples.yml`
-   (`EXTRA_IGS`), `input/pagecontent/dependencies.md`, and add aliases in `input/fsh/alias-extensions.fsh`.
+   (`EXTRA_IGS`), `input/pagecontent/dependencies.md`.
 3. **Collaboration with CDISC: USDM → FHIR.** In parallel, the project transforms **CDISC USDM** (Unified
    Study Definitions Model) into FHIR. The mapping is documented on the page *USDM to FHIR Mapping* and
    drives the `^requirements` of the profile elements (format `USDM: <Class>.<attribute>`).
@@ -37,7 +37,6 @@ Clinical Studies Ecosystem to Drive Health Equity in Europe*.
 | `ig.ini`                                     | IG Publisher entry point; uses the local template `#ig-template`.                                                                                                                       |
 | `input/fsh/profiles/`                        | Profiles: `ResearchStudyReadi`, `GroupReadi`, `EvidenceVariableReadi`, `LocationReadi`, `BundleReadi`.                                                                                  |
 | `input/fsh/extensions/`                      | Local extensions (`group-extensions.fsh`, `researchStudy-extensions.fsh`).                                                                                                              |
-| `input/fsh/alias-extensions.fsh`             | Aliases (`$researchStudy-label-r5`, …) for the R5 cross-version extensions.                                                                                                             |
 | `input/fsh/aliases.fsh`                      | Other aliases (code systems, etc.).                                                                                                                                                     |
 | `input/fsh/rulesSet/`                        | Reusable RuleSets, e.g. `SetFmmAndStatusRule(fmm, status)`.                                                                                                                             |
 | `input/fsh/{examples,models,terminologies}/` | Placeholders (`.gitkeep`) for FSH examples, logical models, terminology.                                                                                                                |
@@ -56,17 +55,13 @@ Generated and git-ignored: `fsh-generated/`, `output/`, `temp/`, `input-cache/`,
 
 ## How the modelling works
 
-### R5 elements in an R4 IG
-FHIR R4 lacks many elements the data needs. The strategy, in order of preference:
-
-1. Use the **R4 equivalent** when one exists (e.g. R5 `comparisonGroup` → R4 `arm`,
-   `recruitment.eligibility` → `enrollment`, `purposeType` → `primaryPurposeType`).
-2. Otherwise use the **R5 cross-version extension** from `hl7.fhir.uv.xver-r5.r4#0.1.0`
-   (URL pattern `http://hl7.org/fhir/5.0/StructureDefinition/extension-<Resource>.<element>`), aliased in
-   `alias-extensions.fsh` and added to the profile with `extension contains`.
-3. Otherwise define a **local extension** in `input/fsh/extensions/` (e.g. `GroupCombinationMethod`
-   pre-adopts R6 `Group.combinationMethod`; `GroupDescription` pre-adopts R5 `Group.description`).
-
+### R6 elements in an R5 IG
+FHIR R5 covers most of the data natively (`comparisonGroup`, `recruitment.eligibility`, `label`, `classifier`,
+`progressStatus`, `outcomeMeasure`, `Group.description`, `EvidenceVariable.category`, ...). Only R6 elements are
+pre-adopted with **local extensions** in `input/fsh/extensions/`: `GroupCombinationMethod` (R6
+`Group.combinationMethod`), `GroupCharacteristicDescription`, `GroupCharacteristicRelativeTime`,
+`QuantityCdiscUnit`, `ResearchStudyArmTargetNumber` / `ResearchStudyArmEligibility` (context
+`ResearchStudy.comparisonGroup`). No cross-version package dependency is needed.
 Every local extension/profile uses `* insert SetFmmAndStatusRule (0, draft)`.
 
 ### Traceability to USDM

@@ -93,10 +93,10 @@
           }
         ],
         "meta": {
-          "lastUpdated": "2026-11-03T12:22:24Z",
+          "lastUpdated": "2026-11-03T14:01:00Z",
           "profile": [
             "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-registry-record",
-            "http:\/\/hl7.org\/fhir\/R4\/researchstudy.html"
+            "http:\/\/hl7.org\/fhir\/R5\/researchstudy.html"
           ]
         },
         "extension": [
@@ -119,929 +119,6 @@
               }
             },
             "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/artifact-useContext"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "overall-study",
-                      "display": "Overall study"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "start": "2006-07-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "primary-outcome-data-collection",
-                      "display": "Primary outcome data collection"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2008-06-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "overall-study",
-                      "display": "Overall study"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2012-11-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "registration-submission",
-                      "display": "Registration submission"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-23"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "registration-submission-qc",
-                      "display": "Registration submission Quality Check"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-23"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "registration-posting",
-                      "display": "Registration posting"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-29"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "update-submission",
-                      "display": "Update submission"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-07-16"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "record-verification",
-                      "display": "Record Verification"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-07-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                      "code": "update-posting",
-                      "display": "Update posting"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-08-14"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-          },
-          {
-            "extension": [
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/title-type",
-                      "code": "official",
-                      "display": "Official title"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "value",
-                "valueString": "Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-          },
-          {
-            "extension": [
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/title-type",
-                      "code": "short-title",
-                      "display": "Short title"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "value",
-                "valueString": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-          },
-          {
-            "extension": [
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/title-type",
-                      "code": "plain-language",
-                      "display": "Plain language title"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "value",
-                "valueString": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-          },
-          {
-            "extension": [
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/title-type",
-                      "code": "acronym",
-                      "display": "Acronym"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "value",
-                "valueString": "UA"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                  "code": "does-not-include-healthy-volunteers",
-                  "display": "Does not include healthy volunteers"
-                }
-              ]
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                  "code": "includes-females",
-                  "display": "Includes female subjects"
-                }
-              ]
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                  "code": "includes-males",
-                  "display": "Includes male subjects"
-                }
-              ]
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "text": "Minimum Age: 18 Years"
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "text": "Maximum Age: 65 Years"
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                  "code": "includes-ages-18-64",
-                  "display": "Includes ages 18-64 years"
-                }
-              ]
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                  "code": "includes-ages-65-and-older",
-                  "display": "Includes ages 65 and older"
-                }
-              ]
-            }
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-            "valueCodeableConcept": {
-              "text": "Oversight Classifier: oversightHasDmc False"
-            }
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5c5e8-d44a-11f1-b29c-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "primary",
-                      "display": "Primary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "Percent Increase in Insulin-stimulated Glucose Uptake [Time Frame: 12 hours after reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5c7be-d44a-11f1-9e18-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "The Effect of Reducing Uric Acid on Oxidative Status [Time Frame: 12 hours after reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5c980-d44a-11f1-9138-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "Baseline Carbonylated Protein Ratio [Time Frame: Before reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5cb4c-d44a-11f1-bc41-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "AFTER Rasburicase Carbonylated Protein Ratio [Time Frame: 12 hours after reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5cd04-d44a-11f1-995f-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "Baseline Plasma TRAP [Time Frame: Before reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5cebc-d44a-11f1-b780-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "AFTER Rasburicase Plasma TRAP [Time Frame: 12 hours after reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5d074-d44a-11f1-9e9e-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "Baseline Plasma FRAP [Time Frame: Before reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Endpoint_1de5d22c-d44a-11f1-8758-8abdedc76cb5"
-              },
-              {
-                "url": "type",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                      "code": "secondary",
-                      "display": "Secondary"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "description",
-                "valueString": "AFTER Rasburicase Plasma FRAP (Fe\u207a\u00b2 \u00b7 L\u02c9\u00b9) [Time Frame: 12 hours after reducing uric acid]"
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-status",
-                      "code": "completed",
-                      "display": "Completed"
-                    }
-                  ]
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "record-verification",
-                      "display": "Record Verification"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-07-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "overall-study",
-                      "display": "Overall study"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "start": "2006-07-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "primary-outcome-data-collection",
-                      "display": "Primary outcome data collection"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2008-06-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "overall-study",
-                      "display": "Overall study"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2012-11-30"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "registration-posting",
-                      "display": "Registration posting"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-29"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "update-posting",
-                      "display": "Update posting"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-08-14"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "registration-submission",
-                      "display": "Registration submission"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-23"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "registration-submission-qc",
-                      "display": "Registration submission Quality Check"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2013-08-23"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "state",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                      "code": "update-submission",
-                      "display": "Update submission"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "actual",
-                "valueBoolean": true
-              },
-              {
-                "url": "period",
-                "valuePeriod": {
-                  "end": "2018-07-16"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Washington University School of Medicine"
-              },
-              {
-                "url": "role",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                      "code": "lead-sponsor",
-                      "display": "Lead sponsor"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "classifier",
-                "valueCodeableConcept": {
-                  "text": "OTHER"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-          },
-          {
-            "extension": [
-              {
-                "url": "name",
-                "valueString": "Samuel Klein, MD"
-              },
-              {
-                "url": "role",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                      "code": "primary-investigator",
-                      "display": "Principal investigator"
-                    }
-                  ]
-                }
-              },
-              {
-                "url": "party",
-                "valueReference": {
-                  "display": "Washington University School of Medicine"
-                }
-              }
-            ],
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-          },
-          {
-            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.recruitment.targetNumber",
-            "valueUnsignedInt": 31
           }
         ],
         "identifier": [
@@ -1064,6 +141,56 @@
             }
           }
         ],
+        "label": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/title-type",
+                  "code": "official",
+                  "display": "Official title"
+                }
+              ]
+            },
+            "value": "Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/title-type",
+                  "code": "short-title",
+                  "display": "Short title"
+                }
+              ]
+            },
+            "value": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/title-type",
+                  "code": "plain-language",
+                  "display": "Plain language title"
+                }
+              ]
+            },
+            "value": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/title-type",
+                  "code": "acronym",
+                  "display": "Acronym"
+                }
+              ]
+            },
+            "value": "UA"
+          }
+        ],
         "phase": [
           {
             "coding": [
@@ -1074,6 +201,62 @@
               }
             ],
             "text": "N\/A"
+          }
+        ],
+        "classifier": [
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                "code": "does-not-include-healthy-volunteers",
+                "display": "Does not include healthy volunteers"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                "code": "includes-females",
+                "display": "Includes female subjects"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                "code": "includes-males",
+                "display": "Includes male subjects"
+              }
+            ]
+          },
+          {
+            "text": "Minimum Age: 18 Years"
+          },
+          {
+            "text": "Maximum Age: 65 Years"
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                "code": "includes-ages-18-64",
+                "display": "Includes ages 18-64 years"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                "code": "includes-ages-65-and-older",
+                "display": "Includes ages 65 and older"
+              }
+            ]
+          },
+          {
+            "text": "Oversight Classifier: oversightHasDmc False"
           }
         ],
         "objective": [
@@ -1102,6 +285,128 @@
             },
             "name": "Secondary Objective",
             "description": ""
+          }
+        ],
+        "outcomeMeasure": [
+          {
+            "name": "Endpoint_1de5c5e8-d44a-11f1-b29c-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "primary",
+                    "display": "Primary"
+                  }
+                ]
+              }
+            ],
+            "description": "Percent Increase in Insulin-stimulated Glucose Uptake [Time Frame: 12 hours after reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5c7be-d44a-11f1-9e18-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "The Effect of Reducing Uric Acid on Oxidative Status [Time Frame: 12 hours after reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5c980-d44a-11f1-9138-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Baseline Carbonylated Protein Ratio [Time Frame: Before reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5cb4c-d44a-11f1-bc41-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "AFTER Rasburicase Carbonylated Protein Ratio [Time Frame: 12 hours after reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5cd04-d44a-11f1-995f-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Baseline Plasma TRAP [Time Frame: Before reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5cebc-d44a-11f1-b780-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "AFTER Rasburicase Plasma TRAP [Time Frame: 12 hours after reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5d074-d44a-11f1-9e9e-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "Baseline Plasma FRAP [Time Frame: Before reducing uric acid]"
+          },
+          {
+            "name": "Endpoint_1de5d22c-d44a-11f1-8758-8abdedc76cb5",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                    "code": "secondary",
+                    "display": "Secondary"
+                  }
+                ]
+              }
+            ],
+            "description": "AFTER Rasburicase Plasma FRAP (Fe\u207a\u00b2 \u00b7 L\u02c9\u00b9) [Time Frame: 12 hours after reducing uric acid]"
           }
         ],
         "studyDesign": [
@@ -1142,11 +447,194 @@
             "text": "Design Masking: NONE (Open Label)"
           }
         ],
-        "enrollment": [
-          {
+        "recruitment": {
+          "targetNumber": 31,
+          "eligibility": {
             "reference": "#eligibility-criteria",
             "type": "Group",
             "display": "USDM Eligibility Criteria for Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+          }
+        },
+        "associatedParty": [
+          {
+            "name": "Washington University School of Medicine",
+            "role": {
+              "coding": [
+                {
+                  "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
+                  "code": "lead-sponsor",
+                  "display": "Lead sponsor"
+                }
+              ]
+            },
+            "classifier": [
+              {
+                "text": "OTHER"
+              }
+            ]
+          },
+          {
+            "name": "Samuel Klein, MD",
+            "role": {
+              "coding": [
+                {
+                  "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
+                  "code": "primary-investigator",
+                  "display": "Principal investigator"
+                }
+              ]
+            },
+            "party": {
+              "display": "Washington University School of Medicine"
+            }
+          }
+        ],
+        "progressStatus": [
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-status",
+                  "code": "completed",
+                  "display": "Completed"
+                }
+              ]
+            }
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "record-verification",
+                  "display": "Record Verification"
+                }
+              ]
+            },
+            "period": {
+              "end": "2018-07-30"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "overall-study",
+                  "display": "Overall study"
+                }
+              ]
+            },
+            "period": {
+              "start": "2006-07-30"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "primary-outcome-data-collection",
+                  "display": "Primary outcome data collection"
+                }
+              ]
+            },
+            "period": {
+              "end": "2008-06-30"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "overall-study",
+                  "display": "Overall study"
+                }
+              ]
+            },
+            "period": {
+              "end": "2012-11-30"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "registration-posting",
+                  "display": "Registration posting"
+                }
+              ]
+            },
+            "period": {
+              "end": "2013-08-29"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "update-posting",
+                  "display": "Update posting"
+                }
+              ]
+            },
+            "period": {
+              "end": "2018-08-14"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "registration-submission",
+                  "display": "Registration submission"
+                }
+              ]
+            },
+            "period": {
+              "end": "2013-08-23"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "registration-submission-qc",
+                  "display": "Registration submission Quality Check"
+                }
+              ]
+            },
+            "period": {
+              "end": "2013-08-23"
+            },
+            "actual": true
+          },
+          {
+            "state": {
+              "coding": [
+                {
+                  "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                  "code": "update-submission",
+                  "display": "Update submission"
+                }
+              ]
+            },
+            "period": {
+              "end": "2018-07-16"
+            },
+            "actual": true
           }
         ],
         "contained": [
@@ -1154,7 +642,7 @@
             "resourceType": "Group",
             "id": "eligibility-criteria",
             "meta": {
-              "lastUpdated": "2026-11-03T12:22:24Z",
+              "lastUpdated": "2026-11-03T14:01:00Z",
               "profile": [
                 "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-eligibility-criteria"
               ]
@@ -2431,7 +1919,7 @@
             "resourceType": "EvidenceVariable",
             "id": "NCT01931527-drug-rasburicase",
             "meta": {
-              "lastUpdated": "2026-11-03T12:22:24Z",
+              "lastUpdated": "2026-11-03T14:01:00Z",
               "profile": [
                 "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/variable-definition"
               ]
@@ -2475,7 +1963,7 @@
             }
           }
         ],
-        "arm": [
+        "comparisonGroup": [
           {
             "name": "Obese subjects with normal uric acid",
             "description": "Subjects with a body mass index = or \\> 30 kg\/m\u00b2 with normal uric acid (= or \\< 5 mg\/dL)",

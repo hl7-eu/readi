@@ -1,26 +1,16 @@
 Extension: GroupCombinationMethod
 Id: group-combinationMethod
 Title: "Group Combination Method"
-Description: "How the characteristics of the Group are combined (e.g. all of, any of) to determine membership. It pre-adopts the FHIR R6 Group.combinationMethod element, not available in FHIR R4 or R5."
+Description: "How the characteristics of the Group are combined (e.g. all of, any of) to determine membership. It pre-adopts the FHIR R6 Group.combinationMethod element, not available in FHIR R5."
 Context: Group
 * insert SetFmmAndStatusRule (0, draft)
 * . ^isModifier = true
-* . ^isModifierReason = "In FHIR R4 all the characteristics of a Group must be true for an entity to be a member of the group; a combination method other than all-of (e.g. any-of) changes this meaning."
+* . ^isModifierReason = "In FHIR R5 all the characteristics of a Group must be true for an entity to be a member of the group; a combination method other than all-of (e.g. any-of) changes this meaning."
 * value[x] only code
 * valueCode 1..
-* valueCode from http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-combination-for-R4 (required)
+* valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
   * ^short = "all-of | any-of | at-least | at-most | statistical | net-effect | dataset"
 * valueCode ^requirements = "USDM: to-be-specified.to-be-specified"
-
-Extension: GroupDescription
-Id: group-description
-Title: "Group Description"
-Description: "A natural language description of the Group. It pre-adopts the FHIR R5 Group.description element, not covered by the R5 cross-version extensions for R4."
-Context: Group
-* insert SetFmmAndStatusRule (0, draft)
-* value[x] only markdown
-* valueMarkdown 1..
-* valueMarkdown ^requirements = "USDM: ExpectedResponse.label"
 
 Extension: GroupCharacteristicDescription
 Id: group-characteristic-description

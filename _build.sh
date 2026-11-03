@@ -123,6 +123,9 @@ function build_ig() {
   local args=()
   if [ "$online" = "false" ]; then
     args+=("-tx" "n/a")
+  else
+    # No version suffix: the publisher appends /r4, /r5 ... itself (a fixed .../r4 breaks R5 builds)
+    args+=("-tx" "https://tx.fhir.org")
   fi
   run_publisher "${args[@]}" "$@"
 }

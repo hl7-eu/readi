@@ -11,12 +11,9 @@ Description: "This profile describes a variable measured in a clinical study (e.
 * title ^short = "Label of the variable (USDM BiomedicalConcept.label)"
 * description ^short = "Description of the variable (USDM BiomedicalConcept.description)"
 * characteristic ^short = "What defines the variable (e.g. the USDM BiomedicalConcept code)"
-// ---- extension[classifier]
-* extension contains $evidenceVariable-category-r5 named classifier 0..*
-* extension[classifier] ^short = "Classification of the variable (e.g. measurement)"
-  * ^comment = "Used to represent the EvidenceVariable.classifier element (e.g. #measurement from http://hl7.org/fhir/evidence-variable-classifier-example), not available in FHIR R4, by means of the R5 EvidenceVariable.category cross-version extension."
-* extension[classifier] ^requirements = "USDM: to-be-specified.to-be-specified"
-// ---- USDM requirements (generated from usdm2fhir-mapping.md; extension requirements are with the extension rules above) ----
+* category ^short = "Classification of the variable (e.g. measurement)"
+// ---- USDM requirements (generated from usdm2fhir-mapping.md) ----
+* category ^requirements = "USDM: to-be-specified.to-be-specified"
 * id ^requirements = "USDM: to-be-specified.to-be-specified"
 * name ^requirements = "USDM: to-be-specified.to-be-specified"
 * title ^requirements = "USDM: to-be-specified.to-be-specified"
