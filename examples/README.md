@@ -29,6 +29,22 @@ reported but do not fail the run.
 Issues are matched on severity + validator message id + FHIRPath location, so a
 rewording of a message by a newer validator is not counted as a regression.
 
+## Validator version
+
+The workflow always downloads the latest validator release (`VALIDATOR_VERSION: "latest"`
+in the workflow; set a release number there to pin it). The baseline records the
+validator version it was made with: when a run uses a different one, the report says
+so, because new or fixed issues may then come from the validator and not from the IG.
+Refresh the baseline once those changes are understood.
+
+## Suppressing warnings
+
+Warnings and information messages that are known and not worth tracking can be listed
+in [scripts/validation/suppressions.txt](../scripts/validation/suppressions.txt), by
+message id (shown between brackets in the report) or by a regex on the message text,
+optionally restricted to some files. Suppressed messages are only counted in the report.
+Errors cannot be suppressed: accept them in the baseline instead.
+
 ## Accepting the current results (refreshing the baseline)
 
 After adding examples, or once a change in the results is understood and accepted:

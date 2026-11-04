@@ -9,14 +9,20 @@ Exit code 1 when there is a regression:
   - a new error/fatal issue not present in the baseline, or
   - an example under an `invalid/` folder that no longer produces any error.
 
+Warnings and information messages matching a rule in the --suppress file are
+dropped before the comparison (only counted in the report). Errors cannot be
+suppressed: accept them in the baseline instead.
+
 Usage:
   report.py results.json --baseline scripts/validation/baseline.json --report report.md
   report.py results.json --baseline scripts/validation/baseline.json --update-baseline
 """
 
 import argparse
+import fnmatch
 import json
 import os
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -76,6 +82,49 @@ def load_results(results_file, root):
     return results
 
 
+def load_suppressions(path):
+    """Rules: one per line, `[file-glob ::] message-id-or-regex`; `#` starts a comment."""
+    rules = []
+    if not path or not Path(path).exists():
+        return rules
+    for raw in Path(path).read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        glob, _, pattern = line.rpartition("::")
+        rules.append((glob.strip() or "*", pattern.strip(), re.compile(pattern.strip())))
+    return rules
+
+
+def is_suppressed(file, issue, rules):
+    if issue["severity"] in BLOCKING:
+        return False
+    for glob, pattern, regex in rules:
+        if fnmatch.fnmatch(file, glob) and (issue["id"] == pattern or regex.search(issue["text"])):
+            return True
+    return False
+
+
+def apply_suppressions(results, rules):
+    """Remove suppressed issues; return {file: number suppressed}."""
+    suppressed = {}
+    for file, issues in results.items():
+        kept = [i for i in issues if not is_suppressed(file, i, rules)]
+        suppressed[file] = len(issues) - len(kept)
+        results[file] = kept
+    return suppressed
+
+
+def load_baseline(path):
+    """Return (validator version, {file: [issue, ...]})."""
+    if not path.exists():
+        return None, {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if "examples" in data:
+        return data.get("validator"), data["examples"]
+    return None, data  # older format: files at the top level
+
+
 def key(issue):
     # Message text changes between validator releases; the message id and
     # location are stable enough to recognise the same issue across runs
@@ -128,18 +177,22 @@ def issue_line(issue):
     return f"- **{issue['severity']}** {loc}{line}: {md_escape(issue['text'])} <sub>[{issue['id']}]</sub>"
 
 
-def build_report(results, diff, baseline_files, context):
+def build_report(results, diff, baseline_files, suppressed, context, validator_change=None):
     lines = ["# READI examples – validation report", ""]
     for label, value in context.items():
         if value:
             lines.append(f"- **{label}:** {value}")
     lines.append("")
+    if validator_change:
+        old, new = validator_change
+        lines += [f"> ⚠️ The validator changed since the baseline was recorded ({old} → {new}): "
+                  "new or fixed issues may come from the validator rather than from the IG.", ""]
 
     regressions = []
     rows = []
     for file, d in diff.items():
         if d["removed"]:
-            rows.append(f"| `{file}` | – | – | – | removed (still in baseline) | ⚪ |")
+            rows.append(f"| `{file}` | – | – | – | – | removed (still in baseline) | ⚪ |")
             continue
         errors, warnings, infos = counts(results[file])
         new_blocking = [i for i in d["new"] if i["severity"] in BLOCKING]
@@ -160,7 +213,7 @@ def build_report(results, diff, baseline_files, context):
             status = "✅ unchanged"
         delta = f"+{len(d['new'])} / -{len(d['fixed'])}"
         kind = "negative" if negative else "positive"
-        rows.append(f"| `{file}` | {errors} | {warnings} | {infos} | {delta} | {status} ({kind}) |")
+        rows.append(f"| `{file}` | {errors} | {warnings} | {infos} | {suppressed.get(file, 0)} | {delta} | {status} ({kind}) |")
 
     total = len([d for d in diff.values() if not d["removed"]])
     if regressions:
@@ -169,8 +222,8 @@ def build_report(results, diff, baseline_files, context):
         lines.append(f"**Result: ✅ no regressions in {total} examples.**")
     lines += [
         "",
-        "| Example | Errors | Warnings | Info | Δ vs baseline (new / fixed) | Status |",
-        "|---|---:|---:|---:|---|---|",
+        "| Example | Errors | Warnings | Info | Suppressed | Δ vs baseline (new / fixed) | Status |",
+        "|---|---:|---:|---:|---:|---|---|",
         *rows,
         "",
     ]
@@ -204,25 +257,36 @@ def main():
     parser.add_argument("--report", help="Markdown report to write")
     parser.add_argument("--update-baseline", action="store_true", help="overwrite the baseline with these results")
     parser.add_argument("--root", default=".", help="repository root, used to make file paths relative")
+    parser.add_argument("--suppress", help="file with warning/information messages to ignore")
+    parser.add_argument("--validator-version", help="validator version used for these results")
     parser.add_argument("--context", action="append", default=[], metavar="LABEL=VALUE",
                         help="extra header lines for the report (repeatable)")
     args = parser.parse_args()
 
     root = Path(args.root)
     results = load_results(args.results, root)
+    rules = load_suppressions(args.suppress)
+    suppressed = apply_suppressions(results, rules)
     baseline_path = Path(args.baseline)
 
     if args.update_baseline:
-        stored = {f: [{k: i[k] for k in ("severity", "id", "expression", "text")} for i in issues]
-                  for f, issues in sorted(results.items())}
+        stored = {
+            "validator": args.validator_version,
+            "examples": {f: [{k: i[k] for k in ("severity", "id", "expression", "text")} for i in issues]
+                         for f, issues in sorted(results.items())},
+        }
         baseline_path.parent.mkdir(parents=True, exist_ok=True)
         baseline_path.write_text(json.dumps(stored, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"Baseline written to {baseline_path} ({len(stored)} examples)")
+        print(f"Baseline written to {baseline_path} ({len(results)} examples)")
 
-    baseline = json.loads(baseline_path.read_text(encoding="utf-8")) if baseline_path.exists() else {}
+    baseline_validator, baseline = load_baseline(baseline_path)
+    apply_suppressions(baseline, rules)  # a newly suppressed message must not show up as "fixed"
+    validator_change = None
+    if baseline_validator and args.validator_version and baseline_validator != args.validator_version:
+        validator_change = (baseline_validator, args.validator_version)
     diff = compare(results, baseline)
     context = dict(c.split("=", 1) for c in args.context if "=" in c)
-    report, regressions = build_report(results, diff, set(baseline), context)
+    report, regressions = build_report(results, diff, set(baseline), suppressed, context, validator_change)
 
     if args.report:
         Path(args.report).write_text(report, encoding="utf-8")
