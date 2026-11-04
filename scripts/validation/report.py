@@ -33,6 +33,7 @@ EXT_LINE = "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line"
 
 SEVERITIES = ["fatal", "error", "warning", "information"]
 BLOCKING = {"fatal", "error"}
+SUMMARY_LIMIT = 900 * 1024  # GitHub step summary limit is 1024k; keep a margin
 
 
 def ext_value(resource, url):
@@ -177,7 +178,18 @@ def issue_line(issue):
     return f"- **{issue['severity']}** {loc}{line}: {md_escape(issue['text'])} <sub>[{issue['id']}]</sub>"
 
 
-def build_report(results, diff, baseline_files, suppressed, context, validator_change=None):
+def issue_lines(issues, max_issues):
+    lines = [issue_line(i) for i in issues[:max_issues]]
+    if len(issues) > max_issues:
+        lines.append(f"- … {len(issues) - max_issues} more (see the full report in the run artifact)")
+    return lines
+
+
+def build_report(results, diff, baseline_files, suppressed, context, validator_change=None,
+                 max_issues=None, with_known=True, with_details=True):
+    """Markdown report. max_issues caps the issues listed per file; with_known / with_details
+    drop the known-issues list / all issue lists (used to keep the run summary small)."""
+    max_issues = max_issues or sys.maxsize
     lines = ["# READI examples – validation report", ""]
     for label, value in context.items():
         if value:
@@ -228,6 +240,10 @@ def build_report(results, diff, baseline_files, suppressed, context, validator_c
         "",
     ]
 
+    if not with_details:
+        lines += ["_Issue details omitted: see `report.md` in the run artifact._", ""]
+        return "\n".join(lines), regressions
+
     for title, bucket in (("New issues", "new"), ("Fixed issues (no longer reported)", "fixed")):
         section = [(f, d[bucket]) for f, d in diff.items() if d[bucket]]
         if not section:
@@ -235,15 +251,17 @@ def build_report(results, diff, baseline_files, suppressed, context, validator_c
         lines += [f"## {title}", ""]
         for file, issues in section:
             lines.append(f"### `{file}`")
-            lines += [issue_line(i) for i in issues]
+            lines += issue_lines(issues, max_issues)
             lines.append("")
 
     known = [(f, d["known"]) for f, d in diff.items() if d["known"]]
-    if known:
+    if known and not with_known:
+        lines += ["_Known issues (accepted in the baseline) omitted: see `report.md` in the run artifact._", ""]
+    elif known:
         lines += ["<details><summary>Known issues (accepted in the baseline)</summary>", ""]
         for file, issues in known:
             lines.append(f"**`{file}`**")
-            lines += [issue_line(i) for i in issues]
+            lines += issue_lines(issues, max_issues)
             lines.append("")
         lines += ["</details>", ""]
 
@@ -286,14 +304,21 @@ def main():
         validator_change = (baseline_validator, args.validator_version)
     diff = compare(results, baseline)
     context = dict(c.split("=", 1) for c in args.context if "=" in c)
-    report, regressions = build_report(results, diff, set(baseline), suppressed, context, validator_change)
+    args_report = (results, diff, set(baseline), suppressed, context, validator_change)
+    report, regressions = build_report(*args_report)
 
     if args.report:
         Path(args.report).write_text(report, encoding="utf-8")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
+        # GitHub rejects a step summary over 1 MiB: shorten it step by step if needed
+        for variant in ({}, {"with_known": False, "max_issues": 50},
+                        {"with_known": False, "max_issues": 10}, {"with_details": False}):
+            short, _ = build_report(*args_report, **variant)
+            if len(short.encode("utf-8")) <= SUMMARY_LIMIT:
+                break
         with open(summary, "a", encoding="utf-8") as fh:
-            fh.write(report + "\n")
+            fh.write(short + "\n")
     if not args.report and not summary:
         sys.stdout.reconfigure(encoding="utf-8")
         print(report)
