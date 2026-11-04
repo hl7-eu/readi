@@ -1,0 +1,3333 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-6-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/NCT06422078",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT06422078",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Practitioner",
+            "id": "NCT06422078-CentralContact-0",
+            "name": [
+              {
+                "text": "AstraZeneca Clinical Study Information Center"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "1-877-240-9479",
+                "system": "phone"
+              },
+              {
+                "value": "information.center@astrazeneca.com",
+                "system": "email"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Non-interventional, Prospective Study With Benralizumab"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Non-interventional, Prospective Study With Benralizumab"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "AIR POWER"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Maximum Age: 120 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-ages-18-64",
+                  "display": "Includes ages 18-64 years"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-ages-65-and-older",
+                  "display": "Includes ages 65 and older"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Study Population Source: The study population will consist of adult patients, who were diagnosed with severe eosinophilic asthma treated by pulmonary specialists, for whom the indication to start benralizumab therapy was received independently of study participation."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharing: Yes"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharingDescription: Qualified researchers can request access to anonymized individual patient-level data from AstraZeneca group of companies sponsored clinical trials via the request portal. All requests will be evaluated as per the AZ disclosure commitment: https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure Yes, indicates that AZ are accepting requests for IPD, but this does not mean all requests will be shared."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-05-15"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-27"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Recruiting"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-07-25"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-12-31"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-12-31"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-05-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-28"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-05-15"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-1",
+                  "display": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-2",
+                  "display": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-3",
+                  "display": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-4",
+                  "display": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose [Time Frame: From baseline to week 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-5",
+                  "display": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose [Time Frame: From baseline to week 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-primary-endpoint-6",
+                  "display": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-1",
+                  "display": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-2",
+                  "display": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose [Time Frame: From baseline to week 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-3",
+                  "display": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose [Time Frame: From baseline to week 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-4",
+                  "display": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-5",
+                  "display": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-6",
+                  "display": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-7",
+                  "display": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-8",
+                  "display": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-9",
+                  "display": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-10",
+                  "display": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-11",
+                  "display": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-12",
+                  "display": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-13",
+                  "display": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-14",
+                  "display": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-15",
+                  "display": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-16",
+                  "display": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-17",
+                  "display": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-18",
+                  "display": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct06422078-secondary-endpoint-19",
+                  "display": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "AstraZeneca"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ],
+                  "text": "INDUSTRY"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "AstraZeneca Clinical Study Information Center"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "general-contact",
+                      "display": "general-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#NCT06422078-CentralContact-0",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 300
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C16084",
+                  "display": "Observational Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01002",
+                  "display": "Observational research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://clinicaltrials.gov/data-about-studies/study-data-structure#enum-ObservationalModel",
+                  "code": "COHORT",
+                  "display": "Cohort"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "This is a prospective observational study to investigate the asthma control and health realted quality of life (HRQL) of benralizumab treated patients in routine clinical practice, their asthma medication intake, and their changes in asthma medication during the study, up to 52 weeks.\n\nThe asthma control will be analyzed by using the Asthma Control Test (ACT) and the Asthma Impairment and Risk Questionnaire (AIRQ®) at different timepoints during the study period either collected by the investigator or self-reported by the patient. In addition, health realted quality of life will be assessed at baseline and routine follow-up visits using the mini Asthma Quality of Life Questionnaire (miniAQLQ) which is collected by the investigator. To investigate the medication intake and assess the changes in asthma medication, the patients will record their weekly medication intake in a paper-based or an electronic medication diary throughout the study."
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT06422078 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT06422078",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "D3250R00124",
+            "assigner": {
+              "display": "AstraZeneca"
+            }
+          }
+        ],
+        "title": "A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life",
+        "status": "active",
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D001249",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D011657",
+                "display": "Pulmonary Eosinophilia"
+              }
+            ],
+            "text": "Pulmonary Eosinophilia"
+          }
+        ],
+        "description": "This is a prospective observational study to investigate the asthma control and health realted quality of life (HRQL) of benralizumab treated patients in routine clinical practice, their asthma medication intake, and their changes in asthma medication during the study, up to 52 weeks.\n\nThe asthma control will be analyzed by using the Asthma Control Test (ACT) and the Asthma Impairment and Risk Questionnaire (AIRQ®) at different timepoints during the study period either collected by the investigator or self-reported by the patient. In addition, health realted quality of life will be assessed at baseline and routine follow-up visits using the mini Asthma Quality of Life Questionnaire (miniAQLQ) which is collected by the investigator. To investigate the medication intake and assess the changes in asthma medication, the patients will record their weekly medication intake in a paper-based or an electronic medication diary throughout the study.",
+        "enrollment": [
+          {
+            "reference": "Group/nct06422078-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life"
+          }
+        ],
+        "period": {
+          "start": "2024-07-25"
+        },
+        "sponsor": {
+          "display": "AstraZeneca"
+        },
+        "site": [
+          {
+            "reference": "Location/nct06422078-site-1",
+            "display": "Research Site — Ahrensburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-2",
+            "display": "Research Site — Ansbach"
+          },
+          {
+            "reference": "Location/nct06422078-site-3",
+            "display": "Research Site — Aschaffenburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-4",
+            "display": "Research Site — Auerbach"
+          },
+          {
+            "reference": "Location/nct06422078-site-5",
+            "display": "Research Site — Augsburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-6",
+            "display": "Research Site — Bad Homburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-7",
+            "display": "Research Site — Berlin"
+          },
+          {
+            "reference": "Location/nct06422078-site-8",
+            "display": "Research Site — Cottbus"
+          },
+          {
+            "reference": "Location/nct06422078-site-9",
+            "display": "Research Site — Darmstadt"
+          },
+          {
+            "reference": "Location/nct06422078-site-10",
+            "display": "Research Site — Dresden"
+          },
+          {
+            "reference": "Location/nct06422078-site-11",
+            "display": "Research Site — Düsseldorf"
+          },
+          {
+            "reference": "Location/nct06422078-site-12",
+            "display": "Research Site — Ehringshausen"
+          },
+          {
+            "reference": "Location/nct06422078-site-13",
+            "display": "Research Site — Erkelenz"
+          },
+          {
+            "reference": "Location/nct06422078-site-14",
+            "display": "Research Site — Essen"
+          },
+          {
+            "reference": "Location/nct06422078-site-15",
+            "display": "Research Site — Flensburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-16",
+            "display": "Research Site — Frankfurt am Main"
+          },
+          {
+            "reference": "Location/nct06422078-site-17",
+            "display": "Research Site — Garmisch-Partenkirchen"
+          },
+          {
+            "reference": "Location/nct06422078-site-18",
+            "display": "Research Site — Halle"
+          },
+          {
+            "reference": "Location/nct06422078-site-19",
+            "display": "Research Site — Hamburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-20",
+            "display": "Research Site — Hanover"
+          },
+          {
+            "reference": "Location/nct06422078-site-21",
+            "display": "Research Site — Heidelberg"
+          },
+          {
+            "reference": "Location/nct06422078-site-22",
+            "display": "Research Site — Hohenstein-Ernsttahl"
+          },
+          {
+            "reference": "Location/nct06422078-site-23",
+            "display": "Research Site — Itzehoe"
+          },
+          {
+            "reference": "Location/nct06422078-site-24",
+            "display": "Research Site — Jena"
+          },
+          {
+            "reference": "Location/nct06422078-site-25",
+            "display": "Research Site — Leipzig"
+          },
+          {
+            "reference": "Location/nct06422078-site-26",
+            "display": "Research Site — Loerrach"
+          },
+          {
+            "reference": "Location/nct06422078-site-27",
+            "display": "Research Site — Lübeck"
+          },
+          {
+            "reference": "Location/nct06422078-site-28",
+            "display": "Research Site — Lüneburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-29",
+            "display": "Research Site — Markkleeberg"
+          },
+          {
+            "reference": "Location/nct06422078-site-30",
+            "display": "Research Site — Mönchengladbach"
+          },
+          {
+            "reference": "Location/nct06422078-site-31",
+            "display": "Research Site — Neuruppin"
+          },
+          {
+            "reference": "Location/nct06422078-site-32",
+            "display": "Research Site — Nuremberg"
+          },
+          {
+            "reference": "Location/nct06422078-site-33",
+            "display": "Research Site — Papenburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-34",
+            "display": "Research Site — Rostock"
+          },
+          {
+            "reference": "Location/nct06422078-site-35",
+            "display": "Research Site — Saalfeld"
+          },
+          {
+            "reference": "Location/nct06422078-site-36",
+            "display": "Research Site — Spardorf"
+          },
+          {
+            "reference": "Location/nct06422078-site-37",
+            "display": "Research Site — Weißenburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-38",
+            "display": "Research Site — Wilhelmshaven"
+          },
+          {
+            "reference": "Location/nct06422078-site-39",
+            "display": "Research Site — Würzburg"
+          },
+          {
+            "reference": "Location/nct06422078-site-40",
+            "display": "Research Site — Zossen"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct06422078-cohort-1",
+                  "display": "Default arm"
+                }
+              }
+            ],
+            "name": "Default arm",
+            "type": {
+              "text": "Other"
+            }
+          }
+        ],
+        "objective": [
+          {
+            "name": "Primary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Secondary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21404b78-7063-11f1-bf3b-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint1",
+        "title": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in Asthma Control Test (ACT) total score in patients from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140510e-7063-11f1-8eaa-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint2",
+        "title": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT",
+        "status": "active",
+        "description": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of responders at baseline, week 12, 24 and 52 after first benralizumab dose, using ACT"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140578a-7063-11f1-bb46-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint3",
+        "title": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in daily doses of prescribed inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21405c8a-7063-11f1-98d6-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint4",
+        "title": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in daily doses of patient-reported inhaled corticosteroids (ICS) intake from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21406220-7063-11f1-a0d1-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint5",
+        "title": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose [Time Frame: From baseline to week 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Reduction (in percentage) in prescribed daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-primary-endpoint-6",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-primary-endpoint-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:214067de-7063-11f1-ac47-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078PrimaryEndpoint6",
+        "title": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose [Time Frame: From baseline to week 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Reduction (in percentage) in patient-reported daily ICS dose intake from baseline to week 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21406d42-7063-11f1-b65b-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint1",
+        "title": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients meeting any individual criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21407292-7063-11f1-aeb6-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint2",
+        "title": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients fulfilling all the criteria for remission at baseline, week 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21407756-7063-11f1-9653-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint3",
+        "title": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose",
+        "status": "active",
+        "description": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose [Time Frame: From baseline to week 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Total Asthma Impairment and Risk Questionnaire® (AIRQ®) score reduction from baseline to every 4 weeks after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21407d78-7063-11f1-af44-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint4",
+        "title": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose",
+        "status": "active",
+        "description": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose [Time Frame: From baseline to week 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Total ACT score reduction from baseline to every 4 weeks after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:214082c8-7063-11f1-b6e3-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint5",
+        "title": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in total Mini Asthma Quality of Life Questionnaire (miniAQLQ) score from baseline to week 12, 24, and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-6",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21408840-7063-11f1-82ba-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint6",
+        "title": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in daily doses of prescribed relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-7",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21408dea-7063-11f1-abbf-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint7",
+        "title": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients with increased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-8",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:214093ee-7063-11f1-8f04-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint8",
+        "title": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients with decreased daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-9",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:214098bc-7063-11f1-a654-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint9",
+        "title": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients with equal daily dose of relevant background medication from baseline to week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-10",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:21409d6c-7063-11f1-be31-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint10",
+        "title": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Annualized exacerbation rate assessed at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-11",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140a3fc-7063-11f1-a67d-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint11",
+        "title": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: From baseline to week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Proportion of patients without exacerbations at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: From baseline to week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-12",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140a924-7063-11f1-99ff-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint12",
+        "title": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of lung function parameters - forced expiratory volume in the first second (FEV1) and forced vital capacity (FVC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-13",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140adca-7063-11f1-9e3a-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint13",
+        "title": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of lung function parameters - residual volume (RV) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-14",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140b27a-7063-11f1-a987-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint14",
+        "title": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of lung function parameters - total lung capacity (TLC) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-15",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140b932-7063-11f1-bdea-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint15",
+        "title": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of lung function parameters - total specific airway resistance (sRtot) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-16",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140bdec-7063-11f1-a4b7-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint16",
+        "title": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of diffusing capacity of the lungs for carbon monoxide (DLCO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-17",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140c364-7063-11f1-91aa-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint17",
+        "title": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of biomarkers - eosinophils at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-18",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140c832-7063-11f1-8dbb-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint18",
+        "title": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of biomarkers - total immunglobulin E (IgE) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct06422078-secondary-endpoint-19",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct06422078-secondary-endpoint-19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2140cce2-7063-11f1-8f10-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT06422078SecondaryEndpoint19",
+        "title": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose",
+        "status": "active",
+        "description": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose [Time Frame: At baseline, week 12, 24 and 52]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Level of biomarkers - fractional exhaled nitric oxide (FeNO) at baseline, week 12, 24 and 52 after first benralizumab dose"
+            },
+            "description": "Time frame: At baseline, week 12, 24 and 52"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct06422078-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct06422078-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Male or female patients aged 18 years or older\n* Confirmed diagnosis of severe eosinophilic asthma (defined according to the European Respiratory Society and American Thoracic Society and local German guidelines) treated with high-dose inhaled corticosteroids (ICS) plus long-acting beta agonists (LABA)\n* Prescribed treatment with benralizumab according to label and local market reimbursement criteria\n* Benralizumab treatment was not part of the study decision and treatment decision was met prior and independently of the study\n* Patients must be able and willing to read and comprehend written instructions\n* After full explanation, patients must have signed an informed consent form (ICF) indicating that they understand the purpose of, and the procedures required for the study and are willing to participate in the study\n* Patients must be willing to report asthma patient-reported outcomes (PROs) every 4 weeks and medication intake weekly\n\nExclusion Criteria:\n\n* Patients who participate in an observational trial that might, in the investigators' opinion, influence the assessment for current study; or participated in a randomized clinical trial in the last 3 months\n* History of anaphylaxis to any biologic therapy\n* Prior treatment with any asthma biologic therapy within the last 3 months\n* Concurrent asthma biologic therapy\n* Helminth parasitic infection diagnosed within 24 weeks prior to the date informed consent was obtained that had not been treated with, or had failed to respond to standard of care (SOC) therapy\n* Any other pulmonary disease than asthma that, in the investigator's point of view, would have an impact on the interpretation of results\n* An acute or chronic condition that, in the investigator's point of view, would limit the patient's ability to complete questionnaires or participate in this study or impact the interpretations of results\n* Current or history of malignancy within 5 years before the enrolment date with the following exceptions:\n\n  * In-situ carcinoma of the cervix where curative therapy has been completed and patients are in remission for at least 12 months prior to enrolment date\n  * Basal cell or superficial squamous skin cancer\n* Pregnancy or lactation period (status to be proactively asked by the investigator)\n* Any condition, that, in the opinion of the investigator, could jeopardize the safety of the patient"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct06422078-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct06422078-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Other"
+        },
+        "name": "Default arm"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Ahrensburg",
+        "address": {
+          "city": "Ahrensburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.67661,
+          "longitude": 10.23705
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-2",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Ansbach",
+        "address": {
+          "city": "Ansbach",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.30481,
+          "longitude": 10.5931
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-3",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Aschaffenburg",
+        "address": {
+          "city": "Aschaffenburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.97704,
+          "longitude": 9.15214
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-4",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Auerbach",
+        "address": {
+          "city": "Auerbach",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.51155,
+          "longitude": 12.40083
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-5",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Augsburg",
+        "address": {
+          "city": "Augsburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 48.37154,
+          "longitude": 10.89851
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-6",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Bad Homburg",
+        "address": {
+          "city": "Bad Homburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.22683,
+          "longitude": 8.61816
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-7",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Berlin",
+        "address": {
+          "city": "Berlin",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 52.52437,
+          "longitude": 13.41053
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-8",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Cottbus",
+        "address": {
+          "city": "Cottbus",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.75769,
+          "longitude": 14.32888
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-9",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Darmstadt",
+        "address": {
+          "city": "Darmstadt",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.87167,
+          "longitude": 8.65027
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-10",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Dresden",
+        "address": {
+          "city": "Dresden",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.05089,
+          "longitude": 13.73832
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-11",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Düsseldorf",
+        "address": {
+          "city": "Düsseldorf",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.22319,
+          "longitude": 6.77927
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-12",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Ehringshausen",
+        "address": {
+          "city": "Ehringshausen",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.6,
+          "longitude": 8.38333
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-13",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Erkelenz",
+        "address": {
+          "city": "Erkelenz",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.07947,
+          "longitude": 6.31531
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-14",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Essen",
+        "address": {
+          "city": "Essen",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.45657,
+          "longitude": 7.01228
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-15",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Flensburg",
+        "address": {
+          "city": "Flensburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 54.78805,
+          "longitude": 9.43722
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-16",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Frankfurt am Main",
+        "address": {
+          "city": "Frankfurt am Main",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.11552,
+          "longitude": 8.68417
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-17",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Garmisch-Partenkirchen",
+        "address": {
+          "city": "Garmisch-Partenkirchen",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 47.49209,
+          "longitude": 11.09576
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-18",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Halle",
+        "address": {
+          "city": "Halle",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.48158,
+          "longitude": 11.97947
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-19",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Hamburg",
+        "address": {
+          "city": "Hamburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.55073,
+          "longitude": 9.99302
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-20",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Hanover",
+        "address": {
+          "city": "Hanover",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 52.37052,
+          "longitude": 9.73322
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-21",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Heidelberg",
+        "address": {
+          "city": "Heidelberg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.40768,
+          "longitude": 8.69079
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-22",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-22",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Hohenstein-Ernsttahl",
+        "address": {
+          "city": "Hohenstein-Ernsttahl",
+          "country": "Germany"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-23",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-23",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Itzehoe",
+        "address": {
+          "city": "Itzehoe",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.92099,
+          "longitude": 9.51529
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-24",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Jena",
+        "address": {
+          "city": "Jena",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.92878,
+          "longitude": 11.5899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-25",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-25",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Leipzig",
+        "address": {
+          "city": "Leipzig",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.33962,
+          "longitude": 12.37129
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-26",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-26",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Loerrach",
+        "address": {
+          "city": "Loerrach",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 47.61497,
+          "longitude": 7.66457
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-27",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-27",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Lübeck",
+        "address": {
+          "city": "Lübeck",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.86893,
+          "longitude": 10.68729
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-28",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-28",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Lüneburg",
+        "address": {
+          "city": "Lüneburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.25122,
+          "longitude": 10.41548
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-29",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-29",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Markkleeberg",
+        "address": {
+          "city": "Markkleeberg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.2755,
+          "longitude": 12.36906
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-30",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-30",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Mönchengladbach",
+        "address": {
+          "city": "Mönchengladbach",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.18539,
+          "longitude": 6.44172
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-31",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-31",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Neuruppin",
+        "address": {
+          "city": "Neuruppin",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 52.92815,
+          "longitude": 12.80311
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-32",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-32",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Nuremberg",
+        "address": {
+          "city": "Nuremberg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.45421,
+          "longitude": 11.07752
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-33",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-33",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Papenburg",
+        "address": {
+          "city": "Papenburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.07769,
+          "longitude": 7.41516
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-34",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-34",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Rostock",
+        "address": {
+          "city": "Rostock",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 54.0887,
+          "longitude": 12.14049
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-35",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-35",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Saalfeld",
+        "address": {
+          "city": "Saalfeld",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 50.64826,
+          "longitude": 11.36536
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-36",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-36",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Spardorf",
+        "address": {
+          "city": "Spardorf",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.60854,
+          "longitude": 11.05585
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-37",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-37",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Weißenburg",
+        "address": {
+          "city": "Weißenburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 51.73675,
+          "longitude": 13.35653
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-38",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-38",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Wilhelmshaven",
+        "address": {
+          "city": "Wilhelmshaven",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 53.5476,
+          "longitude": 8.10395
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-39",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-39",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Würzburg",
+        "address": {
+          "city": "Würzburg",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 49.79391,
+          "longitude": 9.95121
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct06422078-site-40",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct06422078-site-40",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Research Site — Zossen",
+        "address": {
+          "city": "Zossen",
+          "country": "Germany"
+        },
+        "position": {
+          "latitude": 52.216,
+          "longitude": 13.44909
+        }
+      }
+    }
+  ]
+}

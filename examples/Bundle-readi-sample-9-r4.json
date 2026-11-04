@@ -1,0 +1,4746 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-9-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/2024-512278-92-00",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "2024-512278-92-00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-0",
+            "name": [
+              {
+                "text": "Pavel Jansa"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+420224962629",
+                "system": "phone"
+              },
+              {
+                "value": "pavel.jansa@vfn.cz",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-1",
+            "name": [
+              {
+                "text": "Toon Duijnhouwer"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "0243616785",
+                "system": "phone"
+              },
+              {
+                "value": "onderzoek.cardio@radboudumc.nl",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-2",
+            "name": [
+              {
+                "text": "Marco Post"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "0883203000",
+                "system": "phone"
+              },
+              {
+                "value": "m.post@antoniusziekenhuis.nl",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-3",
+            "name": [
+              {
+                "text": "Nicolas Favrolt"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+33380293772",
+                "system": "phone"
+              },
+              {
+                "value": "nicolas.favrolt@chu-dijon.fr",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-4",
+            "name": [
+              {
+                "text": "Francois Picard"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+33557656267",
+                "system": "phone"
+              },
+              {
+                "value": "francois.picard@chu-bordeaux.fr",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-5",
+            "name": [
+              {
+                "text": "Romain Tresorier"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+33473751410",
+                "system": "phone"
+              },
+              {
+                "value": "rtresorier@chu-clermontferrand.fr",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-6",
+            "name": [
+              {
+                "text": "Martine Reynaud-Gaubert"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+33491966145",
+                "system": "phone"
+              },
+              {
+                "value": "martine.reynaud@ap-hm.fr",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-7",
+            "name": [
+              {
+                "text": "Elise Artaud-Macari"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+33232885992",
+                "system": "phone"
+              },
+              {
+                "value": "elise.artaud-macari@chu-rouen.fr",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-8",
+            "name": [
+              {
+                "text": "Claudia Raineri"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390116335570",
+                "system": "phone"
+              },
+              {
+                "value": "craineri@cittadellasalute.to.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-9",
+            "name": [
+              {
+                "text": "Daniele Prati"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390458122988",
+                "system": "phone"
+              },
+              {
+                "value": "daniele.prati@aovr.veneto.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-10",
+            "name": [
+              {
+                "text": "Giuseppe Paciocco"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390392339245",
+                "system": "phone"
+              },
+              {
+                "value": "giuseppe.paciocco@unimib.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-11",
+            "name": [
+              {
+                "text": "Gavino Casu"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+393469767167",
+                "system": "phone"
+              },
+              {
+                "value": "gavino.casu@aouss.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-12",
+            "name": [
+              {
+                "text": "Andrea Garascia"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390264447940",
+                "system": "phone"
+              },
+              {
+                "value": "andrea.garascia@ospedaleniguarda.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-13",
+            "name": [
+              {
+                "text": "Edoardo Airò"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+393276976896",
+                "system": "phone"
+              },
+              {
+                "value": "edoardo.airo@ftgm.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-14",
+            "name": [
+              {
+                "text": "Pietro Ameri"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390103537545",
+                "system": "phone"
+              },
+              {
+                "value": "pietro.ameri@unige.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-15",
+            "name": [
+              {
+                "text": "Marco Vicenzi"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390255033538",
+                "system": "phone"
+              },
+              {
+                "value": "marco.vicenzi@policlinico.mi.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-16",
+            "name": [
+              {
+                "text": "Laura Scelsi"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390382503460",
+                "system": "phone"
+              },
+              {
+                "value": "l.scelsi@smatteo.pv.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-17",
+            "name": [
+              {
+                "text": "Fabio Dardi"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+390512144008",
+                "system": "phone"
+              },
+              {
+                "value": "fabio_dardi@yahoo.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-18",
+            "name": [
+              {
+                "text": "Roberto Badagliacca"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+393393794079",
+                "system": "phone"
+              },
+              {
+                "value": "roberto.badagliacca@uniroma1.it",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-19",
+            "name": [
+              {
+                "text": "Luis Jara Palomares"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "955013172",
+                "system": "phone"
+              },
+              {
+                "value": "luisj.jara.sspa@juntadeandalucia.es",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-20",
+            "name": [
+              {
+                "text": "María Lázaro Salvador"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "925269200",
+                "system": "phone"
+              },
+              {
+                "value": "maria.lasal@gmail.com",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-21",
+            "name": [
+              {
+                "text": "Isabel Blanco Vich"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "932275540",
+                "system": "phone"
+              },
+              {
+                "value": "iblanco2@clinic.cat",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-22",
+            "name": [
+              {
+                "text": "Pilar Escribano Subias"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "913908000",
+                "system": "phone"
+              },
+              {
+                "value": "pilar.escribano.subias@gmail.com",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-23",
+            "name": [
+              {
+                "text": "Clara Soto Abadanes"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "917277000",
+                "system": "phone"
+              },
+              {
+                "value": "clarasoto27@gmail.com",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-24",
+            "name": [
+              {
+                "text": "Ernest Sala Llinas"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "871206780",
+                "system": "phone"
+              },
+              {
+                "value": "ernest.sala@ssib.es",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-25",
+            "name": [
+              {
+                "text": "Berta Saez Jimenez"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "932746107",
+                "system": "phone"
+              },
+              {
+                "value": "berta.saez@vallhebron.cat",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-26",
+            "name": [
+              {
+                "text": "Jose Tenes Mayen"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "913368000",
+                "system": "phone"
+              },
+              {
+                "value": "joseandrestenes@gmail.com",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-27",
+            "name": [
+              {
+                "text": "José Cifrián Martínez"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "942203565",
+                "system": "phone"
+              },
+              {
+                "value": "josemanuel.cifrian@scsalud.es",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-28",
+            "name": [
+              {
+                "text": "Hajnalka Balint"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+36703820268",
+                "system": "phone"
+              },
+              {
+                "value": "balint@gmail.com",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-29",
+            "name": [
+              {
+                "text": "Gergely Ágoston"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+36309060567",
+                "system": "phone"
+              },
+              {
+                "value": "agoston.gergely@med.u-szeged.hu",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-30",
+            "name": [
+              {
+                "text": "Kristóf Karlócai"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+3613559733",
+                "system": "phone"
+              },
+              {
+                "value": "kristof@karlocai.hu",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-31",
+            "name": [
+              {
+                "text": "Grzegorz Kopeć"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+48126142287",
+                "system": "phone"
+              },
+              {
+                "value": "g.kopec@szpitaljp2.krakow.pl",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-32",
+            "name": [
+              {
+                "text": "Daniel Grund"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+4930450653885",
+                "system": "phone"
+              },
+              {
+                "value": "Pneumostudien-CCM@charite.de",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-33",
+            "name": [
+              {
+                "text": "Dirk Skowasch"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+4922828716670",
+                "system": "phone"
+              },
+              {
+                "value": "dirk.skowasch@ukbonn.de",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-34",
+            "name": [
+              {
+                "text": "Michael Halank"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+493513177238",
+                "system": "phone"
+              },
+              {
+                "value": "pulmo.studien@ukdd.de",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-35",
+            "name": [
+              {
+                "text": "Lars Harbaum"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+4940741057395",
+                "system": "phone"
+              },
+              {
+                "value": "pneumo-studienzentrale@uke.de",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2024-512278-92-00-CentralContact-36",
+            "name": [
+              {
+                "text": "Ekkehard Grünig"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+4962213960",
+                "system": "phone"
+              },
+              {
+                "value": "PH-Studies.THOR@med.uni-heidelberg.de",
+                "system": "email"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "2. fázisú, multicentrikus, egyszeres vak, randomizált vizsgálat a testsúly- vagy testsúlytartomány szerint alkalmazott sotatercept (MK-7962) farmakokinetikájának és biztonságosságának értékelésére pulmonális artériás hipertóniában (PAH) szenvedő, standard terápiában részesülő betegekben",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "hu"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A sotatercept klinikai vizsgálata pulmonalis arterialis hypertoniában szenvedőknél (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "hu"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A sotatercept klinikai vizsgálata pulmonalis arterialis hypertoniában szenvedőknél (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "hu"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Wieloośrodkowe, prowadzone metodą pojedynczo ślepej próby, randomizowane badanie fazy 2 mające na celu ocenę farmakokinetyki i bezpieczeństwa sotaterceptu (MK-7962) podawanego w dawce ustalonej w przeliczeniu na masę ciała lub dawce odpowiadającej zakresom masy ciała u uczestników z tętniczym nadciśnieniem płucnym (PAH) objętych standardową terapią.",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "pl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Badanie kliniczne sotaterceptu u osób z tętniczym nadciśnieniem płucnym (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "pl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Badanie kliniczne sotaterceptu u osób z tętniczym nadciśnieniem płucnym (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "pl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Een fase 2, multicenter, enkelblind, gerandomiseerd onderzoek ter evaluatie van de farmacokinetiek en veiligheid van Sotatercept (MK-7962) toegediend op basis van persoonlijk gewicht of op basis van een gewichtsbereik bij deelnemers met pulmonale arteriële hypertensie (PAH) die de standaardzorg krijgen",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "nl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "een klinische studie naar sotatercept bij personen met pulmonale arteriële hypertensie (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "nl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "een klinische studie naar sotatercept bij personen met pulmonale arteriële hypertensie (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "nl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Etude de phase 2, multicentrique, en simple aveugle et randomisée évaluant la pharmacocinétique et la sécurité du Sotatercept (MK-7962) administré à l'aide d'une approche basée sur le poids ou par tranches de poids chez des participants atteints d'hypertension artérielle pulmonaire (HTAP) sous traitement standard",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "fr"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Étude clinique du sotatercept chez des personnes souffrant d’hypertension artérielle pulmonaire (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "fr"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Étude clinique du sotatercept chez des personnes souffrant d’hypertension artérielle pulmonaire (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "fr"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Estudio de fase 2, multicéntrico, aleatorizado y con enmascaramiento único para evaluar la farmacocinética y la seguridad de sotatercept (MK-7962) administrado utilizando un método por franja de peso o basado en el peso en participantes con hipertensión arterial pulmonar (HAP) que reciben el tratamiento de referencia",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "es"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Estudio clínico de sotatercept en personas con hipertensión arterial pulmonar (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "es"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Estudio clínico de sotatercept en personas con hipertensión arterial pulmonar (MK-7962-024)",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "es"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Phase 2, Multicenter, Single-blinded, Randomized Study to Evaluate the Pharmacokinetics and Safety of Sotatercept (MK-7962) Administered Using Either a Weight-based or Weight-banded Approach in Participants With Pulmonary Arterial Hypertension (PAH) on Standard of Care"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A phase 2 study testing how the medicine sotatercept is given and how safe it is for people with pulmonary arterial hypertension (PAH)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A phase 2 study testing how the medicine sotatercept is given and how safe it is for people with pulmonary arterial hypertension (PAH)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "MK-7962-024"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Trial Category 2"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharing: Yes"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharingDescription: https://trialstransparency.msdclinicaltrials.com/pdf/ProcedureAccessClinicalTrialData.pdf"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug True"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "completed",
+                      "display": "Completed"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-11-18"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-11-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-11-14"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-11-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-11-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-10-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-12-05"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-10-28"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-10-28"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-12-03"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Steady-state average serum concentrations of sotatercept (Cavg)"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Steady-state average serum concentrations of sotatercept (Cavg)"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/2024-512278-92-00-primary-endpoint-1",
+                  "display": "Steady-state average serum concentrations of sotatercept (Cavg)"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of participants who experience one or more adverse events (AEs)"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of participants who experience one or more adverse events (AEs)"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/2024-512278-92-00-primary-endpoint-2",
+                  "display": "Number of participants who experience one or more adverse events (AEs)"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of participants who discontinue study intervention due to an AE"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of participants who discontinue study intervention due to an AE"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/2024-512278-92-00-primary-endpoint-3",
+                  "display": "Number of participants who discontinue study intervention due to an AE"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Initial dose average serum concentrations of sotatercept (Cavg)"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Initial dose average serum concentrations of sotatercept (Cavg)"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/2024-512278-92-00-secondary-endpoint-1",
+                  "display": "Initial dose average serum concentrations of sotatercept (Cavg)"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Merck Sharp & Dohme LLC"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pavel Jansa"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-0",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Toon Duijnhouwer"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-1",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Marco Post"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-2",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Nicolas Favrolt"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-3",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Francois Picard"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-4",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Romain Tresorier"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-5",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Martine Reynaud-Gaubert"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-6",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Elise Artaud-Macari"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-7",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Claudia Raineri"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-8",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Daniele Prati"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-9",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Giuseppe Paciocco"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-10",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Gavino Casu"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-11",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Andrea Garascia"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-12",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Edoardo Airò"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-13",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pietro Ameri"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-14",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Marco Vicenzi"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-15",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Laura Scelsi"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-16",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Fabio Dardi"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-17",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Roberto Badagliacca"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-18",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Luis Jara Palomares"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-19",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "María Lázaro Salvador"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-20",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Isabel Blanco Vich"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-21",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pilar Escribano Subias"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-22",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Clara Soto Abadanes"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-23",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Ernest Sala Llinas"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-24",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Berta Saez Jimenez"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-25",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Jose Tenes Mayen"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-26",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "José Cifrián Martínez"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-27",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Hajnalka Balint"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-28",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Gergely Ágoston"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-29",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Kristóf Karlócai"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-30",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Grzegorz Kopeć"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-31",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Daniel Grund"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-32",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Dirk Skowasch"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-33",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Michael Halank"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-34",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Lars Harbaum"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-35",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Ekkehard Grünig"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2024-512278-92-00-CentralContact-36",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Medical Director"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "study-chair",
+                      "display": "study-chair"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Merck Sharp & Dohme LLC"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 252
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C98388",
+                  "display": "Interventional Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01001",
+                  "display": "Interventional research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01011",
+                  "display": "parallel cohort design"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01003",
+                  "display": "randomized assignment"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01060",
+                  "display": "Blinding of study participants"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "Researchers are looking for other ways to treat people with PAH. In PAH, the blood vessels in the lungs become thick and narrow, which makes it harder for blood to flow to the lungs.\n\nThe goal of the study is to learn:\n\n* What happens to different doses of sotatercept in a person's body over time when it is given using weight-banded doses compared to weight-based doses. There may be differences in how the medicine works with the new dosing method (weight-banded dosing) being studied in this trial.\n* About the safety of sotatercept and if people tolerate it"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "2024-512278-92-00 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "2024-512278-92-00",
+            "assigner": {
+              "display": "CTIS"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "U1111-1304-7985",
+            "assigner": {
+              "display": "WHO"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "136150",
+            "assigner": {
+              "display": "IND"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "NCT06664801",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "U1111-1304-7985",
+            "assigner": {
+              "display": "UTN"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "MK-7962-024",
+            "assigner": {
+              "display": "MSD"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "jRCT2061240077",
+            "assigner": {
+              "display": "jRCT"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "MK-7962-024",
+            "assigner": {
+              "display": "Merck Sharp & Dohme LLC"
+            }
+          }
+        ],
+        "title": "A Phase 2, Multicenter, Single-blinded, Randomized Study to Evaluate the Pharmacokinetics and Safety of Sotatercept (MK-7962) Administered Using Either a Weight-based or Weight-banded Approach in Participants With Pulmonary Arterial Hypertension (PAH) on Standard of Care",
+        "status": "completed",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ],
+          "text": "Phase 2"
+        },
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D000081029",
+                "display": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "text": "Pulmonary Arterial Hypertension"
+          }
+        ],
+        "description": "Researchers are looking for other ways to treat people with PAH. In PAH, the blood vessels in the lungs become thick and narrow, which makes it harder for blood to flow to the lungs.\n\nThe goal of the study is to learn:\n\n* What happens to different doses of sotatercept in a person's body over time when it is given using weight-banded doses compared to weight-based doses. There may be differences in how the medicine works with the new dosing method (weight-banded dosing) being studied in this trial.\n* About the safety of sotatercept and if people tolerate it",
+        "enrollment": [
+          {
+            "reference": "Group/2024-512278-92-00-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for A Phase 2, Multicenter, Single-blinded, Randomized Study to Evaluate the Pharmacokinetics and Safety of Sotatercept (MK-7962) Administered Using Either a Weight-based or Weight-banded Approach in Participants With Pulmonary Arterial Hypertension (PAH) on Standard of Care"
+          }
+        ],
+        "period": {
+          "start": "2024-11-18"
+        },
+        "sponsor": {
+          "display": "Merck Sharp & Dohme LLC"
+        },
+        "site": [
+          {
+            "reference": "Location/2024-512278-92-00-site-1",
+            "display": "Vseobecna Fakultni Nemocnice V Praze"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-2",
+            "display": "Stichting Radboud universitair medisch centrum"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-3",
+            "display": "Sint Antonius Ziekenhuis Stichting"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-4",
+            "display": "Centre Hospitalier Universitaire De Dijon"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-5",
+            "display": "Centre Hospitalier Universitaire De Bordeaux"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-6",
+            "display": "CHU Gabriel-Montpied"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-7",
+            "display": "Centre Hospitalier Regional De Marseille"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-8",
+            "display": "Centre Hospitalier Universitaire Rouen"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-9",
+            "display": "Azienda Ospedaliera Universitaria Citta Della Salute E Della Scienza Di Torino"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-10",
+            "display": "Azienda Ospedaliera Universitaria Integrata Verona"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-11",
+            "display": "Fondazione IRCCS San Gerardo Dei Tintori"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-12",
+            "display": "Azienda Ospedaliero Universitaria Di Sassari"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-13",
+            "display": "ASST Grande Ospedale Metropolitano Niguarda"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-14",
+            "display": "Fondazione Toscana Gabriele Monasterio"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-15",
+            "display": "IRCCS Ospedale Policlinico San Martino"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-16",
+            "display": "Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-17",
+            "display": "Fondazione IRCCS Policlinico San Matteo"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-18",
+            "display": "Azienda Ospedaliero-Universitaria Di Bologna IRCCS Istituto Di Ricerca E Di Cura A Carattere Scientifico"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-19",
+            "display": "Azienda Ospedaliero-Universitaria Policlinico Umberto I"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-20",
+            "display": "University Hospital Virgen Del Rocio S.L."
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-21",
+            "display": "Hospital Universitario De Toledo"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-22",
+            "display": "Hospital Clinic De Barcelona"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-23",
+            "display": "Hospital Universitario 12 De Octubre"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-24",
+            "display": "Hospital Universitario La Paz"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-25",
+            "display": "University Hospital Son Espases"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-26",
+            "display": "Fundacio Hospital Universitari Vall D’Hebron Institut De Recerca"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-27",
+            "display": "Hospital Universitario Ramon Y Cajal"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-28",
+            "display": "Hospital Universitario Marques De Valdecilla"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-29",
+            "display": "Gottsegen National Cardiovascular Center"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-30",
+            "display": "University Of Szeged"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-31",
+            "display": "Clinic Of Pulmonology Semmelweis University"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-32",
+            "display": "Krakowski Szpital Specjalistyczny Im. Sw. Jana Pawla II"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-33",
+            "display": "Charite Universitaetsmedizin Berlin KöR"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-34",
+            "display": "Universitaetsklinikum Bonn AöR"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-35",
+            "display": "Technische Universitaet Dresden"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-36",
+            "display": "University Medical Center Hamburg-Eppendorf"
+          },
+          {
+            "reference": "Location/2024-512278-92-00-site-37",
+            "display": "Thoraxklinik Heidelberg gGmbH"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/2024-512278-92-00-cohort-1",
+                  "display": "Weight-based sotatercept dosing"
+                }
+              }
+            ],
+            "name": "Weight-based sotatercept dosing",
+            "type": {
+              "text": "Experimental"
+            },
+            "description": "Participants will receive sotatercept via subcutaneous (SC) injection every 3 weeks at an initial dose of 0.3 mg/kg and then at a maintenance dose of 0.7 mg/kg using a weight-based method during a 24-week treatment period. Participants will continue to take their background PAH therapy during the study."
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/2024-512278-92-00-cohort-2",
+                  "display": "Weight-banded sotatercept dosing"
+                }
+              }
+            ],
+            "name": "Weight-banded sotatercept dosing",
+            "type": {
+              "text": "Experimental"
+            },
+            "description": "Participants will receive sotatercept via SC injection every 3 weeks at an initial dose of up to 45 mg and then at a maintenance dose of up to 90 mg using a weight-banded method during a 24-week treatment period. Participants will continue to take their background PAH therapy during the study."
+          }
+        ],
+        "objective": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective.description",
+                "valueMarkdown": "1.\tTo evaluate the steady-state systemic exposure of sotatercept using weight-banded dosing relative to the exposure using weight-based dosing following multiple (maintenance doses) dose administration at steady state.\n2.\tTo evaluate the safety and tolerability of sotatercept over 24 weeks of treatment"
+              }
+            ],
+            "name": "Primary Objective",
+            "_name": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "pl"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Ocena ekspozycji ogólnoustrojowej na sotatercept w stanie stacjonarnym z zastosowaniem dawkowania opartego na masie ciała w stosunku do ekspozycji z zastosowaniem dawkowania opartego na masie ciała po podaniu dawek wielokrotnych (dawek podtrzymujących) w stanie stacjonarnym.\n2. Ocena bezpieczeństwa i tolerancji sotaterceptu w ciągu 24 tygodni leczenia."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Evaluar la exposición sistémica en el estado de equilibrio de sotatercept mediante la administración de dosis basada en rangos de peso en relación con la exposición, mediante la administración de dosis basada en el peso después de la administración de dosis múltiples (dosis de mantenimiento) en el estado de equilibrio\n2. Evaluar la seguridad y tolerabilidad de sotatercept durante 24 semanas de tratamiento"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "nl"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Evaluatie van de systemische steady-stateblootstelling aan sotatercept bij dosering op basis van een gewichtsbereik in vergelijking met dosering op basis van het gewicht na toediening van meerdere doses (onderhoudsdoses) bij een steady state.\n2. Evaluatie van de veiligheid en verdraagzaamheid van sotatercept tijdens een behandeling van 24 weken"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. A sotatercept egyensúlyi állapotú szisztémás expozíciójának értékelése súlysávos adagolás esetén a súlyalapú adagolás esetén tapasztalt expozícióhoz képest több (fenntartó dózisok) dózis egyensúlyi állapotban történő adagolása után.\n2. A sotatercept biztonságosságának és tolerálhatóságának értékelése 24 hét kezelés során"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "fr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Évaluer l’exposition systémique à l’état d’équilibre du sotatercept en utilisant une dose échelonnée en fonction du poids par rapport à l’exposition en utilisant une dose basée sur le poids après l’administration de doses multiples (doses d’entretien) à l’état d’équilibre.\n2. Évaluer l’innocuité et la tolérabilité du sotatercept sur 24 semaines de traitement"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            },
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective.description",
+                "valueMarkdown": "To evaluate the systemic exposure of sotatercept using weight-banded dosing relative to the exposure using weight-based dosing following initial dose administration."
+              }
+            ],
+            "name": "Secondary Objective",
+            "_name": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "hu"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. A sotatercept szisztémás expozíciójának értékelése súlysávos adagolás esetén a súlyalapú adagolás esetén tapasztalt expozícióhoz képest az első dózis alkalmazása után."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "fr"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Évaluer l’exposition systémique au sotatercept en utilisant une dose échelonnée en fonction du poids par rapport à l’exposition en utilisant une dose basée sur le poids après l’administration de la dose initiale."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "pl"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Ocena ogólnoustrojowej ekspozycji na sotatercept przy zastosowaniu dawkowania opartego na masie ciała w stosunku do ekspozycji przy zastosowaniu dawkowania opartego na masie ciała po podaniu dawki początkowej."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Evaluar la exposición sistémica en el estado de equilibrio de sotatercept mediante la administración de dosis basada en rangos de peso en relación con la exposición, mediante la administración de dosis basada en el peso después de la administración de dosis inicial"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "nl"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1. Evaluatie van de systemische blootstelling aan sotatercept bij een dosering op basis van een gewichtsbereik in vergelijking met een dosering op basis van een gewicht na toediening van een initiële dosis."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            },
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a455110c-bca7-11f1-9180-025cceb6f5ab"
+          }
+        ],
+        "name": "Study20245122789200PrimaryEndpoint1",
+        "title": "Steady-state average serum concentrations of sotatercept (Cavg)",
+        "status": "active",
+        "description": "Steady-state average serum concentrations of sotatercept (Cavg)",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Steady-state average serum concentrations of sotatercept (Cavg)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-primary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-primary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a4551a8a-bca7-11f1-a369-025cceb6f5ab"
+          }
+        ],
+        "name": "Study20245122789200PrimaryEndpoint2",
+        "title": "Number of participants who experience one or more adverse events (AEs)",
+        "status": "active",
+        "description": "Number of participants who experience one or more adverse events (AEs)",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of participants who experience one or more adverse events (AEs)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-primary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-primary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a455221e-bca7-11f1-a531-025cceb6f5ab"
+          }
+        ],
+        "name": "Study20245122789200PrimaryEndpoint3",
+        "title": "Number of participants who discontinue study intervention due to an AE",
+        "status": "active",
+        "description": "Number of participants who discontinue study intervention due to an AE",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of participants who discontinue study intervention due to an AE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:a455294e-bca7-11f1-8d27-025cceb6f5ab"
+          }
+        ],
+        "name": "Study20245122789200SecondaryEndpoint1",
+        "title": "Initial dose average serum concentrations of sotatercept (Cavg)",
+        "status": "active",
+        "description": "Initial dose average serum concentrations of sotatercept (Cavg)",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Initial dose average serum concentrations of sotatercept (Cavg)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-biological-sotatercept",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-biological-sotatercept",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "BIOLOGICAL"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "Study2024_512278_92_00_biological_sotatercept",
+        "title": "Sotatercept",
+        "status": "active",
+        "description": "SC administered every 3 weeks.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Sotatercept"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/2024-512278-92-00-biological-background-pah-therapy",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "2024-512278-92-00-biological-background-pah-therapy",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "BIOLOGICAL"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "Study2024_512278_92_00_biological_background_pah_therapy",
+        "title": "Background PAH Therapy",
+        "status": "active",
+        "description": "Background PAH therapy may consist of the following drug classes: single, double, or triple combination of therapy with endothelin-receptor antagonists, phosphodiesterase inhibitors, soluble guanylate cyclase stimulators, and/or prostacyclin analogs or receptor antagonists",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Background PAH Therapy"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/2024-512278-92-00-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "2024-512278-92-00-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Has documented diagnostic Right Heart Catheterization, with the diagnosis of World Health Organization (WHO) Pulmonary Atrial Hypertension (PAH) Group 1 in any of the following subtypes: Idiopathic PAH, Heritable PAH, Drug/toxin-induced PAH, PAH associated with connective tissue disease, PAH associated with simple, congenital systemic-to-pulmonary shunts at least 1 year following repair\n* Has symptomatic PAH classified as WHO Functional Class II or III\n\nExclusion Criteria:\n\n* Has a weight of \\<35 kg\n* Has a diagnosis of PH WHO Groups 2, 3, 4, or 5\n* Has a diagnosis of the following PAH Group 1 subtypes: HIV-associated PAH, PAH associated with portal hypertension, Exclusion in PAH Group 1 should also include schistosomiasis-associated PAH, pulmonary veno occlusive disease and pulmonary capillary hemangiomatosis\n* Has uncontrolled systemic hypertension\n* Has a history of pneumonectomy\n* Has a history of known pericardial constriction\n* Has a history of restrictive cardiomyopathy\n* Has history of atrial septostomy (within 180 days prior to study start)\n* Has personal or family history of long QT syndrome\n* Has history of coronary artery disease (myocardial infarction, percutaneous coronary intervention, coronary artery bypass, graft surgery, or cardiac anginal chest pain) (within 6 months prior to study start)\n* Has a cerebrovascular accident (within 3 months prior to study start)\n* Has significant (\\>2+ regurgitation) mitral regurgitation or aortic regurgitation valvular disease\n* Has untreated more than mild obstructive sleep apnea\n* Has known malignancy that is progressing or has required active treatment within the past 5 years\n* Has recently started (within 12 months prior to study start) or has plans to start weight loss medication or enter a weight loss program during the study period\n* Has a previous (within 3 years) or planned (during the study) obesity treatment with surgery or a weight-loss device"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for A Phase 2, Multicenter, Single-blinded, Randomized Study to Evaluate the Pharmacokinetics and Safety of Sotatercept (MK-7962) Administered Using Either a Weight-based or Weight-banded Approach in Participants With Pulmonary Arterial Hypertension (PAH) on Standard of Care",
+        "characteristic": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has weight of <35kg"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has weight of <35kg"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has documented diagnostic Right Heart Catheterization, with the diagnosis of World Health Organization (WHO) Pulmonary Atrial Hypertension (PAH) Group 1 in any of the following subtypes: Idiopathic PAH, Heritable PAH, Drug/toxin-induced PAH, PAH associated with connective tissue disease, PAH associated with simple, congenital systemic-to-pulmonary shunts at least 1 year following repair"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has documented diagnostic Right Heart Catheterization, with the diagnosis of World Health Organization (WHO) Pulmonary Atrial Hypertension (PAH) Group 1 in any of the following subtypes: Idiopathic PAH, Heritable PAH, Drug/toxin-induced PAH, PAH associated with connective tissue disease, PAH associated with simple, congenital systemic-to-pulmonary shunts at least 1 year following repair"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has systemic PAH classified as WHO Functional Class II or III"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has systemic PAH classified as WHO Functional Class II or III"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has diagnosis of Pulmonary Hypertension WHO Groups 2, 3, 4, or 5"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has diagnosis of Pulmonary Hypertension WHO Groups 2, 3, 4, or 5"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a diagnosis of the following PAH Group 1 subtypes: Human Immunodeficiency Virus (HIV)-associated PAH, PAH associated with portal hypertension, Exclusion in PAH Group 1 also includes: schistosomiasis-associated PAH, pulmonary veno occlusive disease and pulmonary capillary hemangiomatosis"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a diagnosis of the following PAH Group 1 subtypes: Human Immunodeficiency Virus (HIV)-associated PAH, PAH associated with portal hypertension, Exclusion in PAH Group 1 also includes: schistosomiasis-associated PAH, pulmonary veno occlusive disease and pulmonary capillary hemangiomatosis"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has uncontrolled systemic hypertension"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has uncontrolled systemic hypertension"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a history of pneumonectomy"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a history of pneumonectomy"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a history of known pericardial constriction"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a history of known pericardial constriction"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a history of restrictive cardiomyopathy"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a history of restrictive cardiomyopathy"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a history of atrial septostomy (within 180 days prior to study start)"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a history of atrial septostomy (within 180 days prior to study start)"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has personal or family history of long QT syndrome"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has personal or family history of long QT syndrome"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has history of coronary artery disease (myocardial infarction, percutaneous coronary intervention, coronary artery bypass, graft surgery, or cardiac anginal chest pain) (within 6 months prior to study start)"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has history of coronary artery disease (myocardial infarction, percutaneous coronary intervention, coronary artery bypass, graft surgery, or cardiac anginal chest pain) (within 6 months prior to study start)"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a cerebrovascular accident (within 3 months prior to study start)"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a cerebrovascular accident (within 3 months prior to study start)"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has significant (>2+ regurgitation) mitral regurgitation or aortic regurgitation valvular disease"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has significant (>2+ regurgitation) mitral regurgitation or aortic regurgitation valvular disease"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has untreated more than mild obstructive sleep apnea"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has untreated more than mild obstructive sleep apnea"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has known malignancy that is progressing or has required active treatment within the past 5 years"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has known malignancy that is progressing or has required active treatment within the past 5 years"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has recently started (within 12 months prior to study start) or has plans to start weight loss medication or enter a weight loss program during the study period"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has recently started (within 12 months prior to study start) or has plans to start weight loss medication or enter a weight loss program during the study period"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Has a previous (within 3 years) or planned (during the study) obesity treatment with surgery or a weight-loss device"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Has a previous (within 3 years) or planned (during the study) obesity treatment with surgery or a weight-loss device"
+            },
+            "exclude": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/2024-512278-92-00-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "2024-512278-92-00-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Participants will receive sotatercept via subcutaneous (SC) injection every 3 weeks at an initial dose of 0.3 mg/kg and then at a maintenance dose of 0.7 mg/kg using a weight-based method during a 24-week treatment period. Participants will continue to take their background PAH therapy during the study."
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Experimental"
+        },
+        "name": "Weight-based sotatercept dosing"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/2024-512278-92-00-cohort-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "2024-512278-92-00-cohort-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Participants will receive sotatercept via SC injection every 3 weeks at an initial dose of up to 45 mg and then at a maintenance dose of up to 90 mg using a weight-banded method during a 24-week treatment period. Participants will continue to take their background PAH therapy during the study."
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Experimental"
+        },
+        "name": "Weight-banded sotatercept dosing"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Vseobecna Fakultni Nemocnice V Praze",
+        "address": {
+          "city": "Prague",
+          "state": "Praha, Hlavní Mesto",
+          "country": "Czechia",
+          "postalCode": "128 00"
+        },
+        "position": {
+          "latitude": 50.08804,
+          "longitude": 14.42076
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-2",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Stichting Radboud universitair medisch centrum",
+        "address": {
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "postalCode": "6525 GA"
+        },
+        "position": {
+          "latitude": 51.8425,
+          "longitude": 5.85278
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-3",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Sint Antonius Ziekenhuis Stichting",
+        "address": {
+          "city": "Nieuwegein",
+          "country": "Netherlands",
+          "postalCode": "3435 CM"
+        },
+        "position": {
+          "latitude": 52.02917,
+          "longitude": 5.08056
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-4",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centre Hospitalier Universitaire De Dijon",
+        "address": {
+          "city": "Dijon",
+          "country": "France",
+          "postalCode": "21000"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-5",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centre Hospitalier Universitaire De Bordeaux",
+        "address": {
+          "city": "Bordeaux",
+          "country": "France",
+          "postalCode": "33000"
+        },
+        "position": {
+          "latitude": 44.80565,
+          "longitude": -0.6324
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-6",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "CHU Gabriel-Montpied",
+        "address": {
+          "city": "Clermont Ferrand",
+          "country": "France",
+          "postalCode": "63000"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-7",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centre Hospitalier Regional De Marseille",
+        "address": {
+          "city": "Marseille",
+          "country": "France",
+          "postalCode": "13005"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-8",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centre Hospitalier Universitaire Rouen",
+        "address": {
+          "city": "Rouen Cedex",
+          "country": "France",
+          "postalCode": "76031"
+        },
+        "position": {
+          "latitude": 49.44313,
+          "longitude": 1.09932
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-9",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Azienda Ospedaliera Universitaria Citta Della Salute E Della Scienza Di Torino",
+        "address": {
+          "city": "Turin",
+          "country": "Italy",
+          "postalCode": "10126"
+        },
+        "position": {
+          "latitude": 44.88856,
+          "longitude": 11.99138
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-10",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Azienda Ospedaliera Universitaria Integrata Verona",
+        "address": {
+          "city": "Verona",
+          "state": "Veneto",
+          "country": "Italy",
+          "postalCode": "37126"
+        },
+        "position": {
+          "latitude": 45.43854,
+          "longitude": 10.9938
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-11",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fondazione IRCCS San Gerardo Dei Tintori",
+        "address": {
+          "city": "Monza",
+          "state": "Monza",
+          "country": "Italy",
+          "postalCode": "20900"
+        },
+        "position": {
+          "latitude": 45.58005,
+          "longitude": 9.27246
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-12",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Azienda Ospedaliero Universitaria Di Sassari",
+        "address": {
+          "city": "Sassari",
+          "state": "Sardinia",
+          "country": "Italy",
+          "postalCode": "07100"
+        },
+        "position": {
+          "latitude": 40.72586,
+          "longitude": 8.55552
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-13",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "ASST Grande Ospedale Metropolitano Niguarda",
+        "address": {
+          "city": "Milan",
+          "state": "MI",
+          "country": "Italy",
+          "postalCode": "20162"
+        },
+        "position": {
+          "latitude": 42.78235,
+          "longitude": 12.59836
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-14",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fondazione Toscana Gabriele Monasterio",
+        "address": {
+          "city": "Pisa",
+          "state": "PI",
+          "country": "Italy",
+          "postalCode": "56124"
+        },
+        "position": {
+          "latitude": 44.03541,
+          "longitude": 10.13927
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-15",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "IRCCS Ospedale Policlinico San Martino",
+        "address": {
+          "city": "Genoa",
+          "state": "Metropolitan City of Genoa",
+          "country": "Italy",
+          "postalCode": "16132"
+        },
+        "position": {
+          "latitude": 45.21604,
+          "longitude": 11.87211
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-16",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico",
+        "address": {
+          "city": "Milan",
+          "country": "Italy",
+          "postalCode": "20122"
+        },
+        "position": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-17",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fondazione IRCCS Policlinico San Matteo",
+        "address": {
+          "city": "Pavia",
+          "state": "Lombardy",
+          "country": "Italy",
+          "postalCode": "27100"
+        },
+        "position": {
+          "latitude": 45.19205,
+          "longitude": 9.15917
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-18",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Azienda Ospedaliero-Universitaria Di Bologna IRCCS Istituto Di Ricerca E Di Cura A Carattere Scientifico",
+        "address": {
+          "city": "Bologna",
+          "country": "Italy",
+          "postalCode": "40138"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-19",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Azienda Ospedaliero-Universitaria Policlinico Umberto I",
+        "address": {
+          "city": "Rome",
+          "country": "Italy",
+          "postalCode": "00161"
+        },
+        "position": {
+          "latitude": 44.99364,
+          "longitude": 11.10642
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-20",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "University Hospital Virgen Del Rocio S.L.",
+        "address": {
+          "city": "Sevilla",
+          "country": "Spain",
+          "postalCode": "41013"
+        },
+        "position": {
+          "latitude": 37.38283,
+          "longitude": -5.97317
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-21",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario De Toledo",
+        "address": {
+          "city": "Toledo",
+          "country": "Spain",
+          "postalCode": "45007"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-22",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-22",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Clinic De Barcelona",
+        "address": {
+          "city": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08036"
+        },
+        "position": {
+          "latitude": 41.38879,
+          "longitude": 2.15899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-23",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-23",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario 12 De Octubre",
+        "address": {
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postalCode": "28041"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-24",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario La Paz",
+        "address": {
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postalCode": "28046"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-25",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-25",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "University Hospital Son Espases",
+        "address": {
+          "city": "Palma",
+          "country": "Spain",
+          "postalCode": "07120"
+        },
+        "position": {
+          "latitude": 39.56939,
+          "longitude": 2.65024
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-26",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-26",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fundacio Hospital Universitari Vall D’Hebron Institut De Recerca",
+        "address": {
+          "city": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08035"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-27",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-27",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Ramon Y Cajal",
+        "address": {
+          "city": "Madrid",
+          "country": "Spain",
+          "postalCode": "28034"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-28",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-28",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Marques De Valdecilla",
+        "address": {
+          "city": "Santander",
+          "country": "Spain",
+          "postalCode": "39008"
+        },
+        "position": {
+          "latitude": 43.46589,
+          "longitude": -3.80493
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-29",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-29",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Gottsegen National Cardiovascular Center",
+        "address": {
+          "city": "Budapest",
+          "country": "Hungary",
+          "postalCode": "1096"
+        },
+        "position": {
+          "latitude": 47.49835,
+          "longitude": 19.04045
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-30",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-30",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "University Of Szeged",
+        "address": {
+          "city": "Szeged",
+          "country": "Hungary",
+          "postalCode": "6725"
+        },
+        "position": {
+          "latitude": 46.253,
+          "longitude": 20.14824
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-31",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-31",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Clinic Of Pulmonology Semmelweis University",
+        "address": {
+          "city": "Budapest Viii",
+          "country": "Hungary",
+          "postalCode": "1083"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-32",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-32",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Krakowski Szpital Specjalistyczny Im. Sw. Jana Pawla II",
+        "address": {
+          "city": "Cracow",
+          "country": "Poland",
+          "postalCode": "31-202"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-33",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-33",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Charite Universitaetsmedizin Berlin KöR",
+        "address": {
+          "city": "Berlin",
+          "country": "Germany",
+          "postalCode": "13353"
+        },
+        "position": {
+          "latitude": 52.52437,
+          "longitude": 13.41053
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-34",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-34",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Universitaetsklinikum Bonn AöR",
+        "address": {
+          "city": "Bonn",
+          "state": "North Rhine-Westphalia",
+          "country": "Germany",
+          "postalCode": "53127"
+        },
+        "position": {
+          "latitude": 50.73438,
+          "longitude": 7.09549
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-35",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-35",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Technische Universitaet Dresden",
+        "address": {
+          "city": "Dresden",
+          "state": "Saxony",
+          "country": "Germany",
+          "postalCode": "01307"
+        },
+        "position": {
+          "latitude": 51.05089,
+          "longitude": 13.73832
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-36",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-36",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "University Medical Center Hamburg-Eppendorf",
+        "address": {
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "country": "Germany",
+          "postalCode": "20246"
+        },
+        "position": {
+          "latitude": 53.55073,
+          "longitude": 9.99302
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2024-512278-92-00-site-37",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2024-512278-92-00-site-37",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Thoraxklinik Heidelberg gGmbH",
+        "address": {
+          "city": "Heidelberg",
+          "state": "Baden-Wurttemberg",
+          "country": "Germany",
+          "postalCode": "69126"
+        },
+        "position": {
+          "latitude": 49.40768,
+          "longitude": 8.69079
+        }
+      }
+    }
+  ]
+}

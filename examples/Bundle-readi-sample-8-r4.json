@@ -1,0 +1,500 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-8-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/2023-509661-21-00",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "2023-509661-21-00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Practitioner",
+            "id": "2023-509661-21-00-CentralContact-0",
+            "name": [
+              {
+                "text": "Melvin Lafeber"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+31107040574",
+                "system": "phone"
+              },
+              {
+                "value": "m.lafeber@erasmusmc.nl",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "2023-509661-21-00-CentralContact-1",
+            "name": [
+              {
+                "text": "Hans Hofland"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "+31107040574",
+                "system": "phone"
+              },
+              {
+                "value": "r.mijnster@erasmusmc.nl",
+                "system": "email"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Bio-equivalence of Rosuvastatin 10 mg"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Bio-equivalence of Rosuvastatin 10 mg"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "De bio-equivalentie van rosuvastatine 10mg",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "nl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "De bio-equivalentie van rosuvastatine 10mg",
+                "_valueString": {
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/language",
+                      "valueCode": "nl"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Trial Category 2"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-healthy-volunteers",
+                  "display": "Includes healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 0 Months"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-08-21",
+                  "end": "2026-06-22"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-08-01"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-06-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Melvin Lafeber"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2023-509661-21-00-CentralContact-0",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Hans Hofland"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#2023-509661-21-00-CentralContact-1",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 12
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "2023-509661-21-00 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 0.0,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "2023-509661-21-00",
+            "assigner": {
+              "display": "CTIS"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "2023-509661-21-00",
+            "assigner": {
+              "display": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+            }
+          }
+        ],
+        "title": "Bio-equivalence of Rosuvastatin 10 mg",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-1",
+              "display": "Phase 1"
+            }
+          ],
+          "text": "Phase 1"
+        },
+        "enrollment": [
+          {
+            "reference": "Group/2023-509661-21-00-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Bio-equivalence of Rosuvastatin 10 mg"
+          }
+        ],
+        "period": {
+          "start": "2024-08-21",
+          "end": "2026-06-22"
+        },
+        "sponsor": {
+          "display": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+        },
+        "site": [
+          {
+            "reference": "Location/2023-509661-21-00-site-1",
+            "display": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/2023-509661-21-00-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "2023-509661-21-00-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/2023-509661-21-00-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "2023-509661-21-00-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Erasmus Universitair Medisch Centrum Rotterdam (Erasmus MC)",
+        "address": {
+          "city": "Rotterdam",
+          "state": "South Holland",
+          "country": "Netherlands",
+          "postalCode": "3015 GD"
+        },
+        "position": {
+          "latitude": 51.9225,
+          "longitude": 4.47917
+        }
+      }
+    }
+  ]
+}
