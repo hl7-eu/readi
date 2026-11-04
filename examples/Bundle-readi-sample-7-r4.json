@@ -1,0 +1,4144 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-7-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/NCT04436744",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04436744",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Giredestrant Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer (coopERA Breast Cancer)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Giredestrant Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer (coopERA Breast Cancer)"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharing: Yes"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharingDescription: Qualified researchers may request access to individual patient level data through the request platform (www.vivli.org). Further details on Roche's criteria for eligible studies are available here (https://vivli.org/ourmember/roche/).\n\nFor further details on Roche's Global Policy on Sharing of Clinical Study Information and how to request access to related clinical study documents, see here (https://www.roche.com/research\\_and\\_development/who\\_we\\_are\\_how\\_we\\_work/clinical\\_trials/our\\_commitment\\_to\\_data\\_sharing.htm)."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug True"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "completed",
+                      "display": "Completed"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2021-07-06"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2021-11-24"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2020-06-18"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-02-02"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2020-06-16"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-01-09"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2023-01-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2020-09-04"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2020-06-16"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Relative Percent Change in Ki67 Scores From Baseline to Week 2"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Relative Percent Change in Ki67 Scores From Baseline to Week 2 [Time Frame: Baseline, Week 2]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-primary-endpoint-1",
+                  "display": "Relative Percent Change in Ki67 Scores From Baseline to Week 2"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator [Time Frame: Baseline up to Cycle 4 Day 1 (each cycle is 28 days)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-1",
+                  "display": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2 [Time Frame: Week 2]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-2",
+                  "display": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0)"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0) [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-3",
+                  "display": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0)"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change From Baseline in Respiratory Rate Over Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change From Baseline in Respiratory Rate Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-4",
+                  "display": "Change From Baseline in Respiratory Rate Over Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change From Baseline in Pulse Rate Over Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change From Baseline in Pulse Rate Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-5",
+                  "display": "Change From Baseline in Pulse Rate Over Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change From Baseline in Systolic Blood Pressure Over Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change From Baseline in Systolic Blood Pressure Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-6",
+                  "display": "Change From Baseline in Systolic Blood Pressure Over Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change From Baseline in Diastolic Blood Pressure Over Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change From Baseline in Diastolic Blood Pressure Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-7",
+                  "display": "Change From Baseline in Diastolic Blood Pressure Over Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change From Baseline in Body Temperature Over Time"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change From Baseline in Body Temperature Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-8",
+                  "display": "Change From Baseline in Body Temperature Over Time"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-9",
+                  "display": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-10",
+                  "display": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Plasma Concentration of Giredestrant at Specified Timepoints"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Plasma Concentration of Giredestrant at Specified Timepoints [Time Frame: Window of Opportunity Phase: Day 1 (3 hours Postdose) and Day 15 (Predose) during Cycle 0 (the 15-day period in Window of Opportunity Phase is called Cycle 0 for PK analysis); Neoadjuvant Phase: Cycle 2 Day 1, Predose]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04436744-secondary-endpoint-11",
+                  "display": "Plasma Concentration of Giredestrant at Specified Timepoints"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Hoffmann-La Roche"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ],
+                  "text": "INDUSTRY"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Clinical Trials"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "study-chair",
+                      "display": "study-chair"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Hoffmann-La Roche"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 221
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C98388",
+                  "display": "Interventional Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01001",
+                  "display": "Interventional research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01011",
+                  "display": "parallel cohort design"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01003",
+                  "display": "randomized assignment"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "text": "Design Masking: NONE (Open Label)"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "This is a randomized, multicenter, open-label, two-arm, Phase II study to evaluate the efficacy, safety, and pharmacokinetics of giredestrant versus anastrozole (in the window-of-opportunity phase) and giredestrant plus palbociclib compared with anastrozole plus palbociclib (in the neoadjuvant phase) in postmenopausal women with untreated, estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, early breast cancer.\n\nThe study consists of a screening period of up to 28 days, a window-of-opportunity phase for 14 days, followed by a neoadjuvant treatment phase for 16 weeks (four 28-day cycles), surgery, and an end of study visit (28 days after the final dose of study treatment)."
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT04436744 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT04436744",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "WO42133",
+            "assigner": {
+              "display": "Hoffmann-La Roche"
+            }
+          }
+        ],
+        "title": "A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer",
+        "status": "completed",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ],
+          "text": "Phase 2"
+        },
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "https://www.unmc.edu/nebraska-lexicon",
+                "code": "76498008",
+                "display": "Postmenopausal state"
+              }
+            ],
+            "text": "Postmenopausal state"
+          },
+          {
+            "coding": [
+              {
+                "system": "https://www.unmc.edu/nebraska-lexicon",
+                "code": "416053008",
+                "display": "Oestrogen receptor positive tumour"
+              }
+            ],
+            "text": "Oestrogen receptor positive tumour"
+          }
+        ],
+        "description": "This is a randomized, multicenter, open-label, two-arm, Phase II study to evaluate the efficacy, safety, and pharmacokinetics of giredestrant versus anastrozole (in the window-of-opportunity phase) and giredestrant plus palbociclib compared with anastrozole plus palbociclib (in the neoadjuvant phase) in postmenopausal women with untreated, estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, early breast cancer.\n\nThe study consists of a screening period of up to 28 days, a window-of-opportunity phase for 14 days, followed by a neoadjuvant treatment phase for 16 weeks (four 28-day cycles), surgery, and an end of study visit (28 days after the final dose of study treatment).",
+        "enrollment": [
+          {
+            "reference": "Group/nct04436744-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer"
+          }
+        ],
+        "period": {
+          "end": "2021-11-24"
+        },
+        "sponsor": {
+          "display": "Hoffmann-La Roche"
+        },
+        "site": [
+          {
+            "reference": "Location/nct04436744-site-1",
+            "display": "UCLA - Burbank"
+          },
+          {
+            "reference": "Location/nct04436744-site-2",
+            "display": "UCLA - Laguna Hills"
+          },
+          {
+            "reference": "Location/nct04436744-site-3",
+            "display": "UCLA Hematology/Oncology-San Luis Obispo"
+          },
+          {
+            "reference": "Location/nct04436744-site-4",
+            "display": "UCLA Hematology Oncology-Santa Monica"
+          },
+          {
+            "reference": "Location/nct04436744-site-5",
+            "display": "Torrance Memorial Physician Network/Cancer Care"
+          },
+          {
+            "reference": "Location/nct04436744-site-6",
+            "display": "Orlando Health Inc."
+          },
+          {
+            "reference": "Location/nct04436744-site-7",
+            "display": "SCRI Florida Cancer Specialists East"
+          },
+          {
+            "reference": "Location/nct04436744-site-8",
+            "display": "Saint Barnabas Medical Center Cancer Center"
+          },
+          {
+            "reference": "Location/nct04436744-site-9",
+            "display": "Tennessee Oncology; Sarah Cannon Research Institute"
+          },
+          {
+            "reference": "Location/nct04436744-site-10",
+            "display": "Univ of Wisconsin-Madison; Clinical Science Center"
+          },
+          {
+            "reference": "Location/nct04436744-site-11",
+            "display": "Macquarie University Hospital"
+          },
+          {
+            "reference": "Location/nct04436744-site-12",
+            "display": "Westmead Hospital; Medical Oncology and Pallative Care"
+          },
+          {
+            "reference": "Location/nct04436744-site-13",
+            "display": "Hospital do Cancer de Pernambuco - HCP"
+          },
+          {
+            "reference": "Location/nct04436744-site-14",
+            "display": "Santa Casa de Misericordia de Porto Alegre"
+          },
+          {
+            "reference": "Location/nct04436744-site-15",
+            "display": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria Ltda"
+          },
+          {
+            "reference": "Location/nct04436744-site-16",
+            "display": "Núcleo de Pesquisa São Camilo; ONCOLOGIA CLINICA / QUIMIOTERAPIA"
+          },
+          {
+            "reference": "Location/nct04436744-site-17",
+            "display": "Universitätsklinikum Dresden"
+          },
+          {
+            "reference": "Location/nct04436744-site-18",
+            "display": "LUISENKRANKENHAUS; Senological Oncology"
+          },
+          {
+            "reference": "Location/nct04436744-site-19",
+            "display": "UNIVERSITATSKLINIKUM ERLANGEN; Department of Gynecology and Obstetrics"
+          },
+          {
+            "reference": "Location/nct04436744-site-20",
+            "display": "Bacs-Kiskun Megyei Korhaz, SZTE AOK Oktato Korhaza, Onkoradiologiai Kozpont; Onkoradiologiai Kozpont"
+          },
+          {
+            "reference": "Location/nct04436744-site-21",
+            "display": "Tolna Megyei Kórház, Onkológia"
+          },
+          {
+            "reference": "Location/nct04436744-site-22",
+            "display": "Szpital Morski Im. Pck; Oncology & Radiotherapy Dept"
+          },
+          {
+            "reference": "Location/nct04436744-site-23",
+            "display": "COZL Oddzial Onkologii Klinicznej z pododdzialem Chemioterapii Dziennej"
+          },
+          {
+            "reference": "Location/nct04436744-site-24",
+            "display": "Centrum Onkologii - Inst.Im. Marii Sklodowskiej-Curie; Oncology"
+          },
+          {
+            "reference": "Location/nct04436744-site-25",
+            "display": "DOLNOSLASKIE CENTRUM ONKOLOGII; Oddzial Chirurgii Piersi"
+          },
+          {
+            "reference": "Location/nct04436744-site-26",
+            "display": "Moscow City Oncology Hospital #62"
+          },
+          {
+            "reference": "Location/nct04436744-site-27",
+            "display": "Private Healthcare Institution Clinical Hospital RZhD Medicine"
+          },
+          {
+            "reference": "Location/nct04436744-site-28",
+            "display": "Republican Clinical Oncology Dispensary of Ministry of Healthcare of Tatarstan Republic"
+          },
+          {
+            "reference": "Location/nct04436744-site-29",
+            "display": "Filial #1 Regional Oncology Dispensary of Nizhniy Novgorod"
+          },
+          {
+            "reference": "Location/nct04436744-site-30",
+            "display": "FSI \"SRC of Oncology n. a. N.N.Petrov of Rosmedtekhnologiy\""
+          },
+          {
+            "reference": "Location/nct04436744-site-31",
+            "display": "S-Pb clinical scientific practical center of specialized kinds of medical care (oncological)"
+          },
+          {
+            "reference": "Location/nct04436744-site-32",
+            "display": "National Cancer Center; Medical Oncology"
+          },
+          {
+            "reference": "Location/nct04436744-site-33",
+            "display": "Seoul National University Hospital"
+          },
+          {
+            "reference": "Location/nct04436744-site-34",
+            "display": "Asan Medical Center"
+          },
+          {
+            "reference": "Location/nct04436744-site-35",
+            "display": "Severance Hospital; Internal Medicine"
+          },
+          {
+            "reference": "Location/nct04436744-site-36",
+            "display": "Samsung Medical Center"
+          },
+          {
+            "reference": "Location/nct04436744-site-37",
+            "display": "The Catholic University of Korea Seoul St. Mary's Hospital"
+          },
+          {
+            "reference": "Location/nct04436744-site-38",
+            "display": "Institutio Catalan De Oncologia"
+          },
+          {
+            "reference": "Location/nct04436744-site-39",
+            "display": "Complejo Hospitalario de Althaia; Servicio de Oncologia"
+          },
+          {
+            "reference": "Location/nct04436744-site-40",
+            "display": "Hospital de Jerez de la Frontera; Servicio de Oncologia"
+          },
+          {
+            "reference": "Location/nct04436744-site-41",
+            "display": "Hospital Universitari Arnau de Vilanova"
+          },
+          {
+            "reference": "Location/nct04436744-site-42",
+            "display": "Hospital Universitario Puerta de Hierro Majadahonda"
+          },
+          {
+            "reference": "Location/nct04436744-site-43",
+            "display": "Hospital de Navarra; Servicio de Oncologia"
+          },
+          {
+            "reference": "Location/nct04436744-site-44",
+            "display": "Hospital Universitari Sant Joan de Reus; Planta baja, color lila"
+          },
+          {
+            "reference": "Location/nct04436744-site-45",
+            "display": "Hospital Universitario de Canarias;servicio de Oncologia"
+          },
+          {
+            "reference": "Location/nct04436744-site-46",
+            "display": "Hospital de la Santa Creu i Sant Pau"
+          },
+          {
+            "reference": "Location/nct04436744-site-47",
+            "display": "Hospital Universitario Quirón Dexeus"
+          },
+          {
+            "reference": "Location/nct04436744-site-48",
+            "display": "Hospital Universitari Vall d'Hebron"
+          },
+          {
+            "reference": "Location/nct04436744-site-49",
+            "display": "Hospital Universitario Virgen de las Nieves : Hospital General"
+          },
+          {
+            "reference": "Location/nct04436744-site-50",
+            "display": "Hospital Clinico San Cecilio"
+          },
+          {
+            "reference": "Location/nct04436744-site-51",
+            "display": "Hospital Universitario Lucus Augusti"
+          },
+          {
+            "reference": "Location/nct04436744-site-52",
+            "display": "Hospital Universitario La Paz"
+          },
+          {
+            "reference": "Location/nct04436744-site-53",
+            "display": "Fundación Jimenez Díaz"
+          },
+          {
+            "reference": "Location/nct04436744-site-54",
+            "display": "Hosp Univ Fundacion Alcorcon"
+          },
+          {
+            "reference": "Location/nct04436744-site-55",
+            "display": "Hospital Universitario Virgen de La Arrixaca"
+          },
+          {
+            "reference": "Location/nct04436744-site-56",
+            "display": "Hospital Universitario Virgen Macarena"
+          },
+          {
+            "reference": "Location/nct04436744-site-57",
+            "display": "Hospital General Universitario de Valencia"
+          },
+          {
+            "reference": "Location/nct04436744-site-58",
+            "display": "National Cheng Kung Uni Hospital; Surgery"
+          },
+          {
+            "reference": "Location/nct04436744-site-59",
+            "display": "National Taiwan Uni Hospital; General Surgery"
+          },
+          {
+            "reference": "Location/nct04436744-site-60",
+            "display": "Regional Oncology Center of Kharkiv Regional Council; Department of Soft Tissues and Breast Cancer"
+          },
+          {
+            "reference": "Location/nct04436744-site-61",
+            "display": "Odesa Regional Clinical Hospital; Department of Thoracic Surgery"
+          },
+          {
+            "reference": "Location/nct04436744-site-62",
+            "display": "Khmelnytsky Regional Antitumor Center; Department of Breast, Skin, Soft Tissues and Bones Tumors"
+          },
+          {
+            "reference": "Location/nct04436744-site-63",
+            "display": "Municipal institution Dnipropetrovsk City Multifield Clinical Hospital #4; dept. of Chemotherapy"
+          },
+          {
+            "reference": "Location/nct04436744-site-64",
+            "display": "ME Kryviy Rih Oncology Dispensary of Dnipropetrovs'k Regional Council; Chemotherapy Department"
+          },
+          {
+            "reference": "Location/nct04436744-site-65",
+            "display": "Kyiv Regional Oncological Dispensary"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct04436744-cohort-1",
+                  "display": "Giredestrant + Palbociclib"
+                }
+              }
+            ],
+            "name": "Giredestrant + Palbociclib",
+            "type": {
+              "text": "Experimental"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct04436744-cohort-2",
+                  "display": "Anastrozole + Palbociclib"
+                }
+              }
+            ],
+            "name": "Anastrozole + Palbociclib",
+            "type": {
+              "text": "Active Comparator"
+            }
+          }
+        ],
+        "objective": [
+          {
+            "name": "Primary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Secondary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e1c16-b03b-11f1-9bf3-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744PrimaryEndpoint1",
+        "title": "Relative Percent Change in Ki67 Scores From Baseline to Week 2",
+        "status": "active",
+        "description": "Relative Percent Change in Ki67 Scores From Baseline to Week 2 [Time Frame: Baseline, Week 2]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Relative Percent Change in Ki67 Scores From Baseline to Week 2"
+            },
+            "description": "Time frame: Baseline, Week 2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e5f28-b03b-11f1-887f-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint1",
+        "title": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator",
+        "status": "active",
+        "description": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator [Time Frame: Baseline up to Cycle 4 Day 1 (each cycle is 28 days)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Overall Response Rate (ORR) by Ultrasound as Determined by the Investigator"
+            },
+            "description": "Time frame: Baseline up to Cycle 4 Day 1 (each cycle is 28 days)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e623e-b03b-11f1-9a45-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint2",
+        "title": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2",
+        "status": "active",
+        "description": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2 [Time Frame: Week 2]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Complete Cell Cycle Arrest (CCCA) Rate at Week 2"
+            },
+            "description": "Time frame: Week 2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e64be-b03b-11f1-b7d4-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint3",
+        "title": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0)",
+        "status": "active",
+        "description": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0) [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of Participants With Adverse Events (AEs) With Severity Determined in Accordance With National Cancer Institute Common Terminology Criteria for Adverse Events, Version 5.0 (NCI CTCAE v5.0)"
+            },
+            "description": "Time frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e673e-b03b-11f1-8389-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint4",
+        "title": "Change From Baseline in Respiratory Rate Over Time",
+        "status": "active",
+        "description": "Change From Baseline in Respiratory Rate Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change From Baseline in Respiratory Rate Over Time"
+            },
+            "description": "Time frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e69a0-b03b-11f1-9c77-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint5",
+        "title": "Change From Baseline in Pulse Rate Over Time",
+        "status": "active",
+        "description": "Change From Baseline in Pulse Rate Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change From Baseline in Pulse Rate Over Time"
+            },
+            "description": "Time frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-6",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e6cac-b03b-11f1-9677-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint6",
+        "title": "Change From Baseline in Systolic Blood Pressure Over Time",
+        "status": "active",
+        "description": "Change From Baseline in Systolic Blood Pressure Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change From Baseline in Systolic Blood Pressure Over Time"
+            },
+            "description": "Time frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-7",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e6f0e-b03b-11f1-84ab-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint7",
+        "title": "Change From Baseline in Diastolic Blood Pressure Over Time",
+        "status": "active",
+        "description": "Change From Baseline in Diastolic Blood Pressure Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change From Baseline in Diastolic Blood Pressure Over Time"
+            },
+            "description": "Time frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-8",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e717a-b03b-11f1-b4bd-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint8",
+        "title": "Change From Baseline in Body Temperature Over Time",
+        "status": "active",
+        "description": "Change From Baseline in Body Temperature Over Time [Time Frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change From Baseline in Body Temperature Over Time"
+            },
+            "description": "Time frame: Baseline; Cycles 1-2: Day 1 and Day 15; Cycles 3-4: Day 1; day of surgery (up to 2 weeks after the final dose of study treatment [approximately Week 18]) and end of study (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-9",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e740e-b03b-11f1-a62e-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint9",
+        "title": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline",
+        "status": "active",
+        "description": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of Participants With Shifts in Hematology Test Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+            },
+            "description": "Time frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-10",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e7670-b03b-11f1-951e-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint10",
+        "title": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline",
+        "status": "active",
+        "description": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline [Time Frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of Participants With Shifts in Blood Chemistry Parameters From NCI-CTCAE Grade 0-2 at Baseline to Grade 3-4 at Post-baseline"
+            },
+            "description": "Time frame: From baseline up to 28 days after the last dose (up to approximately 24 weeks)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04436744-secondary-endpoint-11",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04436744-secondary-endpoint-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:2b6e78d2-b03b-11f1-ac98-bea1b45c14a5"
+          }
+        ],
+        "name": "NCT04436744SecondaryEndpoint11",
+        "title": "Plasma Concentration of Giredestrant at Specified Timepoints",
+        "status": "active",
+        "description": "Plasma Concentration of Giredestrant at Specified Timepoints [Time Frame: Window of Opportunity Phase: Day 1 (3 hours Postdose) and Day 15 (Predose) during Cycle 0 (the 15-day period in Window of Opportunity Phase is called Cycle 0 for PK analysis); Neoadjuvant Phase: Cycle 2 Day 1, Predose]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Plasma Concentration of Giredestrant at Specified Timepoints"
+            },
+            "description": "Time frame: Window of Opportunity Phase: Day 1 (3 hours Postdose) and Day 15 (Predose) during Cycle 0 (the 15-day period in Window of Opportunity Phase is called Cycle 0 for PK analysis); Neoadjuvant Phase: Cycle 2 Day 1, Predose"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/NCT04436744-drug-giredestrant",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "NCT04436744-drug-giredestrant",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "DRUG"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT04436744_drug_giredestrant",
+        "title": "Giredestrant",
+        "status": "active",
+        "description": "During the window-of-opportunity phase (first 2 weeks) giredestrant will be taken orally once per day (QD) as a single agent. During the neoadjuvant treatment phase, giredestrant will be taken orally QD on Days 1-28 of each 28-day cycle for a total of 4 cycles, in combination with palbociclib.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Giredestrant"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/NCT04436744-drug-anastrozole",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "NCT04436744-drug-anastrozole",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "DRUG"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT04436744_drug_anastrozole",
+        "title": "Anastrozole",
+        "status": "active",
+        "description": "During the window-of-opportunity phase (first 2 weeks), anastrozole 1 mg will be taken orally QD as a single agent. During the neoadjuvant treatment phase, anastrozole 1 mg will be taken orally QD on Days 1-28 of each 28-day cycle for a total of 4 cycles, in combination with palbociclib.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Anastrozole"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/NCT04436744-drug-palbociclib",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "NCT04436744-drug-palbociclib",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "DRUG"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT04436744_drug_palbociclib",
+        "title": "Palbociclib",
+        "status": "active",
+        "description": "During the neoadjuvant treatment phase, palbociclib 125 mg will be taken orally QD on Days 1-21 of a 28-day cycle for a total of 4 cycles.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Palbociclib"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/NCT04436744-procedure-surgery",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "NCT04436744-procedure-surgery",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "PROCEDURE"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT04436744_procedure_surgery",
+        "title": "Surgery",
+        "status": "active",
+        "description": "Surgery must be performed within a maximum of 14 days after the final cycle in the neoadjuvant treatment phase and ideally should occur as soon as possible after the last dose of study treatment.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Surgery"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04436744-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04436744-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-1",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Postmenopausal women"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.unmc.edu/nebraska-lexicon",
+                      "code": "76498008",
+                      "display": "Postmenopausal state"
+                    }
+                  ]
+                },
+                "exclude": false
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "age ≥18 years"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "102522009",
+                      "display": "Age 19 to 59 years"
+                    }
+                  ]
+                },
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-2",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "≥1% of tumor cells stained positive"
+                  }
+                ],
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "≥1% of tumor cells stained positive"
+                },
+                "exclude": false
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "the most recent tumor biopsy"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.unmc.edu/nebraska-lexicon",
+                      "code": "86273004",
+                      "display": "Biopsy"
+                    }
+                  ]
+                },
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "criteria-node-3",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "type": "person",
+            "actual": false,
+            "characteristic": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Documented estrogen receptor (ER)-positive tumor"
+                  },
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime"
+                  }
+                ],
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.unmc.edu/nebraska-lexicon",
+                      "code": "416053008",
+                      "display": "Oestrogen receptor positive tumour"
+                    }
+                  ]
+                },
+                "exclude": false
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Documented estrogen receptor (ER)-positive tumor in accordance to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines (Allison et al.2020), assessed locally and defined as ≥1% of tumor cells stained positive on the basis of the most recent tumor biopsy"
+                  }
+                ],
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "valueReference": {
+                  "reference": "#criteria-node-2",
+                  "type": "Group"
+                },
+                "exclude": false
+              }
+            ]
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Postmenopausal women age ≥18 years\n* Histologically confirmed operable or inoperable invasive breast carcinoma\n* Candidate for neoadjuvant treatment and considered appropriate for endocrine therapy\n* Willingness to undergo breast surgery after neoadjuvant treatment and to provide three mandatory tumor samples\n* Documented estrogen receptor (ER)-positive tumor in accordance to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines (Allison et al.2020), assessed locally and defined as ≥1% of tumor cells stained positive on the basis of the most recent tumor biopsy\n* Documented progesterone receptor status (positive or negative) as per local assessment\n* Documented human epidermal growth factor receptor-2 (HER2)-negative tumor in accordance to 2018 ASCO/CAP guidelines (Wolff et al. 2018), assessed locally on the most recent tumor biopsy\n* Ki67 score ≥5% analyzed centrally or locally\n* Eastern Cooperative Oncology Group Performance Status 0-1\n* Adequate organ function\n\nExclusion Criteria:\n\n* Stage IV (metastatic) breast cancer\n* Inflammatory breast cancer (cT4d)\n* Bilateral invasive breast cancer\n* History of invasive breast cancer, ductal carcinoma in situ or lobular carcinoma in situ and other malignancy within 5 years prior to screening\n* Previous systemic or local treatment for the primary breast cancer currently under investigation\n* History of any prior treatment with aromatase inhibitors (AIs), tamoxifen, selective estrogen receptor down regulator, or cyclin-dependent kinase 4 and 6 inhibitors\n* Major surgery within 4 weeks prior to randomization\n* Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including hepatitis\n* Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study\n* History of allergy to anastrozole, or palbociclib or any of its excipients\n* Known issues with swallowing oral medication\n* History of documented hemorrhagic diathesis, coagulopathy, or thromboembolism\n* Active cardiac disease or history of cardiac dysfunction\n* Current treatment with medications that are well known to prolong the QT interval\n* Active inflammatory bowel disease or chronic diarrhea, short bowel syndrome, or major upper gastrointestinal surgery including gastric resection\n* Treatment with strong CYP3A4 inhibitors or inducers within 14 days or 5 drug elimination half-lives prior to randomization\n* Known HIV infection\n* Serious infection requiring oral or IV antibiotics, or other clinically significant infection within 14 days prior to screening\n* Any serious medical condition or abnormality in clinical laboratory tests that, in the investigator's judgment, precludes the patient's safe participation in and completion of the study"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer",
+        "characteristic": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Postmenopausal women age ≥18 years"
+              }
+            ],
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#criteria-node-1",
+              "type": "Group"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Histologically confirmed operable or inoperable invasive breast carcinoma"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Histologically confirmed operable or inoperable invasive breast carcinoma"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Candidate for neoadjuvant treatment and considered appropriate for endocrine therapy"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Candidate for neoadjuvant treatment and considered appropriate for endocrine therapy"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Willingness to undergo breast surgery after neoadjuvant treatment and to provide three mandatory tumor samples"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Willingness to undergo breast surgery after neoadjuvant treatment and to provide three mandatory tumor samples"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Documented estrogen receptor (ER)-positive tumor in accordance to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines (Allison et al.2020), assessed locally and defined as ≥1% of tumor cells stained positive on the basis of the most recent tumor biopsy"
+              }
+            ],
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#criteria-node-3",
+              "type": "Group"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Documented progesterone receptor status (positive or negative) as per local assessment"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Documented progesterone receptor status (positive or negative) as per local assessment"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Documented human epidermal growth factor receptor-2 (HER2)-negative tumor in accordance to 2018 ASCO/CAP guidelines (Wolff et al. 2018), assessed locally on the most recent tumor biopsy"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Documented human epidermal growth factor receptor-2 (HER2)-negative tumor in accordance to 2018 ASCO/CAP guidelines (Wolff et al. 2018), assessed locally on the most recent tumor biopsy"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Ki67 score ≥5% analyzed centrally or locally"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Ki67 score ≥5% analyzed centrally or locally"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Eastern Cooperative Oncology Group Performance Status 0-1"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Eastern Cooperative Oncology Group Performance Status 0-1"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Adequate organ function"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Adequate organ function"
+            },
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Stage IV (metastatic) breast cancer"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Stage IV (metastatic) breast cancer"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Inflammatory breast cancer (cT4d"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Inflammatory breast cancer (cT4d"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Bilateral invasive breast cancer"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Bilateral invasive breast cancer"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of invasive breast cancer, ductal carcinoma in situ or lobular carcinoma in situ and other malignancy within 5 years prior to screening"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of invasive breast cancer, ductal carcinoma in situ or lobular carcinoma in situ and other malignancy within 5 years prior to screening"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Previous systemic or local treatment for the primary breast cancer currently under investigation"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Previous systemic or local treatment for the primary breast cancer currently under investigation"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of any prior treatment with aromatase inhibitors (AIs), tamoxifen, selective estrogen receptor down regulator, or cyclin-dependent kinase 4 and 6 inhibitors"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of any prior treatment with aromatase inhibitors (AIs), tamoxifen, selective estrogen receptor down regulator, or cyclin-dependent kinase 4 and 6 inhibitors"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Major surgery within 4 weeks prior to randomization"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Major surgery within 4 weeks prior to randomization"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including hepatitis"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including hepatitis"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of allergy to anastrozole, or palbociclib or any of its excipients"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of allergy to anastrozole, or palbociclib or any of its excipients"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Known issues with swallowing oral medication"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Known issues with swallowing oral medication"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "History of documented hemorrhagic diathesis, coagulopathy, or thromboembolism"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "History of documented hemorrhagic diathesis, coagulopathy, or thromboembolism"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Active cardiac disease or history of cardiac dysfunction"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Active cardiac disease or history of cardiac dysfunction"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Current treatment with medications that are well known to prolong the QT interval"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Current treatment with medications that are well known to prolong the QT interval"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Active inflammatory bowel disease or chronic diarrhea, short bowel syndrome, or major upper gastrointestinal surgery including gastric resection"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Active inflammatory bowel disease or chronic diarrhea, short bowel syndrome, or major upper gastrointestinal surgery including gastric resection"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Treatment with strong CYP3A4 inhibitors or inducers within 14 days or 5 drug elimination half-lives prior to randomization"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Treatment with strong CYP3A4 inhibitors or inducers within 14 days or 5 drug elimination half-lives prior to randomization"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Known HIV infection"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Known HIV infection"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Serious infection requiring oral or IV antibiotics, or other clinically significant infection within 14 days prior to screening"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Serious infection requiring oral or IV antibiotics, or other clinically significant infection within 14 days prior to screening"
+            },
+            "exclude": true
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Any serious medical condition or abnormality in clinical laboratory tests that, in the investigator's judgment, precludes the patient's safe participation in and completion of the study"
+              }
+            ],
+            "code": {
+              "text": "Defined by CodeableConcept"
+            },
+            "valueCodeableConcept": {
+              "text": "Any serious medical condition or abnormality in clinical laboratory tests that, in the investigator's judgment, precludes the patient's safe participation in and completion of the study"
+            },
+            "exclude": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04436744-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04436744-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Experimental"
+        },
+        "name": "Giredestrant + Palbociclib"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04436744-cohort-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04436744-cohort-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Active Comparator"
+        },
+        "name": "Anastrozole + Palbociclib"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "UCLA - Burbank",
+        "address": {
+          "city": "Burbank",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "91505"
+        },
+        "position": {
+          "latitude": 34.18084,
+          "longitude": -118.30897
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-2",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "UCLA - Laguna Hills",
+        "address": {
+          "city": "Laguna Hills",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "92653"
+        },
+        "position": {
+          "latitude": 33.61252,
+          "longitude": -117.71283
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-3",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "UCLA Hematology/Oncology-San Luis Obispo",
+        "address": {
+          "city": "San Luis Obispo",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "93401"
+        },
+        "position": {
+          "latitude": 35.28275,
+          "longitude": -120.65962
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-4",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "UCLA Hematology Oncology-Santa Monica",
+        "address": {
+          "city": "Santa Monica",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "90404"
+        },
+        "position": {
+          "latitude": 34.01949,
+          "longitude": -118.49138
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-5",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Torrance Memorial Physician Network/Cancer Care",
+        "address": {
+          "city": "Torrance",
+          "state": "California",
+          "country": "United States",
+          "postalCode": "90505"
+        },
+        "position": {
+          "latitude": 33.83585,
+          "longitude": -118.34063
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-6",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Orlando Health Inc.",
+        "address": {
+          "city": "Orlando",
+          "state": "Florida",
+          "country": "United States",
+          "postalCode": "32806"
+        },
+        "position": {
+          "latitude": 28.53834,
+          "longitude": -81.37924
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-7",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "SCRI Florida Cancer Specialists East",
+        "address": {
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "country": "United States",
+          "postalCode": "33401"
+        },
+        "position": {
+          "latitude": 26.71534,
+          "longitude": -80.05337
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-8",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Saint Barnabas Medical Center Cancer Center",
+        "address": {
+          "city": "Livingston",
+          "state": "New Jersey",
+          "country": "United States",
+          "postalCode": "07039"
+        },
+        "position": {
+          "latitude": 40.79593,
+          "longitude": -74.31487
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-9",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Tennessee Oncology; Sarah Cannon Research Institute",
+        "address": {
+          "city": "Nashville",
+          "state": "Tennessee",
+          "country": "United States",
+          "postalCode": "37203"
+        },
+        "position": {
+          "latitude": 36.16589,
+          "longitude": -86.78444
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-10",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Univ of Wisconsin-Madison; Clinical Science Center",
+        "address": {
+          "city": "Madison",
+          "state": "Wisconsin",
+          "country": "United States",
+          "postalCode": "53762"
+        },
+        "position": {
+          "latitude": 43.07305,
+          "longitude": -89.40123
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-11",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Macquarie University Hospital",
+        "address": {
+          "city": "Macquarie Park",
+          "state": "New South Wales",
+          "country": "Australia",
+          "postalCode": "2109"
+        },
+        "position": {
+          "latitude": -33.78105,
+          "longitude": 151.12757
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-12",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Westmead Hospital; Medical Oncology and Pallative Care",
+        "address": {
+          "city": "Westmead",
+          "state": "New South Wales",
+          "country": "Australia",
+          "postalCode": "2145"
+        },
+        "position": {
+          "latitude": -33.80383,
+          "longitude": 150.98768
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-13",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital do Cancer de Pernambuco - HCP",
+        "address": {
+          "city": "Recife",
+          "state": "Pernambuco",
+          "country": "Brazil",
+          "postalCode": "50040-000"
+        },
+        "position": {
+          "latitude": -8.05389,
+          "longitude": -34.88111
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-14",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Santa Casa de Misericordia de Porto Alegre",
+        "address": {
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "postalCode": "90050-170"
+        },
+        "position": {
+          "latitude": -30.03283,
+          "longitude": -51.23019
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-15",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria Ltda",
+        "address": {
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "postalCode": "01317-001"
+        },
+        "position": {
+          "latitude": -23.5475,
+          "longitude": -46.63611
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-16",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Núcleo de Pesquisa São Camilo; ONCOLOGIA CLINICA / QUIMIOTERAPIA",
+        "address": {
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "postalCode": "04014-002"
+        },
+        "position": {
+          "latitude": -23.5475,
+          "longitude": -46.63611
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-17",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Universitätsklinikum Dresden",
+        "address": {
+          "city": "Dresden",
+          "country": "Germany",
+          "postalCode": "01307"
+        },
+        "position": {
+          "latitude": 51.05089,
+          "longitude": 13.73832
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-18",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "LUISENKRANKENHAUS; Senological Oncology",
+        "address": {
+          "city": "Düsseldorf",
+          "country": "Germany",
+          "postalCode": "40235"
+        },
+        "position": {
+          "latitude": 51.22319,
+          "longitude": 6.77927
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-19",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "UNIVERSITATSKLINIKUM ERLANGEN; Department of Gynecology and Obstetrics",
+        "address": {
+          "city": "Erlangen",
+          "country": "Germany",
+          "postalCode": "91054"
+        },
+        "position": {
+          "latitude": 49.59099,
+          "longitude": 11.00783
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-20",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Bacs-Kiskun Megyei Korhaz, SZTE AOK Oktato Korhaza, Onkoradiologiai Kozpont; Onkoradiologiai Kozpont",
+        "address": {
+          "city": "Kecskemét",
+          "country": "Hungary",
+          "postalCode": "6000"
+        },
+        "position": {
+          "latitude": 46.90618,
+          "longitude": 19.69128
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-21",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Tolna Megyei Kórház, Onkológia",
+        "address": {
+          "city": "Szekszárd",
+          "country": "Hungary",
+          "postalCode": "7100"
+        },
+        "position": {
+          "latitude": 46.34723,
+          "longitude": 18.71189
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-22",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-22",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Szpital Morski Im. Pck; Oncology & Radiotherapy Dept",
+        "address": {
+          "city": "Gdynia",
+          "country": "Poland",
+          "postalCode": "81-519"
+        },
+        "position": {
+          "latitude": 54.51889,
+          "longitude": 18.53188
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-23",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-23",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "COZL Oddzial Onkologii Klinicznej z pododdzialem Chemioterapii Dziennej",
+        "address": {
+          "city": "Lublin",
+          "country": "Poland",
+          "postalCode": "20-090"
+        },
+        "position": {
+          "latitude": 51.25058,
+          "longitude": 22.57009
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-24",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centrum Onkologii - Inst.Im. Marii Sklodowskiej-Curie; Oncology",
+        "address": {
+          "city": "Warsaw",
+          "country": "Poland",
+          "postalCode": "02-781"
+        },
+        "position": {
+          "latitude": 52.22977,
+          "longitude": 21.01178
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-25",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-25",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "DOLNOSLASKIE CENTRUM ONKOLOGII; Oddzial Chirurgii Piersi",
+        "address": {
+          "city": "Wroclaw",
+          "country": "Poland",
+          "postalCode": "53-413"
+        },
+        "position": {
+          "latitude": 51.10286,
+          "longitude": 17.03006
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-26",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-26",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Moscow City Oncology Hospital #62",
+        "address": {
+          "city": "Moscovskaya Oblast",
+          "state": "Moscow Oblast",
+          "country": "Russia",
+          "postalCode": "143423"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-27",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-27",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Private Healthcare Institution Clinical Hospital RZhD Medicine",
+        "address": {
+          "city": "Saint Petersburg",
+          "state": "Sankt-Peterburg",
+          "country": "Russia",
+          "postalCode": "195271"
+        },
+        "position": {
+          "latitude": 59.93863,
+          "longitude": 30.31413
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-28",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-28",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Republican Clinical Oncology Dispensary of Ministry of Healthcare of Tatarstan Republic",
+        "address": {
+          "city": "Kazan'",
+          "state": "Tatarstan Republic",
+          "country": "Russia",
+          "postalCode": "420029"
+        },
+        "position": {
+          "latitude": 55.78874,
+          "longitude": 49.12214
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-29",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-29",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Filial #1 Regional Oncology Dispensary of Nizhniy Novgorod",
+        "address": {
+          "city": "Nizhny Novgorod",
+          "state": "Niznij Novgorod",
+          "country": "Russia",
+          "postalCode": "603081"
+        },
+        "position": {
+          "latitude": 56.32867,
+          "longitude": 44.00205
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-30",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-30",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "FSI \"SRC of Oncology n. a. N.N.Petrov of Rosmedtekhnologiy\"",
+        "address": {
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "postalCode": "197758"
+        },
+        "position": {
+          "latitude": 59.93863,
+          "longitude": 30.31413
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-31",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-31",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "S-Pb clinical scientific practical center of specialized kinds of medical care (oncological)",
+        "address": {
+          "city": "Saint Petersburg",
+          "state": "Sankt-Peterburg",
+          "country": "Russia",
+          "postalCode": "197758"
+        },
+        "position": {
+          "latitude": 59.93863,
+          "longitude": 30.31413
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-32",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-32",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "National Cancer Center; Medical Oncology",
+        "address": {
+          "city": "Gyeonggi-do",
+          "country": "South Korea",
+          "postalCode": "410-769"
+        },
+        "position": {
+          "latitude": 37.58944,
+          "longitude": 126.76917
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-33",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-33",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Seoul National University Hospital",
+        "address": {
+          "city": "Seoul",
+          "state": "Korea",
+          "country": "South Korea",
+          "postalCode": "03080"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-34",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-34",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Asan Medical Center",
+        "address": {
+          "city": "Seoul",
+          "state": "Seoul",
+          "country": "South Korea",
+          "postalCode": "05505"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-35",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-35",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Severance Hospital; Internal Medicine",
+        "address": {
+          "city": "Seoul",
+          "country": "South Korea",
+          "postalCode": "110-744"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-36",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-36",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Samsung Medical Center",
+        "address": {
+          "city": "Seoul",
+          "state": "Seoul",
+          "country": "South Korea",
+          "postalCode": "06351"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-37",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-37",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "The Catholic University of Korea Seoul St. Mary's Hospital",
+        "address": {
+          "city": "Seoul",
+          "country": "South Korea",
+          "postalCode": "6591"
+        },
+        "position": {
+          "latitude": 37.566,
+          "longitude": 126.9784
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-38",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-38",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Institutio Catalan De Oncologia",
+        "address": {
+          "city": "Badalona",
+          "state": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08916"
+        },
+        "position": {
+          "latitude": 41.45004,
+          "longitude": 2.24741
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-39",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-39",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Complejo Hospitalario de Althaia; Servicio de Oncologia",
+        "address": {
+          "city": "Manresa",
+          "state": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08243"
+        },
+        "position": {
+          "latitude": 41.72815,
+          "longitude": 1.82399
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-40",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-40",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital de Jerez de la Frontera; Servicio de Oncologia",
+        "address": {
+          "city": "Jerez de la Frontera",
+          "state": "Cadiz",
+          "country": "Spain",
+          "postalCode": "11407"
+        },
+        "position": {
+          "latitude": 36.68645,
+          "longitude": -6.13606
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-41",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-41",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitari Arnau de Vilanova",
+        "address": {
+          "city": "Lleida",
+          "state": "Lerida",
+          "country": "Spain",
+          "postalCode": "25198"
+        },
+        "position": {
+          "latitude": 41.61674,
+          "longitude": 0.62218
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-42",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-42",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Puerta de Hierro Majadahonda",
+        "address": {
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postalCode": "28222"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-43",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-43",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital de Navarra; Servicio de Oncologia",
+        "address": {
+          "city": "Navarra",
+          "state": "Navarre",
+          "country": "Spain",
+          "postalCode": "31008"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-44",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-44",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitari Sant Joan de Reus; Planta baja, color lila",
+        "address": {
+          "city": "Reus",
+          "state": "Tarragona",
+          "country": "Spain",
+          "postalCode": "43204"
+        },
+        "position": {
+          "latitude": 41.15612,
+          "longitude": 1.10687
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-45",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-45",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario de Canarias;servicio de Oncologia",
+        "address": {
+          "city": "San Cristóbal de La Laguna",
+          "state": "Tenerife",
+          "country": "Spain",
+          "postalCode": "38320"
+        },
+        "position": {
+          "latitude": 28.4853,
+          "longitude": -16.32014
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-46",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-46",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital de la Santa Creu i Sant Pau",
+        "address": {
+          "city": "Barcelona",
+          "state": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08025"
+        },
+        "position": {
+          "latitude": 41.38879,
+          "longitude": 2.15899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-47",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-47",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Quirón Dexeus",
+        "address": {
+          "city": "Barcelona",
+          "country": "Spain",
+          "postalCode": "08028"
+        },
+        "position": {
+          "latitude": 41.38879,
+          "longitude": 2.15899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-48",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-48",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitari Vall d'Hebron",
+        "address": {
+          "city": "Barcelona",
+          "state": "Barcelona [Barcelona]",
+          "country": "Spain",
+          "postalCode": "08035"
+        },
+        "position": {
+          "latitude": 41.38879,
+          "longitude": 2.15899
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-49",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-49",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Virgen de las Nieves : Hospital General",
+        "address": {
+          "city": "Granada",
+          "country": "Spain",
+          "postalCode": "18014"
+        },
+        "position": {
+          "latitude": 37.18817,
+          "longitude": -3.60667
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-50",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-50",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Clinico San Cecilio",
+        "address": {
+          "city": "Granada",
+          "country": "Spain",
+          "postalCode": "18016"
+        },
+        "position": {
+          "latitude": 37.18817,
+          "longitude": -3.60667
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-51",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-51",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Lucus Augusti",
+        "address": {
+          "city": "Lugo",
+          "state": "Lugo",
+          "country": "Spain",
+          "postalCode": "27003"
+        },
+        "position": {
+          "latitude": 43.00992,
+          "longitude": -7.55602
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-52",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-52",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario La Paz",
+        "address": {
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postalCode": "28046"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-53",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-53",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Fundación Jimenez Díaz",
+        "address": {
+          "city": "Madrid",
+          "state": "Madrid",
+          "country": "Spain",
+          "postalCode": "28040"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-54",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-54",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hosp Univ Fundacion Alcorcon",
+        "address": {
+          "city": "Madrid",
+          "country": "Spain",
+          "postalCode": "28922"
+        },
+        "position": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-55",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-55",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Virgen de La Arrixaca",
+        "address": {
+          "city": "El Palmar",
+          "state": "Murcia",
+          "country": "Spain",
+          "postalCode": "30120"
+        },
+        "position": {
+          "latitude": 37.93939,
+          "longitude": -1.16095
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-56",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-56",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital Universitario Virgen Macarena",
+        "address": {
+          "city": "Seville",
+          "state": "Sevilla",
+          "country": "Spain",
+          "postalCode": "41009"
+        },
+        "position": {
+          "latitude": 37.38283,
+          "longitude": -5.97317
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-57",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-57",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Hospital General Universitario de Valencia",
+        "address": {
+          "city": "Valencia",
+          "state": "Valencia",
+          "country": "Spain",
+          "postalCode": "46014"
+        },
+        "position": {
+          "latitude": 39.47391,
+          "longitude": -0.37966
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-58",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-58",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "National Cheng Kung Uni Hospital; Surgery",
+        "address": {
+          "city": "Tainan",
+          "country": "Taiwan",
+          "postalCode": "704"
+        },
+        "position": {
+          "latitude": 22.99083,
+          "longitude": 120.21333
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-59",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-59",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "National Taiwan Uni Hospital; General Surgery",
+        "address": {
+          "city": "Taipei",
+          "country": "Taiwan",
+          "postalCode": "100"
+        },
+        "position": {
+          "latitude": 25.05306,
+          "longitude": 121.52639
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-60",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-60",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Regional Oncology Center of Kharkiv Regional Council; Department of Soft Tissues and Breast Cancer",
+        "address": {
+          "city": "Kharkiv",
+          "state": "Kharkiv Governorate",
+          "country": "Ukraine",
+          "postalCode": "61070"
+        },
+        "position": {
+          "latitude": 49.98177,
+          "longitude": 36.25475
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-61",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-61",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Odesa Regional Clinical Hospital; Department of Thoracic Surgery",
+        "address": {
+          "city": "Odesa",
+          "state": "Kharkiv Governorate",
+          "country": "Ukraine",
+          "postalCode": "65025"
+        },
+        "position": {
+          "latitude": 46.48572,
+          "longitude": 30.74383
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-62",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-62",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Khmelnytsky Regional Antitumor Center; Department of Breast, Skin, Soft Tissues and Bones Tumors",
+        "address": {
+          "city": "Khmelnytskyi",
+          "state": "Podolia Governorate",
+          "country": "Ukraine",
+          "postalCode": "29009"
+        },
+        "position": {
+          "latitude": 49.41835,
+          "longitude": 26.97936
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-63",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-63",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Municipal institution Dnipropetrovsk City Multifield Clinical Hospital #4; dept. of Chemotherapy",
+        "address": {
+          "city": "Dnipropetrovsk",
+          "country": "Ukraine",
+          "postalCode": "49102"
+        },
+        "position": {
+          "latitude": 48.46664,
+          "longitude": 35.04066
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-64",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-64",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "ME Kryviy Rih Oncology Dispensary of Dnipropetrovs'k Regional Council; Chemotherapy Department",
+        "address": {
+          "city": "Kryvyi Rih",
+          "country": "Ukraine",
+          "postalCode": "50048"
+        },
+        "position": {
+          "latitude": 47.90572,
+          "longitude": 33.39404
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04436744-site-65",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04436744-site-65",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Kyiv Regional Oncological Dispensary",
+        "address": {
+          "city": "Kyiv",
+          "country": "Ukraine",
+          "postalCode": "04107"
+        },
+        "position": {
+          "latitude": 50.45466,
+          "longitude": 30.5238
+        }
+      }
+    }
+  ]
+}

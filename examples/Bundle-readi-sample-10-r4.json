@@ -1,0 +1,2564 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-10-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/NCT07203378",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT07203378",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Practitioner",
+            "id": "NCT07203378-CentralContact-0",
+            "name": [
+              {
+                "text": "Janna Espinosa"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "801-585-0571",
+                "system": "phone"
+              },
+              {
+                "value": "janna.espinosa@hci.utah.edu",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "NCT07203378-CentralContact-1",
+            "name": [
+              {
+                "text": "Roma Bhatia, MD"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "801-585-0255",
+                "system": "phone"
+              },
+              {
+                "value": "Roma.bhatia@hci.utah.edu",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "NCT07203378-CentralContact-2",
+            "name": [
+              {
+                "text": "Janna Espinosa"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "801-585-0571",
+                "system": "phone"
+              },
+              {
+                "value": "janna.espinosa@hci.utah.edu",
+                "system": "email"
+              }
+            ]
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "NCT07203378-CentralContact-3",
+            "name": [
+              {
+                "text": "Roma Bhatia, MD"
+              }
+            ],
+            "telecom": [
+              {
+                "value": "801-585-0255",
+                "system": "phone"
+              },
+              {
+                "value": "Roma.bhatia@hci.utah.edu",
+                "system": "email"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "ENERGIZE"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc True"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Recruiting"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2025-11-04"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-11-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2028-11-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-10-02"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-17"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-24"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-18"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention)."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention). [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-primary-endpoint-1",
+                  "display": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention)."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-1",
+                  "display": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-2",
+                  "display": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-3",
+                  "display": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-4",
+                  "display": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in the average time spent in moderate to vigorous physical activity (in minutes)"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the average time spent in moderate to vigorous physical activity (in minutes) [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-5",
+                  "display": "Change in the average time spent in moderate to vigorous physical activity (in minutes)"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-6",
+                  "display": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Markers evaluating activity collected from the Actigraph, such as step count."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Markers evaluating activity collected from the Actigraph, such as step count. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-7",
+                  "display": "Markers evaluating activity collected from the Actigraph, such as step count."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-8",
+                  "display": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-9",
+                  "display": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-10",
+                  "display": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in mean PROMIS Physical Function score from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in mean PROMIS Physical Function score from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-11",
+                  "display": "Change in mean PROMIS Physical Function score from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-12",
+                  "display": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-13",
+                  "display": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-14",
+                  "display": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score. [Time Frame: 12 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-15",
+                  "display": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Other markers evaluating physical function, including 30-second chair stand."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including 30-second chair stand. [Time Frame: 12 weeks.]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-16",
+                  "display": "Other markers evaluating physical function, including 30-second chair stand."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Other markers evaluating physical function, including a Balance Test."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including a Balance Test. [Time Frame: 12 weeks.]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-17",
+                  "display": "Other markers evaluating physical function, including a Balance Test."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Other markers evaluating physical function, including a 30-second maximum push-up test."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including a 30-second maximum push-up test. [Time Frame: 12 weeks.]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-18",
+                  "display": "Other markers evaluating physical function, including a 30-second maximum push-up test."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-19",
+                  "display": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-20",
+                  "display": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-21",
+                  "display": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-22",
+                  "display": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-23",
+                  "display": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct07203378-secondary-endpoint-24",
+                  "display": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "University of Utah"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Janna Espinosa"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#NCT07203378-CentralContact-0",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Roma Bhatia, MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#NCT07203378-CentralContact-1",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Janna Espinosa"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "general-contact",
+                      "display": "general-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#NCT07203378-CentralContact-2",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Roma Bhatia, MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "recruitment-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "general-contact",
+                      "display": "general-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "#NCT07203378-CentralContact-3",
+                  "type": "Practitioner"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 80
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C98388",
+                  "display": "Interventional Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01001",
+                  "display": "Interventional research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01011",
+                  "display": "parallel cohort design"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01003",
+                  "display": "randomized assignment"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "text": "Design Masking: NONE (Open Label)"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu."
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT07203378 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT07203378",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "HCI194215",
+            "assigner": {
+              "display": "University of Utah"
+            }
+          }
+        ],
+        "title": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
+        "status": "active",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ],
+          "text": "Phase 2"
+        },
+        "description": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
+        "enrollment": [
+          {
+            "reference": "Group/nct07203378-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
+          }
+        ],
+        "period": {
+          "start": "2025-11-04"
+        },
+        "sponsor": {
+          "display": "University of Utah"
+        },
+        "site": [
+          {
+            "reference": "Location/nct07203378-site-1",
+            "display": "Huntsman Cancer Institute at University of Utah"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct07203378-cohort-1",
+                  "display": "Exercise Intervention"
+                }
+              }
+            ],
+            "name": "Exercise Intervention",
+            "type": {
+              "text": "Experimental"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct07203378-cohort-2",
+                  "display": "Usual Care"
+                }
+              }
+            ],
+            "name": "Usual Care",
+            "type": {
+              "text": "No Intervention"
+            }
+          }
+        ],
+        "objective": [
+          {
+            "name": "Primary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Secondary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Secondary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46a938-a14c-11f1-9b0c-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378PrimaryEndpoint1",
+        "title": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention).",
+        "status": "active",
+        "description": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention). [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention)."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46aeec-a14c-11f1-90d7-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint1",
+        "title": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13.",
+        "status": "active",
+        "description": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46b3c4-a14c-11f1-8d6c-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint2",
+        "title": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13.",
+        "status": "active",
+        "description": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46b874-a14c-11f1-8f6f-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint3",
+        "title": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13.",
+        "status": "active",
+        "description": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46be5a-a14c-11f1-a7f2-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint4",
+        "title": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training.",
+        "status": "active",
+        "description": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46c300-a14c-11f1-9398-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint5",
+        "title": "Change in the average time spent in moderate to vigorous physical activity (in minutes)",
+        "status": "active",
+        "description": "Change in the average time spent in moderate to vigorous physical activity (in minutes) [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in the average time spent in moderate to vigorous physical activity (in minutes)"
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-6",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46c77e-a14c-11f1-b670-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint6",
+        "title": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity.",
+        "status": "active",
+        "description": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-7",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46cc56-a14c-11f1-b582-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint7",
+        "title": "Markers evaluating activity collected from the Actigraph, such as step count.",
+        "status": "active",
+        "description": "Markers evaluating activity collected from the Actigraph, such as step count. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Markers evaluating activity collected from the Actigraph, such as step count."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-8",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46d0d4-a14c-11f1-8292-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint8",
+        "title": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer.",
+        "status": "active",
+        "description": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-9",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46d534-a14c-11f1-bf4b-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint9",
+        "title": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count.",
+        "status": "active",
+        "description": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-10",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46d99e-a14c-11f1-9bb6-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint10",
+        "title": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity.",
+        "status": "active",
+        "description": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-11",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46de1c-a14c-11f1-a24f-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint11",
+        "title": "Change in mean PROMIS Physical Function score from baseline to Week 13.",
+        "status": "active",
+        "description": "Change in mean PROMIS Physical Function score from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in mean PROMIS Physical Function score from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-12",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46e290-a14c-11f1-8260-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint12",
+        "title": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand.",
+        "status": "active",
+        "description": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-13",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46e7f4-a14c-11f1-bd19-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint13",
+        "title": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test",
+        "status": "active",
+        "description": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test"
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-14",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46ec68-a14c-11f1-b933-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint14",
+        "title": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test.",
+        "status": "active",
+        "description": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-15",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46f0d2-a14c-11f1-888d-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint15",
+        "title": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score.",
+        "status": "active",
+        "description": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score. [Time Frame: 12 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score."
+            },
+            "description": "Time frame: 12 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-16",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46f53c-a14c-11f1-9a3d-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint16",
+        "title": "Other markers evaluating physical function, including 30-second chair stand.",
+        "status": "active",
+        "description": "Other markers evaluating physical function, including 30-second chair stand. [Time Frame: 12 weeks.]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Other markers evaluating physical function, including 30-second chair stand."
+            },
+            "description": "Time frame: 12 weeks."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-17",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46f99c-a14c-11f1-b7a0-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint17",
+        "title": "Other markers evaluating physical function, including a Balance Test.",
+        "status": "active",
+        "description": "Other markers evaluating physical function, including a Balance Test. [Time Frame: 12 weeks.]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Other markers evaluating physical function, including a Balance Test."
+            },
+            "description": "Time frame: 12 weeks."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-18",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b46fdfc-a14c-11f1-b514-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint18",
+        "title": "Other markers evaluating physical function, including a 30-second maximum push-up test.",
+        "status": "active",
+        "description": "Other markers evaluating physical function, including a 30-second maximum push-up test. [Time Frame: 12 weeks.]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Other markers evaluating physical function, including a 30-second maximum push-up test."
+            },
+            "description": "Time frame: 12 weeks."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-19",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b4702de-a14c-11f1-96da-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint19",
+        "title": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13.",
+        "status": "active",
+        "description": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-20",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b470752-a14c-11f1-b138-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint20",
+        "title": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13.",
+        "status": "active",
+        "description": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-21",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b470c98-a14c-11f1-bed2-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint21",
+        "title": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13.",
+        "status": "active",
+        "description": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-22",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-22",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b47110c-a14c-11f1-9f68-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint22",
+        "title": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13.",
+        "status": "active",
+        "description": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-23",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-23",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b471576-a14c-11f1-be19-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint23",
+        "title": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13.",
+        "status": "active",
+        "description": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-secondary-endpoint-24",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-secondary-endpoint-24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0b4719e0-a14c-11f1-bad7-f224c0658ea4"
+          }
+        ],
+        "name": "NCT07203378SecondaryEndpoint24",
+        "title": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13.",
+        "status": "active",
+        "description": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13."
+            },
+            "description": "Time frame: 13 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct07203378-intervention-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct07203378-intervention-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT07203378_other_whole_body_resistance_training_and_aerobic_exercise",
+        "title": "Whole-body resistance training and aerobic exercise",
+        "status": "active",
+        "description": "A 12-week individualized, home-based, unsupervised, whole-body resistance training and aerobic exercise routine will be provided to each study participant.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Whole-body resistance training and aerobic exercise"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct07203378-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct07203378-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Subject aged ≥ 18 years\n* Diagnosis of locally advanced/unresectable or metastatic breast cancer. Note: Patients with High-Risk HER-2 + breast cancer after completion of neoadjuvant chemotherapy requiring adjuvant Enhertu are allowed at the discretion of the treating physician.\n* Has received 3 or 4 cycles of Enhertu and is expected to continue treatment for at least 12 weeks. Note: HER-2 targeted systemic therapy (e.g. Trastuzumab and/or Pertuzumab) in conjunction with Enhertu is allowed.\n* Able and willing to participate in the interventional aerobic exercise and resistance exercises.\n* Currently following standard of care contraception requirements and willing to continue following these requirements for the duration of therapy.\n* Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.\n* Experiencing clinical fatigue symptoms in the opinion of the investigator.\n* Subject has completed the ACSM exercise preparticipation health screening and is, in the opinion of the investigator, fit to participate in this study.\n\nExclusion Criteria:\n\n-Currently adhering to national physical activity guidelines for resistance training, as defined as participating in structured resistance training ≥ two days per week.\n\n* Structured is defined as time set aside in the subject's day to workout.\n* Resistance training is defined as exercises which use weights, bands, or body weight (e.g., squats or push-ups).\n\nAND Currently participating in structured moderate-intensity aerobic exercise for ≥ 150 minutes per week.\n\n* Moderate-intensity exercise is defined as activities where the subject can talk but not sing.\n* Aerobic exercise includes, but is not limited to, walking, swimming, cycling, running, rowing, hiking, and elliptical.\n\n  * Medical, psychiatric, cognitive, or other conditions that may compromise the participant's ability to understand the participant information, give informed consent, comply with the study protocol or complete the study.\n  * Participants taking prohibited medications as described in Section 7.4.1."
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct07203378-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct07203378-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Experimental"
+        },
+        "name": "Exercise Intervention"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct07203378-cohort-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct07203378-cohort-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "No Intervention"
+        },
+        "name": "Usual Care"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct07203378-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct07203378-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Huntsman Cancer Institute at University of Utah",
+        "address": {
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "country": "United States",
+          "postalCode": "84112"
+        },
+        "position": {
+          "latitude": 40.76078,
+          "longitude": -111.89105
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1355 @@
+{
+  "resourceType": "Bundle",
+  "id": "readi-sample-3-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  },
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/ResearchStudy/NCT04710615",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04710615",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "PING"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 65 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharing: No"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-01-30"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2021-10-05"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-04-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ],
+                  "text": "Overall study"
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-04-20"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2021-01-14"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-06-24"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2021-01-08"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2021-01-13"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-06-19"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription. [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-primary-endpoint-1",
+                  "display": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of patients with increase in START criteria number between initial prescription and exist prescription."
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of patients with increase in START criteria number between initial prescription and exist prescription. [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-1",
+                  "display": "Number of patients with increase in START criteria number between initial prescription and exist prescription."
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of STOPP criteria"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of STOPP criteria [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-2",
+                  "display": "Number of STOPP criteria"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of START criteria"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of START criteria [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-3",
+                  "display": "Number of START criteria"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "number of patients with decrease in contraindicated drug-drug interaction"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "number of patients with decrease in contraindicated drug-drug interaction [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-4",
+                  "display": "number of patients with decrease in contraindicated drug-drug interaction"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of patients with decrease if active pharmaceutical ingredients"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of patients with decrease if active pharmaceutical ingredients [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-5",
+                  "display": "Number of patients with decrease if active pharmaceutical ingredients"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Number of connections per week on Synapse platform by geriatricians"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Number of connections per week on Synapse platform by geriatricians [Time Frame: Month 6]"
+              },
+              {
+                "url": "reference",
+                "valueReference": {
+                  "reference": "EvidenceVariable/nct04710615-secondary-endpoint-6",
+                  "display": "Number of connections per week on Synapse platform by geriatricians"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "University Hospital, Bordeaux"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pierre-Olivier GIRODET, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "University Hospital, Bordeaux"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 178
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C98388",
+                  "display": "Interventional Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01001",
+                  "display": "Interventional research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01012",
+                  "display": "crossover cohort design"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01003",
+                  "display": "randomized assignment"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "text": "Design Masking: NONE (Open Label)"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "The French 2018-2022 National Health Strategy plan aims to reduce the proportion of potentially harmful medication use. One particular challenge is the phenomenon of polypharmacy and inappropriate medication use in elderly, which is associated to an increased risk of drug-drug interactions. Several scales and tools have been proposed to identify inappropriate drugs prescription in older adults. Among them, the STOPP / START criteria (Screening Tool of Older Persons' Prescriptions / Screening Tool to Alert to Right Treatment) are internationally recognized.\n\nThe Synapse platform offers a panel of functions that may help physicians to prescribe medications. For instance, the prescriber can interact with the Synapse platform by asking any type of question about a drug (dosage, contraindication, interaction ...) before prescription. It also allows them to take a picture of prescription. The software detects in less than 10 seconds criteria for inappropriate medication prescriptions and potential drug-drug interactions.\n\nMore precisely, the Synapse platform provides information on a particular drug or prescription analysis regarding:\n\n* Indications, contraindications, dosage and adverse effects of drugs.\n* STOPP criteria.\n* START criteria.\n* Associations at risk for drug-drug interactions.\n\nMultiple new health technologies are emerging, but few of them have demonstrated their scientific and medical added value using an evidence-based medicine approach.\n\nThis clinical trial aims to validate the clinical interest of the Synapse application in a geriatric environment.\n\nPrescriptions made by geriatricians participating in this study will be analyzed by two independent experts, including one pharmacist and one geriatrician."
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT04710615 FHIR Transform"
+          },
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 65,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT04710615",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "CHUBX 2019/33",
+            "assigner": {
+              "display": "University Hospital, Bordeaux"
+            }
+          }
+        ],
+        "title": "Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults",
+        "status": "completed",
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "health-services-research",
+              "display": "Health Services Research"
+            }
+          ]
+        },
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ],
+          "text": "N/A"
+        },
+        "description": "The French 2018-2022 National Health Strategy plan aims to reduce the proportion of potentially harmful medication use. One particular challenge is the phenomenon of polypharmacy and inappropriate medication use in elderly, which is associated to an increased risk of drug-drug interactions. Several scales and tools have been proposed to identify inappropriate drugs prescription in older adults. Among them, the STOPP / START criteria (Screening Tool of Older Persons' Prescriptions / Screening Tool to Alert to Right Treatment) are internationally recognized.\n\nThe Synapse platform offers a panel of functions that may help physicians to prescribe medications. For instance, the prescriber can interact with the Synapse platform by asking any type of question about a drug (dosage, contraindication, interaction ...) before prescription. It also allows them to take a picture of prescription. The software detects in less than 10 seconds criteria for inappropriate medication prescriptions and potential drug-drug interactions.\n\nMore precisely, the Synapse platform provides information on a particular drug or prescription analysis regarding:\n\n* Indications, contraindications, dosage and adverse effects of drugs.\n* STOPP criteria.\n* START criteria.\n* Associations at risk for drug-drug interactions.\n\nMultiple new health technologies are emerging, but few of them have demonstrated their scientific and medical added value using an evidence-based medicine approach.\n\nThis clinical trial aims to validate the clinical interest of the Synapse application in a geriatric environment.\n\nPrescriptions made by geriatricians participating in this study will be analyzed by two independent experts, including one pharmacist and one geriatrician.",
+        "enrollment": [
+          {
+            "reference": "Group/nct04710615-eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults"
+          }
+        ],
+        "period": {
+          "start": "2021-10-05"
+        },
+        "sponsor": {
+          "display": "University Hospital, Bordeaux"
+        },
+        "site": [
+          {
+            "reference": "Location/nct04710615-site-1",
+            "display": "CHU de Bordeaux, Hôpital Pellegrin"
+          },
+          {
+            "reference": "Location/nct04710615-site-2",
+            "display": "CHU de Bordeaux"
+          },
+          {
+            "reference": "Location/nct04710615-site-3",
+            "display": "Centre Hospitalier de Libourne - Pôle Gériatrie"
+          },
+          {
+            "reference": "Location/nct04710615-site-4",
+            "display": "CHU de Bordeaux, Hôpital Xavier Arnozan — Pessac, 33400"
+          },
+          {
+            "reference": "Location/nct04710615-site-5",
+            "display": "CHU de Bordeaux, Hôpital Xavier Arnozan — Pessac, 33600"
+          }
+        ],
+        "arm": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct04710615-cohort-1",
+                  "display": "Assistance device"
+                }
+              }
+            ],
+            "name": "Assistance device",
+            "type": {
+              "text": "Experimental"
+            },
+            "description": "With prescription assistance device:\n\nDuring the other 3 months, investigators will have the Synapse platform on different media (mobile phones, tablets, laptops and landline)."
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/nct04710615-cohort-2",
+                  "display": "No device"
+                }
+              }
+            ],
+            "name": "No device",
+            "type": {
+              "text": "No Intervention"
+            },
+            "description": "During 3 months, investigators will not have the Synapse platform and will make their prescriptions with the usual tools which they have: Modules of help in the DxCare® software of the CHU, public database of the drugs, dictionary Vidal®, …"
+          }
+        ],
+        "objective": [
+          {
+            "name": "Primary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Secondary Objective",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-primary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-primary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:06315fca-7063-11f1-8674-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615PrimaryEndpoint1",
+        "title": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription.",
+        "status": "active",
+        "description": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription. [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of patients with decrease in STOPP criteria number between initial prescription and exist prescription."
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-1",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:06316542-7063-11f1-9016-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint1",
+        "title": "Number of patients with increase in START criteria number between initial prescription and exist prescription.",
+        "status": "active",
+        "description": "Number of patients with increase in START criteria number between initial prescription and exist prescription. [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of patients with increase in START criteria number between initial prescription and exist prescription."
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-2",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:06316a1a-7063-11f1-bf05-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint2",
+        "title": "Number of STOPP criteria",
+        "status": "active",
+        "description": "Number of STOPP criteria [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of STOPP criteria"
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-3",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:06316eca-7063-11f1-9481-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint3",
+        "title": "Number of START criteria",
+        "status": "active",
+        "description": "Number of START criteria [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of START criteria"
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-4",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0631737a-7063-11f1-bc85-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint4",
+        "title": "number of patients with decrease in contraindicated drug-drug interaction",
+        "status": "active",
+        "description": "number of patients with decrease in contraindicated drug-drug interaction [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "number of patients with decrease in contraindicated drug-drug interaction"
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-5",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:0631785c-7063-11f1-abf7-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint5",
+        "title": "Number of patients with decrease if active pharmaceutical ingredients",
+        "status": "active",
+        "description": "Number of patients with decrease if active pharmaceutical ingredients [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of patients with decrease if active pharmaceutical ingredients"
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/nct04710615-secondary-endpoint-6",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "nct04710615-secondary-endpoint-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:06317cee-7063-11f1-a31b-025cceb6f5ab"
+          }
+        ],
+        "name": "NCT04710615SecondaryEndpoint6",
+        "title": "Number of connections per week on Synapse platform by geriatricians",
+        "status": "active",
+        "description": "Number of connections per week on Synapse platform by geriatricians [Time Frame: Month 6]",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Number of connections per week on Synapse platform by geriatricians"
+            },
+            "description": "Time frame: Month 6"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/EvidenceVariable/NCT04710615-device-synapse-platform",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "NCT04710615-device-synapse-platform",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "DEVICE"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"
+          }
+        ],
+        "name": "NCT04710615_device_synapse_platform",
+        "title": "Synapse platform",
+        "status": "active",
+        "description": "The Synapse platform made available to health professionals, is a virtual assistant capable of understanding the questions of natural language doctors and providing an answer by specifying the source of information used. This device also allows you to photograph a prescription and analyze it automatically to detect potential drug interactions.\n\nThe Synapse platform offers a panel of functions to help the doctor to prescribe medication.",
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Synapse platform"
+            }
+          }
+        ],
+        "type": "dichotomous"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04710615-eligibility-criteria",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04710615-eligibility-criteria",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "* Inclusion criteria:\n\n  * Male or female age aged more than 65 years\n  * Hospitalization in geriatric department at Bordeaux University Hospital or Libourne Hospital\n  * Initial drug prescription with at least 2 active pharmaceutical ingredients\n  * Affiliation to French social security\n  * Written informed consent signed by participant and investigator\n* Exclusion criteria:\n\n  * Adults protected by law\n  * Subject included in a clinical trial with an experimental treatment\n  * Subject during exclusion period relative to another trial"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "name": "USDM Eligibility Criteria for Impact of an Artificial Intelligence Platform on Inappropriate Medication Use in Older Adults"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04710615-cohort-1",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04710615-cohort-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "With prescription assistance device:\n\nDuring the other 3 months, investigators will have the Synapse platform on different media (mobile phones, tablets, laptops and landline)."
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "Experimental"
+        },
+        "name": "Assistance device"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Group/nct04710615-cohort-2",
+      "resource": {
+        "resourceType": "Group",
+        "id": "nct04710615-cohort-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "During 3 months, investigators will not have the Synapse platform and will make their prescriptions with the usual tools which they have: Modules of help in the DxCare® software of the CHU, public database of the drugs, dictionary Vidal®, …"
+          }
+        ],
+        "active": true,
+        "type": "person",
+        "actual": false,
+        "code": {
+          "text": "No Intervention"
+        },
+        "name": "No device"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04710615-site-1",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04710615-site-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "CHU de Bordeaux, Hôpital Pellegrin",
+        "address": {
+          "city": "Bordeaux",
+          "country": "France",
+          "postalCode": "33000"
+        },
+        "position": {
+          "latitude": 44.84124,
+          "longitude": -0.58046
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04710615-site-2",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04710615-site-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "CHU de Bordeaux",
+        "address": {
+          "city": "Bordeaux",
+          "state": "Gironde",
+          "country": "France",
+          "postalCode": "33600"
+        },
+        "position": {
+          "latitude": 44.84124,
+          "longitude": -0.58046
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04710615-site-3",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04710615-site-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "Centre Hospitalier de Libourne - Pôle Gériatrie",
+        "address": {
+          "city": "Libourne",
+          "country": "France",
+          "postalCode": "33500"
+        },
+        "position": {
+          "latitude": 44.91449,
+          "longitude": -0.24186
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04710615-site-4",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04710615-site-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "CHU de Bordeaux, Hôpital Xavier Arnozan — Pessac, 33400",
+        "address": {
+          "city": "Pessac",
+          "country": "France",
+          "postalCode": "33400"
+        },
+        "position": {
+          "latitude": 44.80565,
+          "longitude": -0.6324
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Location/nct04710615-site-5",
+      "resource": {
+        "resourceType": "Location",
+        "id": "nct04710615-site-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "name": "CHU de Bordeaux, Hôpital Xavier Arnozan — Pessac, 33600",
+        "address": {
+          "city": "Pessac",
+          "country": "France",
+          "postalCode": "33600"
+        },
+        "position": {
+          "latitude": 44.80565,
+          "longitude": -0.6324
+        }
+      }
+    }
+  ]
+}
