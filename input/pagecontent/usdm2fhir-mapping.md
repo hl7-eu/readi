@@ -77,8 +77,8 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>age category 65 and older (Only based on population and year unit)</td><td>StudyDesignPopulation.plannedAge</td><td colspan="3">ResearchStudy.classifier</td><td></td></tr>
 <tr><td>Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber)</td><td>StudyDesignPopulation.plannedEnrollmentNumber</td><td colspan="2" style="background-color: #ffff99;">—</td><td>ResearchStudy.comparisonGroup.targetNumber</td><td>This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).</td></tr>
 <tr><td>Planned enrollment number</td><td>StudyDesignPopulation.plannedEnrollmentNumber</td><td>ResearchStudy.extension</td><td colspan="2">ResearchStudy.recruitment.targetNumber</td><td></td></tr>
-<tr><td>Eligibility overall list id</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"eligibility-criteria"</code> (for id "eligibility-criteria")</span></td><td colspan="3" style="background-color: #ffb3b3;">Group-all.id</td><td>The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
-<tr><td>combination method general</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"all-of"</code> (for id "eligibility-criteria")</span></td><td colspan="3" style="background-color: #ffb3b3;">Group-all.combinationMethod</td><td>Not able to find this element in R4 or R5 Group</td></tr>
+<tr><td>Eligibility overall list id</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"eligibility-criteria"</code> (for id "eligibility-criteria")</span></td><td colspan="3">Group.id</td><td>The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
+<tr><td>combination method general</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"all-of"</code> (for id "eligibility-criteria")</span></td><td colspan="3">Group.combinationMethod</td><td>Not able to find this element in R4 or R5 Group</td></tr>
 <tr><td>Study Population Source (population description free text)</td><td>StudyDesignPopulation.description</td><td colspan="3">ResearchStudy.classifier</td><td></td></tr>
 <tr><td>Extension age range (artifact-useContext from plannedAge)</td><td>StudyDesignPopulation.plannedAge</td><td colspan="3">ResearchStudy.extension</td><td></td></tr>
 </tbody>
@@ -257,9 +257,9 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>Eligibility criteria text</td><td style="background-color: #ffff99;">EligibilityCriterionItem.to-be-specified</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.description</td><td></td></tr>
-<tr><td>Eligibility criteria code</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"Defined by CodeableConcept"</code></span></td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.code.text</td><td></td></tr>
-<tr><td>Eligibility criteria valueCodeableConcept text</td><td>EligibilityCriterionItem.text</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueCodeableConcept.text</td><td></td></tr>
+<tr><td>Eligibility criteria text</td><td style="background-color: #ffff99;">EligibilityCriterionItem.to-be-specified</td><td colspan="3">Group.characteristic.description</td><td></td></tr>
+<tr><td>Eligibility criteria code</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"Defined by CodeableConcept"</code></span></td><td colspan="3">Group.characteristic.code.text</td><td></td></tr>
+<tr><td>Eligibility criteria valueCodeableConcept text</td><td>EligibilityCriterionItem.text</td><td colspan="3">Group.characteristic.valueCodeableConcept.text</td><td></td></tr>
 </tbody>
 </table>
 </div>
@@ -273,7 +273,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>Exclusion criterion true/false?</td><td>EligibilityCriterion.category</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.exclude</td><td></td></tr>
+<tr><td>Exclusion criterion true/false?</td><td>EligibilityCriterion.category</td><td colspan="3">Group.characteristic.exclude</td><td></td></tr>
 </tbody>
 </table>
 </div>
@@ -287,7 +287,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>Group references</td><td style="background-color: #ffff99;">Extension.to-be-specified</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueReference.reference</td><td>It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic</td></tr>
+<tr><td>Group references</td><td style="background-color: #ffff99;">Extension.to-be-specified</td><td colspan="3">Group.characteristic.valueReference.reference</td><td>It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic</td></tr>
 </tbody>
 </table>
 </div>
@@ -301,20 +301,20 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>Node reference indication</td><td>ExpectedResponse.atTiming</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueReference.type</td><td>It is OK if type is fixed to “Group”</td></tr>
-<tr><td>expected response range - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange</td><td></td></tr>
-<tr><td>Expected response value code - direct</td><td>ExpectedResponse.codes</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueCodeableConcept.coding</td><td></td></tr>
-<tr><td>expected response quantity - single response - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueQuantity</td><td></td></tr>
-<tr><td>Group timing range - direct</td><td>ExpectedResponse.atTiming</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.relativeTime.offsetRange</td><td>Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5</td></tr>
-<tr><td>Group timing context - direct</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.relativeTime.contextCode.coding</td><td></td></tr>
-<tr><td>expected response min value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.low.code</td><td></td></tr>
-<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.low.standardCode</td><td></td></tr>
-<tr><td>expected response min value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.low.isInclusive</td><td></td></tr>
-<tr><td>expected response max value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.high.code</td><td></td></tr>
-<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.high.standardCode</td><td></td></tr>
-<tr><td>expected response max value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueRange.high.isInclusive</td><td></td></tr>
-<tr><td>expected response unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueQuantity.code</td><td></td></tr>
-<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.valueQuantity.standardCode</td><td></td></tr>
+<tr><td>Node reference indication</td><td>ExpectedResponse.atTiming</td><td colspan="3">Group.characteristic.valueReference.type</td><td>It is OK if type is fixed to “Group”</td></tr>
+<tr><td>expected response range - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange</td><td></td></tr>
+<tr><td>Expected response value code - direct</td><td>ExpectedResponse.codes</td><td colspan="3">Group.characteristic.valueCodeableConcept.coding</td><td></td></tr>
+<tr><td>expected response quantity - single response - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueQuantity</td><td></td></tr>
+<tr><td>Group timing range - direct</td><td>ExpectedResponse.atTiming</td><td colspan="3">Group.characteristic.relativeTime.offsetRange</td><td>Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5</td></tr>
+<tr><td>Group timing context - direct</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">Group.characteristic.relativeTime.contextCode.coding</td><td></td></tr>
+<tr><td>expected response min value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.low.code</td><td></td></tr>
+<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.low.standardCode</td><td></td></tr>
+<tr><td>expected response min value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.low.isInclusive</td><td></td></tr>
+<tr><td>expected response max value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.high.code</td><td></td></tr>
+<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.high.standardCode</td><td></td></tr>
+<tr><td>expected response max value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueRange.high.isInclusive</td><td></td></tr>
+<tr><td>expected response unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueQuantity.code</td><td></td></tr>
+<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3">Group.characteristic.valueQuantity.standardCode</td><td></td></tr>
 <tr><td>eligibility criteria subgroup referenced id</td><td>ExpectedResponse.id</td><td colspan="3">Group.id</td><td>Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
 <tr><td>eligibility criteria - response combination method</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">Group.combinationMethod</td><td>Not able to find this element in R4 or R5 Group</td></tr>
 <tr><td>expected response label (set to "Node" for combinations)</td><td>ExpectedResponse.label</td><td colspan="3">Group.description</td><td>Not sure to have understood what is about</td></tr>
@@ -346,7 +346,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>Loinc Code of assessment - direct</td><td>BiomedicalConcept.code</td><td colspan="3" style="background-color: #ffb3b3;">Group-all.characteristic.code.coding</td><td></td></tr>
+<tr><td>Loinc Code of assessment - direct</td><td>BiomedicalConcept.code</td><td colspan="3">Group.characteristic.code.coding</td><td></td></tr>
 <tr><td>Loinc Code of assessment</td><td>BiomedicalConcept.code</td><td colspan="3">Group.characteristic.code.coding</td><td>Not sure about its meaning..</td></tr>
 </tbody>
 </table>
