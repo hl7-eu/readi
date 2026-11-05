@@ -9,34 +9,52 @@ Outcome measurement reference or display,"The attribute is Endpoint.text, which 
 Arm name,In R4 the element is called arm,
 Cohort name,Cohort are not described in the Group ?,
 Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber),This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).,
-location id,Is not an identifier (the id of the resource can change when you move the resource around…),
+Arm eligibility group id,,r4:orange r5:orange r6:orange
+Arm eligibility group title,"R4: Group.name, the R4 equivalent of R5 Group.title",
+Arm eligibility group membership,"R4: Group.actual, the R4 equivalent of R5 Group.membership (conceptual = false, enumerated = true). Should we instead pre-adopt the R5 element Group.membership (R5 cross-version extension) to facilitate the cross-version transformation?",
+Arm eligibility group type (code.text),Is StudyArm.type a string ?,
+location id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
 Reference to group of criteria,This element in R4 is enrollment,
-Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…),
-combination method general,Not able to find this element in R4 or R5 Group,
-Eligibility criteria text,,
-Eligibility criteria code,,
-Eligibility criteria valueCodeableConcept text,,
+Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
+combination method general,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",
+Eligibility criteria text,Where do you get this data from? Do you really need this row?,
+Eligibility criteria code,"Not clear what it means: hardcoded value ""Defined by CodeableConcept"".",
+Eligibility criteria valueCodeableConcept text,Could not this be the Eligibility criteria text?,
 Exclusion criterion true/false?,,
-Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic,
-Node reference indication,It is OK if type is fixed to “Group”,
-expected response range - direct,,
-Expected response value code - direct,,
-expected response quantity - single response - direct,,
-Group timing range - direct,Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5,
+Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic. Which characteristic code is used for the valueReference? How is it used?,row:orange
+Node reference indication,"Please clarify which kind of code (characteristic.code) is used to distinguish among all these different kinds of characteristics (range, code, quantity, reference, ...).",r4:orange r5:orange r6:orange
+expected response range - direct,,r4:orange r5:orange r6:orange
+Expected response value code - direct,,r4:orange r5:orange r6:orange
+expected response quantity - single response - direct,,r4:orange r5:orange r6:orange
+Group timing range - direct,,
 Group timing context - direct,,
 Loinc Code of assessment - direct,,
-"expected response min value unit code (UCUM, from standardCodeAliases) - direct",,
-"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,
-"expected response min value is inclusive (flag, removed by fhir_version.py) - direct",,
-"expected response max value unit code (UCUM, from standardCodeAliases) - direct",,
-"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,
-"expected response max value is inclusive (flag, removed by fhir_version.py) - direct",,
-"expected response unit code (UCUM, from standardCodeAliases) - direct",,
-"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,
-eligibility criteria subgroup referenced id,Is not an identifier (the id of the resource can change when you move the resource around…),
-eligibility criteria - response combination method,Not able to find this element in R4 or R5 Group,
+"expected response min value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
+"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+"expected response min value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange
+"expected response max value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
+"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+"expected response max value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange
+"expected response unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
+"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+eligibility criteria subgroup referenced id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
+eligibility criteria - response combination method,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",
 "expected response label (set to ""Node"" for combinations)",Not sure to have understood what is about,
-Group timing range - node,Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5,
+expected response range,,r4:orange r5:orange r6:orange
+Expected response value code - via nodes,,r4:orange r5:orange r6:orange
+expected response quantity response - via nodes,,r4:orange r5:orange r6:orange
+Group timing range - node,,
 Loinc Code of assessment,Not sure about its meaning..,
-Evidence variable id,Is not an identifier (the id of the resource can change when you move the resource around…),
+"expected response min value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
+"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+"expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange
+"expected response max value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
+"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+"expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange
+"expected response unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
+"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
+Evidence variable id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
 Evidence classifier (note that questionnaires should get another code / not taken care of yet),Not able to find it in R4 or R5; This has been introdcued in R6,
+Contained PractitionerRole id,,r4:orange r5:orange r6:orange
+Contained PractitionerRole id — primary-investigator,,r4:orange r5:orange r6:orange
+Intervention evidence variable id,,r4:orange r5:orange r6:orange

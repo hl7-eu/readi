@@ -161,15 +161,15 @@ Cohort name,study.versions.studyDesigns.population.cohorts.{id: label},ResearchS
 Cohort description,study.versions.studyDesigns.population.cohorts.{id: description},ResearchStudy,arm.description,arm,studyCohort,description
 Arm eligibility (reference to the arm Group),"study.versions.studyDesigns.arms.{id: {""reference"": ""#"" & id, ""type"": ""Group"", ""display"": label}}",ResearchStudy,arm.eligibility,arm,StudyArm,id
 Arm eligibility group id,study.versions.studyDesigns.arms.{id: id},Group,id,,StudyArm,id
-Arm eligibility group title,study.versions.studyDesigns.arms.{id: label},Group,title,,StudyArm,label
+Arm eligibility group title,study.versions.studyDesigns.arms.{id: label},Group,name,,StudyArm,label
 Arm eligibility group status,"study.versions.studyDesigns.arms.{id: ""active""}",Group,status,,,
-Arm eligibility group membership,"study.versions.studyDesigns.arms.{id: ""conceptual""}",Group,membership,,,
+Arm eligibility group membership,study.versions.studyDesigns.arms.{id: false},Group,actual,,,
 Arm eligibility group type (code.text),"study.versions.studyDesigns.arms.(
     $Recode := function($c){$c=""C174266"" ? ""Experimental"" : $c=""C174267"" ? ""Active Comparator"" : $c=""C174268"" ? ""Placebo Comparator"" :
         $c=""C174269"" ? ""Sham Comparator"" : $c=""C174270"" ? ""No Intervention"" : $c=""EXT0013"" ? ""Other"" : $c=""C17998"" ? ""Unknown""};
     $text := $Recode(type.code);
     $text ? {id: $text} : undefined)",Group,code.text,,StudyArm,type
-Arm eligibility group description,study.versions.studyDesigns.arms.{id: description},Group,description,,StudyArm,description
+Arm eligibility group description,study.versions.studyDesigns.arms.{id: description},Group,extension:description,,StudyArm,description
 location reference,"study.versions.organizations.managedSites.{id: {""reference"": ""#"" & id, ""type"":""Location""}}",ResearchStudy,site,site,StudySite,id
 location id,study.versions.organizations.managedSites.{id: id},Location,id,,StudySite,id
 location identifier,study.versions.organizations.managedSites.{id: id},Location,identifier.value,identifier,StudySite,id
@@ -193,10 +193,10 @@ Eligibility display (official or short title),"(
   $title ? {""eligibility-criteria"": ""USDM Eligibility Criteria for "" & $title} : null
 )",ResearchStudy,enrollment.display,,StudyTitle,text
 Eligibility overall list id,"{""eligibility-criteria"": ""eligibility-criteria""}",Group,id,,,
-combination method general,"{""eligibility-criteria"": ""all-of""}",Group,combinationMethod,,,
+combination method general,"{""eligibility-criteria"": ""all-of""}",Group,extension:combinationMethod,,,
 Eligibility criteria text,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
-  {$ex.id: $sv.eligibilityCriterionItems[id=$ex.criterionItemId].text})",Group,characteristic.description,characteristic,EligibilityCriterionItem,
+  {$ex.id: $sv.eligibilityCriterionItems[id=$ex.criterionItemId].text})",Group,characteristic.extension:description,characteristic,EligibilityCriterionItem,
 Eligibility criteria code,"study.versions.studyDesigns.eligibilityCriteria.{id: ""Defined by CodeableConcept""}",Group,characteristic.code.text,characteristic,,
 Eligibility criteria valueCodeableConcept text,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.$ex.
@@ -263,7 +263,7 @@ Group timing range - direct,"study.versions@$sv.(
   { $ex.id : $TI.valueId? {""low"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $TI.valueId].($lowDays(type.code,value,windowLower)),
                       ""unit"" : ""d""},
               ""high"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $TI.valueId].($highDays(type.code,value,windowUpper)),
-                      ""unit"" : ""d""}}})))",Group,characteristic.relativeTime.offsetRange,characteristic,ExpectedResponse,atTiming
+                      ""unit"" : ""d""}}})))",Group,characteristic.extension:relativeTime.extension:offsetRange.valueRange,characteristic,ExpectedResponse,atTiming
 Group timing context - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -271,7 +271,7 @@ Group timing context - direct,"study.versions@$sv.(
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""])@$TI.
   $TI.($count($nodeIds)=0 ?
-  { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,,
+  { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,,
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -294,7 +294,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.minValue.unit.standardCode.code} ))",Group,characteristic.valueRange.low.standardCode,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.minValue.unit.standardCode.code} ))",Group,characteristic.valueRange.low.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 "expected response min value is inclusive (flag, removed by fhir_version.py) - direct","study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -315,7 +315,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.maxValue.unit.standardCode.code} ))",Group,characteristic.valueRange.high.standardCode,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.maxValue.unit.standardCode.code} ))",Group,characteristic.valueRange.high.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 "expected response max value is inclusive (flag, removed by fhir_version.py) - direct","study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -336,7 +336,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueQuantity.unit.standardCode.code} ))",Group,characteristic.valueQuantity.standardCode,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueQuantity.unit.standardCode.code} ))",Group,characteristic.valueQuantity.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 eligibility criteria subgroup referenced id,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.$ex.
   (
@@ -349,9 +349,9 @@ eligibility criteria subgroup referenced id,"study.versions@$sv.(
 eligibility criteria - response combination method,"study.versions@$sv.$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance""].(
   $nodeOperator := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance/operator""].valueString;
   $GetMethod := function($m){$m=""AND""? ""all-of"" : $m=""OR"" ? ""any-of"" : ""unknown""};
-  {""#"" & id: $GetMethod($nodeOperator)})",Group,combinationMethod,,,
+  {""#"" & id: $GetMethod($nodeOperator)})",Group,extension:combinationMethod,,,
 "expected response label (set to ""Node"" for combinations)","study.versions@$sv.
-    $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance""].{""#"" & id: ""Node""}",Group,description,,ExpectedResponse,label
+    $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance""].{""#"" & id: ""Node""}",Group,extension:description,,ExpectedResponse,label
 expected response range,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -369,7 +369,7 @@ expected response description - node,"study.versions@$sv.(
         .valueString};
         $GetResultLabel := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/label""]
         .valueString};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResultDesc(valueId) ? $GetResultDesc(valueId) : $GetResultLabel(valueId) })))",Group,characteristic.description,characteristic,ExpectedResponse,description
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResultDesc(valueId) ? $GetResultDesc(valueId) : $GetResultLabel(valueId) })))",Group,characteristic.extension:description,characteristic,ExpectedResponse,description
 Expected response value code - via nodes,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -398,13 +398,13 @@ Group timing range - node,"study.versions@$sv.(
               {""low"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $GetResult($tm.valueId)].($lowDays(type.code,value,windowLower)),
                       ""unit"" : ""d""},
               ""high"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $GetResult($tm.valueId)].($highDays(type.code,value,windowUpper)),
-                      ""unit"" : ""d""}}})))",Group,characteristic.relativeTime.offsetRange,characteristic,ExpectedResponse,atTiming
+                      ""unit"" : ""d""}}})))",Group,characteristic.extension:relativeTime.extension:offsetRange.valueRange,characteristic,ExpectedResponse,atTiming
 Group timing context - nodes,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""]
         .valueId};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,ExpectedResponse,atTiming
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,ExpectedResponse,atTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -426,7 +426,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueRange.minValue.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.low.standardCode,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.low.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 "expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -441,7 +441,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueRange.maxValue.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.high.standardCode,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.high.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 "expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -456,7 +456,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueQuantity.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueQuantity.standardCode,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueQuantity.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
 sub-node reference (nested Group) - via nodes,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.

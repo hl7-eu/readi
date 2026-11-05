@@ -261,7 +261,7 @@ Group timing range - direct,"study.versions@$sv.(
   { $ex.id : $TI.valueId? {""low"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $TI.valueId].($lowDays(type.code,value,windowLower)),
                       ""unit"" : ""d""},
               ""high"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $TI.valueId].($highDays(type.code,value,windowUpper)),
-                      ""unit"" : ""d""}}})))",Group,characteristic.relativeTime.offsetRange,characteristic,ExpectedResponse,atTiming
+                      ""unit"" : ""d""}}})))",Group,characteristic.extension:relativeTime.extension:offsetRange.valueRange,characteristic,ExpectedResponse,atTiming
 Group timing context - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -269,7 +269,7 @@ Group timing context - direct,"study.versions@$sv.(
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""])@$TI.
   $TI.($count($nodeIds)=0 ?
-  { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,,
+  { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,,
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -396,13 +396,13 @@ Group timing range - node,"study.versions@$sv.(
               {""low"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $GetResult($tm.valueId)].($lowDays(type.code,value,windowLower)),
                       ""unit"" : ""d""},
               ""high"": {""value"" : $sv.studyDesigns.scheduleTimelines.timings[id = $GetResult($tm.valueId)].($highDays(type.code,value,windowUpper)),
-                      ""unit"" : ""d""}}})))",Group,characteristic.relativeTime.offsetRange,characteristic,ExpectedResponse,atTiming
+                      ""unit"" : ""d""}}})))",Group,characteristic.extension:relativeTime.extension:offsetRange.valueRange,characteristic,ExpectedResponse,atTiming
 Group timing context - nodes,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""]
         .valueId};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,ExpectedResponse,atTiming
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,ExpectedResponse,atTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
