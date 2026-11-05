@@ -11,14 +11,31 @@ Cohort name,Cohort are not described in the Group ?,
 Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber),This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).,
 location id,Is not an identifier (the id of the resource can change when you move the resource around…),
 Reference to group of criteria,This element in R4 is enrollment,
-Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…),
-combination method general,Not able to find this element in R4 or R5 Group,
-Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic,
-Node reference indication,It is OK if type is fixed to “Group”,
+Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…),r4:red r5:red r6:red
+combination method general,Not able to find this element in R4 or R5 Group,r4:red r5:red r6:red
+Eligibility criteria text,,r4:red r5:red r6:red
+Eligibility criteria code,,r4:red r5:red r6:red
+Eligibility criteria valueCodeableConcept text,,r4:red r5:red r6:red
+Exclusion criterion true/false?,,r4:red r5:red r6:red
+Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic,r4:red r5:red r6:red
+Node reference indication,It is OK if type is fixed to “Group”,r4:red r5:red r6:red
+expected response range - direct,,r4:red r5:red r6:red
+Expected response value code - direct,,r4:red r5:red r6:red
+expected response quantity - single response - direct,,r4:red r5:red r6:red
+Group timing range - direct,Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5,r4:red r5:red r6:red
+Group timing context - direct,,r4:red r5:red r6:red
+Loinc Code of assessment - direct,,r4:red r5:red r6:red
+"expected response min value unit code (UCUM, from standardCodeAliases) - direct",,r4:red r5:red r6:red
+"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,r4:red r5:red r6:red
+"expected response min value is inclusive (flag, removed by fhir_version.py) - direct",,r4:red r5:red r6:red
+"expected response max value unit code (UCUM, from standardCodeAliases) - direct",,r4:red r5:red r6:red
+"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,r4:red r5:red r6:red
+"expected response max value is inclusive (flag, removed by fhir_version.py) - direct",,r4:red r5:red r6:red
+"expected response unit code (UCUM, from standardCodeAliases) - direct",,r4:red r5:red r6:red
+"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct",,r4:red r5:red r6:red
 eligibility criteria subgroup referenced id,Is not an identifier (the id of the resource can change when you move the resource around…),
 eligibility criteria - response combination method,Not able to find this element in R4 or R5 Group,
 "expected response label (set to ""Node"" for combinations)",Not sure to have understood what is about,
-Group timing range - direct,Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5,
 Group timing range - node,Not sure to have understood what is about; relativeTime is not a subelment of characteristic in HFIR R4 / R5,
 Loinc Code of assessment,Not sure about its meaning..,
 Evidence variable id,Is not an identifier (the id of the resource can change when you move the resource around…),
