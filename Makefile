@@ -5,7 +5,7 @@ SUSHI_VERSION     ?= 3.21.0
 VALIDATOR_VERSION ?= 7.0.3
 FHIR_VERSION      ?= 4.0.1
 TX_SERVER         ?= https://tx.fhir.org
-EXTRA_IGS         ?= hl7.fhir.uv.xver-r5.r4\#0.1.0
+EXTRA_IGS         ?= hl7.fhir.uv.xver-r5.r4\#0.1.0 hl7.fhir.uv.extensions.r4\#5.2.0
 
 VALIDATOR_DIR := $(HOME)/validator
 VALIDATOR_JAR := $(VALIDATOR_DIR)/validator_cli-$(VALIDATOR_VERSION).jar

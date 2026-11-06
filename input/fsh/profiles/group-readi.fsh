@@ -29,13 +29,6 @@ Description: "This profile describes the population of a clinical study for the 
 * characteristic.extension[description] ^short = "Text of the criterion (R6 Group.characteristic.description)"
 // ---- characteristic.extension[relativeTime]
 * characteristic.extension[relativeTime] ^short = "When the criterion applies, relative to a reference event"
-// ---- characteristic.valueQuantity.extension[cdiscUnit]
-* characteristic.valueQuantity.extension contains QuantityCdiscUnit named cdiscUnit 0..1
-* characteristic.valueQuantity.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
-* characteristic.valueRange.low.extension contains QuantityCdiscUnit named cdiscUnit 0..1
-* characteristic.valueRange.low.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
-* characteristic.valueRange.high.extension contains QuantityCdiscUnit named cdiscUnit 0..1
-* characteristic.valueRange.high.extension[cdiscUnit] ^short = "Unit as a CDISC Controlled Terminology concept"
 // ---- USDM requirements: every Group element used as a target in the R4 mapping (sources/USDM2FHIR_r4.csv) ----
 // R5/R6 elements are given on the READI extension that represents them.
 * id ^requirements = "USDM: StudyArm.id; to-be-specified.to-be-specified; ExpectedResponse.id"
@@ -52,12 +45,9 @@ Description: "This profile describes the population of a clinical study for the 
 * characteristic.valueCodeableConcept.coding ^requirements = "USDM: ExpectedResponse.codes"
 * characteristic.valueQuantity ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueQuantity.code ^requirements = "USDM: ExpectedResponse.value"
-* characteristic.valueQuantity.extension[cdiscUnit] ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueRange ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueRange.low.code ^requirements = "USDM: ExpectedResponse.value"
-* characteristic.valueRange.low.extension[cdiscUnit] ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueRange.high.code ^requirements = "USDM: ExpectedResponse.value"
-* characteristic.valueRange.high.extension[cdiscUnit] ^requirements = "USDM: ExpectedResponse.value"
 * characteristic.valueReference.reference ^requirements = "USDM: Extension.to-be-specified; ExpResponseNode.childArray"
 * characteristic.valueReference.type ^requirements = "USDM: ExpectedResponse.atTiming; ExpResponseNode.childArray"
 // offsetRange (USDM: ExpectedResponse.atTiming) and contextCode (USDM: to-be-specified.to-be-specified;
