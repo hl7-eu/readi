@@ -414,7 +414,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/forAssessment""]
         .valueId};
-  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} })))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
+  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.(standardCodeAliases ? standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} )})))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
 "expected response min value unit code (UCUM, from standardCodeAliases) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -612,10 +612,6 @@ Intervention evidence variable meta profile,"study.versions.studyInterventions.{
 Intervention evidence variable name,"study.versions.studyInterventions.{id: {""text"": label}}",EvidenceVariable,name,name,StudyIntervention,label
 Intervention evidence variable title,study.versions.studyInterventions.{id: label},EvidenceVariable,title,,StudyIntervention,label
 Intervention evidence variable status,"study.versions.studyInterventions.{id: ""active""}",EvidenceVariable,status,,,
-Intervention evidence variable handling (boolean variable),"study.versions.studyInterventions.{id: {""coding"": {
-    ""code"": ""STATO:0000724"",
-    ""system"": ""https://fevir.net/sevco"",
-    ""display"": ""boolean variable""
-  }}}",EvidenceVariable,handling,,,
+Intervention evidence variable handling (dichotomous),"study.versions.studyInterventions.{id: ""dichotomous""}",EvidenceVariable,handling,,,
 Intervention evidence variable classifier (intervention type),"study.versions.studyInterventions.{id: {""text"": ""Intervention Type: "" & type.decode}}",EvidenceVariable,classifier,classifier,StudyIntervention,type
 Intervention evidence variable description,study.versions.studyInterventions.{id: description},EvidenceVariable,description,,StudyIntervention,description

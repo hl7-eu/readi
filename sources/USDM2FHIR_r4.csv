@@ -294,7 +294,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.minValue.unit.standardCode.code} ))",Group,characteristic.valueRange.low.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.minValue.unit.standardCode.code} ))",Group,characteristic.valueRange.low.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 "expected response min value is inclusive (flag, removed by fhir_version.py) - direct","study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -315,7 +315,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.maxValue.unit.standardCode.code} ))",Group,characteristic.valueRange.high.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueRange.maxValue.unit.standardCode.code} ))",Group,characteristic.valueRange.high.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 "expected response max value is inclusive (flag, removed by fhir_version.py) - direct","study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -336,7 +336,7 @@ Loinc Code of assessment - direct,"study.versions@$sv.(
   ($respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0  ?
-  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueQuantity.unit.standardCode.code} ))",Group,characteristic.valueQuantity.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].{$ex.id : valueQuantity.unit.standardCode.code} ))",Group,characteristic.valueQuantity.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 eligibility criteria subgroup referenced id,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.$ex.
   (
@@ -416,7 +416,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/forAssessment""]
         .valueId};
-  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} })))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
+  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.(standardCodeAliases ? standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} )})))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
 "expected response min value unit code (UCUM, from standardCodeAliases) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -426,7 +426,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueRange.minValue.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.low.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.low.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 "expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -441,7 +441,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueRange.maxValue.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.high.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueRange.high.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 "expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -456,7 +456,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/value""].valueQuantity.unit.standardCode.code};
-  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueQuantity.extension:cdiscUnit.valueCoding,characteristic,ExpectedResponse,value
+  extensionAttributes.extensionAttributes.({""#"" & $nd.id : $exists($GetResult(valueId)) ? $GetResult(valueId) : "" ""})))",Group,characteristic.valueQuantity.extension:quantity-translation.valueQuantity,characteristic,ExpectedResponse,value
 sub-node reference (nested Group) - via nodes,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
@@ -621,10 +621,6 @@ Intervention evidence variable meta profile,"study.versions.studyInterventions.{
 Intervention evidence variable name,"study.versions.studyInterventions.{id: {""text"": label}}",EvidenceVariable,name,name,StudyIntervention,label
 Intervention evidence variable title,study.versions.studyInterventions.{id: label},EvidenceVariable,title,,StudyIntervention,label
 Intervention evidence variable status,"study.versions.studyInterventions.{id: ""active""}",EvidenceVariable,status,,,
-Intervention evidence variable handling (boolean variable),"study.versions.studyInterventions.{id: {""coding"": {
-    ""code"": ""STATO:0000724"",
-    ""system"": ""https://fevir.net/sevco"",
-    ""display"": ""boolean variable""
-  }}}",EvidenceVariable,handling,,,
+Intervention evidence variable type (dichotomous),"study.versions.studyInterventions.{id: ""dichotomous""}",EvidenceVariable,type,,,
 Intervention evidence variable classifier (intervention type),"study.versions.studyInterventions.{id: {""text"": ""Intervention Type: "" & type.decode}}",EvidenceVariable,classifier,classifier,StudyIntervention,type
 Intervention evidence variable description,study.versions.studyInterventions.{id: description},EvidenceVariable,description,,StudyIntervention,description

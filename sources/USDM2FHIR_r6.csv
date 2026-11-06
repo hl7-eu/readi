@@ -431,7 +431,7 @@ Loinc Code of assessment,"study.versions@$sv.(
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/forAssessment""]
         .valueId};
-  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} })))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
+  (extensionAttributes.extensionAttributes)@$in.({""#"" & $nd.id :  $sv.biomedicalConcepts[id=$GetResult($in.valueId) ].code.(standardCodeAliases ? standardCodeAliases{""code"": code, ""display"": decode, ""system"": codeSystem} )})))",Group,characteristic.code.coding,characteristic,BiomedicalConcept,code
 "expected response min value unit code (UCUM, from standardCodeAliases) - via nodes","study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
