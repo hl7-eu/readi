@@ -1,1862 +1,1813 @@
 {
-    "id": "fake_b_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-    "url": "https:\/\/fevir.net\/resources\/Bundle\/fake_b_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-    "type": "Collection",
-    "entry": [
-        {
-            "fullUrl": "https:\/\/fevir.net\/resources\/ResearchStudy\/fake_r_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-            "resource": {
-                "id": "fake_r_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-                "url": "https:\/\/fevir.net\/resources\/ResearchStudy\/fake_r_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-                "resourceType": "ResearchStudy",
-                "name": "NCT07203378 FHIR Transform",
-                "site": [
-                    {
-                        "reference": "#NCT07203378-Location-d6c76efe-59cf-11f1-aaed-06f8a75ca395-ResearchStudy",
-                        "type": "ResearchStudy"
-                    }
-                ],
-                "title": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
-                "descriptionSummary": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
-                "description": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
-                "meta": {
-                    "lastUpdated": "2026-11-04T13:46:24Z",
-                    "profile": [
-                        "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-registry-record",
-                        "http:\/\/hl7.org\/fhir\/R4\/researchstudy.html"
-                    ]
-                },
-                "extension": [
-                    {
-                        "valueUsageContext": {
-                            "code": {
-                                "system": "http:\/\/terminology.hl7.org\/CodeSystem\/usage-context-type",
-                                "code": "age",
-                                "display": "Age Range"
-                            },
-                            "valueRange": {
-                                "low": {
-                                    "value": 18,
-                                    "unit": "Year"
-                                },
-                                "high": {
-                                    "value": 120,
-                                    "unit": "Year"
-                                }
-                            }
-                        },
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/artifact-useContext"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "overall-study",
-                                            "display": "Overall study"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "start": "2025-11-04"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "registration-submission",
-                                            "display": "Registration submission"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-09-17"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "registration-submission-qc",
-                                            "display": "Registration submission Quality Check"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-09-24"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "registration-posting",
-                                            "display": "Registration posting"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-10-02"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "update-submission",
-                                            "display": "Update submission"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-18"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "update-posting",
-                                            "display": "Update posting"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-20"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "record-verification",
-                                            "display": "Record Verification"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "primary-outcome-data-collection",
-                                            "display": "Primary outcome data collection"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": false
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2027-11-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
-                                            "code": "overall-study",
-                                            "display": "Overall study"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": false
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2028-11-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/title-type",
-                                            "code": "official",
-                                            "display": "Official title"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "value",
-                                "valueString": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/title-type",
-                                            "code": "short-title",
-                                            "display": "Short title"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "value",
-                                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/title-type",
-                                            "code": "plain-language",
-                                            "display": "Plain language title"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "value",
-                                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/title-type",
-                                            "code": "acronym",
-                                            "display": "Acronym"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "value",
-                                "valueString": "ENERGIZE"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "coding": [
-                                {
-                                    "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                                    "code": "does-not-include-healthy-volunteers",
-                                    "display": "Does not include healthy volunteers"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "coding": [
-                                {
-                                    "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                                    "code": "includes-females",
-                                    "display": "Includes female subjects"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "coding": [
-                                {
-                                    "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
-                                    "code": "includes-males",
-                                    "display": "Includes male subjects"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "text": "Minimum Age: 18 Years"
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "text": "Oversight Classifier: oversightHasDmc True"
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "text": "Oversight Classifier: isFdaRegulatedDrug False"
-                        }
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
-                        "valueCodeableConcept": {
-                            "text": "Oversight Classifier: isFdaRegulatedDevice False"
-                        }
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46a938-a14c-11f1-9b0c-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "primary",
-                                            "display": "Primary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention). [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46aeec-a14c-11f1-90d7-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46b3c4-a14c-11f1-8d6c-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46b874-a14c-11f1-8f6f-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46be5a-a14c-11f1-a7f2-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46c300-a14c-11f1-9398-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in the average time spent in moderate to vigorous physical activity (in minutes) [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46c77e-a14c-11f1-b670-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46cc56-a14c-11f1-b582-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Markers evaluating activity collected from the Actigraph, such as step count. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46d0d4-a14c-11f1-8292-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46d534-a14c-11f1-bf4b-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46d99e-a14c-11f1-9bb6-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46de1c-a14c-11f1-a24f-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in mean PROMIS Physical Function score from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46e290-a14c-11f1-8260-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46e7f4-a14c-11f1-bd19-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46ec68-a14c-11f1-b933-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46f0d2-a14c-11f1-888d-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score. [Time Frame: 12 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46f53c-a14c-11f1-9a3d-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Other markers evaluating physical function, including 30-second chair stand. [Time Frame: 12 weeks.]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46f99c-a14c-11f1-b7a0-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Other markers evaluating physical function, including a Balance Test. [Time Frame: 12 weeks.]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b46fdfc-a14c-11f1-b514-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Other markers evaluating physical function, including a 30-second maximum push-up test. [Time Frame: 12 weeks.]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b4702de-a14c-11f1-96da-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b470752-a14c-11f1-b138-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b470c98-a14c-11f1-bed2-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b47110c-a14c-11f1-9f68-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b471576-a14c-11f1-be19-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Endpoint_0b4719e0-a14c-11f1-bad7-f224c0658ea4"
-                            },
-                            {
-                                "url": "type",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                            "code": "secondary",
-                                            "display": "Secondary"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "description",
-                                "valueString": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-status",
-                                            "code": "recruiting",
-                                            "display": "Recruiting"
-                                        }
-                                    ]
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "record-verification",
-                                            "display": "Record Verification"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "overall-study",
-                                            "display": "Overall study"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "start": "2025-11-04"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "primary-outcome-data-collection",
-                                            "display": "Primary outcome data collection"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": false
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2027-11-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "overall-study",
-                                            "display": "Overall study"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": false
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2028-11-30"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "registration-posting",
-                                            "display": "Registration posting"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-10-02"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "update-posting",
-                                            "display": "Update posting"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-20"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "registration-submission",
-                                            "display": "Registration submission"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-09-17"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "registration-submission-qc",
-                                            "display": "Registration submission Quality Check"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2025-09-24"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "state",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
-                                            "code": "update-submission",
-                                            "display": "Update submission"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "actual",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "period",
-                                "valuePeriod": {
-                                    "end": "2026-08-18"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "University of Utah"
-                            },
-                            {
-                                "url": "role",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "lead-sponsor",
-                                            "display": "Lead sponsor"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "classifier",
-                                "valueCodeableConcept": {
-                                    "text": "OTHER"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Janna Espinosa"
-                            },
-                            {
-                                "url": "role",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "recruitment-contact",
-                                            "display": "Recruitment contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-CentralContact-0",
-                                    "type": "Practitioner"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Roma Bhatia, MD"
-                            },
-                            {
-                                "url": "role",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "recruitment-contact",
-                                            "display": "Recruitment contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-CentralContact-1",
-                                    "type": "Practitioner"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Janna Espinosa"
-                            },
-                            {
-                                "url": "role",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "recruitment-contact",
-                                            "display": "Recruitment contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "classifier",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "general-contact",
-                                            "display": "General contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-CentralContact-2",
-                                    "type": "Practitioner"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-                    },
-                    {
-                        "extension": [
-                            {
-                                "url": "name",
-                                "valueString": "Roma Bhatia, MD"
-                            },
-                            {
-                                "url": "role",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "recruitment-contact",
-                                            "display": "Recruitment contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "classifier",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
-                                            "code": "general-contact",
-                                            "display": "General contact"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-CentralContact-3",
-                                    "type": "Practitioner"
-                                }
-                            }
-                        ],
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
-                    },
-                    {
-                        "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.recruitment.targetNumber",
-                        "valueUnsignedInt": 80
-                    }
-                ],
-                "identifier": [
-                    {
-                        "use": "official",
-                        "value": "NCT07203378",
-                        "system": "http:\/\/terminology.hl7.org\/NamingSystem\/ClinicalTrials-Gov",
-                        "assigner": {
-                            "display": "ClinicalTrials.gov"
-                        },
-                        "type": {
-                            "text": "study identifier"
-                        }
-                    },
-                    {
-                        "use": "official",
-                        "value": "HCI194215",
-                        "assigner": {
-                            "display": "University of Utah"
-                        }
-                    }
-                ],
-                "phase": [
-                    {
-                        "coding": [
-                            {
-                                "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-phase",
-                                "code": "phase-2",
-                                "display": "Phase 2"
-                            }
-                        ],
-                        "text": "Phase 2"
-                    }
-                ],
-                "objective": [
-                    {
-                        "type": {
-                            "coding": [
-                                {
-                                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                    "code": "primary",
-                                    "display": "Primary"
-                                }
-                            ]
-                        },
-                        "name": "Primary Objective",
-                        "description": ""
-                    },
-                    {
-                        "type": {
-                            "coding": [
-                                {
-                                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                    "code": "secondary",
-                                    "display": "Secondary"
-                                }
-                            ]
-                        },
-                        "name": "Secondary Objective",
-                        "description": ""
-                    },
-                    {
-                        "type": {
-                            "coding": [
-                                {
-                                    "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
-                                    "code": "secondary",
-                                    "display": "Secondary"
-                                }
-                            ]
-                        },
-                        "name": "Secondary Objective",
-                        "description": ""
-                    }
-                ],
-                "studyDesign": [
-                    {
-                        "coding": [
-                            {
-                                "system": "http:\/\/ncicb.nci.nih.gov\/xml\/owl\/EVS\/Thesaurus.owl",
-                                "code": "C98388",
-                                "display": "Interventional Study"
-                            },
-                            {
-                                "system": "https:\/\/fevir.net\/sevco",
-                                "code": "SEVCO:01001",
-                                "display": "interventional research"
-                            }
-                        ]
-                    },
-                    {
-                        "coding": [
-                            {
-                                "system": "https:\/\/fevir.net\/sevco",
-                                "code": "SEVCO:01011",
-                                "display": "parallel cohort design"
-                            }
-                        ]
-                    },
-                    {
-                        "coding": [
-                            {
-                                "system": "https:\/\/fevir.net\/sevco",
-                                "code": "SEVCO:01003",
-                                "display": "randomized assignment"
-                            }
-                        ]
-                    },
-                    {
-                        "coding": [],
-                        "text": "Design Masking: NONE (Open Label)"
-                    }
-                ],
-                "primaryPurposeType": {
-                    "coding": [
-                        {
-                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-prim-purp-type",
-                            "code": "treatment",
-                            "display": "Treatment"
-                        }
-                    ]
-                },
-                "enrollment": [
-                    {
-                        "reference": "#eligibility-criteria",
-                        "type": "Group",
-                        "display": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
-                    }
-                ],
-                "contained": [
-                    {
-                        "resourceType": "Group",
-                        "id": "eligibility-criteria",
-                        "meta": {
-                            "lastUpdated": "2026-11-04T13:46:24Z",
-                            "profile": [
-                                "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-eligibility-criteria"
-                            ]
-                        },
-                        "title": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
-                        "status": "active",
-                        "type": "person",
-                        "membership": "definitional",
-                        "modifierExtension": [
-                            {
-                                "url": "https:\/\/example.org\/fhir\/StructureDefinition\/group-combination-method",
-                                "valueCode": "all-of"
-                            }
-                        ],
-                        "characteristic": [],
-                        "description": "Inclusion Criteria:\n\n* Subject aged \u2265 18 years\n* Diagnosis of locally advanced\/unresectable or metastatic breast cancer. Note: Patients with High-Risk HER-2 + breast cancer after completion of neoadjuvant chemotherapy requiring adjuvant Enhertu are allowed at the discretion of the treating physician.\n* Has received 3 or 4 cycles of Enhertu and is expected to continue treatment for at least 12 weeks. Note: HER-2 targeted systemic therapy (e.g. Trastuzumab and\/or Pertuzumab) in conjunction with Enhertu is allowed.\n* Able and willing to participate in the interventional aerobic exercise and resistance exercises.\n* Currently following standard of care contraception requirements and willing to continue following these requirements for the duration of therapy.\n* Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.\n* Experiencing clinical fatigue symptoms in the opinion of the investigator.\n* Subject has completed the ACSM exercise preparticipation health screening and is, in the opinion of the investigator, fit to participate in this study.\n\nExclusion Criteria:\n\n-Currently adhering to national physical activity guidelines for resistance training, as defined as participating in structured resistance training \u2265 two days per week.\n\n* Structured is defined as time set aside in the subject's day to workout.\n* Resistance training is defined as exercises which use weights, bands, or body weight (e.g., squats or push-ups).\n\nAND Currently participating in structured moderate-intensity aerobic exercise for \u2265 150 minutes per week.\n\n* Moderate-intensity exercise is defined as activities where the subject can talk but not sing.\n* Aerobic exercise includes, but is not limited to, walking, swimming, cycling, running, rowing, hiking, and elliptical.\n\n  * Medical, psychiatric, cognitive, or other conditions that may compromise the participant's ability to understand the participant information, give informed consent, comply with the study protocol or complete the study.\n  * Participants taking prohibited medications as described in Section 7.4.1."
-                    },
-                    {
-                        "resourceType": "Group",
-                        "id": "NCT07203378-comparison-group-0",
-                        "title": "Exercise Intervention",
-                        "status": "active",
-                        "membership": "conceptual",
-                        "code": {
-                            "text": "Experimental"
-                        }
-                    },
-                    {
-                        "resourceType": "Group",
-                        "id": "NCT07203378-comparison-group-1",
-                        "title": "Usual Care",
-                        "status": "active",
-                        "membership": "conceptual",
-                        "code": {
-                            "text": "No Intervention"
-                        }
-                    },
-                    {
-                        "resourceType": "EvidenceVariable",
-                        "id": "NCT07203378-other-whole-body-resistance-training-and-aerobic-exercise",
-                        "meta": {
-                            "lastUpdated": "2026-11-04T13:46:24Z",
-                            "profile": [
-                                "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/variable-definition"
-                            ]
-                        },
-                        "name": [
-                            {
-                                "text": "NCT07203378_other_whole_body_resistance_training_and_aerobic_exercise"
-                            }
-                        ],
-                        "title": "Whole-body resistance training and aerobic exercise",
-                        "status": "active",
-                        "description": "A 12-week individualized, home-based, unsupervised, whole-body resistance training and aerobic exercise routine will be provided to each study participant.",
-                        "handling": {
-                            "coding": [
-                                {
-                                    "system": "https:\/\/fevir.net\/sevco",
-                                    "code": "STATO:0000724",
-                                    "display": "boolean variable"
-                                }
-                            ]
-                        },
-                        "classifier": [
-                            {
-                                "text": "Intervention Type: .OTHER"
-                            }
-                        ]
-                    },
-                    {
-                        "resourceType": "Practitioner",
-                        "id": "NCT07203378-CentralContact-0",
-                        "name": [
-                            {
-                                "text": "Janna Espinosa"
-                            }
-                        ],
-                        "telecom": [
-                            {
-                                "value": "801-585-0571",
-                                "system": "phone"
-                            },
-                            {
-                                "value": "janna.espinosa@hci.utah.edu",
-                                "system": "email"
-                            }
-                        ]
-                    },
-                    {
-                        "resourceType": "Practitioner",
-                        "id": "NCT07203378-CentralContact-1",
-                        "name": [
-                            {
-                                "text": "Roma Bhatia, MD"
-                            }
-                        ],
-                        "telecom": [
-                            {
-                                "value": "801-585-0255",
-                                "system": "phone"
-                            },
-                            {
-                                "value": "Roma.bhatia@hci.utah.edu",
-                                "system": "email"
-                            }
-                        ]
-                    },
-                    {
-                        "resourceType": "Practitioner",
-                        "id": "NCT07203378-CentralContact-2",
-                        "name": [
-                            {
-                                "text": "Janna Espinosa"
-                            }
-                        ],
-                        "telecom": [
-                            {
-                                "value": "801-585-0571",
-                                "system": "phone"
-                            },
-                            {
-                                "value": "janna.espinosa@hci.utah.edu",
-                                "system": "email"
-                            }
-                        ]
-                    },
-                    {
-                        "resourceType": "Practitioner",
-                        "id": "NCT07203378-CentralContact-3",
-                        "name": [
-                            {
-                                "text": "Roma Bhatia, MD"
-                            }
-                        ],
-                        "telecom": [
-                            {
-                                "value": "801-585-0255",
-                                "system": "phone"
-                            },
-                            {
-                                "value": "Roma.bhatia@hci.utah.edu",
-                                "system": "email"
-                            }
-                        ]
-                    },
-                    {
-                        "resourceType": "Location",
-                        "id": "NCT07203378-Location-d6c76efe-59cf-11f1-aaed-06f8a75ca395",
-                        "title": "Huntsman Cancer Institute at University of Utah",
-                        "address": {
-                            "city": "Salt Lake City",
-                            "state": "Utah",
-                            "country": "United States",
-                            "postalCode": "84112"
-                        },
-                        "position": {
-                            "latitude": 40.76078,
-                            "longitude": -111.89105
-                        }
-                    },
-                    {
-                        "resourceType": "ResearchStudy",
-                        "id": "NCT07203378-Location-d6c76efe-59cf-11f1-aaed-06f8a75ca395-ResearchStudy",
-                        "meta": {
-                            "lastUpdated": "2026-11-04T13:46:24Z",
-                            "profile": [
-                                "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/research-study-site"
-                            ]
-                        },
-                        "status": "active",
-                        "site": [
-                            {
-                                "reference": "#NCT07203378-Location-d6c76efe-59cf-11f1-aaed-06f8a75ca395",
-                                "type": "Location"
-                            }
-                        ],
-                        "partOf": [
-                            {
-                                "reference": "#",
-                                "type": "ResearchStudy"
-                            }
-                        ],
-                        "progressStatus": [
-                            {
-                                "state": {
-                                    "coding": [
-                                        {
-                                            "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-status",
-                                            "code": "recruiting",
-                                            "display": "Recruiting"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "arm": [
-                    {
-                        "name": "Exercise Intervention",
-                        "extension": [
-                            {
-                                "url": "https:\/\/example.org\/fhir\/StructureDefinition\/comparison-group-eligibility",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-comparison-group-0",
-                                    "type": "Group",
-                                    "display": "Exercise Intervention"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Usual Care",
-                        "extension": [
-                            {
-                                "url": "https:\/\/example.org\/fhir\/StructureDefinition\/comparison-group-eligibility",
-                                "valueReference": {
-                                    "reference": "#NCT07203378-comparison-group-1",
-                                    "type": "Group",
-                                    "display": "Usual Care"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+  "id": "nct07203378-bundle-1",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/resources/ResearchStudy/nct07203378-researchstudy-1",
+      "resource": {
+        "id": "nct07203378-researchstudy-1",
+        "resourceType": "ResearchStudy",
+        "site": [
+          {
+            "reference": "Location/nct07203378-site-1",
+            "type": "Location"
+          }
+        ],
+        "status": "active",
+        "title": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
+        "description": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
+        "meta": {
+          "lastUpdated": "2026-11-09T08:16:39Z",
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
         },
-        {
-            "fullUrl": "https:\/\/fevir.net\/resources\/Group\/fake_g_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-            "resource": {
-                "id": "fake_g_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-                "url": "https:\/\/fevir.net\/resources\/Group\/fake_g_0b35c2ee-a14c-11f1-bcde-f224c0658ea4",
-                "resourceType": "Group",
-                "name": "NCT07203378_Eligibility_Criteria",
-                "title": "NCT07203378 Eligibility Criteria",
-                "description": "Inclusion Criteria:\n\n* Subject aged \u2265 18 years\n* Diagnosis of locally advanced\/unresectable or metastatic breast cancer. Note: Patients with High-Risk HER-2 + breast cancer after completion of neoadjuvant chemotherapy requiring adjuvant Enhertu are allowed at the discretion of the treating physician.\n* Has received 3 or 4 cycles of Enhertu and is expected to continue treatment for at least 12 weeks. Note: HER-2 targeted systemic therapy (e.g. Trastuzumab and\/or Pertuzumab) in conjunction with Enhertu is allowed.\n* Able and willing to participate in the interventional aerobic exercise and resistance exercises.\n* Currently following standard of care contraception requirements and willing to continue following these requirements for the duration of therapy.\n* Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.\n* Experiencing clinical fatigue symptoms in the opinion of the investigator.\n* Subject has completed the ACSM exercise preparticipation health screening and is, in the opinion of the investigator, fit to participate in this study.\n\nExclusion Criteria:\n\n-Currently adhering to national physical activity guidelines for resistance training, as defined as participating in structured resistance training \u2265 two days per week.\n\n* Structured is defined as time set aside in the subject's day to workout.\n* Resistance training is defined as exercises which use weights, bands, or body weight (e.g., squats or push-ups).\n\nAND Currently participating in structured moderate-intensity aerobic exercise for \u2265 150 minutes per week.\n\n* Moderate-intensity exercise is defined as activities where the subject can talk but not sing.\n* Aerobic exercise includes, but is not limited to, walking, swimming, cycling, running, rowing, hiking, and elliptical.\n\n  * Medical, psychiatric, cognitive, or other conditions that may compromise the participant's ability to understand the participant information, give informed consent, comply with the study protocol or complete the study.\n  * Participants taking prohibited medications as described in Section 7.4.1."
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT07203378",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
             }
+          },
+          {
+            "use": "official",
+            "value": "HCI194215",
+            "assigner": {
+              "display": "University of Utah"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 120,
+                  "unit": "Year"
+                }
+              }
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-17"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-24"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-10-02"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-18"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-20"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-11-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "ENERGIZE"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT07203378 FHIR Transform"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu."
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C98388",
+                  "display": "Interventional Study"
+                },
+                {
+                  "system": "https://fevir.net/sevco",
+                  "code": "SEVCO:01001",
+                  "display": "interventional research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/sevco",
+                  "code": "SEVCO:01011",
+                  "display": "parallel cohort design"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/sevco",
+                  "code": "SEVCO:01003",
+                  "display": "randomized assignment"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "text": "Design Masking: NONE (Open Label)"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc True"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46a938-a14c-11f1-9b0c-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score from baseline to Week 13 (end of exercise intervention). [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46aeec-a14c-11f1-90d7-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Feasibility defined as greater than 75% of all participants completing greater than 66% of all prescribed workouts from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46b3c4-a14c-11f1-8d6c-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean Functional Assessment of Chronic Illness Therapy (FACIT) Fatigue score measured every three weeks from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46b874-a14c-11f1-8f6f-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Functional Assessment of Cancer Therapy - Breast (FACT-B) score from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46be5a-a14c-11f1-a7f2-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean Functional Assessment of Cancer Therapy - Breast (FACT-B) score measured every three weeks from baseline to 13 weeks after initiation of training. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46c300-a14c-11f1-9398-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the average time spent in moderate to vigorous physical activity (in minutes) [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46c77e-a14c-11f1-b670-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Markers evaluating activity collected from the Actigraph, such as time spent in light activity. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46cc56-a14c-11f1-b582-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Markers evaluating activity collected from the Actigraph, such as step count. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46d0d4-a14c-11f1-8292-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Average time spent in moderate to vigorous physical activity (in minutes) measured at baseline, Week 6, and Week 12 by the Actigraph GT9x Link accelerometer. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46d534-a14c-11f1-bf4b-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as step count. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46d99e-a14c-11f1-9bb6-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating activity collected daily from the Actigraph GT9x, such as time spent in light activity. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46de1c-a14c-11f1-a24f-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in mean PROMIS Physical Function score from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46e290-a14c-11f1-8260-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: 30-second chair stand. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46e7f4-a14c-11f1-bd19-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: Balance Test [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46ec68-a14c-11f1-b933-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the following objective measures of physical function from baseline to Week 13: 30-second maximum push-up test. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46f0d2-a14c-11f1-888d-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Average physical function measured at baseline, Week 6, and Week 12 by PROMIS Physical Function score. [Time Frame: 12 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46f53c-a14c-11f1-9a3d-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including 30-second chair stand. [Time Frame: 12 weeks.]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46f99c-a14c-11f1-b7a0-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including a Balance Test. [Time Frame: 12 weeks.]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b46fdfc-a14c-11f1-b514-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Other markers evaluating physical function, including a 30-second maximum push-up test. [Time Frame: 12 weeks.]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b4702de-a14c-11f1-96da-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in Sit-to-Stand score patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b470752-a14c-11f1-b138-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in handgrip strength (peripheral measures of fatigue) patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b470c98-a14c-11f1-bed2-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Change in the number of rest-activity patterns as measured by actigraphy (central measure of fatigue) from baseline to Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b47110c-a14c-11f1-9f68-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean score for sit-to-stand patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b471576-a14c-11f1-be19-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean score for handgrip strength patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_0b4719e0-a14c-11f1-bad7-f224c0658ea4"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Mean number of rest-activity patterns measured at baseline, 6-weeks, and Week 13. [Time Frame: 13 weeks]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "code": "recruiting",
+                      "display": "Recruiting"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "text": "Overall study",
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2025-11-04"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2027-11-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "text": "Overall study",
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2028-11-30"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-10-02"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-20"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-17"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-09-24"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-08-18"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "University of Utah"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "Lead sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Janna Espinosa"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "Recruitment contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Practitioner/NCT07203378-CentralContact-0",
+                  "type": "Practitioner"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Roma Bhatia, MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "Recruitment contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Practitioner/NCT07203378-CentralContact-1",
+                  "type": "Practitioner"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Janna Espinosa"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "Recruitment contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "general-contact",
+                      "display": "General contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Practitioner/NCT07203378-CentralContact-2",
+                  "type": "Practitioner"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Roma Bhatia, MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "recruitment-contact",
+                      "display": "Recruitment contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "code": "general-contact",
+                      "display": "General contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Practitioner/NCT07203378-CentralContact-3",
+                  "type": "Practitioner"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 80
+          }
+        ],
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ],
+          "text": "Phase 2"
+        },
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          }
+        ],
+        "primaryPurposeType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "enrollment": [
+          {
+            "reference": "Group/nct07203378-eligibility-1",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study"
+          }
+        ],
+        "arm": [
+          {
+            "name": "Exercise Intervention",
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT07203378-comparison-group-0",
+                  "type": "Group",
+                  "display": "Exercise Intervention"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Usual Care",
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT07203378-comparison-group-1",
+                  "type": "Group",
+                  "display": "Usual Care"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/nct07203378-eligibility-1",
+      "resource": {
+        "id": "nct07203378-eligibility-1",
+        "resourceType": "Group",
+        "name": "USDM Eligibility Criteria for ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
+        "type": "person",
+        "actual": false,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Subject aged ≥ 18 years\n* Diagnosis of locally advanced/unresectable or metastatic breast cancer. Note: Patients with High-Risk HER-2 + breast cancer after completion of neoadjuvant chemotherapy requiring adjuvant Enhertu are allowed at the discretion of the treating physician.\n* Has received 3 or 4 cycles of Enhertu and is expected to continue treatment for at least 12 weeks. Note: HER-2 targeted systemic therapy (e.g. Trastuzumab and/or Pertuzumab) in conjunction with Enhertu is allowed.\n* Able and willing to participate in the interventional aerobic exercise and resistance exercises.\n* Currently following standard of care contraception requirements and willing to continue following these requirements for the duration of therapy.\n* Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.\n* Experiencing clinical fatigue symptoms in the opinion of the investigator.\n* Subject has completed the ACSM exercise preparticipation health screening and is, in the opinion of the investigator, fit to participate in this study.\n\nExclusion Criteria:\n\n-Currently adhering to national physical activity guidelines for resistance training, as defined as participating in structured resistance training ≥ two days per week.\n\n* Structured is defined as time set aside in the subject's day to workout.\n* Resistance training is defined as exercises which use weights, bands, or body weight (e.g., squats or push-ups).\n\nAND Currently participating in structured moderate-intensity aerobic exercise for ≥ 150 minutes per week.\n\n* Moderate-intensity exercise is defined as activities where the subject can talk but not sing.\n* Aerobic exercise includes, but is not limited to, walking, swimming, cycling, running, rowing, hiking, and elliptical.\n\n  * Medical, psychiatric, cognitive, or other conditions that may compromise the participant's ability to understand the participant information, give informed consent, comply with the study protocol or complete the study.\n  * Participants taking prohibited medications as described in Section 7.4.1."
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "active": true
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT07203378-comparison-group-0",
+      "resource": {
+        "id": "NCT07203378-comparison-group-0",
+        "resourceType": "Group",
+        "name": "Exercise Intervention",
+        "type": "person",
+        "actual": false,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "code": {
+          "text": "Experimental"
+        },
+        "active": true
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT07203378-comparison-group-1",
+      "resource": {
+        "id": "NCT07203378-comparison-group-1",
+        "resourceType": "Group",
+        "name": "Usual Care",
+        "type": "person",
+        "actual": false,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "code": {
+          "text": "No Intervention"
+        },
+        "active": true
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/EvidenceVariable/nct07203378-evidencevariable-1",
+      "resource": {
+        "id": "nct07203378-evidencevariable-1",
+        "resourceType": "EvidenceVariable",
+        "name": "nct07203378_evidencevariable_1",
+        "status": "active",
+        "type": "dichotomous",
+        "title": "Whole-body resistance training and aerobic exercise",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/evidenceVariable-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Intervention Type"
+              },
+              {
+                "url": "value",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/NCT07203378-CentralContact-0",
+      "resource": {
+        "id": "NCT07203378-CentralContact-0",
+        "resourceType": "Practitioner",
+        "name": [
+          "Janna Espinosa"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "801-585-0571"
+          },
+          {
+            "system": "email",
+            "value": "janna.espinosa@hci.utah.edu"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/NCT07203378-CentralContact-1",
+      "resource": {
+        "id": "NCT07203378-CentralContact-1",
+        "resourceType": "Practitioner",
+        "name": [
+          "Roma Bhatia, MD"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "801-585-0255"
+          },
+          {
+            "system": "email",
+            "value": "Roma.bhatia@hci.utah.edu"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/NCT07203378-CentralContact-2",
+      "resource": {
+        "id": "NCT07203378-CentralContact-2",
+        "resourceType": "Practitioner",
+        "name": [
+          "Janna Espinosa"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "801-585-0571"
+          },
+          {
+            "system": "email",
+            "value": "janna.espinosa@hci.utah.edu"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Practitioner/NCT07203378-CentralContact-3",
+      "resource": {
+        "id": "NCT07203378-CentralContact-3",
+        "resourceType": "Practitioner",
+        "name": [
+          "Roma Bhatia, MD"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "801-585-0255"
+          },
+          {
+            "system": "email",
+            "value": "Roma.bhatia@hci.utah.edu"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct07203378-site-1",
+      "resource": {
+        "id": "nct07203378-site-1",
+        "resourceType": "Location",
+        "name": "Huntsman Cancer Institute at University of Utah",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "country": "United States",
+          "postalCode": "84112"
+        },
+        "position": {
+          "latitude": 40.76078,
+          "longitude": -111.89105
         }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-11-09T08:16:39Z",
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]
+  }
 }

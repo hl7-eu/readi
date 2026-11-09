@@ -57,6 +57,20 @@ This mapping is a work in progress: it has not been validated yet and may change
 </table>
 </div>
 
+### Study
+
+<div class="mapping-scroll">
+<table class="grid">
+<thead>
+<tr><th rowspan="2">Item</th><th rowspan="2">USDM class.attribute</th><th colspan="3">FHIR resourceType.path</th><th rowspan="2">Notes</th></tr>
+<tr><th>R4</th><th>R5</th><th>R6</th></tr>
+</thead>
+<tbody>
+<tr><td>Study description</td><td>Study.description</td><td colspan="3">ResearchStudy.description</td><td></td></tr>
+</tbody>
+</table>
+</div>
+
 ### StudyDesignPopulation
 
 <div class="mapping-scroll">
@@ -185,7 +199,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tbody>
 <tr><td>Arm name</td><td>StudyArm.label</td><td>ResearchStudy.arm.name</td><td colspan="2">ResearchStudy.comparisonGroup.name</td><td>In R4 the element is called arm</td></tr>
 <tr><td>Arm description</td><td>StudyArm.description</td><td>ResearchStudy.arm.description</td><td colspan="2">ResearchStudy.comparisonGroup.description</td><td></td></tr>
-<tr><td>Arm type</td><td>StudyArm.type</td><td>ResearchStudy.arm.type</td><td colspan="2">ResearchStudy.comparisonGroup.type</td><td></td></tr>
+<tr><td>Arm type</td><td>StudyArm.type</td><td>ResearchStudy.arm.type.coding</td><td colspan="2">ResearchStudy.comparisonGroup.type.coding</td><td></td></tr>
 <tr><td>Arm eligibility (reference to the arm Group)</td><td>StudyArm.id</td><td>ResearchStudy.arm.eligibility</td><td colspan="2">ResearchStudy.comparisonGroup.eligibility</td><td></td></tr>
 <tr><td>Arm eligibility group id</td><td>StudyArm.id</td><td colspan="3" style="background-color: #ffd8a8;">Group.id</td><td></td></tr>
 <tr><td>Arm eligibility group title</td><td>StudyArm.label</td><td>Group.name</td><td colspan="2">Group.title</td><td>R4: Group.name, the R4 equivalent of R5 Group.title</td></tr>
@@ -225,7 +239,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>location id</td><td>StudySite.id</td><td colspan="3" style="background-color: #ffd8a8;">Location.id</td><td>Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
 <tr><td>location identifier</td><td>StudySite.id</td><td colspan="3">Location.identifier.value</td><td></td></tr>
 <tr><td>site name</td><td>StudySite.label</td><td colspan="3">Location.name</td><td></td></tr>
-<tr><td>site type</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>{"code": "DX", "display": "Diagnostics or therapeutics unit", "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"}</code></span></td><td colspan="3">Location.type</td><td></td></tr>
+<tr><td>site type</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>{"code": "DX", "display": "Diagnostics or therapeutics unit", "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"}</code></span></td><td colspan="3">Location.type.coding</td><td></td></tr>
 <tr><td>site country</td><td>StudySite.country</td><td colspan="3">Location.address.country</td><td></td></tr>
 </tbody>
 </table>
@@ -308,13 +322,13 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>Group timing range - direct</td><td>ExpectedResponse.atTiming</td><td colspan="2">Group.characteristic.extension:relativeTime.extension:offsetRange.valueRange</td><td>Group.characteristic.relativeTime.offsetRange</td><td></td></tr>
 <tr><td>Group timing context - direct</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="2">Group.characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding</td><td>Group.characteristic.relativeTime.contextCode.coding</td><td></td></tr>
 <tr><td>expected response min value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.code</td><td></td></tr>
-<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.low.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.low.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 <tr><td>expected response min value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.isInclusive</td><td></td></tr>
 <tr><td>expected response max value unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.code</td><td></td></tr>
-<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.high.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.high.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 <tr><td>expected response max value is inclusive (flag, removed by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.isInclusive</td><td></td></tr>
 <tr><td>expected response unit code (UCUM, from standardCodeAliases) - direct</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.code</td><td></td></tr>
-<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueQuantity.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueQuantity.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 <tr><td>eligibility criteria subgroup referenced id</td><td>ExpectedResponse.id</td><td colspan="3" style="background-color: #ffd8a8;">Group.id</td><td>Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
 <tr><td>eligibility criteria - response combination method</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td>Group.extension:combinationMethod</td><td colspan="2">Group.combinationMethod</td><td>Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?</td></tr>
 <tr><td>expected response label (set to "Node" for combinations)</td><td>ExpectedResponse.label</td><td>Group.extension:description</td><td colspan="2">Group.description</td><td>Not sure to have understood what is about</td></tr>
@@ -326,13 +340,13 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>Group timing context - nodes</td><td>ExpectedResponse.atTiming</td><td colspan="2">Group.characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding</td><td>Group.characteristic.relativeTime.contextCode.coding</td><td></td></tr>
 <tr><td>Exclusion criterion true or false?</td><td>ExpectedResponse.category</td><td colspan="3">Group.characteristic.exclude</td><td></td></tr>
 <tr><td>expected response min value unit code (UCUM, from standardCodeAliases) - via nodes</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.code</td><td></td></tr>
-<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.low.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.low.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 <tr><td>expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.low.isInclusive</td><td></td></tr>
 <tr><td>expected response max value unit code (UCUM, from standardCodeAliases) - via nodes</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.code</td><td></td></tr>
-<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.high.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueRange.high.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 <tr><td>expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueRange.high.isInclusive</td><td></td></tr>
 <tr><td>expected response unit code (UCUM, from standardCodeAliases) - via nodes</td><td>ExpectedResponse.value</td><td colspan="3" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.code</td><td></td></tr>
-<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueQuantity.extension:cdiscUnit.valueCoding</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
+<tr><td>expected response unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes</td><td>ExpectedResponse.value</td><td style="background-color: #ffb3b3;">Group.characteristic.valueQuantity.extension:quantity-translation.valueQuantity</td><td colspan="2" style="background-color: #ffd8a8;">Group.characteristic.valueQuantity.standardCode</td><td>Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).</td></tr>
 </tbody>
 </table>
 </div>
@@ -365,6 +379,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>sub-node reference type - via nodes</td><td>ExpResponseNode.childArray</td><td colspan="3">Group.characteristic.valueReference.type</td><td></td></tr>
 <tr><td>Evidence variable id</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3" style="background-color: #ffd8a8;">EvidenceVariable.id</td><td>Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
 <tr><td>Evidence variable name</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">EvidenceVariable.name</td><td></td></tr>
+<tr><td>Evidence variable status</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">EvidenceVariable.status</td><td></td></tr>
 <tr><td>Evidence variable title</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">EvidenceVariable.title</td><td></td></tr>
 <tr><td>Evidence variable description</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">EvidenceVariable.description</td><td></td></tr>
 <tr><td>Evidence classifier (note that questionnaires should get another code / not taken care of yet)</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified</td><td colspan="3">EvidenceVariable.classifier</td><td>Not able to find it in R4 or R5; This has been introdcued in R6</td></tr>
@@ -472,7 +487,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>Intervention evidence variable name</td><td>StudyIntervention.label</td><td colspan="3">EvidenceVariable.name</td><td></td></tr>
 <tr><td>Intervention evidence variable title</td><td>StudyIntervention.label</td><td colspan="3">EvidenceVariable.title</td><td></td></tr>
 <tr><td>Intervention evidence variable status</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"active"</code></span></td><td colspan="3">EvidenceVariable.status</td><td></td></tr>
-<tr><td>Intervention evidence variable handling (boolean variable)</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>{"coding": { "code": "STATO:0000724", "system": "https://fevir.net/sevco", "display": "boolean variable" }}</code></span></td><td colspan="3">EvidenceVariable.handling</td><td></td></tr>
+<tr><td>Intervention evidence variable handling (boolean variable)</td><td style="background-color: #ffff99;">to-be-specified.to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>{"coding": { "code": "STATO:0000724", "system": "https://fevir.net/sevco", "display": "boolean variable" }}</code></span></td><td>EvidenceVariable.type</td><td colspan="2">EvidenceVariable.handling</td><td></td></tr>
 <tr><td>Intervention evidence variable classifier (intervention type)</td><td>StudyIntervention.type</td><td colspan="3">EvidenceVariable.classifier</td><td></td></tr>
 <tr><td>Intervention evidence variable description</td><td>StudyIntervention.description</td><td colspan="3">EvidenceVariable.description</td><td></td></tr>
 </tbody>
