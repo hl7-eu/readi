@@ -46,6 +46,9 @@ Description: "This profile describes a clinical study (e.g. a clinical trial) fo
 * extension[outcomeMeasure].extension[reference].valueReference.display ^requirements = "USDM: Endpoint.to-be-specified"
 // ---- extension[associatedParty]
 * extension[associatedParty] ^short = "Sponsors, collaborators, and other parties (R5 ResearchStudy.associatedParty)"
+// The xver extension lists both its own profile-<Type> and the R4 base profile as targets, so the validator
+// finds "multiple matching profiles" for every referenced party. Keep only the R4 base profiles.
+* extension[associatedParty].extension[party].valueReference only Reference(Practitioner or PractitionerRole or Organization)
 // ---- extension[recruitmentTargetNumber]
 * extension[recruitmentTargetNumber] ^short = "Estimated total number of participants to be enrolled (R5 ResearchStudy.recruitment.targetNumber)"
 // ---- extension[studyDesign]

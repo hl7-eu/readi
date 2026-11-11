@@ -11,3 +11,5 @@
 #   examples/legacy/* :: ^The extension .* could not be found
 
 Constraint failed: dom-6: 'A resource should have narrative for robust management'
+# identifier.type given as text only (no coding); the binding is extensible
+^No code provided, and a code should be provided from the value set 'IdentifierType'

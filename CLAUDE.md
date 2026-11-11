@@ -82,7 +82,7 @@ and in `reviews/usdm2fhir-mapping-issues.md`.
 - `EvidenceVariableReadi` — endpoints (referenced from the `outcomeMeasure` extension).
 - `LocationReadi` — trial sites.
 - `BundleReadi` — `collection` Bundle sliced by resource type: 1 ResearchStudy, 0..* Group,
-  EvidenceVariable, Location.
+  EvidenceVariable, Location, Practitioner, PractitionerRole.
 
 ### The USDM mapping page
 `input/pagecontent/usdm2fhir-mapping.md` is **generated from the CSVs**
