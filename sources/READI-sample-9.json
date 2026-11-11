@@ -162,7 +162,7 @@
         "title": "A Phase 2, Multicenter, Single-blinded, Randomized Study to Evaluate the Pharmacokinetics and Safety of Sotatercept (MK-7962) Administered Using Either a Weight-based or Weight-banded Approach in Participants With Pulmonary Arterial Hypertension (PAH) on Standard of Care",
         "description": "Researchers are looking for other ways to treat people with PAH. In PAH, the blood vessels in the lungs become thick and narrow, which makes it harder for blood to flow to the lungs.\n\nThe goal of the study is to learn:\n\n* What happens to different doses of sotatercept in a person's body over time when it is given using weight-banded doses compared to weight-based doses. There may be differences in how the medicine works with the new dosing method (weight-banded dosing) being studied in this trial.\n* About the safety of sotatercept and if people tolerate it",
         "meta": {
-          "lastUpdated": "2026-11-09T08:16:37Z",
+          "lastUpdated": "2026-11-11T14:07:12Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -4949,7 +4949,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:16:37Z",
+    "lastUpdated": "2026-11-11T14:07:12Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

@@ -154,7 +154,7 @@
         "title": "An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma",
         "description": "This is a phase I/II, open-label, dose-escalation study designed to evaluate the safety, tolerability, and efficacy of englumafusp alfa (RO7227166) in participants with relapsed/refractory Non-Hodgkin's Lymphoma (r/r NHL). Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab and in combination with glofitamab. A fixed dose of obinutuzumab (Gpt; pre-treatment) will be administered up to seven days prior to the first administration of englumafusp alfa and seven days prior to the first administration of glofitamab. This entry-into-human study is divided into a dose-escalation stage (Part I and Part II) and a dose expansion stage (Part III).",
         "meta": {
-          "lastUpdated": "2026-11-09T08:17:12Z",
+          "lastUpdated": "2026-11-11T14:07:48Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1716,11 +1716,11 @@
           "coding": [
             {
               "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
-              "code": "phase-1",
-              "display": "Phase 1"
+              "code": "phase-2",
+              "display": "Phase 2"
             }
           ],
-          "text": "Phase 1"
+          "text": "Phase 2"
         },
         "objective": [
           {
@@ -3975,10 +3975,10 @@
           ]
         },
         "address": {
-          "city": "Copenhagen Oe",
+          "city": "Glostrup",
           "state": "Capital Region of Denmark",
           "country": "Denmark",
-          "postalCode": "2100"
+          "postalCode": "2600"
         },
         "position": {
           "latitude": 55.70968,
@@ -4441,7 +4441,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:17:12Z",
+    "lastUpdated": "2026-11-11T14:07:48Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

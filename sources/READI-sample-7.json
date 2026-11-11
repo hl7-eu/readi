@@ -274,7 +274,7 @@
         "title": "A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer",
         "description": "This is a randomized, multicenter, open-label, two-arm, Phase II study to evaluate the efficacy, safety, and pharmacokinetics of giredestrant versus anastrozole (in the window-of-opportunity phase) and giredestrant plus palbociclib compared with anastrozole plus palbociclib (in the neoadjuvant phase) in postmenopausal women with untreated, estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, early breast cancer.\n\nThe study consists of a screening period of up to 28 days, a window-of-opportunity phase for 14 days, followed by a neoadjuvant treatment phase for 16 weeks (four 28-day cycles), surgery, and an end of study visit (28 days after the final dose of study treatment).",
         "meta": {
-          "lastUpdated": "2026-11-09T08:16:50Z",
+          "lastUpdated": "2026-11-11T14:07:25Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -3858,7 +3858,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:16:50Z",
+    "lastUpdated": "2026-11-11T14:07:25Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

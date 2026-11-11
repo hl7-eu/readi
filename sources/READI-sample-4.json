@@ -22,7 +22,7 @@
         "title": "MADRE (Mammograms Available Due to Research and Education)",
         "description": "To further test the added benefits of the empower approach relative to traditional educate approaches. Past community research has primarily focused on one-time BC screening among intervention participants. The design builds on past studies by integrating social network analysis (SNA) and implementation science (IS) into a longitudinal randomized clinical trial (RCT). The investigator will compare the long-term effects of interventions by examining guideline-concordant initial and repeat BC screening. The investigator will estimate the widespread effects of interventions by prospectively collecting data from network members not involved in the RCT. The investigator will also explore \"active ingredients\" that underlie intervention effects, including psychosocial, IS and network mechanisms. Overall, the investigator will demonstrate whether and how non-adherent individuals may \"boost\" intervention effects throughout their networks.\n\nThe investigator's goal is to further test the added benefits of the empower approach relative to traditional educate approaches. Past community research has primarily focused on one-time BC screening among intervention participants. The investigator's novel design builds on past studies by integrating social network analysis (SNA) and implementation science (IS) into a longitudinal randomized clinical trial (RCT). The investigator will compare the long-term effects of interventions by examining guideline-concordant initial and repeat BC screening. The investigator will estimate the widespread effects of interventions by prospectively collecting data from network members not involved in the RCT. The investigator will also explore \"active ingredients\" that underlie intervention effects, including psychosocial, IS and network mechanisms. Overall, the investigator will demonstrate whether and how non-adherent individuals may \"boost\" intervention effects throughout their networks.\n\nAim 1: Among 400 non-adherent individuals, the investigator will compare intervention effects on BC screening, using an individual RCT in a federally qualified health center (FQHC). The investigator will use the US Preventative Services Task Force (USPSTF) guidelines - i.e., 40-74 year-olds should obtain mammograms every 2 years.\n\nAim 2: Among 200 network members, the investigator will compare intervention effects on BC screening, based on the USPSTF guidelines.\n\nAim 3: The investigator will explore mechanisms of change underlying intervention effects on BC screening using IS measures, descriptive SNA, and structural equation models. If study arms are comparable, the investigator will examine which mechanisms may predict multilevel intervention effects across approaches.",
         "meta": {
-          "lastUpdated": "2026-11-09T08:16:39Z",
+          "lastUpdated": "2026-11-11T14:07:14Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1153,7 +1153,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:16:39Z",
+    "lastUpdated": "2026-11-11T14:07:14Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

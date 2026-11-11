@@ -18,7 +18,7 @@
         "title": "Clinical Study on Healthy Volunteers for Validating the Stability of Different Diagnostic Biomarkers Studied at Firalis",
         "description": "Firalis SA and its affiliate Amoneta Diagnostics SAS are developing novel in-vitro diagnostic (IVD) tests for diverse diagnostic applications for major human diseases, including cardiovascular, and neurodegenerative disorders. These tests measure in blood and other peripheral body fluids; long non-coding RNAs (lncRNAs), small non-coding RNAs (sncRNAs), messenger RNAs (mRNAs), circulating proteins, lipids and metabolites. In addition, since 2020, Firalis is producing the salivary test EasyCOV for detection of Covid-19 positivity in both symptomatic and asymptomatic subjects. Firalis group is the sponsor of a pipeline of various clinical studies conducted in diverse National and European clinical sites of excellence, enrolling patients affected by the targeted diseases studied such as acute myocardial injury, Alzheimer disease for the proof of performance phase of the biomarkers and IVD test candidates. The present specific study aims to collect biological samples to complete the analytical validation of its diverse IVD tools namely the evaluation of the stability of the biomarkers and the effect of age, gender, nutrition and inter-period on the expression level of the studied biomarkers.",
         "meta": {
-          "lastUpdated": "2026-11-09T08:16:41Z",
+          "lastUpdated": "2026-11-11T14:07:16Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1375,7 +1375,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:16:41Z",
+    "lastUpdated": "2026-11-11T14:07:16Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

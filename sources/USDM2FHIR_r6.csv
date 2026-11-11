@@ -72,8 +72,8 @@ Translated objective name,"study.versions.studyDesigns.objectives@$tt.($tt.exten
 {$tt.id: {
     ""url"": ""http://hl7.org/fhir/StructureDefinition/translation"",
     ""extension"": [
-        {""url"": ""lang"", ""valueCode"": $tr.extensionAttributes[url=""language""].valueCode.code},
-        {""url"": ""content"", ""valueString"": $tr.extensionAttributes[url=""text""].valueString}
+        {""url"": ""lang"", ""valueCode"": $tr.extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance/language""].valueCode.code},
+        {""url"": ""content"", ""valueString"": $tr.extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance/text""].valueString}
     ]
 }}",ResearchStudy,objective._name.extension,objective;extension,Objective,extension
 Objective primary level (code),"study.versions.studyDesigns.objectives[level.code=""C85826""].{id: ""primary""}",ResearchStudy,objective.type.coding.code,objective,Objective,type
@@ -185,7 +185,7 @@ Arm eligibility group type (code.text),"study.versions.studyDesigns.arms.(
     $text := $Recode(type.code);
     $text ? {id: $text} : undefined)",Group,code.text,,StudyArm,type
 Arm eligibility group description,study.versions.studyDesigns.arms.{id: description},Group,description,,StudyArm,description
-location reference,"study.versions.organizations.managedSites.{id: {""reference"": ""#"" & id, ""type"":""Location""}}",ResearchStudy,site,site,StudySite,id
+location reference,"study.versions.organizations.managedSites.{id: {""reference"": ""#"" & id, ""type"":""Location"", ""display"": label}}",ResearchStudy,site,site,StudySite,id
 location id,study.versions.organizations.managedSites.{id: id},Location,id,,StudySite,id
 location identifier,study.versions.organizations.managedSites.{id: id},Location,identifier.value,identifier,StudySite,id
 site name,study.versions.organizations.managedSites.{id: label},Location,name,,StudySite,label
@@ -513,9 +513,9 @@ Evidence classifier (note that questionnaires should get another code / not take
     $bcId ? {""#"" & $bcId: {""code"" : ""measurement"", ""display"": ""Measurement"", ""system"": ""http://hl7.org/fhir/evidence-variable-classifier-example""} })",EvidenceVariable,classifier,,,
 Study Design type (from studyType),"study.versions.studyDesigns.studyType.(
   $Recode := function($c) {
-    $c = ""C98388"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01001"", ""display"": ""interventional research""} :
-    $c = ""C16084"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01002"", ""display"": ""observational research""} :
-    $c = ""C98722"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01038"", ""display"": ""expanded access study""} :
+    $c = ""C98388"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01001"", ""display"": ""interventional research""} :
+    $c = ""C16084"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01002"", ""display"": ""observational research""} :
+    $c = ""C98722"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01038"", ""display"": ""expanded access study""} :
     null
   };
   $sevco := $Recode(code);
@@ -524,9 +524,9 @@ Study Design type (from studyType),"study.versions.studyDesigns.studyType.(
 )",ResearchStudy,studyDesign,studyDesign,StudyDesign,studyType
 Study Design cohort design (from intervention model),"study.versions.studyDesigns.(
   $Recode := function($c) {
-    $c = ""C82640"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01016"", ""display"": ""uncontrolled cohort design""} :
-    $c = ""C82639"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01011"", ""display"": ""parallel cohort design""} :
-    $c = ""C82637"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01012"", ""display"": ""crossover cohort design""} :
+    $c = ""C82640"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01016"", ""display"": ""uncontrolled cohort design""} :
+    $c = ""C82639"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01011"", ""display"": ""parallel cohort design""} :
+    $c = ""C82637"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01012"", ""display"": ""crossover cohort design""} :
     null
   };
   $sevco := $Recode(model.code);
@@ -548,8 +548,8 @@ Study Design observational model (from observational model),"study.versions.stud
 )",ResearchStudy,studyDesign,studyDesign,StudyDesign,model
 Study Design allocation (randomized/non-randomized characteristic),"study.versions.studyDesigns.(
   $Recode := function($c) {
-    $c = ""C46079"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01003"", ""display"": ""randomized assignment""} :
-    $c = ""C93043"" ? {""system"": ""https://fevir.net/sevco"", ""code"": ""SEVCO:01005"", ""display"": ""non-randomized assignment""} :
+    $c = ""C46079"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01003"", ""display"": ""randomized assignment""} :
+    $c = ""C93043"" ? {""system"": ""http://hl7.org/fhir/study-design"", ""code"": ""SEVCO:01005"", ""display"": ""non-randomized assignment""} :
     null
   };
   $alloc := characteristics[code = ""C46079"" or code = ""C93043""];
@@ -568,7 +568,7 @@ Study Design masking (masked roles → SEVCO blinding codes),"study.versions.rol
     null
   };
   $sevco := $Recode(code.code);
-  $sevco ? {id: {""coding"": [{""system"": ""https://fevir.net/sevco"", ""code"": $sevco.code, ""display"": $sevco.display}]}} : null
+  $sevco ? {id: {""coding"": [{""system"": ""http://hl7.org/fhir/study-design"", ""code"": $sevco.code, ""display"": $sevco.display}]}} : null
 )",ResearchStudy,studyDesign,studyDesign,StudyRole,masking
 Study Design masking (open label — no masked role found),"study.versions.(
   $maskingRoles := roles[
@@ -604,16 +604,40 @@ Extension age range (artifact-useContext from plannedAge),"study.versions.studyD
 )",ResearchStudy,extension,extension,StudyDesignPopulation,plannedAge
 Associated party name — lead-sponsor (organization label),"study.versions.roles[code.code = ""C70793""].{id: label}",ResearchStudy,associatedParty.name,associatedParty,StudyRole,label
 Associated party role code — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""lead-sponsor""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
-Associated party role display — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""Lead sponsor""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
-Associated party role system — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""http://terminology.hl7.org/CodeSystem/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party role display — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""lead-sponsor""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
+Associated party role system — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""http://hl7.org/fhir/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party organization type system — lead-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C70793""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    ($t in [""EXT0015"", ""C54149""] or $t = ""C18240"" or $t = ""C199144"") ? ""http://hl7.org/fhir/research-study-party-organization-type"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.system,associatedParty,Code,code
+Associated party organization type code — lead-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C70793""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    $t in [""EXT0015"", ""C54149""] ? ""industry"" : $t = ""C18240"" ? ""academic"" : $t = ""C199144"" ? ""government"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.code,associatedParty,Code,code
+Associated party organization type display — lead-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C70793""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    $t in [""EXT0015"", ""C54149""] ? ""Industry"" : $t = ""C18240"" ? ""Academic"" : $t = ""C199144"" ? ""Government"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.display,associatedParty,Code,code
 Associated party name — co-sponsor (organization label),"study.versions.roles[code.code = ""C215669""].{id: label}",ResearchStudy,associatedParty.name,associatedParty,StudyRole,label
 Associated party role code — co-sponsor,"study.versions.roles[code.code = ""C215669""].{id: ""sponsor""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
-Associated party role display — co-sponsor,"study.versions.roles[code.code = ""C215669""].{id: ""Sponsor""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
-Associated party role system — co-sponsor,"study.versions.roles[code.code = ""C215669""].{id: ""http://terminology.hl7.org/CodeSystem/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party role display — co-sponsor,"study.versions.roles[code.code = ""C215669""].{id: ""sponsor""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
+Associated party role system — co-sponsor,"study.versions.roles[code.code = ""C215669""].{id: ""http://hl7.org/fhir/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party organization type system — co-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C215669""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    ($t in [""EXT0015"", ""C54149""] or $t = ""C18240"" or $t = ""C199144"") ? ""http://hl7.org/fhir/research-study-party-organization-type"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.system,associatedParty,Code,code
+Associated party organization type code — co-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C215669""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    $t in [""EXT0015"", ""C54149""] ? ""industry"" : $t = ""C18240"" ? ""academic"" : $t = ""C199144"" ? ""government"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.code,associatedParty,Code,code
+Associated party organization type display — co-sponsor,"study.versions@$sv.$sv.roles@$r.$r[code.code = ""C215669""].{id: (
+    $t := $sv.organizations[id in $r.organizationIds][0].type.code;
+    $t in [""EXT0015"", ""C54149""] ? ""Industry"" : $t = ""C18240"" ? ""Academic"" : $t = ""C199144"" ? ""Government"" : null
+  )}",ResearchStudy,associatedParty.classifier.coding.display,associatedParty,Code,code
 Associated party name (assigned person),"study.versions.roles[code.code = ""EXT0003""].{id: assignedPersons[0].text}",ResearchStudy,associatedParty.name,associatedParty,AssignedPerson,text
 Associated party role code,"study.versions.roles[code.code = ""EXT0003""].{id: ""sponsor-investigator""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
-Associated party role display,"study.versions.roles[code.code = ""EXT0003""].{id: code.decode}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
-Associated party role system,"study.versions.roles[code.code = ""EXT0003""].{id: ""http://terminology.hl7.org/CodeSystem/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party role display,"study.versions.roles[code.code = ""EXT0003""].{id: ""sponsor-investigator""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
+Associated party role system,"study.versions.roles[code.code = ""EXT0003""].{id: ""http://hl7.org/fhir/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
 Associated party reference (points to contained PractitionerRole),"study.versions.roles[code.code = ""EXT0003""].{id: ""#"" & id}",ResearchStudy,associatedParty.party.reference,associatedParty,StudyRole,id
 Associated party reference type,"study.versions.roles[code.code = ""EXT0003""].{id: ""PractitionerRole""}",ResearchStudy,associatedParty.party.type,associatedParty,,
 Contained PractitionerRole id,"study.versions.roles[code.code = ""EXT0003""].{id: id}",PractitionerRole,id,,StudyRole,id
@@ -622,8 +646,8 @@ Contained PractitionerRole organization display (role label),"study.versions.rol
 Contained PractitionerRole practitioner display (assigned person name),"study.versions.roles[code.code = ""EXT0003""].{id: assignedPersons[0].text}",PractitionerRole,practitioner.display,,AssignedPerson,text
 Associated party name — primary-investigator (assigned person),"study.versions.roles[code.code = ""C19924""].{id: assignedPersons[0].text}",ResearchStudy,associatedParty.name,associatedParty,AssignedPerson,text
 Associated party role code — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: ""primary-investigator""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
-Associated party role display — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: code.decode}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
-Associated party role system — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: ""http://terminology.hl7.org/CodeSystem/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party role display — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: ""primary-investigator""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
+Associated party role system — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: ""http://hl7.org/fhir/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
 Associated party reference — primary-investigator (points to contained PractitionerRole),"study.versions.roles[code.code = ""C19924""].{id: ""#"" & id}",ResearchStudy,associatedParty.party.reference,associatedParty,StudyRole,id
 Associated party reference type — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: ""PractitionerRole""}",ResearchStudy,associatedParty.party.type,associatedParty,,
 Contained PractitionerRole id — primary-investigator,"study.versions.roles[code.code = ""C19924""].{id: id}",PractitionerRole,id,,StudyRole,id
@@ -632,8 +656,8 @@ Contained PractitionerRole organization display — primary-investigator (role l
 Contained PractitionerRole practitioner display — primary-investigator (assigned person name),"study.versions.roles[code.code = ""C19924""].{id: assignedPersons[0].text}",PractitionerRole,practitioner.display,,AssignedPerson,text
 Associated party name — collaborator (organization label),"study.versions.roles[code.code = ""EXT0004""].{id: label}",ResearchStudy,associatedParty.name,associatedParty,StudyRole,label
 Associated party role code — collaborator,"study.versions.roles[code.code = ""EXT0004""].{id: ""collaborator""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
-Associated party role display — collaborator,"study.versions.roles[code.code = ""EXT0004""].{id: code.decode}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
-Associated party role system — collaborator,"study.versions.roles[code.code = ""EXT0004""].{id: ""http://terminology.hl7.org/CodeSystem/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
+Associated party role display — collaborator,"study.versions.roles[code.code = ""EXT0004""].{id: ""collaborator""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode
+Associated party role system — collaborator,"study.versions.roles[code.code = ""EXT0004""].{id: ""http://hl7.org/fhir/research-study-party-role""}",ResearchStudy,associatedParty.role.coding.system,associatedParty,,
 Intervention evidence variable id,study.versions.studyInterventions.{id: id},EvidenceVariable,id,,StudyIntervention,id
 Intervention evidence variable meta profile,"study.versions.studyInterventions.{id: ""http://hl7.org/fhir/uv/ebm/StructureDefinition/variable-definition""}",EvidenceVariable,meta.profile,profile,,
 Intervention evidence variable name,study.versions.studyInterventions.{id: label},EvidenceVariable,name,,StudyIntervention,label

@@ -482,7 +482,7 @@
         "title": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
         "description": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class.",
         "meta": {
-          "lastUpdated": "2026-11-09T08:17:13Z",
+          "lastUpdated": "2026-11-11T14:07:49Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -799,8 +799,8 @@
                   "coding": [
                     {
                       "system": "http://hl7.org/fhir/research-study-registration-activity",
-                      "code": "registration-submission",
-                      "display": "Registration submission"
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
                     }
                   ]
                 }
@@ -826,8 +826,8 @@
                   "coding": [
                     {
                       "system": "http://hl7.org/fhir/research-study-registration-activity",
-                      "code": "registration-submission-qc",
-                      "display": "Registration submission Quality Check"
+                      "code": "registration-submission",
+                      "display": "Registration submission"
                     }
                   ]
                 }
@@ -5628,7 +5628,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:17:13Z",
+    "lastUpdated": "2026-11-11T14:07:49Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

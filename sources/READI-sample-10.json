@@ -18,7 +18,7 @@
         "title": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
         "description": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
         "meta": {
-          "lastUpdated": "2026-11-09T08:16:39Z",
+          "lastUpdated": "2026-11-11T14:07:14Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1805,7 +1805,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-09T08:16:39Z",
+    "lastUpdated": "2026-11-11T14:07:14Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]
