@@ -6,7 +6,7 @@ Study Identifier FHIR type,"study.versions.studyIdentifiers.{id: ""study identif
 Study Identifier Organization,(study.versions)@$sv.$sv.studyIdentifiers@$id.$id{id: $sv.organizations[id=$id.scopeId].label},ResearchStudy,identifier.assigner.display,identifier,StudyIdentifier,scope
 NCT identifier system,"study.versions.studyIdentifiers[$substring(text,0,3)=""NCT""].{id: ""http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov""}",ResearchStudy,identifier.system,identifier,StudyIdentifier,
 Identifier use,"study.versions.studyIdentifiers.{id: ""official""}",ResearchStudy,identifier.use,identifier,,
-Study titles,study.versions.titles.{id: text},ResearchStudy,label.value,label,StudyTitle,text
+Study titles,study.versions.titles.{id: text},ResearchStudy,extension:label.extension:value.valueString,extension:label,StudyTitle,text
 Official title,"study.versions.(
     $official := titles[type.code=""C207616""];
     $fallback := titles[type.code != ""C94108"" and type.code != ""C207646""][0];
@@ -15,14 +15,14 @@ Title type,"study.versions.titles.(
     $titleCode := function($c) {$c=""C207616"" ? ""official"" : $c=""C207615"" ? ""short-title"" : $c=""C94108"" ? ""acronym"" : $c=""C207646"" ? ""acronym"" : $c=""C207617"" ? ""plain-language"" : $c=""C207618"" ? ""scientific"" : undefined};
     $titleDisplay := function($c) {$c=""C207616"" ? ""Official title"" : $c=""C207615"" ? ""Short title"" : $c=""C94108"" ? ""Acronym"" : $c=""C207646"" ? ""Acronym"" : $c=""C207617"" ? ""Plain language title"" : $c=""C207618"" ? ""Scientific title"" : undefined};
     $code := $titleCode(type.code);
-    $code ? {id: {""code"": $code, ""display"": $titleDisplay(type.code), ""system"":""http://hl7.org/fhir/title-type""}} : undefined)",ResearchStudy,label.type.coding,label,StudyTitle,type
+    $code ? {id: {""code"": $code, ""display"": $titleDisplay(type.code), ""system"":""http://hl7.org/fhir/title-type""}} : undefined)",ResearchStudy,extension:label.extension:type.valueCodeableConcept.coding,extension:label,StudyTitle,type
 Translated titles,"study.versions.titles@$tt.($tt.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance""])@$tr.
-{$tr.id: $tr.extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance/text""].valueString}",ResearchStudy,label.value,label,StudyTitle,extension
+{$tr.id: $tr.extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance/text""].valueString}",ResearchStudy,extension:label.extension:value.valueString,extension:label,StudyTitle,extension
 Translated title type,"study.versions.titles@$tt.($tt.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance""])@$tr.
 (   $titleCode := function($c) {$c=""C207616"" ? ""official"" : $c=""C207615"" ? ""short-title"" : $c=""C94108"" ? ""acronym"" : $c=""C207646"" ? ""acronym"" : $c=""C207617"" ? ""plain-language"" : $c=""C207618"" ? ""scientific"" : undefined};
     $titleDisplay := function($c) {$c=""C207616"" ? ""Official title"" : $c=""C207615"" ? ""Short title"" : $c=""C94108"" ? ""Acronym"" : $c=""C207646"" ? ""Acronym"" : $c=""C207617"" ? ""Plain language title"" : $c=""C207618"" ? ""Scientific title"" : undefined};
     $code := $titleCode($tt.type.code);
-    $code ? {$tr.id: {""code"": $code, ""display"": $titleDisplay($tt.type.code), ""system"":""http://hl7.org/fhir/title-type""}} : undefined)",ResearchStudy,label.type.coding,label,StudyTitle,type
+    $code ? {$tr.id: {""code"": $code, ""display"": $titleDisplay($tt.type.code), ""system"":""http://hl7.org/fhir/title-type""}} : undefined)",ResearchStudy,extension:label.extension:type.valueCodeableConcept.coding,extension:label,StudyTitle,type
 Translated title language,"study.versions.titles@$tt.($tt.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance""])@$tr.
 {$tr.id: $tr.extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/Translation/v1/Instance/language""].valueCode.code}",ResearchStudy,label.language,label,StudyTitle,extension
 Study description,"study.{""study-description"": description}",ResearchStudy,description,,Study,description
@@ -598,6 +598,11 @@ Extension target number (R4 replacement for recruitment.targetNumber),"study.ver
     ""valueUnsignedInt"": $floor($v)
   }} : null
 )",ResearchStudy,extension,extension,StudyDesignPopulation,plannedEnrollmentNumber
+Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber),"study.versions.studyDesigns.(
+  $v := population.plannedEnrollmentNumber.value;
+  $first := arms[0] ? arms[0] : population.cohorts[0];
+  $v != null and $first ? {$first.id: $floor($v)} : null
+)",ResearchStudy,arm.extension:targetNumber.valueUnsignedInt,arm,StudyDesignPopulation,plannedEnrollmentNumber
 Associated party name — lead-sponsor (organization label),"study.versions.roles[code.code = ""C70793""].{id: label}",ResearchStudy,associatedParty.name,associatedParty,StudyRole,label
 Associated party role code — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""lead-sponsor""}",ResearchStudy,associatedParty.role.coding.code,associatedParty,Code,code
 Associated party role display — lead-sponsor,"study.versions.roles[code.code = ""C70793""].{id: ""lead-sponsor""}",ResearchStudy,associatedParty.role.coding.display,associatedParty,Code,decode

@@ -1,6 +1,5 @@
 Item,Notes,Highlight
 Study Identifier FHIR type,ResearchStudy.identifier has not a codeableConcept,
-Translated title language,R5 preadoption ?,
 Minimum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",
 Maximum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",
 Includes females code (cohort definitions not included),"Why is this coded, while the planned age is not?",
