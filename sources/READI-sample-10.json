@@ -11,14 +11,15 @@
         "site": [
           {
             "reference": "Location/nct07203378-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "Huntsman Cancer Institute at University of Utah"
           }
         ],
         "status": "active",
         "title": "ENERGIZE: Engagement With a Nurturing Exercise Routine for Greater Improvement in Zest and Energy on Enhertu: A Single-Center Pilot Study",
         "description": "The goal of this study is to test the efficacy of using a 12-week, home-based, unsupervised aerobic and resistance training exercise program for changes in cancer-related fatigue in patients with metastatic breast cancer who are receiving Enhertu.",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:14Z",
+          "lastUpdated": "2026-11-12T06:25:19Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -355,7 +356,7 @@
                   "display": "Interventional Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01001",
                   "display": "interventional research"
                 }
@@ -367,7 +368,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01011",
                   "display": "parallel cohort design"
                 }
@@ -379,7 +380,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01003",
                   "display": "randomized assignment"
                 }
@@ -1085,7 +1086,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "recruiting",
                       "display": "Recruiting"
                     }
@@ -1130,7 +1131,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1185,7 +1186,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1351,9 +1352,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -1378,9 +1379,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1406,9 +1407,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1434,9 +1435,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1446,9 +1447,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "general-contact",
-                      "display": "General contact"
+                      "display": "general-contact"
                     }
                   ]
                 }
@@ -1474,9 +1475,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1486,9 +1487,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "general-contact",
-                      "display": "General contact"
+                      "display": "general-contact"
                     }
                   ]
                 }
@@ -1672,7 +1673,7 @@
       "resource": {
         "id": "nct07203378-evidencevariable-1",
         "resourceType": "EvidenceVariable",
-        "name": "nct07203378_evidencevariable_1",
+        "name": "Nct07203378_evidencevariable_1",
         "status": "active",
         "type": "dichotomous",
         "title": "Whole-body resistance training and aerobic exercise",
@@ -1697,6 +1698,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Whole-body resistance training and aerobic exercise"
+            }
+          }
         ]
       }
     },
@@ -1706,7 +1714,9 @@
         "id": "NCT07203378-CentralContact-0",
         "resourceType": "Practitioner",
         "name": [
-          "Janna Espinosa"
+          {
+            "text": "Janna Espinosa"
+          }
         ],
         "telecom": [
           {
@@ -1726,7 +1736,9 @@
         "id": "NCT07203378-CentralContact-1",
         "resourceType": "Practitioner",
         "name": [
-          "Roma Bhatia, MD"
+          {
+            "text": "Roma Bhatia, MD"
+          }
         ],
         "telecom": [
           {
@@ -1746,7 +1758,9 @@
         "id": "NCT07203378-CentralContact-2",
         "resourceType": "Practitioner",
         "name": [
-          "Janna Espinosa"
+          {
+            "text": "Janna Espinosa"
+          }
         ],
         "telecom": [
           {
@@ -1766,7 +1780,9 @@
         "id": "NCT07203378-CentralContact-3",
         "resourceType": "Practitioner",
         "name": [
-          "Roma Bhatia, MD"
+          {
+            "text": "Roma Bhatia, MD"
+          }
         ],
         "telecom": [
           {
@@ -1805,7 +1821,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:14Z",
+    "lastUpdated": "2026-11-12T06:25:19Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

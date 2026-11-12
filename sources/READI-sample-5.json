@@ -11,14 +11,15 @@
         "site": [
           {
             "reference": "Location/nct05160337-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "Firalis Clinical Investigation Center"
           }
         ],
         "status": "active",
         "title": "Clinical Study on Healthy Volunteers for Validating the Stability of Different Diagnostic Biomarkers Studied at Firalis",
         "description": "Firalis SA and its affiliate Amoneta Diagnostics SAS are developing novel in-vitro diagnostic (IVD) tests for diverse diagnostic applications for major human diseases, including cardiovascular, and neurodegenerative disorders. These tests measure in blood and other peripheral body fluids; long non-coding RNAs (lncRNAs), small non-coding RNAs (sncRNAs), messenger RNAs (mRNAs), circulating proteins, lipids and metabolites. In addition, since 2020, Firalis is producing the salivary test EasyCOV for detection of Covid-19 positivity in both symptomatic and asymptomatic subjects. Firalis group is the sponsor of a pipeline of various clinical studies conducted in diverse National and European clinical sites of excellence, enrolling patients affected by the targeted diseases studied such as acute myocardial injury, Alzheimer disease for the proof of performance phase of the biomarkers and IVD test candidates. The present specific study aims to collect biological samples to complete the analytical validation of its diverse IVD tools namely the evaluation of the stability of the biomarkers and the effect of age, gender, nutrition and inter-period on the expression level of the studied biomarkers.",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:16Z",
+          "lastUpdated": "2026-11-12T06:25:21Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -334,7 +335,7 @@
                   "display": "Interventional Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01001",
                   "display": "interventional research"
                 }
@@ -346,7 +347,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01016",
                   "display": "uncontrolled cohort design"
                 }
@@ -669,7 +670,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "recruiting",
                       "display": "Recruiting"
                     }
@@ -714,7 +715,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -769,7 +770,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -935,9 +936,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -945,7 +946,14 @@
               {
                 "url": "classifier",
                 "valueCodeableConcept": {
-                  "text": "INDUSTRY"
+                  "text": "INDUSTRY",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ]
                 }
               }
             ]
@@ -962,9 +970,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -990,9 +998,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1002,9 +1010,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "general-contact",
-                      "display": "General contact"
+                      "display": "general-contact"
                     }
                   ]
                 }
@@ -1030,9 +1038,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1042,9 +1050,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "general-contact",
-                      "display": "General contact"
+                      "display": "general-contact"
                     }
                   ]
                 }
@@ -1070,9 +1078,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "primary-investigator",
-                      "display": "Principal investigator"
+                      "display": "primary-investigator"
                     }
                   ]
                 }
@@ -1097,9 +1105,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "study-chair",
-                      "display": "Study chair"
+                      "display": "study-chair"
                     }
                   ]
                 }
@@ -1124,9 +1132,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "study-chair",
-                      "display": "Study chair"
+                      "display": "study-chair"
                     }
                   ]
                 }
@@ -1263,7 +1271,7 @@
       "resource": {
         "id": "nct05160337-evidencevariable-1",
         "resourceType": "EvidenceVariable",
-        "name": "nct05160337_evidencevariable_1",
+        "name": "Nct05160337_evidencevariable_1",
         "status": "active",
         "type": "dichotomous",
         "title": "Biomarker based IVD tests",
@@ -1288,6 +1296,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Biomarker based IVD tests"
+            }
+          }
         ]
       }
     },
@@ -1297,7 +1312,9 @@
         "id": "NCT05160337-CentralContact-0",
         "resourceType": "Practitioner",
         "name": [
-          "Federica Zilli, PhD"
+          {
+            "text": "Federica Zilli, PhD"
+          }
         ],
         "telecom": [
           {
@@ -1317,7 +1334,9 @@
         "id": "NCT05160337-CentralContact-1",
         "resourceType": "Practitioner",
         "name": [
-          "Federica ZILLI, PhD"
+          {
+            "text": "Federica ZILLI, PhD"
+          }
         ],
         "telecom": [
           {
@@ -1337,7 +1356,9 @@
         "id": "NCT05160337-CentralContact-2",
         "resourceType": "Practitioner",
         "name": [
-          "Hueseyin Firat, MD, PhD, HDR"
+          {
+            "text": "Hueseyin Firat, MD, PhD, HDR"
+          }
         ],
         "telecom": [
           {
@@ -1375,7 +1396,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:16Z",
+    "lastUpdated": "2026-11-12T06:25:21Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

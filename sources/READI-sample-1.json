@@ -11,478 +11,595 @@
         "site": [
           {
             "reference": "Location/nct01444456-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Graz, 8042"
           },
           {
             "reference": "Location/nct01444456-site-2",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Innsbruck, 6020"
           },
           {
             "reference": "Location/nct01444456-site-3",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Sankt Pölten, 3100"
           },
           {
             "reference": "Location/nct01444456-site-4",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Vienna, 1090"
           },
           {
             "reference": "Location/nct01444456-site-5",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Vöcklabruck, 4840"
           },
           {
             "reference": "Location/nct01444456-site-6",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Wels, 4600"
           },
           {
             "reference": "Location/nct01444456-site-7",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Aalst, 9300"
           },
           {
             "reference": "Location/nct01444456-site-8",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bonheiden, 2820"
           },
           {
             "reference": "Location/nct01444456-site-9",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Brasschaat, 2930"
           },
           {
             "reference": "Location/nct01444456-site-10",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bruges, 8000"
           },
           {
             "reference": "Location/nct01444456-site-11",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Eupen, 4700"
           },
           {
             "reference": "Location/nct01444456-site-12",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Gilly, 6060"
           },
           {
             "reference": "Location/nct01444456-site-13",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Mechelen, 2800"
           },
           {
             "reference": "Location/nct01444456-site-14",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Namur, 5000"
           },
           {
             "reference": "Location/nct01444456-site-15",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Ostend, 8400"
           },
           {
             "reference": "Location/nct01444456-site-16",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Sint-Niklaas, 9100"
           },
           {
             "reference": "Location/nct01444456-site-17",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Verviers, 4800"
           },
           {
             "reference": "Location/nct01444456-site-18",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Aix-en-Provence, 13100"
           },
           {
             "reference": "Location/nct01444456-site-19",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Aix-en-Provence, 13616"
           },
           {
             "reference": "Location/nct01444456-site-20",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Amiens, 80000"
           },
           {
             "reference": "Location/nct01444456-site-21",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Aubagne, 13675"
           },
           {
             "reference": "Location/nct01444456-site-22",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bayonne, 64100"
           },
           {
             "reference": "Location/nct01444456-site-23",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Besançon, 25030"
           },
           {
             "reference": "Location/nct01444456-site-24",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bordeaux, 33077"
           },
           {
             "reference": "Location/nct01444456-site-25",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Boulogne Sur Mer Cédex, 62321"
           },
           {
             "reference": "Location/nct01444456-site-26",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bourg-en-Bresse, 01012"
           },
           {
             "reference": "Location/nct01444456-site-27",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Brive-la-Gaillarde, 19312"
           },
           {
             "reference": "Location/nct01444456-site-28",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Carcassonne, 11890"
           },
           {
             "reference": "Location/nct01444456-site-29",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Clermont-Ferrand, 63000"
           },
           {
             "reference": "Location/nct01444456-site-30",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Clermont-Ferrand, 63011"
           },
           {
             "reference": "Location/nct01444456-site-31",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Colmar, 68024"
           },
           {
             "reference": "Location/nct01444456-site-32",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Dijon, 21034"
           },
           {
             "reference": "Location/nct01444456-site-33",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Draguignan, 83007"
           },
           {
             "reference": "Location/nct01444456-site-34",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — La Seyne-sur-Mer, 83500"
           },
           {
             "reference": "Location/nct01444456-site-35",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Le Mans, 72037"
           },
           {
             "reference": "Location/nct01444456-site-36",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Longjumeau, 91161"
           },
           {
             "reference": "Location/nct01444456-site-37",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Marseille, 13009"
           },
           {
             "reference": "Location/nct01444456-site-38",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Marseille, 13331"
           },
           {
             "reference": "Location/nct01444456-site-39",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Mont-de-Marsan, 40000"
           },
           {
             "reference": "Location/nct01444456-site-40",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Montauban, 82013"
           },
           {
             "reference": "Location/nct01444456-site-41",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Nancy, 54100"
           },
           {
             "reference": "Location/nct01444456-site-42",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Orléans, 45000"
           },
           {
             "reference": "Location/nct01444456-site-43",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Paris, 75020"
           },
           {
             "reference": "Location/nct01444456-site-44",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Périgueux, 24004"
           },
           {
             "reference": "Location/nct01444456-site-45",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Pontoise, 95301"
           },
           {
             "reference": "Location/nct01444456-site-46",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Pringy, 74374"
           },
           {
             "reference": "Location/nct01444456-site-47",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Reims, 51056"
           },
           {
             "reference": "Location/nct01444456-site-48",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Reims, 51092"
           },
           {
             "reference": "Location/nct01444456-site-49",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Reims, 51100"
           },
           {
             "reference": "Location/nct01444456-site-50",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Rennes, 35033"
           },
           {
             "reference": "Location/nct01444456-site-51",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Rouen, 76000"
           },
           {
             "reference": "Location/nct01444456-site-52",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Saint-Grégoire, 35768"
           },
           {
             "reference": "Location/nct01444456-site-53",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Saint-Quentin, 02321"
           },
           {
             "reference": "Location/nct01444456-site-54",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Soissons, 02209"
           },
           {
             "reference": "Location/nct01444456-site-55",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Soyaux, 16800"
           },
           {
             "reference": "Location/nct01444456-site-56",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Strasbourg, 67000"
           },
           {
             "reference": "Location/nct01444456-site-57",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Vichy, 03207"
           },
           {
             "reference": "Location/nct01444456-site-58",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Villefranche-sur-Saône, 69400"
           },
           {
             "reference": "Location/nct01444456-site-59",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Villejuif, 94804"
           },
           {
             "reference": "Location/nct01444456-site-60",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Augsburg, 86150"
           },
           {
             "reference": "Location/nct01444456-site-61",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Berlin, 10317"
           },
           {
             "reference": "Location/nct01444456-site-62",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Berlin, 13055"
           },
           {
             "reference": "Location/nct01444456-site-63",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Berlin, 13347"
           },
           {
             "reference": "Location/nct01444456-site-64",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bremerhaven, 27568"
           },
           {
             "reference": "Location/nct01444456-site-65",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Cologne, 50677"
           },
           {
             "reference": "Location/nct01444456-site-66",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Gelsenkirchen, 45899"
           },
           {
             "reference": "Location/nct01444456-site-67",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Goslar, 38642"
           },
           {
             "reference": "Location/nct01444456-site-68",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Halle, 06110"
           },
           {
             "reference": "Location/nct01444456-site-69",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Mannheim, 68165"
           },
           {
             "reference": "Location/nct01444456-site-70",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Neunkirchen, 66538"
           },
           {
             "reference": "Location/nct01444456-site-71",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Rotenburg (Wümme), 27356"
           },
           {
             "reference": "Location/nct01444456-site-72",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Soest, 59494"
           },
           {
             "reference": "Location/nct01444456-site-73",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Stralsund, 18435"
           },
           {
             "reference": "Location/nct01444456-site-74",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Würselen, 52146"
           },
           {
             "reference": "Location/nct01444456-site-75",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Athens, 11522"
           },
           {
             "reference": "Location/nct01444456-site-76",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Athens, 18547"
           },
           {
             "reference": "Location/nct01444456-site-77",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Chania, 73300"
           },
           {
             "reference": "Location/nct01444456-site-78",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Marousi, 15121"
           },
           {
             "reference": "Location/nct01444456-site-79",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Papagou, 11526"
           },
           {
             "reference": "Location/nct01444456-site-80",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Cefalù PA, 90015"
           },
           {
             "reference": "Location/nct01444456-site-81",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Naples, 80131"
           },
           {
             "reference": "Location/nct01444456-site-82",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Padova, 35128"
           },
           {
             "reference": "Location/nct01444456-site-83",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Roma, 00128"
           },
           {
             "reference": "Location/nct01444456-site-84",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Torino, 10100"
           },
           {
             "reference": "Location/nct01444456-site-85",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Amstelveen, 1186 AM"
           },
           {
             "reference": "Location/nct01444456-site-86",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Dordrecht, 3318 AT"
           },
           {
             "reference": "Location/nct01444456-site-87",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Enschede, 7513 ER"
           },
           {
             "reference": "Location/nct01444456-site-88",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Flushing, 4382 EE"
           },
           {
             "reference": "Location/nct01444456-site-89",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Leiderdorp, 2353 GA"
           },
           {
             "reference": "Location/nct01444456-site-90",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Purmerend, 1441 RN"
           },
           {
             "reference": "Location/nct01444456-site-91",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Roosendaal, 4708 AE"
           },
           {
             "reference": "Location/nct01444456-site-92",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Zutphen, 7207 AE"
           },
           {
             "reference": "Location/nct01444456-site-93",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bialystok, 15-027"
           },
           {
             "reference": "Location/nct01444456-site-94",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Gdansk, 80-402"
           },
           {
             "reference": "Location/nct01444456-site-95",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Konin, 62-500"
           },
           {
             "reference": "Location/nct01444456-site-96",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Koszalin, 75-581"
           },
           {
             "reference": "Location/nct01444456-site-97",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Krakow, 31-531"
           },
           {
             "reference": "Location/nct01444456-site-98",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Lubin, 59-300"
           },
           {
             "reference": "Location/nct01444456-site-99",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Olsztyn, 10-228"
           },
           {
             "reference": "Location/nct01444456-site-100",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Poznan, 61-878"
           },
           {
             "reference": "Location/nct01444456-site-101",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Warsaw, 04-125"
           },
           {
             "reference": "Location/nct01444456-site-102",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Wałbrzych, 58-309"
           },
           {
             "reference": "Location/nct01444456-site-103",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Wroclaw, 50-981"
           },
           {
             "reference": "Location/nct01444456-site-104",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Wroclaw, 51-124"
           },
           {
             "reference": "Location/nct01444456-site-105",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Alba Iulia, 510077"
           },
           {
             "reference": "Location/nct01444456-site-106",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Baia Mare, 430031"
           },
           {
             "reference": "Location/nct01444456-site-107",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Brasov, 500366"
           },
           {
             "reference": "Location/nct01444456-site-108",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bucharest, 011171"
           },
           {
             "reference": "Location/nct01444456-site-109",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bucharest, 020947"
           },
           {
             "reference": "Location/nct01444456-site-110",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bucharest, 022328"
           },
           {
             "reference": "Location/nct01444456-site-111",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bucharest, 030442"
           },
           {
             "reference": "Location/nct01444456-site-112",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bucharest, 050659"
           },
           {
             "reference": "Location/nct01444456-site-113",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Cluj-Napoca, 400058"
           },
           {
             "reference": "Location/nct01444456-site-114",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Oradea, 410469"
           },
           {
             "reference": "Location/nct01444456-site-115",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Râmnicu Vâlcea, 240156"
           },
           {
             "reference": "Location/nct01444456-site-116",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Târgu Mureş, 540142"
           },
           {
             "reference": "Location/nct01444456-site-117",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Timișoara, 300167"
           }
         ],
         "status": "completed",
         "title": "Electronic Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia: An International Prospective Observational Study (eAQUA)",
         "description": "Before enrolling participants, each country was assigned to either cohort 1 (patients receiving only darbepoetin alfa) or cohort 2 (patients receiving any ESA). Cohort 2 was assigned only to those countries in which local regulations did not permit observational study participation by patients receiving a specific agent in a drug class.",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:49Z",
+          "lastUpdated": "2026-11-12T06:25:53Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1060,7 +1177,7 @@
                   "display": "Observational Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01002",
                   "display": "observational research"
                 }
@@ -1291,7 +1408,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "completed",
                       "display": "Completed"
                     }
@@ -1336,7 +1453,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1529,9 +1646,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -1539,7 +1656,14 @@
               {
                 "url": "classifier",
                 "valueCodeableConcept": {
-                  "text": "INDUSTRY"
+                  "text": "INDUSTRY",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ]
                 }
               }
             ]
@@ -1556,9 +1680,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "study-chair",
-                      "display": "Study chair"
+                      "display": "study-chair"
                     }
                   ]
                 }
@@ -5628,7 +5752,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:49Z",
+    "lastUpdated": "2026-11-12T06:25:53Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

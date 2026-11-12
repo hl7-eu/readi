@@ -11,270 +11,335 @@
         "site": [
           {
             "reference": "Location/nct04436744-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "UCLA - Burbank"
           },
           {
             "reference": "Location/nct04436744-site-2",
-            "type": "Location"
+            "type": "Location",
+            "display": "UCLA - Laguna Hills"
           },
           {
             "reference": "Location/nct04436744-site-3",
-            "type": "Location"
+            "type": "Location",
+            "display": "UCLA Hematology/Oncology-San Luis Obispo"
           },
           {
             "reference": "Location/nct04436744-site-4",
-            "type": "Location"
+            "type": "Location",
+            "display": "UCLA Hematology Oncology-Santa Monica"
           },
           {
             "reference": "Location/nct04436744-site-5",
-            "type": "Location"
+            "type": "Location",
+            "display": "Torrance Memorial Physician Network/Cancer Care"
           },
           {
             "reference": "Location/nct04436744-site-6",
-            "type": "Location"
+            "type": "Location",
+            "display": "Orlando Health Inc."
           },
           {
             "reference": "Location/nct04436744-site-7",
-            "type": "Location"
+            "type": "Location",
+            "display": "SCRI Florida Cancer Specialists East"
           },
           {
             "reference": "Location/nct04436744-site-8",
-            "type": "Location"
+            "type": "Location",
+            "display": "Saint Barnabas Medical Center Cancer Center"
           },
           {
             "reference": "Location/nct04436744-site-9",
-            "type": "Location"
+            "type": "Location",
+            "display": "Tennessee Oncology; Sarah Cannon Research Institute"
           },
           {
             "reference": "Location/nct04436744-site-10",
-            "type": "Location"
+            "type": "Location",
+            "display": "Univ of Wisconsin-Madison; Clinical Science Center"
           },
           {
             "reference": "Location/nct04436744-site-11",
-            "type": "Location"
+            "type": "Location",
+            "display": "Macquarie University Hospital"
           },
           {
             "reference": "Location/nct04436744-site-12",
-            "type": "Location"
+            "type": "Location",
+            "display": "Westmead Hospital; Medical Oncology and Pallative Care"
           },
           {
             "reference": "Location/nct04436744-site-13",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital do Cancer de Pernambuco - HCP"
           },
           {
             "reference": "Location/nct04436744-site-14",
-            "type": "Location"
+            "type": "Location",
+            "display": "Santa Casa de Misericordia de Porto Alegre"
           },
           {
             "reference": "Location/nct04436744-site-15",
-            "type": "Location"
+            "type": "Location",
+            "display": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria Ltda"
           },
           {
             "reference": "Location/nct04436744-site-16",
-            "type": "Location"
+            "type": "Location",
+            "display": "Núcleo de Pesquisa São Camilo; ONCOLOGIA CLINICA / QUIMIOTERAPIA"
           },
           {
             "reference": "Location/nct04436744-site-17",
-            "type": "Location"
+            "type": "Location",
+            "display": "Universitätsklinikum Dresden"
           },
           {
             "reference": "Location/nct04436744-site-18",
-            "type": "Location"
+            "type": "Location",
+            "display": "LUISENKRANKENHAUS; Senological Oncology"
           },
           {
             "reference": "Location/nct04436744-site-19",
-            "type": "Location"
+            "type": "Location",
+            "display": "UNIVERSITATSKLINIKUM ERLANGEN; Department of Gynecology and Obstetrics"
           },
           {
             "reference": "Location/nct04436744-site-20",
-            "type": "Location"
+            "type": "Location",
+            "display": "Bacs-Kiskun Megyei Korhaz, SZTE AOK Oktato Korhaza, Onkoradiologiai Kozpont; Onkoradiologiai Kozpont"
           },
           {
             "reference": "Location/nct04436744-site-21",
-            "type": "Location"
+            "type": "Location",
+            "display": "Tolna Megyei Kórház, Onkológia"
           },
           {
             "reference": "Location/nct04436744-site-22",
-            "type": "Location"
+            "type": "Location",
+            "display": "Szpital Morski Im. Pck; Oncology & Radiotherapy Dept"
           },
           {
             "reference": "Location/nct04436744-site-23",
-            "type": "Location"
+            "type": "Location",
+            "display": "COZL Oddzial Onkologii Klinicznej z pododdzialem Chemioterapii Dziennej"
           },
           {
             "reference": "Location/nct04436744-site-24",
-            "type": "Location"
+            "type": "Location",
+            "display": "Centrum Onkologii - Inst.Im. Marii Sklodowskiej-Curie; Oncology"
           },
           {
             "reference": "Location/nct04436744-site-25",
-            "type": "Location"
+            "type": "Location",
+            "display": "DOLNOSLASKIE CENTRUM ONKOLOGII; Oddzial Chirurgii Piersi"
           },
           {
             "reference": "Location/nct04436744-site-26",
-            "type": "Location"
+            "type": "Location",
+            "display": "Moscow City Oncology Hospital #62"
           },
           {
             "reference": "Location/nct04436744-site-27",
-            "type": "Location"
+            "type": "Location",
+            "display": "Private Healthcare Institution Clinical Hospital RZhD Medicine"
           },
           {
             "reference": "Location/nct04436744-site-28",
-            "type": "Location"
+            "type": "Location",
+            "display": "Republican Clinical Oncology Dispensary of Ministry of Healthcare of Tatarstan Republic"
           },
           {
             "reference": "Location/nct04436744-site-29",
-            "type": "Location"
+            "type": "Location",
+            "display": "Filial #1 Regional Oncology Dispensary of Nizhniy Novgorod"
           },
           {
             "reference": "Location/nct04436744-site-30",
-            "type": "Location"
+            "type": "Location",
+            "display": "FSI \"SRC of Oncology n. a. N.N.Petrov of Rosmedtekhnologiy\""
           },
           {
             "reference": "Location/nct04436744-site-31",
-            "type": "Location"
+            "type": "Location",
+            "display": "S-Pb clinical scientific practical center of specialized kinds of medical care (oncological)"
           },
           {
             "reference": "Location/nct04436744-site-32",
-            "type": "Location"
+            "type": "Location",
+            "display": "National Cancer Center; Medical Oncology"
           },
           {
             "reference": "Location/nct04436744-site-33",
-            "type": "Location"
+            "type": "Location",
+            "display": "Seoul National University Hospital"
           },
           {
             "reference": "Location/nct04436744-site-34",
-            "type": "Location"
+            "type": "Location",
+            "display": "Asan Medical Center"
           },
           {
             "reference": "Location/nct04436744-site-35",
-            "type": "Location"
+            "type": "Location",
+            "display": "Severance Hospital; Internal Medicine"
           },
           {
             "reference": "Location/nct04436744-site-36",
-            "type": "Location"
+            "type": "Location",
+            "display": "Samsung Medical Center"
           },
           {
             "reference": "Location/nct04436744-site-37",
-            "type": "Location"
+            "type": "Location",
+            "display": "The Catholic University of Korea Seoul St. Mary's Hospital"
           },
           {
             "reference": "Location/nct04436744-site-38",
-            "type": "Location"
+            "type": "Location",
+            "display": "Institutio Catalan De Oncologia"
           },
           {
             "reference": "Location/nct04436744-site-39",
-            "type": "Location"
+            "type": "Location",
+            "display": "Complejo Hospitalario de Althaia; Servicio de Oncologia"
           },
           {
             "reference": "Location/nct04436744-site-40",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital de Jerez de la Frontera; Servicio de Oncologia"
           },
           {
             "reference": "Location/nct04436744-site-41",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitari Arnau de Vilanova"
           },
           {
             "reference": "Location/nct04436744-site-42",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Puerta de Hierro Majadahonda"
           },
           {
             "reference": "Location/nct04436744-site-43",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital de Navarra; Servicio de Oncologia"
           },
           {
             "reference": "Location/nct04436744-site-44",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitari Sant Joan de Reus; Planta baja, color lila"
           },
           {
             "reference": "Location/nct04436744-site-45",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario de Canarias;servicio de Oncologia"
           },
           {
             "reference": "Location/nct04436744-site-46",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital de la Santa Creu i Sant Pau"
           },
           {
             "reference": "Location/nct04436744-site-47",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Quirón Dexeus"
           },
           {
             "reference": "Location/nct04436744-site-48",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitari Vall d'Hebron"
           },
           {
             "reference": "Location/nct04436744-site-49",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Virgen de las Nieves : Hospital General"
           },
           {
             "reference": "Location/nct04436744-site-50",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Clinico San Cecilio"
           },
           {
             "reference": "Location/nct04436744-site-51",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Lucus Augusti"
           },
           {
             "reference": "Location/nct04436744-site-52",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario La Paz"
           },
           {
             "reference": "Location/nct04436744-site-53",
-            "type": "Location"
+            "type": "Location",
+            "display": "Fundación Jimenez Díaz"
           },
           {
             "reference": "Location/nct04436744-site-54",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hosp Univ Fundacion Alcorcon"
           },
           {
             "reference": "Location/nct04436744-site-55",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Virgen de La Arrixaca"
           },
           {
             "reference": "Location/nct04436744-site-56",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitario Virgen Macarena"
           },
           {
             "reference": "Location/nct04436744-site-57",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital General Universitario de Valencia"
           },
           {
             "reference": "Location/nct04436744-site-58",
-            "type": "Location"
+            "type": "Location",
+            "display": "National Cheng Kung Uni Hospital; Surgery"
           },
           {
             "reference": "Location/nct04436744-site-59",
-            "type": "Location"
+            "type": "Location",
+            "display": "National Taiwan Uni Hospital; General Surgery"
           },
           {
             "reference": "Location/nct04436744-site-60",
-            "type": "Location"
+            "type": "Location",
+            "display": "Regional Oncology Center of Kharkiv Regional Council; Department of Soft Tissues and Breast Cancer"
           },
           {
             "reference": "Location/nct04436744-site-61",
-            "type": "Location"
+            "type": "Location",
+            "display": "Odesa Regional Clinical Hospital; Department of Thoracic Surgery"
           },
           {
             "reference": "Location/nct04436744-site-62",
-            "type": "Location"
+            "type": "Location",
+            "display": "Khmelnytsky Regional Antitumor Center; Department of Breast, Skin, Soft Tissues and Bones Tumors"
           },
           {
             "reference": "Location/nct04436744-site-63",
-            "type": "Location"
+            "type": "Location",
+            "display": "Municipal institution Dnipropetrovsk City Multifield Clinical Hospital #4; dept. of Chemotherapy"
           },
           {
             "reference": "Location/nct04436744-site-64",
-            "type": "Location"
+            "type": "Location",
+            "display": "ME Kryviy Rih Oncology Dispensary of Dnipropetrovs'k Regional Council; Chemotherapy Department"
           },
           {
             "reference": "Location/nct04436744-site-65",
-            "type": "Location"
+            "type": "Location",
+            "display": "Kyiv Regional Oncological Dispensary"
           }
         ],
         "status": "completed",
         "title": "A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer",
         "description": "This is a randomized, multicenter, open-label, two-arm, Phase II study to evaluate the efficacy, safety, and pharmacokinetics of giredestrant versus anastrozole (in the window-of-opportunity phase) and giredestrant plus palbociclib compared with anastrozole plus palbociclib (in the neoadjuvant phase) in postmenopausal women with untreated, estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, early breast cancer.\n\nThe study consists of a screening period of up to 28 days, a window-of-opportunity phase for 14 days, followed by a neoadjuvant treatment phase for 16 weeks (four 28-day cycles), surgery, and an end of study visit (28 days after the final dose of study treatment).",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:25Z",
+          "lastUpdated": "2026-11-12T06:25:30Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -612,7 +677,7 @@
                   "display": "Interventional Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01001",
                   "display": "interventional research"
                 }
@@ -624,7 +689,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01011",
                   "display": "parallel cohort design"
                 }
@@ -636,7 +701,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01003",
                   "display": "randomized assignment"
                 }
@@ -1017,7 +1082,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "completed",
                       "display": "Completed"
                     }
@@ -1062,7 +1127,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1225,7 +1290,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1283,9 +1348,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -1293,7 +1358,14 @@
               {
                 "url": "classifier",
                 "valueCodeableConcept": {
-                  "text": "INDUSTRY"
+                  "text": "INDUSTRY",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ]
                 }
               }
             ]
@@ -1310,9 +1382,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "study-chair",
-                      "display": "Study chair"
+                      "display": "study-chair"
                     }
                   ]
                 }
@@ -2264,7 +2336,7 @@
       "resource": {
         "id": "nct04436744-evidencevariable-1",
         "resourceType": "EvidenceVariable",
-        "name": "nct04436744_evidencevariable_1",
+        "name": "Nct04436744_evidencevariable_1",
         "status": "active",
         "type": "dichotomous",
         "title": "Giredestrant",
@@ -2289,6 +2361,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Giredestrant"
+            }
+          }
         ]
       }
     },
@@ -2297,7 +2376,7 @@
       "resource": {
         "id": "nct04436744-evidencevariable-2",
         "resourceType": "EvidenceVariable",
-        "name": "nct04436744_evidencevariable_2",
+        "name": "Nct04436744_evidencevariable_2",
         "status": "active",
         "type": "dichotomous",
         "title": "Anastrozole",
@@ -2322,6 +2401,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Anastrozole"
+            }
+          }
         ]
       }
     },
@@ -2330,7 +2416,7 @@
       "resource": {
         "id": "nct04436744-evidencevariable-3",
         "resourceType": "EvidenceVariable",
-        "name": "nct04436744_evidencevariable_3",
+        "name": "Nct04436744_evidencevariable_3",
         "status": "active",
         "type": "dichotomous",
         "title": "Palbociclib",
@@ -2355,6 +2441,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Palbociclib"
+            }
+          }
         ]
       }
     },
@@ -2363,7 +2456,7 @@
       "resource": {
         "id": "nct04436744-evidencevariable-4",
         "resourceType": "EvidenceVariable",
-        "name": "nct04436744_evidencevariable_4",
+        "name": "Nct04436744_evidencevariable_4",
         "status": "active",
         "type": "dichotomous",
         "title": "Surgery",
@@ -2387,6 +2480,13 @@
                 }
               }
             ]
+          }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Surgery"
+            }
           }
         ]
       }
@@ -3858,7 +3958,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:25Z",
+    "lastUpdated": "2026-11-12T06:25:30Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

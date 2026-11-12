@@ -11,150 +11,185 @@
         "site": [
           {
             "reference": "Location/nct04077723-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "City of Hope Medical Center"
           },
           {
             "reference": "Location/nct04077723-site-2",
-            "type": "Location"
+            "type": "Location",
+            "display": "University of California San Francisco"
           },
           {
             "reference": "Location/nct04077723-site-3",
-            "type": "Location"
+            "type": "Location",
+            "display": "Washington University School of Medicine"
           },
           {
             "reference": "Location/nct04077723-site-4",
-            "type": "Location"
+            "type": "Location",
+            "display": "The University of Texas MD Anderson Cancer Center"
           },
           {
             "reference": "Location/nct04077723-site-5",
-            "type": "Location"
+            "type": "Location",
+            "display": "Peter Maccallum Cancer Centre"
           },
           {
             "reference": "Location/nct04077723-site-6",
-            "type": "Location"
+            "type": "Location",
+            "display": "The Alfred Hospital"
           },
           {
             "reference": "Location/nct04077723-site-7",
-            "type": "Location"
+            "type": "Location",
+            "display": "UZ Gent"
           },
           {
             "reference": "Location/nct04077723-site-8",
-            "type": "Location"
+            "type": "Location",
+            "display": "Queen Elizabeth II Health Sciences Centre"
           },
           {
             "reference": "Location/nct04077723-site-9",
-            "type": "Location"
+            "type": "Location",
+            "display": "Jewish General Hospital"
           },
           {
             "reference": "Location/nct04077723-site-10",
-            "type": "Location"
+            "type": "Location",
+            "display": "Beijing Cancer Hospital"
           },
           {
             "reference": "Location/nct04077723-site-11",
-            "type": "Location"
+            "type": "Location",
+            "display": "Shandong Cancer Hospital"
           },
           {
             "reference": "Location/nct04077723-site-12",
-            "type": "Location"
+            "type": "Location",
+            "display": "Fudan University Shanghai Cancer Center"
           },
           {
             "reference": "Location/nct04077723-site-13",
-            "type": "Location"
+            "type": "Location",
+            "display": "The First Affiliated Hospital of Xiamen University"
           },
           {
             "reference": "Location/nct04077723-site-14",
-            "type": "Location"
+            "type": "Location",
+            "display": "Aarhus Universitetshospital Skejby"
           },
           {
             "reference": "Location/nct04077723-site-15",
-            "type": "Location"
+            "type": "Location",
+            "display": "Rigshospitalet"
           },
           {
             "reference": "Location/nct04077723-site-16",
-            "type": "Location"
+            "type": "Location",
+            "display": "Odense Universitetshospital"
           },
           {
             "reference": "Location/nct04077723-site-17",
-            "type": "Location"
+            "type": "Location",
+            "display": "CHRU de Lille"
           },
           {
             "reference": "Location/nct04077723-site-18",
-            "type": "Location"
+            "type": "Location",
+            "display": "CHU Montpellier - Saint ELOI"
           },
           {
             "reference": "Location/nct04077723-site-19",
-            "type": "Location"
+            "type": "Location",
+            "display": "Centre Hospitalier Lyon Sud"
           },
           {
             "reference": "Location/nct04077723-site-20",
-            "type": "Location"
+            "type": "Location",
+            "display": "CHU DE RENNES - CHU Pontchaillou"
           },
           {
             "reference": "Location/nct04077723-site-21",
-            "type": "Location"
+            "type": "Location",
+            "display": "Istituto Nazionale Tumori Irccs Fondazione g. Pascale"
           },
           {
             "reference": "Location/nct04077723-site-22",
-            "type": "Location"
+            "type": "Location",
+            "display": "Asst Papa Giovanni Xxiii"
           },
           {
             "reference": "Location/nct04077723-site-23",
-            "type": "Location"
+            "type": "Location",
+            "display": "Irccs Istituto Europeo Di Oncologia (IEO)"
           },
           {
             "reference": "Location/nct04077723-site-24",
-            "type": "Location"
+            "type": "Location",
+            "display": "Istituto Clinico Humanitas"
           },
           {
             "reference": "Location/nct04077723-site-25",
-            "type": "Location"
+            "type": "Location",
+            "display": "Auckland City Hospital, Cancer and Blood Research"
           },
           {
             "reference": "Location/nct04077723-site-26",
-            "type": "Location"
+            "type": "Location",
+            "display": "Waikato Hospital - Cancer and Blood Research Trials Unit"
           },
           {
             "reference": "Location/nct04077723-site-27",
-            "type": "Location"
+            "type": "Location",
+            "display": "Pusan National University Hospital"
           },
           {
             "reference": "Location/nct04077723-site-28",
-            "type": "Location"
+            "type": "Location",
+            "display": "Seoul National University Hospital"
           },
           {
             "reference": "Location/nct04077723-site-29",
-            "type": "Location"
+            "type": "Location",
+            "display": "Asan Medical Center"
           },
           {
             "reference": "Location/nct04077723-site-30",
-            "type": "Location"
+            "type": "Location",
+            "display": "Samsung Medical Center"
           },
           {
             "reference": "Location/nct04077723-site-31",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Universitari Vall d'Hebron"
           },
           {
             "reference": "Location/nct04077723-site-32",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Univ. 12 de Octubre"
           },
           {
             "reference": "Location/nct04077723-site-33",
-            "type": "Location"
+            "type": "Location",
+            "display": "Hospital Clinico Universitario Virgen de la Victoria"
           },
           {
             "reference": "Location/nct04077723-site-34",
-            "type": "Location"
+            "type": "Location",
+            "display": "The HOPE Clinical Trials Unit"
           },
           {
             "reference": "Location/nct04077723-site-35",
-            "type": "Location"
+            "type": "Location",
+            "display": "University College London Hospitals NHS Foundation Trust"
           }
         ],
         "status": "active",
         "title": "An Open-Label, Phase I/II Study to Evaluate the Safety, Pharmacokinetics and Preliminary Anti-Tumor Activity of Englumafusp Alfa (RO7227166, A CD19 Targeted 4-1BB Ligand) in Combination With Obinutuzumab and in Combination With Glofitamab Following a Pre-treatment Dose of Obinutuzumab Administered in Participants With Relapsed/Refractory B-Cell Non-Hodgkin's Lymphoma",
         "description": "This is a phase I/II, open-label, dose-escalation study designed to evaluate the safety, tolerability, and efficacy of englumafusp alfa (RO7227166) in participants with relapsed/refractory Non-Hodgkin's Lymphoma (r/r NHL). Englumafusp alfa will be administered by intravenous (IV) infusion in combination with obinutuzumab and in combination with glofitamab. A fixed dose of obinutuzumab (Gpt; pre-treatment) will be administered up to seven days prior to the first administration of englumafusp alfa and seven days prior to the first administration of glofitamab. This entry-into-human study is divided into a dose-escalation stage (Part I and Part II) and a dose expansion stage (Part III).",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:48Z",
+          "lastUpdated": "2026-11-12T06:25:53Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -542,7 +577,7 @@
                   "display": "Interventional Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01001",
                   "display": "interventional research"
                 }
@@ -554,7 +589,7 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01003",
                   "display": "randomized assignment"
                 }
@@ -1444,7 +1479,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1499,7 +1534,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1665,9 +1700,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -1675,7 +1710,14 @@
               {
                 "url": "classifier",
                 "valueCodeableConcept": {
-                  "text": "INDUSTRY"
+                  "text": "INDUSTRY",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ]
                 }
               }
             ]
@@ -1692,9 +1734,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "study-chair",
-                      "display": "Study chair"
+                      "display": "study-chair"
                     }
                   ]
                 }
@@ -3514,7 +3556,7 @@
       "resource": {
         "id": "nct04077723-evidencevariable-1",
         "resourceType": "EvidenceVariable",
-        "name": "nct04077723_evidencevariable_1",
+        "name": "Nct04077723_evidencevariable_1",
         "status": "active",
         "type": "dichotomous",
         "title": "Englumafusp alfa",
@@ -3539,6 +3581,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Englumafusp alfa"
+            }
+          }
         ]
       }
     },
@@ -3547,7 +3596,7 @@
       "resource": {
         "id": "nct04077723-evidencevariable-2",
         "resourceType": "EvidenceVariable",
-        "name": "nct04077723_evidencevariable_2",
+        "name": "Nct04077723_evidencevariable_2",
         "status": "active",
         "type": "dichotomous",
         "title": "Obinutuzumab",
@@ -3572,6 +3621,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Obinutuzumab"
+            }
+          }
         ]
       }
     },
@@ -3580,7 +3636,7 @@
       "resource": {
         "id": "nct04077723-evidencevariable-3",
         "resourceType": "EvidenceVariable",
-        "name": "nct04077723_evidencevariable_3",
+        "name": "Nct04077723_evidencevariable_3",
         "status": "active",
         "type": "dichotomous",
         "title": "Glofitamab",
@@ -3605,6 +3661,13 @@
               }
             ]
           }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Glofitamab"
+            }
+          }
         ]
       }
     },
@@ -3613,7 +3676,7 @@
       "resource": {
         "id": "nct04077723-evidencevariable-4",
         "resourceType": "EvidenceVariable",
-        "name": "nct04077723_evidencevariable_4",
+        "name": "Nct04077723_evidencevariable_4",
         "status": "active",
         "type": "dichotomous",
         "title": "Tocilizumab",
@@ -3637,6 +3700,13 @@
                 }
               }
             ]
+          }
+        ],
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "Tocilizumab"
+            }
           }
         ]
       }
@@ -4441,7 +4511,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:48Z",
+    "lastUpdated": "2026-11-12T06:25:53Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]

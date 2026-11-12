@@ -11,170 +11,210 @@
         "site": [
           {
             "reference": "Location/nct06422078-site-1",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Ahrensburg"
           },
           {
             "reference": "Location/nct06422078-site-2",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Ansbach"
           },
           {
             "reference": "Location/nct06422078-site-3",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Aschaffenburg"
           },
           {
             "reference": "Location/nct06422078-site-4",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Auerbach"
           },
           {
             "reference": "Location/nct06422078-site-5",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Augsburg"
           },
           {
             "reference": "Location/nct06422078-site-6",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Bad Homburg"
           },
           {
             "reference": "Location/nct06422078-site-7",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Berlin"
           },
           {
             "reference": "Location/nct06422078-site-8",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Cottbus"
           },
           {
             "reference": "Location/nct06422078-site-9",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Darmstadt"
           },
           {
             "reference": "Location/nct06422078-site-10",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Dresden"
           },
           {
             "reference": "Location/nct06422078-site-11",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Düsseldorf"
           },
           {
             "reference": "Location/nct06422078-site-12",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Ehringshausen"
           },
           {
             "reference": "Location/nct06422078-site-13",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Erkelenz"
           },
           {
             "reference": "Location/nct06422078-site-14",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Essen"
           },
           {
             "reference": "Location/nct06422078-site-15",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Flensburg"
           },
           {
             "reference": "Location/nct06422078-site-16",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Frankfurt am Main"
           },
           {
             "reference": "Location/nct06422078-site-17",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Garmisch-Partenkirchen"
           },
           {
             "reference": "Location/nct06422078-site-18",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Halle"
           },
           {
             "reference": "Location/nct06422078-site-19",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Hamburg"
           },
           {
             "reference": "Location/nct06422078-site-20",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Hanover"
           },
           {
             "reference": "Location/nct06422078-site-21",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Heidelberg"
           },
           {
             "reference": "Location/nct06422078-site-22",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Hohenstein-Ernsttahl"
           },
           {
             "reference": "Location/nct06422078-site-23",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Itzehoe"
           },
           {
             "reference": "Location/nct06422078-site-24",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Jena"
           },
           {
             "reference": "Location/nct06422078-site-25",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Leipzig"
           },
           {
             "reference": "Location/nct06422078-site-26",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Loerrach"
           },
           {
             "reference": "Location/nct06422078-site-27",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Lübeck"
           },
           {
             "reference": "Location/nct06422078-site-28",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Lüneburg"
           },
           {
             "reference": "Location/nct06422078-site-29",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Markkleeberg"
           },
           {
             "reference": "Location/nct06422078-site-30",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Mönchengladbach"
           },
           {
             "reference": "Location/nct06422078-site-31",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Neuruppin"
           },
           {
             "reference": "Location/nct06422078-site-32",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Nuremberg"
           },
           {
             "reference": "Location/nct06422078-site-33",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Papenburg"
           },
           {
             "reference": "Location/nct06422078-site-34",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Rostock"
           },
           {
             "reference": "Location/nct06422078-site-35",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Saalfeld"
           },
           {
             "reference": "Location/nct06422078-site-36",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Spardorf"
           },
           {
             "reference": "Location/nct06422078-site-37",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Weißenburg"
           },
           {
             "reference": "Location/nct06422078-site-38",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Wilhelmshaven"
           },
           {
             "reference": "Location/nct06422078-site-39",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Würzburg"
           },
           {
             "reference": "Location/nct06422078-site-40",
-            "type": "Location"
+            "type": "Location",
+            "display": "Research Site — Zossen"
           }
         ],
         "status": "active",
         "title": "A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life",
         "description": "This is a prospective observational study to investigate the asthma control and health realted quality of life (HRQL) of benralizumab treated patients in routine clinical practice, their asthma medication intake, and their changes in asthma medication during the study, up to 52 weeks.\n\nThe asthma control will be analyzed by using the Asthma Control Test (ACT) and the Asthma Impairment and Risk Questionnaire (AIRQ®) at different timepoints during the study period either collected by the investigator or self-reported by the patient. In addition, health realted quality of life will be assessed at baseline and routine follow-up visits using the mini Asthma Quality of Life Questionnaire (miniAQLQ) which is collected by the investigator. To investigate the medication intake and assess the changes in asthma medication, the patients will record their weekly medication intake in a paper-based or an electronic medication diary throughout the study.",
         "meta": {
-          "lastUpdated": "2026-11-11T14:07:21Z",
+          "lastUpdated": "2026-11-12T06:25:26Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -533,7 +573,7 @@
                   "display": "Observational Study"
                 },
                 {
-                  "system": "https://fevir.net/sevco",
+                  "system": "http://hl7.org/fhir/study-design",
                   "code": "SEVCO:01002",
                   "display": "observational research"
                 }
@@ -1347,7 +1387,7 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "recruiting",
                       "display": "Recruiting"
                     }
@@ -1392,7 +1432,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1447,7 +1487,7 @@
                   "text": "Overall study",
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-status",
+                      "system": "http://hl7.org/fhir/research-study-status",
                       "code": "active",
                       "display": "Active"
                     }
@@ -1559,9 +1599,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "lead-sponsor",
-                      "display": "Lead sponsor"
+                      "display": "lead-sponsor"
                     }
                   ]
                 }
@@ -1569,7 +1609,14 @@
               {
                 "url": "classifier",
                 "valueCodeableConcept": {
-                  "text": "INDUSTRY"
+                  "text": "INDUSTRY",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-organization-type",
+                      "code": "industry",
+                      "display": "Industry"
+                    }
+                  ]
                 }
               }
             ]
@@ -1586,9 +1633,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "recruitment-contact",
-                      "display": "Recruitment contact"
+                      "display": "recruitment-contact"
                     }
                   ]
                 }
@@ -1598,9 +1645,9 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "system": "http://terminology.hl7.org/CodeSystem/research-study-party-role",
+                      "system": "http://hl7.org/fhir/research-study-party-role",
                       "code": "general-contact",
-                      "display": "General contact"
+                      "display": "general-contact"
                     }
                   ]
                 }
@@ -1722,7 +1769,9 @@
         "id": "NCT06422078-CentralContact-0",
         "resourceType": "Practitioner",
         "name": [
-          "AstraZeneca Clinical Study Information Center"
+          {
+            "text": "AstraZeneca Clinical Study Information Center"
+          }
         ],
         "telecom": [
           {
@@ -2574,7 +2623,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-11T14:07:21Z",
+    "lastUpdated": "2026-11-12T06:25:26Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]
