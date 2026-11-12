@@ -96,7 +96,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><td>age category 65 and older (Only based on population and year unit)</td><td>StudyDesignPopulation.<wbr/>plannedAge</td><td colspan="3">ResearchStudy.<wbr/>classifier</td><td></td></tr>
 <tr><td>Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber)</td><td>StudyDesignPopulation.<wbr/>plannedEnrollmentNumber</td><td colspan="2" style="background-color: #ffff99;">—</td><td>ResearchStudy.<wbr/>comparisonGroup.<wbr/>targetNumber</td><td>This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).</td></tr>
 <tr><td>Planned enrollment number</td><td>StudyDesignPopulation.<wbr/>plannedEnrollmentNumber</td><td>ResearchStudy.<wbr/>extension</td><td colspan="2">ResearchStudy.<wbr/>recruitment.<wbr/>targetNumber</td><td></td></tr>
-<tr><td>Eligibility overall list id</td><td style="background-color: #ffff99;">to-be-specified.<wbr/>to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"eligibility-criteria"</code> (for id "eligibility-criteria")</span></td><td colspan="3" style="background-color: #ffd8a8;">Group.<wbr/>id</td><td>The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…)</td></tr>
+<tr><td style="background-color: #ffd8a8;">Eligibility overall list id</td><td style="background-color: #ffff99;">to-be-specified.<wbr/>to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"eligibility-criteria"</code> (for id "eligibility-criteria")</span></td><td colspan="3" style="background-color: #ffd8a8;">Group.<wbr/>id</td><td>The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…); Clarify how a resource id can be fixed</td></tr>
 <tr><td>combination method general</td><td style="background-color: #ffff99;">to-be-specified.<wbr/>to-be-specified<br/><span style="background-color: #e6f4e6;">hardcoded value: <code>"all-of"</code> (for id "eligibility-criteria")</span></td><td>Group.<wbr/>extension:combinationMethod</td><td colspan="2">Group.<wbr/>combinationMethod</td><td>Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?</td></tr>
 <tr><td>Study Population Source (population description free text)</td><td>StudyDesignPopulation.<wbr/>description</td><td colspan="3">ResearchStudy.<wbr/>classifier</td><td></td></tr>
 <tr><td>Extension age range (artifact-useContext from plannedAge)</td><td>StudyDesignPopulation.<wbr/>plannedAge</td><td colspan="3">ResearchStudy.<wbr/>extension</td><td></td></tr>
@@ -156,7 +156,7 @@ This mapping is a work in progress: it has not been validated yet and may change
 </thead>
 <tbody>
 <tr><td>purpose Intent</td><td>InterventionalStudyDesign.<wbr/>intentTypes</td><td colspan="2">ResearchStudy.<wbr/>primaryPurposeType.<wbr/>coding</td><td>ResearchStudy.<wbr/>purposeType.<wbr/>coding</td><td></td></tr>
-<tr><td>purpose SubType</td><td>InterventionalStudyDesign.<wbr/>subTypes</td><td colspan="2" style="background-color: #ffff99;">—</td><td>ResearchStudy.<wbr/>purposeType.<wbr/>coding</td><td></td></tr>
+<tr><td>purpose SubType</td><td>InterventionalStudyDesign.<wbr/>subTypes</td><td colspan="2">ResearchStudy.<wbr/>primaryPurposeType.<wbr/>coding</td><td>ResearchStudy.<wbr/>purposeType.<wbr/>coding</td><td></td></tr>
 </tbody>
 </table>
 </div>
@@ -191,9 +191,9 @@ This mapping is a work in progress: it has not been validated yet and may change
 <tr><th>R4</th><th>R5</th><th>R6</th></tr>
 </thead>
 <tbody>
-<tr><td>progress status</td><td>extension studyProgressStatus.<wbr/>state</td><td>ResearchStudy.<wbr/>extension</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>state.<wbr/>coding</td><td></td></tr>
-<tr><td>progress status actual</td><td>extension studyProgressStatus.<wbr/>isActual</td><td style="background-color: #ffff99;">—</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>actual</td><td></td></tr>
-<tr><td>progress status period</td><td>extension studyProgressStatus.<wbr/>startDate, endDate</td><td style="background-color: #ffff99;">—</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>period</td><td></td></tr>
+<tr><td>progress status</td><td>extension studyProgressStatus.<wbr/>state</td><td>ResearchStudy.<wbr/>extension:progressStatus.<wbr/>extension:state.<wbr/>valueCodeableConcept.<wbr/>coding</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>state.<wbr/>coding</td><td></td></tr>
+<tr><td>progress status actual</td><td>extension studyProgressStatus.<wbr/>isActual</td><td>ResearchStudy.<wbr/>extension:progressStatus.<wbr/>extension:actual.<wbr/>valueBoolean</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>actual</td><td></td></tr>
+<tr><td>progress status period</td><td>extension studyProgressStatus.<wbr/>startDate, endDate</td><td>ResearchStudy.<wbr/>extension:progressStatus.<wbr/>extension:period.<wbr/>valuePeriod</td><td colspan="2">ResearchStudy.<wbr/>progressStatus.<wbr/>period</td><td></td></tr>
 </tbody>
 </table>
 </div>

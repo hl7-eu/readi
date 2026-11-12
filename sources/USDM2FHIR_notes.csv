@@ -15,7 +15,7 @@ Arm eligibility group membership,"R4: Group.actual, the R4 equivalent of R5 Grou
 Arm eligibility group type (code.text),Is StudyArm.type a string ?,
 location id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
 Reference to group of criteria,This element in R4 is enrollment,
-Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
+Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…); Clarify how a resource id can be fixed,item:orange r4:orange r5:orange r6:orange
 combination method general,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",
 Eligibility criteria text,Where do you get this data from? Do you really need this row?,
 Eligibility criteria code,"Not clear what it means: hardcoded value ""Defined by CodeableConcept"".",

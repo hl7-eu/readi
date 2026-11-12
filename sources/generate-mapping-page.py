@@ -40,7 +40,6 @@ ALIASES = {
         "Outcome measure reference": "Outcome measurement reference or display",
         "Outcome measure type": "Endpoint level",
         "primary purpose type": "purpose Intent",
-        "progress status extension (state, actual, period)": "progress status",
         "Extension target number (R4 replacement for recruitment.targetNumber)": "Planned enrollment number",
         "Intervention evidence variable type (dichotomous)": "Intervention evidence variable handling (boolean variable)",
     },

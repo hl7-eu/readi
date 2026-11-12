@@ -99,6 +99,16 @@ primary purpose type,"study.versions.studyDesigns.(
         $c=""C71486"" ? ""Supportive Care"" : $c=""C15245"" ? ""Health Services Research"" : $c=""C15714"" ? ""Basic Science"" : $c=""C139174"" ? ""Device Feasibility""};
     $intent := intentTypes[$Recode(code)][0];
     $intent ? {id: {""code"": $Recode($intent.code), ""display"": $RecodeDisplay($intent.code), ""system"": ""http://hl7.org/fhir/research-study-prim-purp-type""}} : undefined)",ResearchStudy,primaryPurposeType.coding,,InterventionalStudyDesign,intentTypes
+purpose SubType,"study.versions.studyDesigns.subTypes.(
+    $Recode := function($c){$c=""C49667"" ? ""safety"" : $c=""C49666"" ? ""efficacy"" : $c=""C49663"" ? ""pharmacokinetic"" :
+                            $c=""C49662"" ? ""pharmacodynamic"" : $c=""C49665"" ? ""bioequivalence"" : $c=""C127803"" ? ""dose-response"" :
+                            $c=""C129001"" ? ""pharmacogenetic"" : $c=""C49661"" ? ""pharmacogenomic"" : $c=""C215653"" ? ""incidence"" :
+                            $c=""C215675"" ? ""prevalence""};
+    $RecodeDisplay := function($c){$c=""C49667"" ? ""Safety Study"" : $c=""C49666"" ? ""Efficacy Study"" : $c=""C49663"" ? ""Pharmacokinetic Study"" :
+                            $c=""C49662"" ? ""Pharmacodynamic Study"" : $c=""C49665"" ? ""Bioequivalence Study"" : $c=""C127803"" ? ""Dose-Response Study"" :
+                            $c=""C129001"" ? ""Pharmacogenetic Study"" : $c=""C49661"" ? ""Pharmacogenomic Study"": $c=""C215653"" ? ""Incidence Study"" :
+                            $c=""C215675"" ? ""Prevalence Study""};
+$Recode(code) ? {id: {""code"": $Recode(code), ""display"": $RecodeDisplay(code), ""system"": ""http://hl7.org/fhir/research-study-prim-purp-type""}} : undefined)",ResearchStudy,primaryPurposeType.coding,,InterventionalStudyDesign,subTypes
 Study Phase,"study.versions.studyDesigns.studyPhase.(
   $cdiscToFhirCode := function($c) {
     $c = ""C48660"" ? ""n-a"" :
