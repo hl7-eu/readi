@@ -116,12 +116,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px;
 }
 
-/* Wide tables (USDM mapping): at least as wide as the container, scroll horizontally if larger */
+/* Wide tables (USDM mapping): fit the container with fixed column widths; long paths wrap
+   (the generator adds <wbr/> after each dot). Horizontal scroll is only a fallback. */
 .mapping-scroll {
   width: 100%;
   overflow-x: auto;
 }
 .mapping-scroll > table.grid {
-  min-width: 100%;
-  width: auto;
+  width: 100%;
+  table-layout: fixed;
 }
+.mapping-scroll > table.grid td,
+.mapping-scroll > table.grid th {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.mapping-scroll col.c-item  { width: 14%; }
+.mapping-scroll col.c-usdm  { width: 17%; }
+.mapping-scroll col.c-fhir  { width: 16%; }
+.mapping-scroll col.c-notes { width: 21%; }

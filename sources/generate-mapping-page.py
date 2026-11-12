@@ -135,9 +135,12 @@ def hardcoded_value(jsonata):
     return norm(jsonata), ""
 
 
-def td(value, style="", span=1, extra=""):
+def td(value, style="", span=1, extra="", path=False):
     attrs = (f' colspan="{span}"' if span > 1 else "") + (f' style="{style}"' if style else "")
-    return f"<td{attrs}>{html.escape(value, quote=False)}{extra}</td>"
+    text = html.escape(value, quote=False)
+    if path:  # long dotted paths: allow line breaks after each dot
+        text = text.replace(".", ".<wbr/>")
+    return f"<td{attrs}>{text}{extra}</td>"
 
 
 def main():
@@ -177,7 +180,9 @@ def main():
     counts = {}
     for cls, rows in sections.items():
         counts[cls] = len(rows)
-        out += [f"### {cls}", "", '<div class="mapping-scroll">', '<table class="grid">', "<thead>",
+        out += [f"### {cls}", "", '<div class="mapping-scroll">', '<table class="grid">',
+                '<colgroup><col class="c-item"/><col class="c-usdm"/><col class="c-fhir"/>'
+                '<col class="c-fhir"/><col class="c-fhir"/><col class="c-notes"/></colgroup>', "<thead>",
                 '<tr><th rowspan="2">Item</th><th rowspan="2">USDM class.attribute</th>'
                 '<th colspan="3">FHIR resourceType.path</th><th rowspan="2">Notes</th></tr>',
                 "<tr><th>R4</th><th>R5</th><th>R6</th></tr>", "</thead>", "<tbody>"]
@@ -195,7 +200,7 @@ def main():
                 cond = f" ({html.escape(cond, quote=False)})" if cond else ""
                 u_extra = f'<br/><span style="{GREEN}">hardcoded value: <code>{hv}</code>{cond}</span>'
             cells.append(td(norm(r["Item"]), manual.get("item", "")))
-            cells.append(td(usdm, u_style, extra=u_extra))
+            cells.append(td(usdm, u_style, extra=u_extra, path=True))
             i = 0
             while i < 3:
                 j = i
@@ -205,7 +210,7 @@ def main():
                 style = next((manual[f"r{4 + n}"] for n in range(i, j + 1) if f"r{4 + n}" in manual), "")
                 if not style and (TBS in vals[i] or vals[i] == "—"):
                     style = YELLOW
-                cells.append(td(vals[i], style, j - i + 1))
+                cells.append(td(vals[i], style, j - i + 1, path=True))
                 i = j + 1
             cells.append(td(notes.get(k, ""), manual.get("notes", "")))
             out.append("<tr>" + "".join(cells) + "</tr>")
