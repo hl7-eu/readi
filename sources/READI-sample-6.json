@@ -214,7 +214,7 @@
         "title": "A Non-interventional, Prospective Study With Benralizumab to Investigate Clinical Outcome Based on Standard of Care Medication in Real-life",
         "description": "This is a prospective observational study to investigate the asthma control and health realted quality of life (HRQL) of benralizumab treated patients in routine clinical practice, their asthma medication intake, and their changes in asthma medication during the study, up to 52 weeks.\n\nThe asthma control will be analyzed by using the Asthma Control Test (ACT) and the Asthma Impairment and Risk Questionnaire (AIRQ®) at different timepoints during the study period either collected by the investigator or self-reported by the patient. In addition, health realted quality of life will be assessed at baseline and routine follow-up visits using the mini Asthma Quality of Life Questionnaire (miniAQLQ) which is collected by the investigator. To investigate the medication intake and assess the changes in asthma medication, the patients will record their weekly medication intake in a paper-based or an electronic medication diary throughout the study.",
         "meta": {
-          "lastUpdated": "2026-11-12T06:25:26Z",
+          "lastUpdated": "2026-11-12T06:54:53Z",
           "profile": [
             "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
           ]
@@ -1385,11 +1385,12 @@
               {
                 "url": "state",
                 "valueCodeableConcept": {
+                  "text": "Recruiting",
                   "coding": [
                     {
                       "system": "http://hl7.org/fhir/research-study-status",
-                      "code": "recruiting",
-                      "display": "Recruiting"
+                      "code": "active",
+                      "display": "Active"
                     }
                   ]
                 }
@@ -2623,7 +2624,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-11-12T06:25:26Z",
+    "lastUpdated": "2026-11-12T06:54:53Z",
     "profile": [
       "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
     ]
