@@ -1,0 +1,2522 @@
+{
+  "id": "fake_b_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+  "url": "https:\/\/fevir.net\/resources\/Bundle\/fake_b_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https:\/\/fevir.net\/resources\/ResearchStudy\/fake_r_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+      "resource": {
+        "id": "fake_r_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+        "url": "https:\/\/fevir.net\/resources\/ResearchStudy\/fake_r_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+        "resourceType": "ResearchStudy",
+        "name": "NCT01931527 FHIR Transform",
+        "site": [
+          {
+            "reference": "#NCT01931527-Location-1dbea936-d44a-11f1-b6ea-8abdedc76cb5-ResearchStudy",
+            "type": "ResearchStudy"
+          }
+        ],
+        "title": "Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation",
+        "descriptionSummary": "It has been hypothesized that oxidative stress is involved in the pathogenesis of insulin resistance associated with obesity. Circulating uric acid (UA) is the body's major endogenous plasma antioxidant. Therefore, the investigators evaluated whether alterations in serum UA concentration affect: 1) systemic and skeletal muscle oxidative stress, 2) total antioxidant capacity, and 4) skeletal muscle insulin sensitivity during a hyperinsulinemic-euglycemic clamp.",
+        "description": "It has been hypothesized that oxidative stress is involved in the pathogenesis of insulin resistance associated with obesity. Circulating uric acid (UA) is the body's major endogenous plasma antioxidant. Therefore, the investigators evaluated whether alterations in serum UA concentration affect: 1) systemic and skeletal muscle oxidative stress, 2) total antioxidant capacity, and 4) skeletal muscle insulin sensitivity during a hyperinsulinemic-euglycemic clamp.",
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "77386006",
+                "display": "Pregnancy"
+              }
+            ],
+            "text": "Pregnancy"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "199751000",
+                "display": "Lactation"
+              }
+            ],
+            "text": "Lactation"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "36054005",
+                "display": "Xanthinuria"
+              }
+            ],
+            "text": "Xanthinuria"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "44054006",
+                "display": "Type 2 diabetes mellitus"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "118234003",
+                "display": "Disorder of body system"
+              }
+            ],
+            "text": "Disorder of body system"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "24777007",
+                "display": "Glucose-6-phosphate dehydrogenase deficiency"
+              }
+            ],
+            "text": "Glucose-6-phosphate dehydrogenase deficiency"
+          },
+          {
+            "coding": [
+              {
+                "system": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+                "code": "90708001",
+                "display": "Disorder of kidney"
+              }
+            ],
+            "text": "Disorder of kidney"
+          }
+        ],
+        "meta": {
+          "lastUpdated": "2026-11-03T12:22:24Z",
+          "profile": [
+            "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-registry-record",
+            "http:\/\/hl7.org\/fhir\/R4\/researchstudy.html"
+          ]
+        },
+        "extension": [
+          {
+            "valueUsageContext": {
+              "code": {
+                "system": "http:\/\/terminology.hl7.org\/CodeSystem\/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 65,
+                  "unit": "Year"
+                }
+              }
+            },
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/artifact-useContext"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2006-07-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2008-06-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2012-11-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-23"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-23"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-29"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-07-16"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-07-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/uv\/ebm\/CodeSystem\/study-registry-period",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-08-14"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/researchStudy-studyRegistration"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Lay result: Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "UA"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.label"
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                  "code": "does-not-include-healthy-volunteers",
+                  "display": "Does not include healthy volunteers"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Maximum Age: 65 Years"
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                  "code": "includes-ages-18-64",
+                  "display": "Includes ages 18-64 years"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/resources\/CodeSystem\/419455",
+                  "code": "includes-ages-65-and-older",
+                  "display": "Includes ages 65 and older"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5c5e8-d44a-11f1-b29c-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "Percent Increase in Insulin-stimulated Glucose Uptake [Time Frame: 12 hours after reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5c7be-d44a-11f1-9e18-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "The Effect of Reducing Uric Acid on Oxidative Status [Time Frame: 12 hours after reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5c980-d44a-11f1-9138-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "Baseline Carbonylated Protein Ratio [Time Frame: Before reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5cb4c-d44a-11f1-bc41-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "AFTER Rasburicase Carbonylated Protein Ratio [Time Frame: 12 hours after reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5cd04-d44a-11f1-995f-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "Baseline Plasma TRAP [Time Frame: Before reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5cebc-d44a-11f1-b780-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "AFTER Rasburicase Plasma TRAP [Time Frame: 12 hours after reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5d074-d44a-11f1-9e9e-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "Baseline Plasma FRAP [Time Frame: Before reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_1de5d22c-d44a-11f1-8758-8abdedc76cb5"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueString": "AFTER Rasburicase Plasma FRAP (Fe\u207a\u00b2 \u00b7 L\u02c9\u00b9) [Time Frame: 12 hours after reducing uric acid]"
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.outcomeMeasure"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-status",
+                      "code": "completed",
+                      "display": "Completed"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-07-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2006-07-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2008-06-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "overall-study",
+                      "display": "Overall study"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2012-11-30"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-29"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-08-14"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-23"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2013-08-23"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2018-07-16"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.progressStatus"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Washington University School of Medicine"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "Lead sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Samuel Klein, MD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "Principal investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Washington University School of Medicine"
+                }
+              }
+            ],
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "url": "http:\/\/hl7.org\/fhir\/5.0\/StructureDefinition\/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 31
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT01931527",
+            "system": "http:\/\/terminology.hl7.org\/NamingSystem\/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "06-0509 \/ 201104189",
+            "assigner": {
+              "display": "Washington University School of Medicine"
+            }
+          }
+        ],
+        "phase": [
+          {
+            "coding": [
+              {
+                "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-phase",
+                "code": "n-a",
+                "display": "N\/A"
+              }
+            ],
+            "text": "N\/A"
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective",
+            "description": ""
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http:\/\/terminology.hl7.org\/CodeSystem\/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective",
+            "description": ""
+          }
+        ],
+        "studyDesign": [
+          {
+            "coding": [
+              {
+                "system": "http:\/\/ncicb.nci.nih.gov\/xml\/owl\/EVS\/Thesaurus.owl",
+                "code": "C98388",
+                "display": "Interventional Study"
+              },
+              {
+                "system": "https:\/\/fevir.net\/sevco",
+                "code": "SEVCO:01001",
+                "display": "interventional research"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/sevco",
+                "code": "SEVCO:01016",
+                "display": "uncontrolled cohort design"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https:\/\/fevir.net\/sevco",
+                "code": "SEVCO:01005",
+                "display": "non-randomized assignment"
+              }
+            ]
+          },
+          {
+            "coding": [],
+            "text": "Design Masking: NONE (Open Label)"
+          }
+        ],
+        "enrollment": [
+          {
+            "reference": "#eligibility-criteria",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation"
+          }
+        ],
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "eligibility-criteria",
+            "meta": {
+              "lastUpdated": "2026-11-03T12:22:24Z",
+              "profile": [
+                "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/study-eligibility-criteria"
+              ]
+            },
+            "title": "USDM Eligibility Criteria for Effect of Plasma Uric Acid on Insulin Sensitivity, Endothelial Function and Inflammation",
+            "status": "active",
+            "type": "person",
+            "membership": "definitional",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "39156-5",
+                      "display": "Body mass index"
+                    }
+                  ],
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": false,
+                "description": "obese (BMI 30-45 kg\/m\u00b2);",
+                "valueRange": {
+                  "low": {
+                    "value": 30,
+                    "unit": "Kilogram per Square Meter",
+                    "system": "http:\/\/unitsofmeasure.org",
+                    "code": "kg\/m2",
+                    "extension": [
+                      {
+                        "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/quantity-cdisc-unit",
+                        "valueCoding": {
+                          "system": "http:\/\/www.cdisc.org",
+                          "code": "C49671",
+                          "display": "Kilogram per Square Meter"
+                        }
+                      }
+                    ]
+                  },
+                  "high": {
+                    "value": 45,
+                    "unit": "Kilogram per Square Meter",
+                    "system": "http:\/\/unitsofmeasure.org",
+                    "code": "kg\/m2",
+                    "extension": [
+                      {
+                        "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/quantity-cdisc-unit",
+                        "valueCoding": {
+                          "system": "http:\/\/www.cdisc.org",
+                          "code": "C49671",
+                          "display": "Kilogram per Square Meter"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": false,
+                "description": "serum UA concentration either \u22655 mg\/dL or \u22644.0 mg\/dL (297 \u00b5mol\/L)",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_00d8c5c6-d68a-11f1-ba64-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "renal dysfunction (serum creatinine >1.5 mg\/dL);",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_3463c43c-d44a-11f1-a20e-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "pregnancy or lactating;",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_00e1a6aa-d68a-11f1-8d80-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "take urate-lowering agents, thiazide diuretics, prednisone or medications containing aspirin or other salicylates;",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_00e6f826-d68a-11f1-bf08-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "history of xanthinuria, type 2 diabetes or other significant organ system dysfunction;",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_00ec1ffe-d68a-11f1-91da-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "have G6PD deficiency;",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_3463ce3c-d44a-11f1-b1a8-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "text": "Defined by Reference"
+                },
+                "exclude": true,
+                "description": "use hormone-replacement or oral-contraceptive therapy;",
+                "valueReference": {
+                  "reference": "#ExtensionClass_ExpRespNode_00f4663c-d68a-11f1-925e-8abdedc76cb5",
+                  "type": "Group"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/hl7.org\/fhir\/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "smoke tobacco;",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "365981007",
+                      "display": "Tobacco smoking behavior"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "718-7",
+                      "display": "Hemoglobin [Mass\/volume] in Blood"
+                    }
+                  ],
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": true,
+                "description": "anemic (Hb <10 g\/dl)",
+                "valueQuantity": {
+                  "comparator": "<",
+                  "value": 10,
+                  "unit": "Gram per Deciliter",
+                  "system": "http:\/\/unitsofmeasure.org",
+                  "code": "g\/dl",
+                  "extension": [
+                    {
+                      "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/quantity-cdisc-unit",
+                      "valueCoding": {
+                        "system": "http:\/\/www.cdisc.org",
+                        "code": "C64783",
+                        "display": "Gram per Deciliter"
+                      }
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ],
+            "description": "Inclusion Criteria:\n\n* obese (BMI 30-45 kg\/m\u00b2);\n* serum UA concentration either \u22655 mg\/dL or \u22644.0 mg\/dL (297 \u00b5mol\/L)\\],\n\nExclusion Criteria:\n\n* renal dysfunction (serum creatinine \\>1.5 mg\/dL);\n* pregnancy or lactating;\n* take urate-lowering agents, thiazide diuretics, prednisone or medications containing aspirin or other salicylates;\n* history of xanthinuria, type 2 diabetes or other significant organ system dysfunction;\n* have G6PD deficiency;\n* use hormone-replacement or oral-contraceptive therapy;\n* smoke tobacco;\n* anemic (Hb \\<10 g\/dl)"
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_00d8c5c6-d68a-11f1-ba64-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "3084-1",
+                      "display": "Uric acid [Mass\/volume] in Serum or Plasma"
+                    }
+                  ],
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": false,
+                "description": "serum UA concentration either \u22655 mg\/dL",
+                "valueQuantity": {
+                  "comparator": ">=",
+                  "value": 5,
+                  "unit": "Milligram per Deciliter",
+                  "system": "http:\/\/unitsofmeasure.org",
+                  "code": "mg\/dL",
+                  "extension": [
+                    {
+                      "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/quantity-cdisc-unit",
+                      "valueCoding": {
+                        "system": "http:\/\/www.cdisc.org",
+                        "code": "C67015",
+                        "display": "Milligram per Deciliter"
+                      }
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "3084-1",
+                      "display": "Uric acid [Mass\/volume] in Serum or Plasma"
+                    }
+                  ],
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": false,
+                "description": "or \u22644.0 mg\/dL (297 \u00b5mol\/L)",
+                "valueQuantity": {
+                  "comparator": "<=",
+                  "value": 4,
+                  "unit": "Milligram per Deciliter",
+                  "system": "http:\/\/unitsofmeasure.org",
+                  "code": "mg\/dL",
+                  "extension": [
+                    {
+                      "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/quantity-cdisc-unit",
+                      "valueCoding": {
+                        "system": "http:\/\/www.cdisc.org",
+                        "code": "C67015",
+                        "display": "Milligram per Deciliter"
+                      }
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_3463c43c-d44a-11f1-a20e-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "renal dysfunction (serum creatinine >1.5 mg\/dL);",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "90708001",
+                      "display": "Disorder of kidney"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_00e1a6aa-d68a-11f1-8d80-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "pregnancy",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "77386006",
+                      "display": "Pregnancy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "44839-9",
+                      "display": "Choriogonadotropin [Presence] in Control Serum"
+                    }
+                  ],
+                  "text": "Defined by CodeableConcept"
+                },
+                "exclude": true,
+                "description": "pregnancy",
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "lactating",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "199751000",
+                      "display": "Lactation"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_00e6f826-d68a-11f1-bf08-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "urate-lowering agents",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "432231006",
+                      "display": "Drug therapy for hyperuricemia"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "thiazide diuretics",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "432103003",
+                      "display": "Thiazide diuretic therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "prednisone",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "432102008",
+                      "display": "Prednisone therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "medications containing aspirin or other salicylates",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "432101001",
+                      "display": "Salicylate therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_00ec1ffe-d68a-11f1-91da-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "xanthinuria",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "36054005",
+                      "display": "Xanthinuria"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "type 2 diabetes",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "44054006",
+                      "display": "Type 2 diabetes mellitus"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "other significant organ system dysfunction",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "118234003",
+                      "display": "Disorder of body system"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_3463ce3c-d44a-11f1-b1a8-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/loinc.org",
+                      "code": "75323-6",
+                      "display": "Condition"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "have G6PD deficiency;",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "24777007",
+                      "display": "Glucose-6-phosphate dehydrogenase deficiency"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "ExtensionClass_ExpRespNode_00f4663c-d68a-11f1-925e-8abdedc76cb5",
+            "modifierExtension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "hormone-replacement therapy",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "169736002",
+                      "display": "Hormone replacement therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "71388002",
+                      "display": "Procedure (procedure)"
+                    }
+                  ]
+                },
+                "exclude": true,
+                "description": "oral-contraceptive therapy",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http:\/\/snomed.info\/sct",
+                      "code": "169750007",
+                      "display": "Oral contraceptive therapy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http:\/\/snomed.info\/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ],
+                    "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/group-characteristic-relativeTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "NCT01931527-comparison-group-0",
+            "title": "Obese subjects with normal uric acid",
+            "status": "active",
+            "membership": "conceptual",
+            "code": {
+              "text": "No Intervention"
+            },
+            "description": "Subjects with a body mass index = or \\> 30 kg\/m\u00b2 with normal uric acid (= or \\< 5 mg\/dL)"
+          },
+          {
+            "resourceType": "Group",
+            "id": "NCT01931527-comparison-group-1",
+            "title": "Obese subjects with high uric acid",
+            "status": "active",
+            "membership": "conceptual",
+            "code": {
+              "text": "Experimental"
+            },
+            "description": "Subjects with a body mass index = or \\> 30 kg\/m\u00b2 with high uric acid (\\>6 mg\/dL)\n\nIntervention: one single infusion of rasburicase (0.19 mg\/kg FFM) infused over 30 min"
+          },
+          {
+            "resourceType": "EvidenceVariable",
+            "id": "NCT01931527-drug-rasburicase",
+            "meta": {
+              "lastUpdated": "2026-11-03T12:22:24Z",
+              "profile": [
+                "http:\/\/hl7.org\/fhir\/uv\/ebm\/StructureDefinition\/variable-definition"
+              ]
+            },
+            "name": [
+              {
+                "text": "NCT01931527_drug_rasburicase"
+              }
+            ],
+            "title": "Rasburicase",
+            "status": "active",
+            "description": "one single infusion of rasburicase (0.19 mg\/kg FFM) infused over 30 min",
+            "handling": {
+              "coding": [
+                {
+                  "system": "https:\/\/fevir.net\/sevco",
+                  "code": "STATO:0000724",
+                  "display": "boolean variable"
+                }
+              ]
+            },
+            "classifier": [
+              {
+                "text": "Intervention Type: .DRUG"
+              }
+            ]
+          },
+          {
+            "resourceType": "Location",
+            "id": "NCT01931527-Location-1dbea936-d44a-11f1-b6ea-8abdedc76cb5",
+            "title": "Washington University School of Medicine",
+            "address": {
+              "city": "St Louis",
+              "state": "Missouri",
+              "country": "United States",
+              "postalCode": "63110"
+            },
+            "position": {
+              "latitude": 38.62727,
+              "longitude": -90.19789
+            }
+          }
+        ],
+        "arm": [
+          {
+            "name": "Obese subjects with normal uric acid",
+            "description": "Subjects with a body mass index = or \\> 30 kg\/m\u00b2 with normal uric acid (= or \\< 5 mg\/dL)",
+            "extension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "#NCT01931527-comparison-group-0",
+                  "type": "Group",
+                  "display": "Obese subjects with normal uric acid"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Obese subjects with high uric acid",
+            "description": "Subjects with a body mass index = or \\> 30 kg\/m\u00b2 with high uric acid (\\>6 mg\/dL)\n\nIntervention: one single infusion of rasburicase (0.19 mg\/kg FFM) infused over 30 min",
+            "extension": [
+              {
+                "url": "http:\/\/hl7.eu\/fhir\/ig\/readi\/StructureDefinition\/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "#NCT01931527-comparison-group-1",
+                  "type": "Group",
+                  "display": "Obese subjects with high uric acid"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https:\/\/fevir.net\/resources\/Group\/fake_g_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+      "resource": {
+        "id": "fake_g_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+        "url": "https:\/\/fevir.net\/resources\/Group\/fake_g_1de38832-d44a-11f1-b5d0-8abdedc76cb5",
+        "resourceType": "Group",
+        "name": "NCT01931527_Eligibility_Criteria",
+        "title": "NCT01931527 Eligibility Criteria",
+        "description": "Inclusion Criteria:\n\n* obese (BMI 30-45 kg\/m\u00b2);\n* serum UA concentration either \u22655 mg\/dL or \u22644.0 mg\/dL (297 \u00b5mol\/L)\\],\n\nExclusion Criteria:\n\n* renal dysfunction (serum creatinine \\>1.5 mg\/dL);\n* pregnancy or lactating;\n* take urate-lowering agents, thiazide diuretics, prednisone or medications containing aspirin or other salicylates;\n* history of xanthinuria, type 2 diabetes or other significant organ system dysfunction;\n* have G6PD deficiency;\n* use hormone-replacement or oral-contraceptive therapy;\n* smoke tobacco;\n* anemic (Hb \\<10 g\/dl)"
+      }
+    }
+  ]
+}
