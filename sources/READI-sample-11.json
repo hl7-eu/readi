@@ -1,0 +1,3213 @@
+{
+  "id": "nct06509776-bundle-1",
+  "type": "collection",
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/resources/ResearchStudy/nct06509776-researchstudy-1",
+      "resource": {
+        "id": "nct06509776-researchstudy-1",
+        "resourceType": "ResearchStudy",
+        "site": [
+          {
+            "reference": "Location/nct06509776-site-1",
+            "type": "Location",
+            "display": "Aalborg University Hospital, Department of Endocrinology"
+          },
+          {
+            "reference": "Location/nct06509776-site-2",
+            "type": "Location",
+            "display": "Aarhus University Hospital, Department of Endocrinology"
+          },
+          {
+            "reference": "Location/nct06509776-site-3",
+            "type": "Location",
+            "display": "Rigshospitalet, Department of Clinical Biochemistry and Endocrinology"
+          },
+          {
+            "reference": "Location/nct06509776-site-4",
+            "type": "Location",
+            "display": "Bispebjerg and Frederiksberg Hospital, EEK, Parker Institute"
+          },
+          {
+            "reference": "Location/nct06509776-site-5",
+            "type": "Location",
+            "display": "Holbæk Hospital, Department of Medicine"
+          },
+          {
+            "reference": "Location/nct06509776-site-6",
+            "type": "Location",
+            "display": "Hvidovre Hospital, Department of Endocrinology"
+          },
+          {
+            "reference": "Location/nct06509776-site-7",
+            "type": "Location",
+            "display": "Zealand University Hospital, Department of Medicine"
+          },
+          {
+            "reference": "Location/nct06509776-site-8",
+            "type": "Location",
+            "display": "Odense University Hospital, Department of Endocrinology"
+          },
+          {
+            "reference": "Location/nct06509776-site-9",
+            "type": "Location",
+            "display": "University of Southern Denmark, Department of Clinical Research"
+          }
+        ],
+        "status": "active",
+        "title": "Early Life Determinants of Skeletal Maturation and Endocrine Health in Young Adults - A Nationwide Birth Cohort Study",
+        "description": "Population-based, nationwide, cross-sectional, clinical study with already available early life exposure data including bio banked neonatal biological samples. An embedded design using the full 2006+2007 birth cohorts is used to demonstrate external validity of the clinically assessed cohort. We will obtain the necessary ethics and regulatory approval and individual consent from the participants who are all aged 18.\n\nThe overall aim of the project addresses whether the following sets of potential determinants are associated with young adult hormonal status, lipids, bone turnover markers, bone mineral density (BMD), fat mass and lean body mass at age 18 years: a) maternal risk factors during preconception and pregnancy; b) risk factors at birth; c) neonatal epigenetic signature; d) childhood risk factors.\n\nAim 1 - Epigenetics - Is peak bone mass and body size influenced by epigenetic profile for endocrine signals at birth? From the second trimester of pregnancy and until early adulthood, bone is gradually developed and shaped, with longitudinal growth dominating the later stages of fetal life, infancy, and childhood. This is followed by a period of rapid bone mineral accrual occurring up to and during puberty, with bone mass accretion ultimately reaching a plateau in young adult life. It is strongly suggested by prior research that epigenetic variation at birth can result from differences in maternal health, lifestyle, nutrition, smoking and medication usage and result in long-term changes in gene expression and metabolism.\n\nAs existing childhood cohorts either lack BMD information, suffer from significant cohort attrition, and low recruitment success, there is an opportunity to instead use national invitations to recruit directly into an efficient endocrine and bone outcomes study and use already archived biological material from early infancy and register data and obtain individual study subject consent.\n\nAim 2 - Endocrine status in young adulthood - Does maternal medication use and health issues prior to pregnancy or in pregnancy affect endocrine health in young adults? This question will be addressed using data from Danish national registers. While it is straightforward to link binary events data e.g., malformations or paediatric admissions (eg epilepsy, diabetes, failure to thrive) to registry capture of their maternal exposures, we will be obtaining detailed information about continuous outcomes including endocrine serum biochemistry (thyroid axis, GH axis, PTH-vitamin D-calcium axis, lipids, HbA1c), hair cortisol levels (a cumulative serum cortisol metric) as well as body composition and bone density metrics.\n\nAim 3 - DXA measured muscle, fat mass and lipid status in young adults - Do suboptimal conditions prior to pregnancy, during pregnancy, birth, and childhood, such as lifestyle, poor health and low socioeconomics adversely influence establishment of healthy body composition and lipid status in young adulthood? Detailed register-based information prior to pregnancy, about pregnancy, birth and childhood health will be used to identify areas open to prevention. Detailed information will be obtained via the Danish national health registers.\n\nStatistical consideration - With a study population of 2,000, the power (given α=0.05) available to detect a 0.2 SD effect on a continuous outcome such as PBM for a risk factor with a population prevalence of 20% is 90%. With inclusion of 1,500 subjects, the corresponding study power is 90% for detection of an effect size of 0.24 SD or 80% for detection of an effect size of 0.2 SD. The study needs this resolving power to be able to address multiple contributing factors and for the inclusion of factors in the model that may have a population prevalence below 20%. Less common factors would, even if powerful drivers of skeletal health, be somewhat less useful in population impact even if successfully modified.\n\nBiological material - All material for use in the current project will be stored in a research biobank during the current study during its term. Any remaining material is transferred to biobank for future research with the approval of the Danish Data Protection Agency. The purpose of the biobank is to ensure validation of the analysis methods used over time. The participants must give consent to the storage of their biological material in the biobank. It is completely optional if the participants want to donate their excess biological material to the biobank and if they do not want this, it does not affect their participation in the study. For new research, new consent must be obtained, but the Scientific Ethics Committee can grant exemption from the consent requirement.\n\nAll material will be stored in compliance with Danish legislation on data protection.\n\n24 mL of blood will be drawn. All blood samples are encoded so that all samples are anonymized, and the key is under special protection and only with access for authorized personnel. All extra material will be kept in the biobank.\n\nTo ensure uniformity between neonatal and adolescent samples, DBS will be created from the freshly drawn whole blood. DBS are created by spotting 3x75µL onto a cotton filter paper of the same type used in 2006-2007. The cards are left overnight at ambient temperatures then transferred to -20C for long term storage. DNA is be extracted from two 3.2mm disks excised from the DBS card, then purified using magnetic silica beads. Finally, concentrations are measured using intercalating dyes.\n\nAll hair samples (minimum 20 mg per participant) will be encoded so that all samples are pseudonymised, and the key is under special protection and only with access for authorized personnel. All hair samples will be used in the analyses, and then discarded.",
+        "meta": {
+          "lastUpdated": "2026-11-12T06:55:20Z",
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-readi"
+          ]
+        },
+        "condition": [
+          {
+            "text": "Obesity",
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D009765",
+                "display": "Obesity"
+              }
+            ]
+          },
+          {
+            "text": "Osteoporosis",
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D010024",
+                "display": "Osteoporosis"
+              }
+            ]
+          },
+          {
+            "text": "Sarcopenia",
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/MSH",
+                "code": "D055948",
+                "display": "Sarcopenia"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "NCT06509776",
+            "system": "http://terminology.hl7.org/NamingSystem/ClinicalTrials-Gov",
+            "assigner": {
+              "display": "ClinicalTrials.gov"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "NNF22OC0080437",
+            "assigner": {
+              "display": "Novo Nordisk Foundation"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "21-B-0436",
+            "assigner": {
+              "display": "Helsefonden, Denmark"
+            },
+            "type": {
+              "text": "study identifier"
+            }
+          },
+          {
+            "use": "official",
+            "value": "S-20230105",
+            "assigner": {
+              "display": "Holbaek Sygehus"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/artifact-useContext",
+            "valueUsageContext": {
+              "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "age",
+                "display": "Age Range"
+              },
+              "valueRange": {
+                "low": {
+                  "value": 18,
+                  "unit": "Year"
+                },
+                "high": {
+                  "value": 19,
+                  "unit": "Year"
+                }
+              }
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-15"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-15"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-19"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-09"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-10"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/researchStudy-studyRegistration",
+            "extension": [
+              {
+                "url": "activity",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "official",
+                      "display": "Official title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "Early Life Determinants of Skeletal Maturation and Endocrine Health in Young Adults - A Nationwide Birth Cohort Study"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "short-title",
+                      "display": "Short title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A nationwide study of how early life affects bone growth and hormone health in young adults"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "plain-language",
+                      "display": "Plain language title"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "A nationwide study of how early life affects bone growth and hormone health in young adults"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+            "extension": [
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/title-type",
+                      "code": "acronym",
+                      "display": "Acronym"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "value",
+                "valueString": "EPIPEAK"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name",
+            "valueString": "NCT06509776 FHIR Transform"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+            "valueMarkdown": "Population-based, nationwide, cross-sectional, clinical study with already available early life exposure data including bio banked neonatal biological samples. An embedded design using the full 2006+2007 birth cohorts is used to demonstrate external validity of the clinically assessed cohort. We will obtain the necessary ethics and regulatory approval and individual consent from the participants who are all aged 18.\n\nThe overall aim of the project addresses whether the following sets of potential determinants are associated with young adult hormonal status, lipids, bone turnover markers, bone mineral density (BMD), fat mass and lean body mass at age 18 years: a) maternal risk factors during preconception and pregnancy; b) risk factors at birth; c) neonatal epigenetic signature; d) childhood risk factors.\n\nAim 1 - Epigenetics - Is peak bone mass and body size influenced by epigenetic profile for endocrine signals at birth? From the second trimester of pregnancy and until early adulthood, bone is gradually developed and shaped, with longitudinal growth dominating the later stages of fetal life, infancy, and childhood. This is followed by a period of rapid bone mineral accrual occurring up to and during puberty, with bone mass accretion ultimately reaching a plateau in young adult life. It is strongly suggested by prior research that epigenetic variation at birth can result from differences in maternal health, lifestyle, nutrition, smoking and medication usage and result in long-term changes in gene expression and metabolism.\n\nAs existing childhood cohorts either lack BMD information, suffer from significant cohort attrition, and low recruitment success, there is an opportunity to instead use national invitations to recruit directly into an efficient endocrine and bone outcomes study and use already archived biological material from early infancy and register data and obtain individual study subject consent.\n\nAim 2 - Endocrine status in young adulthood - Does maternal medication use and health issues prior to pregnancy or in pregnancy affect endocrine health in young adults? This question will be addressed using data from Danish national registers. While it is straightforward to link binary events data e.g., malformations or paediatric admissions (eg epilepsy, diabetes, failure to thrive) to registry capture of their maternal exposures, we will be obtaining detailed information about continuous outcomes including endocrine serum biochemistry (thyroid axis, GH axis, PTH-vitamin D-calcium axis, lipids, HbA1c), hair cortisol levels (a cumulative serum cortisol metric) as well as body composition and bone density metrics.\n\nAim 3 - DXA measured muscle, fat mass and lipid status in young adults - Do suboptimal conditions prior to pregnancy, during pregnancy, birth, and childhood, such as lifestyle, poor health and low socioeconomics adversely influence establishment of healthy body composition and lipid status in young adulthood? Detailed register-based information prior to pregnancy, about pregnancy, birth and childhood health will be used to identify areas open to prevention. Detailed information will be obtained via the Danish national health registers.\n\nStatistical consideration - With a study population of 2,000, the power (given α=0.05) available to detect a 0.2 SD effect on a continuous outcome such as PBM for a risk factor with a population prevalence of 20% is 90%. With inclusion of 1,500 subjects, the corresponding study power is 90% for detection of an effect size of 0.24 SD or 80% for detection of an effect size of 0.2 SD. The study needs this resolving power to be able to address multiple contributing factors and for the inclusion of factors in the model that may have a population prevalence below 20%. Less common factors would, even if powerful drivers of skeletal health, be somewhat less useful in population impact even if successfully modified.\n\nBiological material - All material for use in the current project will be stored in a research biobank during the current study during its term. Any remaining material is transferred to biobank for future research with the approval of the Danish Data Protection Agency. The purpose of the biobank is to ensure validation of the analysis methods used over time. The participants must give consent to the storage of their biological material in the biobank. It is completely optional if the participants want to donate their excess biological material to the biobank and if they do not want this, it does not affect their participation in the study. For new research, new consent must be obtained, but the Scientific Ethics Committee can grant exemption from the consent requirement.\n\nAll material will be stored in compliance with Danish legislation on data protection.\n\n24 mL of blood will be drawn. All blood samples are encoded so that all samples are anonymized, and the key is under special protection and only with access for authorized personnel. All extra material will be kept in the biobank.\n\nTo ensure uniformity between neonatal and adolescent samples, DBS will be created from the freshly drawn whole blood. DBS are created by spotting 3x75µL onto a cotton filter paper of the same type used in 2006-2007. The cards are left overnight at ambient temperatures then transferred to -20C for long term storage. DNA is be extracted from two 3.2mm disks excised from the DBS card, then purified using magnetic silica beads. Finally, concentrations are measured using intercalating dyes.\n\nAll hair samples (minimum 20 mg per participant) will be encoded so that all samples are pseudonymised, and the key is under special protection and only with access for authorized personnel. All hair samples will be used in the analyses, and then discarded"
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                  "code": "C16084",
+                  "display": "Observational Study"
+                },
+                {
+                  "system": "http://hl7.org/fhir/study-design",
+                  "code": "SEVCO:01002",
+                  "display": "observational research"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://clinicaltrials.gov/data-about-studies/study-data-structure#enum-ObservationalModel",
+                  "code": "COHORT",
+                  "display": "Cohort"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-females",
+                  "display": "Includes female subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-males",
+                  "display": "Includes male subjects"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Minimum Age: 18 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Maximum Age: 19 Years"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fevir.net/resources/CodeSystem/419455",
+                  "code": "includes-ages-18-64",
+                  "display": "Includes ages 18-64 years"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Study Population Source: The Danish Personal Civil Registration will be used to identify all alive individuals born in Denmark in 2006 and 2007 using civil registration numbers. Invitations will be sent through secure e-mail (E-boks) in blocks until 2,000 participants have been reached. The study population will be selected with representative geographical distribution in Denmark."
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "IPDSharing: No"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: oversightHasDmc False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDrug False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier",
+            "valueCodeableConcept": {
+              "text": "Oversight Classifier: isFdaRegulatedDevice False"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c277a-7062-11f1-ab8b-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Bone Mineral Density of Spine, Hip and Whole-body [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c2d42-7062-11f1-a6ad-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Bone Area of Spine, Hip and Whole-body [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c324c-7062-11f1-94ff-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "primary",
+                      "display": "Primary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Bone Mineral Content of Spine, Hip and Whole-body [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c36d4-7062-11f1-b0e5-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Total Body Lean Mass [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c3b5c-7062-11f1-bc3d-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Total Body Fat Mass [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c3f9e-7062-11f1-84aa-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "High-Resolution Peripheral Quantitative Computed Tomography of The Distal Radius and Tibia [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c4494-7062-11f1-b798-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Body Weight [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c4980-7062-11f1-b7ce-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Height [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c4dd6-7062-11f1-bdda-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Body Mass Index [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c5236-7062-11f1-86ae-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Waist Circumference [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c577c-7062-11f1-94bb-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Hip Circumference [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c5c22-7062-11f1-835e-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Waist-Hip Ratio [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c6096-7062-11f1-b810-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Endocrine Status [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c64d8-7062-11f1-81ec-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Endocrine Status and Bone Markers of Bone Metabolism [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c6a64-7062-11f1-9733-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Hair Cortisol Concentrations [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c6fdc-7062-11f1-b47e-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Blood Pressure [Time Frame: 2 years]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c7464-7062-11f1-ae65-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Self-reported Stress [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c789c-7062-11f1-9b87-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Self-reported Sleep [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Endpoint_901c7dec-7062-11f1-88ca-025cceb6f5ab"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                      "code": "secondary",
+                      "display": "Secondary"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "description",
+                "valueMarkdown": "Self-reported Hearing [Time Frame: Baseline]"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-submission",
+                      "display": "Update submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-09"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "record-verification",
+                      "display": "Record Verification"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "text": "Overall study",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "start": "2024-11-11"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "primary-outcome-data-collection",
+                      "display": "Primary outcome data collection"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2026-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "text": "Overall study",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-status",
+                      "code": "active",
+                      "display": "Active"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": false
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2031-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-posting",
+                      "display": "Registration posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-19"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "update-posting",
+                      "display": "Update posting"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2025-01-10"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission",
+                      "display": "Registration submission"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-15"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus",
+            "extension": [
+              {
+                "url": "state",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-registration-activity",
+                      "code": "registration-submission-qc",
+                      "display": "Registration submission Quality Check"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "actual",
+                "valueBoolean": true
+              },
+              {
+                "url": "period",
+                "valuePeriod": {
+                  "end": "2024-07-15"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Holbaek Sygehus"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "lead-sponsor",
+                      "display": "lead-sponsor"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Aarhus University Hospital"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Aalborg University Hospital"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "University of Southern Denmark"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "University Hospital Bispebjerg and Frederiksberg"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Zealand University Hospital"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Odense University Hospital"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Copenhagen University Hospital, Rigshospitalet"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Statens Serum Institut"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Hvidovre University Hospital"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "collaborator",
+                      "display": "collaborator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "classifier",
+                "valueCodeableConcept": {
+                  "text": "OTHER"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Bo Abrahamsen, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "study-chair",
+                      "display": "study-chair"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "OPEN, University of Southern Denmark, Odense and Department of Medicine 1, Holbæk Hospital, Holbæk"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Katrine H Rubin, MHS, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "OPEN, Department of Clinical Research, University of Southern Denmark and Odense University Hospital"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Bente Langdahl, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Department of Clinical Medicine and Department of Endocrinology and Diabetes, Aarhus University"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Peter Vestergaard, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Faculty of Medicine, Aalborg University and Department of Endocrinology, Aalborg University Hospital"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Berit L Heitmann, DMD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "The Parker Institute, Frederiksberg Hospital, Frederiksberg"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Mina N Händel, Msc, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "The Parker Institute, Frederiksberg Hospital, Frederiksberg"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Charlotte L Tofteng, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Department of CIinical Medicine, Endocrinology, Zealand University Hospital, Køge"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pernille Bach-Mortensen, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Department of Endocrinology, Amager and Hvidovre Hospital, Hvidovre"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Pernille Hermann, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Department of Endocrinology, Odense University Hospital, Odense"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Niklas R Jørgensen, MD, PhD"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Department of Clinical Biochemistry and Centre of Diagnostic Investigation,Rigshospitalet Copenhagen"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+            "extension": [
+              {
+                "url": "name",
+                "valueString": "Jonas Bybjerg-Grauholm, MSE"
+              },
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/research-study-party-role",
+                      "code": "primary-investigator",
+                      "display": "primary-investigator"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "display": "Danish Center for Neonatal Screening, Statens Serum Institut, Copenhagen"
+                }
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber",
+            "valueUnsignedInt": 2000
+          }
+        ],
+        "objective": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "primary",
+                  "display": "Primary"
+                }
+              ]
+            },
+            "name": "Primary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+                  "code": "secondary",
+                  "display": "Secondary"
+                }
+              ]
+            },
+            "name": "Secondary Objective"
+          }
+        ],
+        "enrollment": [
+          {
+            "reference": "Group/nct06509776-eligibility-1",
+            "type": "Group",
+            "display": "USDM Eligibility Criteria for Early Life Determinants of Skeletal Maturation and Endocrine Health in Young Adults - A Nationwide Birth Cohort Study"
+          }
+        ],
+        "arm": [
+          {
+            "name": "Population sample",
+            "description": "Random subsample of all 17-18-year-old individuals in Denmark, i.e. live births from year 2006 and 2007.",
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/researchStudy-arm-eligibility",
+                "valueReference": {
+                  "reference": "Group/NCT06509776-comparison-group-0",
+                  "type": "Group",
+                  "display": "Population sample"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/nct06509776-eligibility-1",
+      "resource": {
+        "id": "nct06509776-eligibility-1",
+        "resourceType": "Group",
+        "name": "USDM Eligibility Criteria for Early Life Determinants of Skeletal Maturation and Endocrine Health in Young Adults - A Nationwide Birth Cohort Study",
+        "type": "person",
+        "actual": false,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Inclusion Criteria:\n\n* Individuals (n = 2000) born in Denmark in 2006 or 2007\n* Are 18 years old and alive at the time of the clinical examination\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* No DBS samples available\n* Lack of consent to use DBS samples or national health registries\n* Emigration or disappearance"
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+            "valueCode": "all-of"
+          }
+        ],
+        "characteristic": [
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct06509776-exprespnode-1",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Individuals (n = 2000) born in Denmark in 2006 or 2007"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Individuals (n = 2000) born in Denmark in 2006 or 2007"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct06509776-exprespnode-2",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Are 18 years old and alive at the time of the clinical examination"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Are 18 years old and alive at the time of the clinical examination"
+              }
+            ],
+            "exclude": false
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct06509776-exprespnode-3",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Pregnancy or lactation"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Pregnancy or lactation"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "71388002",
+                  "display": "Procedure (procedure)"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "738796001",
+                  "display": "Collection of dried blood spot specimen"
+                }
+              ]
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                "extension": [
+                  {
+                    "url": "contextCode",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "709491003",
+                          "display": "Enrollment in clinical trial"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "offsetRange",
+                    "valueRange": {
+                      "low": {
+                        "value": 0,
+                        "unit": "d"
+                      },
+                      "high": {
+                        "value": 0,
+                        "unit": "d"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "No DBS samples available"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct06509776-exprespnode-4",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Lack of consent to use DBS samples or national health registries"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Lack of consent to use DBS samples or national health registries"
+              }
+            ],
+            "exclude": true
+          },
+          {
+            "code": {
+              "text": "Defined by Reference"
+            },
+            "valueReference": {
+              "reference": "#nct06509776-exprespnode-5",
+              "type": "Group",
+              "display": "ConceptualCohortDefinition: Emigration or disappearance"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                "valueMarkdown": "Emigration or disappearance"
+              }
+            ],
+            "exclude": true
+          }
+        ],
+        "active": true,
+        "contained": [
+          {
+            "resourceType": "Group",
+            "id": "nct06509776-exprespnode-1",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "name": "ConceptualCohortDefinition: Individuals (n = 2000) born in Denmark in 2006 or 2007",
+            "type": "person",
+            "actual": false,
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+                "valueMarkdown": "Individuals (n = 2000) born in Denmark in 2006 or 2007"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "315414000",
+                      "display": "Born in Denmark"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "born in Denmark"
+                  }
+                ],
+                "exclude": false
+              },
+              {
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "in 2006 or 2007"
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "in 2006 or 2007"
+                  }
+                ],
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct06509776-exprespnode-2",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "name": "ConceptualCohortDefinition: Are 18 years old and alive at the time of the clinical examination",
+            "type": "person",
+            "actual": false,
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+                "valueMarkdown": "Are 18 years old and alive at the time of the clinical examination"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "133936004",
+                      "display": "Adult"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "18 years old"
+                  }
+                ],
+                "exclude": false
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "438949009",
+                      "display": "Alive"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "alive"
+                  }
+                ],
+                "exclude": false
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct06509776-exprespnode-3",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "name": "ConceptualCohortDefinition: Pregnancy or lactation",
+            "type": "person",
+            "actual": false,
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+                "valueMarkdown": "Pregnancy or lactation"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "289908002",
+                      "display": "Pregnancy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Pregnancy"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                      "code": "Z34",
+                      "display": "Encounter for supervision of normal pregnancy"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Pregnancy"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "63158009",
+                      "display": "Lactation"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "lactation"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                      "code": "O92.4",
+                      "display": "Hypogalactia"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "lactation"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct06509776-exprespnode-4",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "name": "ConceptualCohortDefinition: Lack of consent to use DBS samples or national health registries",
+            "type": "person",
+            "actual": false,
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+                "valueMarkdown": "Lack of consent to use DBS samples or national health registries"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "all-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                      "code": "Z53.20",
+                      "display": "Procedure and treatment not carried out because of patient's decision for unspecified reasons"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Lack of consent to use DBS samples"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                      "code": "Z53.1",
+                      "display": "Procedure and treatment not carried out because of patient's decision for reasons of belief and group pressure"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Lack of consent to use DBS samples or national health registries"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          },
+          {
+            "resourceType": "Group",
+            "id": "nct06509776-exprespnode-5",
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+              ]
+            },
+            "name": "ConceptualCohortDefinition: Emigration or disappearance",
+            "type": "person",
+            "actual": false,
+            "extension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+                "valueMarkdown": "Emigration or disappearance"
+              }
+            ],
+            "modifierExtension": [
+              {
+                "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-combinationMethod",
+                "valueCode": "any-of"
+              }
+            ],
+            "characteristic": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/fhir-types",
+                      "code": "Observation",
+                      "display": "Observation"
+                    }
+                  ]
+                },
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "74118003",
+                      "display": "Migration"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-relativeTime",
+                    "extension": [
+                      {
+                        "url": "contextCode",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://snomed.info/sct",
+                              "code": "709491003",
+                              "display": "Enrollment in clinical trial"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "url": "offsetRange",
+                        "valueRange": {
+                          "low": {
+                            "value": 0,
+                            "unit": "d"
+                          },
+                          "high": {
+                            "value": 0,
+                            "unit": "d"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "Emigration"
+                  }
+                ],
+                "exclude": true
+              },
+              {
+                "code": {
+                  "text": "Defined by CodeableConcept"
+                },
+                "valueCodeableConcept": {
+                  "text": "disappearance"
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-characteristic-description",
+                    "valueMarkdown": "disappearance"
+                  }
+                ],
+                "exclude": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Group/NCT06509776-comparison-group-0",
+      "resource": {
+        "id": "NCT06509776-comparison-group-0",
+        "resourceType": "Group",
+        "name": "Population sample",
+        "type": "person",
+        "actual": false,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-readi"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/ig/readi/StructureDefinition/group-description",
+            "valueMarkdown": "Random subsample of all 17-18-year-old individuals in Denmark, i.e. live births from year 2006 and 2007."
+          }
+        ],
+        "code": {
+          "text": "Other"
+        },
+        "active": true
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-1",
+      "resource": {
+        "id": "nct06509776-site-1",
+        "resourceType": "Location",
+        "name": "Aalborg University Hospital, Department of Endocrinology",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Aalborg",
+          "country": "Denmark",
+          "postalCode": "9000"
+        },
+        "position": {
+          "latitude": 57.048,
+          "longitude": 9.9187
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-2",
+      "resource": {
+        "id": "nct06509776-site-2",
+        "resourceType": "Location",
+        "name": "Aarhus University Hospital, Department of Endocrinology",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Aarhus",
+          "country": "Denmark",
+          "postalCode": "8200"
+        },
+        "position": {
+          "latitude": 56.15674,
+          "longitude": 10.21076
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-3",
+      "resource": {
+        "id": "nct06509776-site-3",
+        "resourceType": "Location",
+        "name": "Rigshospitalet, Department of Clinical Biochemistry and Endocrinology",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "postalCode": "2200"
+        },
+        "position": {
+          "latitude": 55.67594,
+          "longitude": 12.56553
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-4",
+      "resource": {
+        "id": "nct06509776-site-4",
+        "resourceType": "Location",
+        "name": "Bispebjerg and Frederiksberg Hospital, EEK, Parker Institute",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Frederiksberg",
+          "country": "Denmark",
+          "postalCode": "2000"
+        },
+        "position": {
+          "latitude": 55.67938,
+          "longitude": 12.53463
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-5",
+      "resource": {
+        "id": "nct06509776-site-5",
+        "resourceType": "Location",
+        "name": "Holbæk Hospital, Department of Medicine",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Holbæk",
+          "country": "Denmark",
+          "postalCode": "4300"
+        },
+        "position": {
+          "latitude": 55.7175,
+          "longitude": 11.71279
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-6",
+      "resource": {
+        "id": "nct06509776-site-6",
+        "resourceType": "Location",
+        "name": "Hvidovre Hospital, Department of Endocrinology",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Hvidovre",
+          "country": "Denmark",
+          "postalCode": "2650"
+        },
+        "position": {
+          "latitude": 55.64297,
+          "longitude": 12.47708
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-7",
+      "resource": {
+        "id": "nct06509776-site-7",
+        "resourceType": "Location",
+        "name": "Zealand University Hospital, Department of Medicine",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Køge",
+          "country": "Denmark",
+          "postalCode": "4600"
+        },
+        "position": {
+          "latitude": 55.45802,
+          "longitude": 12.18214
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-8",
+      "resource": {
+        "id": "nct06509776-site-8",
+        "resourceType": "Location",
+        "name": "Odense University Hospital, Department of Endocrinology",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Odense",
+          "country": "Denmark",
+          "postalCode": "5000"
+        },
+        "position": {
+          "latitude": 55.39594,
+          "longitude": 10.38831
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-9",
+      "resource": {
+        "id": "nct06509776-site-9",
+        "resourceType": "Location",
+        "name": "University of Southern Denmark, Department of Clinical Research",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Odense",
+          "country": "Denmark",
+          "postalCode": "5000"
+        },
+        "position": {
+          "latitude": 55.39594,
+          "longitude": 10.38831
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-10",
+      "resource": {
+        "id": "nct06509776-site-10",
+        "resourceType": "Location",
+        "name": "Aarhus University Hospital",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Aarhus N",
+          "state": "Central Jutland",
+          "country": "Denmark",
+          "postalCode": "8200"
+        },
+        "position": {
+          "latitude": 56.15674,
+          "longitude": 10.21076
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-11",
+      "resource": {
+        "id": "nct06509776-site-11",
+        "resourceType": "Location",
+        "name": "Aalborg University Hospital",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Aalborg",
+          "state": "North Denmark",
+          "country": "Denmark",
+          "postalCode": "9000"
+        },
+        "position": {
+          "latitude": 57.048,
+          "longitude": 9.9187
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-12",
+      "resource": {
+        "id": "nct06509776-site-12",
+        "resourceType": "Location",
+        "name": "University of Southern Denmark",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Odense",
+          "state": "Fyn",
+          "country": "Denmark",
+          "postalCode": "5000"
+        },
+        "position": {
+          "latitude": 55.39594,
+          "longitude": 10.38831
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-13",
+      "resource": {
+        "id": "nct06509776-site-13",
+        "resourceType": "Location",
+        "name": "University Hospital Bispebjerg and Frederiksberg",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-14",
+      "resource": {
+        "id": "nct06509776-site-14",
+        "resourceType": "Location",
+        "name": "Zealand University Hospital",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Køge",
+          "state": "Region Sjælland",
+          "country": "Denmark",
+          "postalCode": "4600"
+        },
+        "position": {
+          "latitude": 55.45802,
+          "longitude": 12.18214
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-15",
+      "resource": {
+        "id": "nct06509776-site-15",
+        "resourceType": "Location",
+        "name": "Odense University Hospital",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "Svendborg",
+          "state": "The Region of Southern Denmark",
+          "country": "Denmark",
+          "postalCode": "5700"
+        },
+        "position": {
+          "latitude": 55.39594,
+          "longitude": 10.38831
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-16",
+      "resource": {
+        "id": "nct06509776-site-16",
+        "resourceType": "Location",
+        "name": "Copenhagen University Hospital, Rigshospitalet",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        },
+        "address": {
+          "city": "København Ø",
+          "country": "Denmark",
+          "postalCode": "2100"
+        },
+        "position": {
+          "latitude": 55.70968,
+          "longitude": 12.57862
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-17",
+      "resource": {
+        "id": "nct06509776-site-17",
+        "resourceType": "Location",
+        "name": "Statens Serum Institut",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://example.org/resources/Location/nct06509776-site-18",
+      "resource": {
+        "id": "nct06509776-site-18",
+        "resourceType": "Location",
+        "name": "Hvidovre University Hospital",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/ig/readi/StructureDefinition/location-readi"
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-11-12T06:55:20Z",
+    "profile": [
+      "http://hl7.eu/fhir/ig/readi/StructureDefinition/bundle-readi"
+    ]
+  }
+}
