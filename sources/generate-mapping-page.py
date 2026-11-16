@@ -164,6 +164,8 @@ def main():
         cls = r["USDM class"].strip()
         if cls:
             current = cls
+        if r["FHIR path"].strip() == "id":
+            continue  # resource ids are internal to the transformation: kept in the CSVs, not shown
         if current is None:
             sys.exit("first row has no USDM class")
         sections.setdefault(current, []).append(r)
@@ -193,13 +195,22 @@ def main():
             cells = []
             u_style = manual.get("usdm") or (YELLOW if TBS in usdm else "")
             u_extra = ""
+            usdm_text = usdm
             if TBS in usdm and is_hardcoded(r["USDM JSONata path"]):
+                # no USDM source: show only the fixed value, not "<class>.to-be-specified"
                 hv, cond = hardcoded_value(r["USDM JSONata path"])
                 hv = html.escape(hv, quote=False)
-                cond = f" ({html.escape(cond, quote=False)})" if cond else ""
-                u_extra = f'<br/><span style="{GREEN}">hardcoded value: <code>{hv}</code>{cond}</span>'
+                if cond.startswith("for id "):
+                    key = html.escape(cond[7:], quote=False)
+                    cond = (f" — internal grouping key {key}, used only to link several rows to the same "
+                            "FHIR resource instance; it is not an FHIR value")
+                else:
+                    cond = f" ({html.escape(cond, quote=False)})" if cond else ""
+                usdm_text = ""
+                u_style = manual.get("usdm", "")
+                u_extra = f'<span style="{GREEN}">Fixed value (not read from USDM): <code>{hv}</code>{cond}</span>'
             cells.append(td(norm(r["Item"]), manual.get("item", "")))
-            cells.append(td(usdm, u_style, extra=u_extra, path=True))
+            cells.append(td(usdm_text, u_style, extra=u_extra, path=True))
             i = 0
             while i < 3:
                 j = i
@@ -209,7 +220,11 @@ def main():
                 style = next((manual[f"r{4 + n}"] for n in range(i, j + 1) if f"r{4 + n}" in manual), "")
                 if not style and (TBS in vals[i] or vals[i] == "—"):
                     style = YELLOW
-                cells.append(td(vals[i], style, j - i + 1, path=True))
+                if vals[i] == "—":
+                    names = ", ".join(v.upper() for v in ("r4", "r5", "r6")[i:j + 1])
+                    cells.append(td(f"Not available in {names}", style, j - i + 1))
+                else:
+                    cells.append(td(vals[i], style, j - i + 1, path=True))
                 i = j + 1
             cells.append(td(notes.get(k, ""), manual.get("notes", "")))
             out.append("<tr>" + "".join(cells) + "</tr>")

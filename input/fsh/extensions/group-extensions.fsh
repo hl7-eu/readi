@@ -30,7 +30,7 @@ Context: Group.characteristic
 * insert SetFmmAndStatusRule (0, draft)
 * value[x] only markdown
 * valueMarkdown 1..
-* valueMarkdown ^requirements = "USDM: EligibilityCriterionItem.to-be-specified; ExpectedResponse.description"
+* valueMarkdown ^requirements = "USDM: EligibilityCriterionItem.text; ExpectedResponse.description"
 
 Extension: GroupCharacteristicRelativeTime
 Id: group-characteristic-relativeTime
