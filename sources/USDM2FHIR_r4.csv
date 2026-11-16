@@ -29,7 +29,7 @@ Study description,"study.{""study-description"": description}",ResearchStudy,des
 Minimum Age text,"{""id01"": ""Minimum Age: "" & $min([study.versions.studyDesigns.population.plannedAge.minValue.value,study.versions.studyDesigns.population.cohorts.plannedAge.minValue.value]) &
 "" "" & $distinct(study.versions.studyDesigns.population.plannedAge.minValue.unit.standardCode.decode) &""s""
 &  $substring($distinct(study.versions.studyDesigns.population.cohorts.plannedAge.minValue.unit.standardCode.decode),0,1)}",ResearchStudy,classifier.text,classifier,StudyDesignPopulation,plannedAge
-Maximum Age text,"{""id02"": ""Maximum Age: "" & $min([study.versions.studyDesigns.population.plannedAge.maxValue.value,study.versions.studyDesigns.population.cohorts.plannedAge.maxValue.value]) &
+Maximum Age text,"{""id02"": ""Maximum Age: "" & $max([study.versions.studyDesigns.population.plannedAge.maxValue.value,study.versions.studyDesigns.population.cohorts.plannedAge.maxValue.value]) &
 "" "" & $distinct(study.versions.studyDesigns.population.plannedAge.maxValue.unit.standardCode.decode) &""s""
 &  $substring($distinct(study.versions.studyDesigns.population.cohorts.plannedAge.maxValue.unit.standardCode.decode),0,1)}",ResearchStudy,classifier.text,classifier,StudyDesignPopulation,plannedAge
 Includes females code (cohort definitions not included),"""C16576"" in study.versions.studyDesigns.population.plannedSex.code ? {""f01"": {""coding"": {

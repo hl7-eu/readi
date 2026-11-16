@@ -25,6 +25,7 @@ COLOURS = {  # background colours of the highlighted cells (legend text in LEGEN
 }
 YELLOW = COLOURS["yellow"]
 GREEN = "background-color: #e6f4e6;"   # hardcoded value in the JSONata
+HIDDEN_CLASSES = {"studyCohort"}  # not implemented yet: kept in the CSVs, not shown on the page
 CELLS = ["item", "usdm", "r4", "r5", "r6", "notes"]
 LEGEND = [
     ("yellow", "to be specified: no USDM source, no path in that FHIR version, or flagged by hand"),
@@ -166,6 +167,8 @@ def main():
             current = cls
         if r["FHIR path"].strip() == "id":
             continue  # resource ids are internal to the transformation: kept in the CSVs, not shown
+        if r["USDM class"].strip() in HIDDEN_CLASSES:
+            continue
         if current is None:
             sys.exit("first row has no USDM class")
         sections.setdefault(current, []).append(r)

@@ -1,59 +1,60 @@
-Item,Notes,Highlight
-Study Identifier FHIR type,ResearchStudy.identifier has not a codeableConcept,
-Minimum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",
-Maximum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",
-Includes females code (cohort definitions not included),"Why is this coded, while the planned age is not?",
-Objective primary level (code),"Clarify whether these are new objectives or a new coding of the same objective (I believe the former, but please confirm).",
-Outcome measurement reference or display,"The attribute is Endpoint.text, which seems to be a textual element and not a reference: to be checked.",
-Arm name,In R4 the element is called arm,
-Cohort name,Cohort are not described in the Group ?,
-Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber),This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).,
-Arm eligibility group id,,r4:orange r5:orange r6:orange
-Arm eligibility group title,"R4: Group.name, the R4 equivalent of R5 Group.title",
-Arm eligibility group membership,"R4: Group.actual, the R4 equivalent of R5 Group.membership (conceptual = false, enumerated = true). Should we instead pre-adopt the R5 element Group.membership (R5 cross-version extension) to facilitate the cross-version transformation?",
-Arm eligibility group type (code.text),Is StudyArm.type a string ?,
-location id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
-Reference to group of criteria,This element in R4 is enrollment,
-Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…); Clarify how a resource id can be fixed,item:orange r4:orange r5:orange r6:orange
-combination method general,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",
-Eligibility criteria text,Where do you get this data from? Do you really need this row?,
-Eligibility criteria code,"Not clear what it means: hardcoded value ""Defined by CodeableConcept"".",
-Eligibility criteria valueCodeableConcept text,Could not this be the Eligibility criteria text?,
-Exclusion criterion true/false?,,
-Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic. Which characteristic code is used for the valueReference? How is it used?,row:orange
-Node reference indication,"Please clarify which kind of code (characteristic.code) is used to distinguish among all these different kinds of characteristics (range, code, quantity, reference, ...).",r4:orange r5:orange r6:orange
-expected response range - direct,,r4:orange r5:orange r6:orange
-Expected response value code - direct,,r4:orange r5:orange r6:orange
-expected response quantity - single response - direct,,r4:orange r5:orange r6:orange
-Group timing range - direct,,
-Group timing context - direct,,
-Loinc Code of assessment - direct,,
-"expected response min value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
-"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-"expected response min value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange
-"expected response max value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
-"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-"expected response max value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange
-"expected response unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange
-"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-eligibility criteria subgroup referenced id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
-eligibility criteria - response combination method,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",
-"expected response label (set to ""Node"" for combinations)",Not sure to have understood what is about,
-expected response range,,r4:orange r5:orange r6:orange
-Expected response value code - via nodes,,r4:orange r5:orange r6:orange
-expected response quantity response - via nodes,,r4:orange r5:orange r6:orange
-Group timing range - node,,
-Loinc Code of assessment,Not sure about its meaning..,
-"expected response min value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
-"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-"expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange
-"expected response max value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
-"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-"expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange
-"expected response unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange
-"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red
-Evidence variable id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange
-Evidence classifier (note that questionnaires should get another code / not taken care of yet),Not able to find it in R4 or R5; This has been introdcued in R6,
-Contained PractitionerRole id,,r4:orange r5:orange r6:orange
-Contained PractitionerRole id — primary-investigator,,r4:orange r5:orange r6:orange
-Intervention evidence variable id,,r4:orange r5:orange r6:orange
+Item,Notes,Highlight,Answer,Question
+Study Identifier FHIR type,ResearchStudy.identifier has not a codeableConcept,,"Fixed. The identifier type is now written to ResearchStudy.identifier.type.text, i.e. as a CodeableConcept (Identifier.type) with a text only, with the fixed value ""study identifier"" (not read from USDM). No coding is set. Checked on NCT01750580: both identifiers in the generated R4, R5 and R6 bundles have ""type"": {""text"": ""study identifier""}.","In USDM, StudyIdentifier has only text (the identifier value) and scopeId (the organization that assigned it). It has no type. In FHIR, Identifier.type is a CodeableConcept, not a string. The mapping therefore writes the fixed text ""study identifier"" to identifier.type.text and sets no coding. Question: which coding should identifier.type carry (for example a code from http://terminology.hl7.org/CodeSystem/v2-0203), and should it differ by assigner (for example the sponsor protocol number versus the ClinicalTrials.gov NCT number)?"
+Minimum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",,"PlannedAge is a single USDM object (Range), not two strings. It holds a minValue and a maxValue, each a Quantity with a numeric value and a unit. The mapping reads the two values separately and writes one text string for each, for example ""Minimum Age: 18"". Each string becomes its own ResearchStudy.classifier.text, so the minimum and maximum ages are two classifiers.",
+Maximum Age text,"Is PlannedAge a single string, or two strings for the minimum and the maximum age?",,"PlannedAge is a single USDM object (Range), not two strings. It holds a minValue and a maxValue, each a Quantity with a numeric value and a unit. The mapping reads the two values separately and writes one text string for each, for example ""Minimum Age: 18"". Each string becomes its own ResearchStudy.classifier.text, so the minimum and maximum ages are two classifiers.",
+Includes females code (cohort definitions not included),"Why is this coded, while the planned age is not?",,"PlannedSex is a coded value in USDM (Code, NCI C-code, for example C16576 = Female). The mapping keeps that code and writes it as a ResearchStudy.classifier coding. PlannedAge is a numeric range (min and max value plus unit). It is not a code, so the mapping can only write it as text. A coded age would need a terminology of age bands, and USDM does not define one.",
+Objective primary level (code),"Clarify whether these are new objectives or a new coding of the same objective (I believe the former, but please confirm).",,"Each USDM Objective is mapped to its own ResearchStudy.objective element. The level (primary, secondary, exploratory) only sets the type of that element. It is not an additional coding of the same objective. So these are new objectives, as you assumed. Checked on NCT01750580: 2 USDM objectives (primary, secondary) give 2 ResearchStudy.objective elements, each with a single type coding.",
+Outcome measurement reference or display,"The attribute is Endpoint.text, which seems to be a textual element and not a reference: to be checked.",,"The attribute is not Endpoint.text: this row reads the USDM extension attribute `EndpointReference/v1/forAssessment` (Endpoint.extensionAttributes), whose valueId points to a BiomedicalConcept. This link between endpoints and biomedical concepts is not produced yet in the READI export (our USDM endpoints have an empty extensionAttributes list), so at the moment no `reference` is written; the endpoint only gets its name, type and description. The mapping is prepared for future use: when the extension is present, the transformation writes a reference to an EvidenceVariable (reference, type and display taken from the BiomedicalConcept label). The EvidenceVariable profile elements `category` (a fixed classifier ""measurement"") and `characteristic` are part of the same future development; they are not filled from ClinicalTrials.gov data.",
+Arm name,In R4 the element is called arm,,,
+Cohort name,Cohort are not described in the Group ? Hidden on the mapping page (HIDDEN_CLASSES in generate-mapping-page.py): cohorts are not implemented yet in READI; the row is kept for future use.,,"Cohorts are not implemented yet in READI, and the arms are not yet mapped to eligibility criteria either. The Cohort rows were added only for future use and are hidden on the mapping page. When cohorts are implemented, we will decide whether they get their own eligibility Group, like the arms.",
+Planned enrollment number (first comparison group only — R6 replacement for recruitment.targetNumber),This element is not in not present neither in the R4 arm nor in the R5 comparisonGroup; R4: READI local extension researchStudy-arm-targetNumber (ResearchStudyArmTargetNumber).,,,
+Arm eligibility group id,,r4:orange r5:orange r6:orange,,
+Arm eligibility group title,"R4: Group.name, the R4 equivalent of R5 Group.title",,,
+Arm eligibility group membership,"R4: Group.actual, the R4 equivalent of R5 Group.membership (conceptual = false, enumerated = true). Should we instead pre-adopt the R5 element Group.membership (R5 cross-version extension) to facilitate the cross-version transformation?",,"We already use Group.actual in R4. In our export every Group only describes a population (no enrolled members are listed), so actual is always false. In R5 and R6 we write Group.membership instead: ""definitional"" for the eligibility groups, and in R6 ""conceptual"" for the arm groups. R4 cannot express this difference (actual only distinguishes enumerated from not enumerated). Do you think the R5 Group.membership cross-version extension should be added in R4 to keep it?",
+Arm eligibility group type (code.text),Is StudyArm.type a string ?,,"No, StudyArm.type is a coded value (a USDM Code object with code, decode and codeSystem, e.g. C174266 ""Experimental Arm""). The row ""Arm type"" keeps the full code in ResearchStudy.comparisonGroup.type.coding (system http://hl7.org/fhir/research-study-arm-type). The row ""Arm eligibility group type"" only writes the display text of the same code (e.g. ""Experimental"") to Group.code.text, because the Group is an eligibility group and a free text label is enough there; the code itself is not lost.",
+location id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange,,
+Reference to group of criteria,This element in R4 is enrollment,,,
+Eligibility overall list id,The Resource is Group; Is not an identifier (the id of the resource can change when you move the resource around…); Clarify how a resource id can be fixed,item:orange r4:orange r5:orange r6:orange,,
+combination method general,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",,"We recommend keeping it a modifierExtension. If the value is all-of, which is the default reading of a group, ignoring the extension changes nothing. But with any-of (or at-least, at-most) the meaning of the group changes: a system that ignores the extension would read ""any of these criteria"" as ""all of these criteria"". A system that does not understand the extension must therefore not ignore it. This is consistent with R6, where combinationMethod is a core element of Group, and with Group.characteristic.exclude, which is already a modifier element in R4.",
+Eligibility criteria text,Where do you get this data from? Do you really need this row?,,"The data comes from USDM EligibilityCriterionItem.text, i.e. the text of one criterion as it was received (the raw eligibility text split into individual criteria). The row is kept because it holds the full text of each criterion; after the structuring step, each criterion is further split into nodes, and each node carries its own, shorter text.",
+Eligibility criteria code,"Not clear what it means: hardcoded value ""Defined by CodeableConcept"".",,"This is a fixed label, not read from USDM. It is used when the criterion has no identified concept: Group.characteristic.code then contains only this text (""code"": {""text"": ""Defined by CodeableConcept""}). When a concept is identified, the code also carries a coding (e.g. LOINC 75323-6 ""Condition"") and keeps the same text. The characteristic value is stored in valueCodeableConcept, so the code only tells how to read the characteristic.",
+Eligibility criteria valueCodeableConcept text,Could not this be the Eligibility criteria text?,,"It uses the same source text as ""Eligibility criteria text"", but it has a different role. We keep both on purpose: when only valueCodeableConcept.text is present (without codings), it means that the criterion was not structured and the text is kept exactly as received.",
+Exclusion criterion true/false?,,,,
+Group references,It should be right .. But to be sure that it refers to a Group that full fill a specific caracthersitic. Which characteristic code is used for the valueReference? How is it used?,row:orange,,
+Node reference indication,"Please clarify which kind of code (characteristic.code) is used to distinguish among all these different kinds of characteristics (range, code, quantity, reference, ...).",r4:orange r5:orange r6:orange,,
+expected response range - direct,,r4:orange r5:orange r6:orange,,
+Expected response value code - direct,,r4:orange r5:orange r6:orange,,
+expected response quantity - single response - direct,,r4:orange r5:orange r6:orange,,
+Group timing range - direct,,,,
+Group timing context - direct,,,,
+Loinc Code of assessment - direct,,,,
+"expected response min value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange,,
+"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+"expected response min value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange,,
+"expected response max value unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange,,
+"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+"expected response max value is inclusive (flag, removed by fhir_version.py) - direct",,r4:orange r5:orange r6:orange,,
+"expected response unit code (UCUM, from standardCodeAliases) - direct",,r4:orange r5:orange r6:orange,,
+"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - direct",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+eligibility criteria subgroup referenced id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange,,
+eligibility criteria - response combination method,"Not able to find this element in R4 or R5 Group. To be decided: in GroupReadi the READI extension group-combinationMethod is a modifierExtension (modifierExtension:combinationMethod); shall it stay a modifierExtension, as it is now, or become an extension?",,"We recommend keeping it a modifierExtension. If the value is all-of, which is the default reading of a group, ignoring the extension changes nothing. But with any-of (or at-least, at-most) the meaning of the group changes: a system that ignores the extension would read ""any of these criteria"" as ""all of these criteria"". A system that does not understand the extension must therefore not ignore it. This is consistent with R6, where combinationMethod is a core element of Group, and with Group.characteristic.exclude, which is already a modifier element in R4.",
+"expected response label (set to ""Node"" for combinations)",Not sure to have understood what is about,,,
+expected response range,,r4:orange r5:orange r6:orange,,
+Expected response value code - via nodes,,r4:orange r5:orange r6:orange,,
+expected response quantity response - via nodes,,r4:orange r5:orange r6:orange,,
+Group timing range - node,,,,
+Loinc Code of assessment,Not sure about its meaning..,,,
+"expected response min value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange,,
+"expected response min value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+"expected response min value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange,,
+"expected response max value unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange,,
+"expected response max value unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+"expected response max value is inclusive (flag, removed by fhir_version.py) - via nodes",,r4:orange r5:orange r6:orange,,
+"expected response unit code (UCUM, from standardCodeAliases) - via nodes",,r4:orange r5:orange r6:orange,,
+"expected response unit standard code (NCI, moved to an extension by fhir_version.py) - via nodes",Not the right extension: use the standard extension instead of the local READI quantity-cdisc-unit (e.g. the core extension iso21090-PQ-translation).,r5:orange r6:orange r4:red,,
+Evidence variable id,Is not an identifier (the id of the resource can change when you move the resource around…),r4:orange r5:orange r6:orange,,
+Evidence classifier (note that questionnaires should get another code / not taken care of yet),Not able to find it in R4 or R5; This has been introdcued in R6,,,
+Contained PractitionerRole id,,r4:orange r5:orange r6:orange,,
+Contained PractitionerRole id — primary-investigator,,r4:orange r5:orange r6:orange,,
+Intervention evidence variable id,,r4:orange r5:orange r6:orange,,
+Cohort description,Hidden on the mapping page (HIDDEN_CLASSES in generate-mapping-page.py): cohorts are not implemented yet in READI; the row is kept for future use.,,,

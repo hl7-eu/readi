@@ -220,22 +220,6 @@ This mapping is a work in progress: it has not been validated yet and may change
 </table>
 </div>
 
-### studyCohort
-
-<div class="mapping-scroll">
-<table class="grid">
-<colgroup><col class="c-item"/><col class="c-usdm"/><col class="c-fhir"/><col class="c-fhir"/><col class="c-fhir"/><col class="c-notes"/></colgroup>
-<thead>
-<tr><th rowspan="2">Item</th><th rowspan="2">USDM class.attribute</th><th colspan="3">FHIR resourceType.path</th><th rowspan="2">Notes</th></tr>
-<tr><th>R4</th><th>R5</th><th>R6</th></tr>
-</thead>
-<tbody>
-<tr><td>Cohort name</td><td>studyCohort.<wbr/>label</td><td>ResearchStudy.<wbr/>arm.<wbr/>name</td><td colspan="2">ResearchStudy.<wbr/>comparisonGroup.<wbr/>name</td><td>Cohort are not described in the Group ?</td></tr>
-<tr><td>Cohort description</td><td>studyCohort.<wbr/>description</td><td>ResearchStudy.<wbr/>arm.<wbr/>description</td><td colspan="2">ResearchStudy.<wbr/>comparisonGroup.<wbr/>description</td><td></td></tr>
-</tbody>
-</table>
-</div>
-
 ### StudySite
 
 <div class="mapping-scroll">
