@@ -19,7 +19,7 @@ ARG VALIDATOR_VERSION
 ENV VALIDATOR_JAR=/opt/validator_cli.jar \
     FHIR_VERSION=4.0.1 \
     TX_SERVER=https://dte-tx.ehealth.fgov.be/r4 \
-    EXTRA_IGS="hl7.fhir.uv.xver-r5.r4#0.1.0 hl7.fhir.uv.extensions.r4#5.4.0" \
+    EXTRA_IGS="hl7.fhir.uv.xver-r5.r4#0.1.0 hl7.fhir.uv.extensions.r4#5.4.0 hl7.fhir.uv.ebm#1.0.0-ballot" \
     PORT=8000 \
     INTERNAL_PORT=8001 \
     JAVA_XMX=2g
