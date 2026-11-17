@@ -284,6 +284,24 @@ Group timing context - direct,"study.versions@$sv.(
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""])@$TI.
   $TI.($count($nodeIds)=0 ?
   { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,,
+Group duration - direct,"study.versions@$sv.(
+  $sv.studyDesigns.eligibilityCriteria@$ex.
+  $ex.
+  ($dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
+  ""value"": $number($substring($d, 1, $length($d) - 2)),
+  ""comparator"": "">="",
+  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
+  ""system"": ""http://unitsofmeasure.org"",
+  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
+  $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
+  $count($nodeIds)=0 ?
+  ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]])@$rc.
+  $rc.(
+    $at := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId;
+    $du := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId;
+    $at and $du ? { $ex.id : $sv.studyDesigns.scheduleTimelines.timings[id = $at].$dur(value) }
+  )))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -420,6 +438,17 @@ Group timing context - nodes,"study.versions@$sv.(
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""]
         .valueId};
   extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.extension:relativeTime.extension:contextCode.valueCodeableConcept.coding,characteristic,ExpectedResponse,atTiming
+Group duration - nodes,"study.versions@$sv.(
+  $dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
+  ""value"": $number($substring($d, 1, $length($d) - 2)),
+  ""comparator"": "">="",
+  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
+  ""system"": ""http://unitsofmeasure.org"",
+  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
+  $nd.( $GetAt := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId};
+        $GetDur := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId};
+    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)].$dur(value)})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.

@@ -24,6 +24,7 @@ copyright: >-
 dependencies:
   hl7.fhir.uv.xver-r5.r4: 0.1.0
   hl7.fhir.uv.extensions.r4: 5.4.0
+  hl7.fhir.uv.ebm: 1.0.0-ballot
 
 
 

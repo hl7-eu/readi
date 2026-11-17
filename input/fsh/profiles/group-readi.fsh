@@ -13,7 +13,7 @@ Description: "This profile describes the population of a clinical study for the 
 * characteristic ^short = "Inclusion (exclude = false) or exclusion (exclude = true) criterion"
 * characteristic.value[x] ^comment = "valueReference is used to point to a (contained) Group representing a nested combination of criteria."
 * member.entity only Reference(Patient)
-// Group.combinationMethod, Group.description, Group.characteristic.description and Group.characteristic.relativeTime
+// Group.combinationMethod, Group.description, Group.characteristic.description, Group.characteristic.relativeTime
 // are represented by READI extensions (see input/fsh/extensions/group-extensions.fsh).
 // ---- modifierExtension[combinationMethod]
 * modifierExtension contains GroupCombinationMethod named combinationMethod 0..1
@@ -24,11 +24,15 @@ Description: "This profile describes the population of a clinical study for the 
 * extension[description] ^short = "Natural language description of the group (R5 Group.description)"
 * characteristic.extension contains
     GroupCharacteristicDescription named description 0..1 and
-    GroupCharacteristicRelativeTime named relativeTime 0..*
+    GroupCharacteristicRelativeTime named relativeTime 0..* and
+    http://hl7.org/fhir/uv/ebm/StructureDefinition/characteristic-duration-duration named duration 0..1
 // ---- characteristic.extension[description]
 * characteristic.extension[description] ^short = "Text of the criterion (R6 Group.characteristic.description)"
 // ---- characteristic.extension[relativeTime]
 * characteristic.extension[relativeTime] ^short = "When the criterion applies, relative to a reference event"
+// ---- characteristic.extension[duration]
+* characteristic.extension[duration] ^short = "Duration of the criterion (R6 Group.characteristic.durationDuration; EBM extension)"
+* characteristic.extension[duration] ^requirements = "USDM: ExpectedResponse.durationUntilTiming"
 // ---- USDM requirements: every Group element used as a target in the R4 mapping (sources/USDM2FHIR_r4.csv) ----
 // R5/R6 elements are given on the READI extension that represents them.
 * id ^requirements = "USDM: StudyArm.id; to-be-specified.to-be-specified; ExpectedResponse.id"

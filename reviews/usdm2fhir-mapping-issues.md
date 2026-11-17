@@ -25,6 +25,7 @@ No requirement could be assigned for these rows. Each is listed as a comment at 
 | 1.7 | ResearchStudy.comparisonGroup.targetNumber | studyCohort.plannedEnrollmentNumber | Not an R5 element | Local extension on `ResearchStudy.arm` |
 | 1.8 | ResearchStudy.label.language | StudyTitle.extension | R5 `ResearchStudy.label` has no `language` | Use the `translation` extension on the label value, or drop the row |
 | 1.9 | ResearchStudy.identifier.codeableConcept.text | StudyIdentifier.to-be-specified | Not a FHIR element | Probably `ResearchStudy.identifier.type.text` – fix the sheet |
+| 1.10 | Group.characteristic.durationDuration / durationRange | ExpectedResponse.durationUntilTiming | Not an R5 element (later FHIR version); not in the sheet. USDM only holds a reference to the end timing, the duration value comes from the `atTiming` timing value and the `>=` comparator is assumed | HL7 EBM extension `characteristic-duration-duration` (hl7.fhir.uv.ebm); add the row to the sheet |
 
 ## 2. Mapping choices to be confirmed
 

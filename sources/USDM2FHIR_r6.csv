@@ -111,6 +111,16 @@ purpose SubType,"study.versions.studyDesigns.subTypes.(
                             $c=""C129001"" ? ""Pharmacogenetic Study"" : $c=""C49661"" ? ""Pharmacogenomic Study"": $c=""C215653"" ? ""Incidence Study"" :
                             $c=""C215675"" ? ""Prevalence Study""};
 $Recode(code) ? {id: {""code"": $Recode(code), ""display"": $RecodeDisplay(code), ""system"": ""http://hl7.org/fhir/research-study-prim-purp-type""}} : undefined)",ResearchStudy,purposeType.coding,purposeType,InterventionalStudyDesign,subTypes
+purpose SubType,"study.versions.studyDesigns.subTypes.(
+    $Recode := function($c){$c=""C49667"" ? ""safety"" : $c=""C49666"" ? ""efficacy"" : $c=""C49663"" ? ""pharmacokinetic"" :
+                            $c=""C49662"" ? ""pharmacodynamic"" : $c=""C49665"" ? ""bioequivalence"" : $c=""C127803"" ? ""dose-response"" :
+                            $c=""C129001"" ? ""pharmacogenetic"" : $c=""C49661"" ? ""pharmacogenomic"" : $c=""C215653"" ? ""incidence"" :
+                            $c=""C215675"" ? ""prevalence""};
+    $RecodeDisplay := function($c){$c=""C49667"" ? ""Safety Study"" : $c=""C49666"" ? ""Efficacy Study"" : $c=""C49663"" ? ""Pharmacokinetic Study"" :
+                            $c=""C49662"" ? ""Pharmacodynamic Study"" : $c=""C49665"" ? ""Bioequivalence Study"" : $c=""C127803"" ? ""Dose-Response Study"" :
+                            $c=""C129001"" ? ""Pharmacogenetic Study"" : $c=""C49661"" ? ""Pharmacogenomic Study"": $c=""C215653"" ? ""Incidence Study"" :
+                            $c=""C215675"" ? ""Prevalence Study""};
+$Recode(code) ? {id: {""code"": $Recode(code), ""display"": $RecodeDisplay(code), ""system"": ""http://hl7.org/fhir/research-study-prim-purp-type""}} : undefined)",ResearchStudy,primaryPurposeType.coding,,InterventionalStudyDesign,subTypes
 Study Phase,"study.versions.studyDesigns.studyPhase.(
   $cdiscToFhirCode := function($c) {
     $c = ""C48660"" ? ""n-a"" :
@@ -291,6 +301,24 @@ Group timing context - direct,"study.versions@$sv.(
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""])@$TI.
   $TI.($count($nodeIds)=0 ?
   { $ex.id : $TI.valueId? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,,
+Group duration - direct,"study.versions@$sv.(
+  $sv.studyDesigns.eligibilityCriteria@$ex.
+  $ex.
+  ($dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
+  ""value"": $number($substring($d, 1, $length($d) - 2)),
+  ""comparator"": "">="",
+  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
+  ""system"": ""http://unitsofmeasure.org"",
+  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
+  $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
+  $count($nodeIds)=0 ?
+  ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]])@$rc.
+  $rc.(
+    $at := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId;
+    $du := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId;
+    $at and $du ? { $ex.id : $sv.studyDesigns.scheduleTimelines.timings[id = $at].$dur(value) }
+  )))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
@@ -427,6 +455,17 @@ Group timing context - nodes,"study.versions@$sv.(
     $nd.( $GetResult := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""]
         .valueId};
   extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,ExpectedResponse,atTiming
+Group duration - nodes,"study.versions@$sv.(
+  $dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
+  ""value"": $number($substring($d, 1, $length($d) - 2)),
+  ""comparator"": "">="",
+  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
+  ""system"": ""http://unitsofmeasure.org"",
+  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
+  $nd.( $GetAt := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId};
+        $GetDur := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId};
+    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)].$dur(value)})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
