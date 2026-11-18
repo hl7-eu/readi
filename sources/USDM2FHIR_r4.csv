@@ -285,12 +285,14 @@ Group duration - direct,"study.versions@$sv.(
   $ex.
   ($g := function($d) { $d ? $match($d, /^P(?:(\d+)Y)?(?:(\d+)M)?(?:(\d+)W)?(?:(\d+)D)?$/)[0].groups : [] };
   $n := function($s) { $s ? $number($s) : 0 };
-  $dur := function($a, $u) {(
-    $A := $g($a);
-    $U := $g($u);
-    $ud := $count($U) > 0 ? $n($U[0]) * 365 + $n($U[1]) * 30 + $n($U[2]) * 7 + $n($U[3]) : 0;
-    $tot := $count($A) > 0 ? $n($A[0]) * 365 + $n($A[1]) * 30 + $n($A[2]) * 7 + $n($A[3]) - $ud : 0;
-    $one := $ud = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
+  $days := function($d) { $count($g($d)) > 0 ? $n($g($d)[0]) * 365 + $n($g($d)[1]) * 30 + $n($g($d)[2]) * 7 + $n($g($d)[3]) : 0 };
+  $off := function($t) { $t ? ($t.type.decode = ""Before"" ? -1 : 1) * $days($t.value) : 0 };
+  $dur := function($at, $until) {(
+    $A := $g($at.value);
+    $x := $off($at);
+    $y := $off($until);
+    $tot := $abs($y - $x);
+    $one := $y = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
     $tot > 0 ? {
       ""value"": $one ? ($n($A[0]) > 0 ? $n($A[0]) : $n($A[1]) > 0 ? $n($A[1]) : $n($A[3])) : $tot,
       ""comparator"": "">="",
@@ -305,7 +307,7 @@ Group duration - direct,"study.versions@$sv.(
   $rc.(
     $at := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId;
     $du := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId;
-    $at and $du ? { $ex.id : $dur($sv.studyDesigns.scheduleTimelines.timings[id = $at].value, $sv.studyDesigns.scheduleTimelines.timings[id = $du].value) }
+    $at and $du ? { $ex.id : $dur($sv.studyDesigns.scheduleTimelines.timings[id = $at], $sv.studyDesigns.scheduleTimelines.timings[id = $du]) }
   )))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
@@ -446,12 +448,14 @@ Group timing context - nodes,"study.versions@$sv.(
 Group duration - nodes,"study.versions@$sv.(
   $g := function($d) { $d ? $match($d, /^P(?:(\d+)Y)?(?:(\d+)M)?(?:(\d+)W)?(?:(\d+)D)?$/)[0].groups : [] };
   $n := function($s) { $s ? $number($s) : 0 };
-  $dur := function($a, $u) {(
-    $A := $g($a);
-    $U := $g($u);
-    $ud := $count($U) > 0 ? $n($U[0]) * 365 + $n($U[1]) * 30 + $n($U[2]) * 7 + $n($U[3]) : 0;
-    $tot := $count($A) > 0 ? $n($A[0]) * 365 + $n($A[1]) * 30 + $n($A[2]) * 7 + $n($A[3]) - $ud : 0;
-    $one := $ud = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
+  $days := function($d) { $count($g($d)) > 0 ? $n($g($d)[0]) * 365 + $n($g($d)[1]) * 30 + $n($g($d)[2]) * 7 + $n($g($d)[3]) : 0 };
+  $off := function($t) { $t ? ($t.type.decode = ""Before"" ? -1 : 1) * $days($t.value) : 0 };
+  $dur := function($at, $until) {(
+    $A := $g($at.value);
+    $x := $off($at);
+    $y := $off($until);
+    $tot := $abs($y - $x);
+    $one := $y = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
     $tot > 0 ? {
       ""value"": $one ? ($n($A[0]) > 0 ? $n($A[0]) : $n($A[1]) > 0 ? $n($A[1]) : $n($A[3])) : $tot,
       ""comparator"": "">="",
@@ -462,7 +466,7 @@ Group duration - nodes,"study.versions@$sv.(
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
   $nd.( $GetAt := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId};
         $GetDur := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId};
-    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $dur($sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)].value, $sv.studyDesigns.scheduleTimelines.timings[id = $GetDur($tm.valueId)].value)})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
+    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $dur($sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)], $sv.studyDesigns.scheduleTimelines.timings[id = $GetDur($tm.valueId)])})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
