@@ -304,12 +304,21 @@ Group timing context - direct,"study.versions@$sv.(
 Group duration - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
   $ex.
-  ($dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
-  ""value"": $number($substring($d, 1, $length($d) - 2)),
-  ""comparator"": "">="",
-  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
-  ""system"": ""http://unitsofmeasure.org"",
-  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  ($g := function($d) { $d ? $match($d, /^P(?:(\d+)Y)?(?:(\d+)M)?(?:(\d+)W)?(?:(\d+)D)?$/)[0].groups : [] };
+  $n := function($s) { $s ? $number($s) : 0 };
+  $dur := function($a, $u) {(
+    $A := $g($a);
+    $U := $g($u);
+    $ud := $count($U) > 0 ? $n($U[0]) * 365 + $n($U[1]) * 30 + $n($U[2]) * 7 + $n($U[3]) : 0;
+    $tot := $count($A) > 0 ? $n($A[0]) * 365 + $n($A[1]) * 30 + $n($A[2]) * 7 + $n($A[3]) - $ud : 0;
+    $one := $ud = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
+    $tot > 0 ? {
+      ""value"": $one ? ($n($A[0]) > 0 ? $n($A[0]) : $n($A[1]) > 0 ? $n($A[1]) : $n($A[3])) : $tot,
+      ""comparator"": "">="",
+      ""unit"": $one ? ($n($A[0]) > 0 ? ""years"" : $n($A[1]) > 0 ? ""months"" : ""days"") : ""days"",
+      ""system"": ""http://unitsofmeasure.org"",
+      ""code"": $one ? ($n($A[0]) > 0 ? ""a"" : $n($A[1]) > 0 ? ""mo"" : ""d"") : ""d"" }
+  )};
   $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes[valueId=$ex.id]].id;
   $nodeIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes[valueId in $respIds]].id;
   $count($nodeIds)=0 ?
@@ -317,7 +326,7 @@ Group duration - direct,"study.versions@$sv.(
   $rc.(
     $at := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId;
     $du := extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId;
-    $at and $du ? { $ex.id : $sv.studyDesigns.scheduleTimelines.timings[id = $at].$dur(value) }
+    $at and $du ? { $ex.id : $dur($sv.studyDesigns.scheduleTimelines.timings[id = $at].value, $sv.studyDesigns.scheduleTimelines.timings[id = $du].value) }
   )))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Loinc Code of assessment - direct,"study.versions@$sv.(
   $sv.studyDesigns.eligibilityCriteria@$ex.
@@ -456,16 +465,25 @@ Group timing context - nodes,"study.versions@$sv.(
         .valueId};
   extensionAttributes.extensionAttributes.({""#"" & $nd.id : $GetResult(valueId) ? {""code"": ""709491003"", ""display"": ""Enrollment in clinical trial"", ""system"" : ""http://snomed.info/sct"" }})))",Group,characteristic.relativeTime.contextCode.coding,characteristic,ExpectedResponse,atTiming
 Group duration - nodes,"study.versions@$sv.(
-  $dur := function($d) { $count($match($d, /^P\d+[YMD]$/)) = 1 ? {
-  ""value"": $number($substring($d, 1, $length($d) - 2)),
-  ""comparator"": "">="",
-  ""unit"": $contains($d, ""Y"") ? ""years"" : $contains($d, ""M"") ? ""months"" : ""days"",
-  ""system"": ""http://unitsofmeasure.org"",
-  ""code"": $contains($d, ""Y"") ? ""a"" : $contains($d, ""M"") ? ""mo"" : ""d"" } };
+  $g := function($d) { $d ? $match($d, /^P(?:(\d+)Y)?(?:(\d+)M)?(?:(\d+)W)?(?:(\d+)D)?$/)[0].groups : [] };
+  $n := function($s) { $s ? $number($s) : 0 };
+  $dur := function($a, $u) {(
+    $A := $g($a);
+    $U := $g($u);
+    $ud := $count($U) > 0 ? $n($U[0]) * 365 + $n($U[1]) * 30 + $n($U[2]) * 7 + $n($U[3]) : 0;
+    $tot := $count($A) > 0 ? $n($A[0]) * 365 + $n($A[1]) * 30 + $n($A[2]) * 7 + $n($A[3]) - $ud : 0;
+    $one := $ud = 0 and $n($A[2]) = 0 and $count($A[$n($) > 0]) = 1;
+    $tot > 0 ? {
+      ""value"": $one ? ($n($A[0]) > 0 ? $n($A[0]) : $n($A[1]) > 0 ? $n($A[1]) : $n($A[3])) : $tot,
+      ""comparator"": "">="",
+      ""unit"": $one ? ($n($A[0]) > 0 ? ""years"" : $n($A[1]) > 0 ? ""months"" : ""days"") : ""days"",
+      ""system"": ""http://unitsofmeasure.org"",
+      ""code"": $one ? ($n($A[0]) > 0 ? ""a"" : $n($A[1]) > 0 ? ""mo"" : ""d"") : ""d"" }
+  )};
   ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
   $nd.( $GetAt := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/atTiming""].valueId};
         $GetDur := function($id){$sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and id=$id].extensionAttributes[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance/durationUntilTiming""].valueId};
-    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)].$dur(value)})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
+    (extensionAttributes.extensionAttributes)@$tm.({""#"" & $nd.id : $GetAt($tm.valueId) and $GetDur($tm.valueId) ? $dur($sv.studyDesigns.scheduleTimelines.timings[id = $GetAt($tm.valueId)].value, $sv.studyDesigns.scheduleTimelines.timings[id = $GetDur($tm.valueId)].value)})))",Group,characteristic.durationDuration,characteristic,ExpectedResponse,durationUntilTiming
 Exclusion criterion true or false?,"study.versions@$sv.(
     $respIds := $sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpectedResponse/v1/Instance"" and extensionAttributes].id;
     ($sv.extensionAttributes.extensionAttributes.valueExtensionClass[url=""//ExtensionLibrary/USDMv4_0/ExpResponseNode/v1/Instance"" and extensionAttributes.extensionAttributes])@$nd.
